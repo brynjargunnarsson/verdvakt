@@ -33,6 +33,31 @@
     }
    ],
    "rejected": []
+  },
+  {
+   "id": "samsung-the-frame-43-guax",
+   "name": "Samsung the frame 43\"",
+   "query": "Samsung the frame 43\"",
+   "category": "Raftæki",
+   "notes": "",
+   "paused": false,
+   "targetPrice": 160000,
+   "createdAt": "2026-11-09T22:27:57.415Z",
+   "offers": [
+    {
+     "url": "https://ht.is/samsung-43-the-frame-qled-uhd-4k-sjonvarp-2026.html",
+     "addedAt": "2026-11-09T22:27:57.415Z"
+    },
+    {
+     "url": "https://elko.is/vorur/samsung-43-the-frame-qled-sjonvarp-2026-429929/TQ43LS03HEUXXC",
+     "addedAt": "2026-11-09T22:27:57.415Z"
+    },
+    {
+     "url": "http://rafland.is/samsung-43-the-frame-qled-uhd-4k-sjonvarp-2026.html",
+     "addedAt": "2026-11-09T22:27:57.415Z"
+    }
+   ],
+   "rejected": []
   }
  ]
 }
