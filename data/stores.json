@@ -1,0 +1,437 @@
+{
+ "_athugasemd": "Verslanir sem vaktin leitar í. kind/searchUrl lærast sjálfkrafa ef þau vantar.",
+ "stores": [
+  {
+   "domain": "elko.is",
+   "name": "ELKO",
+   "cat": "raftæki",
+   "kind": "html",
+   "searchUrl": "/leit?q={q}"
+  },
+  {
+   "domain": "www.tolvutek.is",
+   "name": "Tölvutek",
+   "cat": "raftæki",
+   "kind": "html",
+   "searchUrl": "/website/search?search={q}"
+  },
+  {
+   "domain": "computer.is",
+   "name": "Computer.is",
+   "cat": "raftæki",
+   "kind": "html",
+   "searchUrl": "/is/search/{q}"
+  },
+  {
+   "domain": "kd.is",
+   "name": "Kísildalur",
+   "cat": "raftæki",
+   "kind": "html",
+   "searchUrl": "/search?q={q}"
+  },
+  {
+   "domain": "ht.is",
+   "name": "Heimilistæki",
+   "cat": "raftæki",
+   "kind": "html",
+   "searchUrl": "/catalogsearch/result?q={q}"
+  },
+  {
+   "domain": "tl.is",
+   "name": "Tölvulistinn",
+   "cat": "raftæki",
+   "kind": "html",
+   "searchUrl": "/catalogsearch/result?q={q}"
+  },
+  {
+   "domain": "www.ormsson.is",
+   "name": "Ormsson",
+   "cat": "raftæki"
+  },
+  {
+   "domain": "heimkaup.is",
+   "name": "Heimkaup",
+   "cat": "allt"
+  },
+  {
+   "domain": "www.hagkaup.is",
+   "name": "Hagkaup",
+   "cat": "allt",
+   "kind": "html",
+   "searchUrl": "/leit?q={q}"
+  },
+  {
+   "domain": "www.epal.is",
+   "name": "Epal",
+   "cat": "hönnun",
+   "kind": "shopify"
+  },
+  {
+   "domain": "snuran.is",
+   "name": "Snúran",
+   "cat": "hönnun",
+   "kind": "shopify"
+  },
+  {
+   "domain": "kokka.is",
+   "name": "Kokka",
+   "cat": "gjafavara",
+   "kind": "woo"
+  },
+  {
+   "domain": "hrim.is",
+   "name": "Hrím",
+   "cat": "gjafavara",
+   "kind": "html",
+   "searchUrl": "/shop?search={q}"
+  },
+  {
+   "domain": "www.ilva.is",
+   "name": "ILVA",
+   "cat": "hönnun",
+   "kind": "html",
+   "searchUrl": "/leit/?search={q}"
+  },
+  {
+   "domain": "www.husa.is",
+   "name": "Húsasmiðjan",
+   "cat": "allt",
+   "kind": "html",
+   "searchUrl": "/leit?q={q}"
+  },
+  {
+   "domain": "byko.is",
+   "name": "BYKO",
+   "cat": "allt",
+   "kind": "html",
+   "searchUrl": "/leit?q={q}"
+  },
+  {
+   "domain": "brooksrunning.is",
+   "name": "Brooks",
+   "cat": "íþróttir",
+   "kind": "html",
+   "searchUrl": "/leit?q={q}"
+  },
+  {
+   "domain": "utilif.is",
+   "name": "Útilíf",
+   "cat": "íþróttir",
+   "kind": "html",
+   "searchUrl": "/catalogsearch/result?q={q}"
+  },
+  {
+   "domain": "bland.is",
+   "name": "Bland (markaðstorg)",
+   "cat": "markaðstorg",
+   "kind": "type",
+   "marketplace": true
+  },
+  {
+   "domain": "macland.is",
+   "name": "Macland",
+   "cat": "raftæki",
+   "unverified": true
+  },
+  {
+   "domain": "epli.is",
+   "name": "Epli",
+   "cat": "raftæki",
+   "unverified": true
+  },
+  {
+   "domain": "www.nova.is",
+   "name": "Nova",
+   "cat": "raftæki",
+   "unverified": true
+  },
+  {
+   "domain": "www.siminn.is",
+   "name": "Síminn",
+   "cat": "raftæki",
+   "unverified": true
+  },
+  {
+   "domain": "vodafone.is",
+   "name": "Vodafone",
+   "cat": "raftæki",
+   "unverified": true
+  },
+  {
+   "domain": "sminor.is",
+   "name": "Smith & Norland",
+   "cat": "raftæki",
+   "unverified": true
+  },
+  {
+   "domain": "eirvik.is",
+   "name": "Eirvík",
+   "cat": "heimilistæki",
+   "unverified": true
+  },
+  {
+   "domain": "byggtogbuid.is",
+   "name": "Byggt og búið",
+   "cat": "heimilistæki",
+   "unverified": true
+  },
+  {
+   "domain": "samsungsetrid.is",
+   "name": "Samsung setrið",
+   "cat": "raftæki",
+   "unverified": true
+  },
+  {
+   "domain": "www.rafland.is",
+   "name": "Rafland",
+   "cat": "raftæki",
+   "unverified": true
+  },
+  {
+   "domain": "nexus.is",
+   "name": "Nexus",
+   "cat": "gjafavara",
+   "unverified": true
+  },
+  {
+   "domain": "spilavinir.is",
+   "name": "Spilavinir",
+   "cat": "gjafavara",
+   "unverified": true
+  },
+  {
+   "domain": "rumfo.is",
+   "name": "Rúmfatalagerinn",
+   "cat": "allt",
+   "unverified": true
+  },
+  {
+   "domain": "dorma.is",
+   "name": "Dorma",
+   "cat": "hönnun",
+   "unverified": true
+  },
+  {
+   "domain": "betrabak.is",
+   "name": "Betra bak",
+   "cat": "hönnun",
+   "unverified": true
+  },
+  {
+   "domain": "www.ikea.is",
+   "name": "IKEA",
+   "cat": "hönnun",
+   "unverified": true
+  },
+  {
+   "domain": "a4.is",
+   "name": "A4",
+   "cat": "gjafavara",
+   "unverified": true
+  },
+  {
+   "domain": "www.penninn.is",
+   "name": "Penninn Eymundsson",
+   "cat": "gjafavara",
+   "unverified": true
+  },
+  {
+   "domain": "www.forlagid.is",
+   "name": "Forlagið",
+   "cat": "bækur",
+   "unverified": true
+  },
+  {
+   "domain": "modern.is",
+   "name": "Módern",
+   "cat": "hönnun",
+   "unverified": true
+  },
+  {
+   "domain": "casa.is",
+   "name": "Casa",
+   "cat": "hönnun",
+   "unverified": true
+  },
+  {
+   "domain": "lumex.is",
+   "name": "Lumex",
+   "cat": "hönnun",
+   "unverified": true
+  },
+  {
+   "domain": "dimm.is",
+   "name": "Dimm",
+   "cat": "hönnun",
+   "unverified": true
+  },
+  {
+   "domain": "kunigund.is",
+   "name": "Kúnígúnd",
+   "cat": "gjafavara",
+   "unverified": true
+  },
+  {
+   "domain": "tekk.is",
+   "name": "Tekk",
+   "cat": "hönnun",
+   "unverified": true
+  },
+  {
+   "domain": "www.habitat.is",
+   "name": "Habitat",
+   "cat": "hönnun",
+   "unverified": true
+  },
+  {
+   "domain": "rammagerdin.is",
+   "name": "Rammagerðin",
+   "cat": "gjafavara",
+   "unverified": true
+  },
+  {
+   "domain": "pfaff.is",
+   "name": "Pfaff",
+   "cat": "heimilistæki",
+   "unverified": true
+  },
+  {
+   "domain": "cintamani.is",
+   "name": "Cintamani",
+   "cat": "íþróttir",
+   "unverified": true
+  },
+  {
+   "domain": "zo-on.is",
+   "name": "Zo-On",
+   "cat": "íþróttir",
+   "unverified": true
+  },
+  {
+   "domain": "fjallakofinn.is",
+   "name": "Fjallakofinn",
+   "cat": "íþróttir",
+   "unverified": true
+  },
+  {
+   "domain": "everest.is",
+   "name": "Everest",
+   "cat": "íþróttir",
+   "unverified": true
+  },
+  {
+   "domain": "markid.is",
+   "name": "Markið",
+   "cat": "íþróttir",
+   "unverified": true
+  },
+  {
+   "domain": "sportvorur.is",
+   "name": "Sportvörur",
+   "cat": "íþróttir",
+   "unverified": true
+  },
+  {
+   "domain": "afreksvorur.is",
+   "name": "Afreksvörur",
+   "cat": "íþróttir",
+   "unverified": true
+  },
+  {
+   "domain": "ellingsen.is",
+   "name": "Ellingsen",
+   "cat": "íþróttir",
+   "unverified": true
+  },
+  {
+   "domain": "air.is",
+   "name": "Air",
+   "cat": "íþróttir",
+   "unverified": true
+  },
+  {
+   "domain": "orninn.is",
+   "name": "Örninn",
+   "cat": "íþróttir",
+   "unverified": true
+  },
+  {
+   "domain": "lyfja.is",
+   "name": "Lyfja",
+   "cat": "heilsa",
+   "unverified": true
+  },
+  {
+   "domain": "www.lyfogheilsa.is",
+   "name": "Lyf og heilsa",
+   "cat": "heilsa",
+   "unverified": true
+  },
+  {
+   "domain": "beautybox.is",
+   "name": "Beautybox",
+   "cat": "heilsa",
+   "unverified": true
+  },
+  {
+   "domain": "lindex.is",
+   "name": "Lindex",
+   "cat": "föt",
+   "unverified": true
+  },
+  {
+   "domain": "www.66north.is",
+   "name": "66°Norður",
+   "cat": "föt",
+   "unverified": true
+  },
+  {
+   "domain": "skor.is",
+   "name": "Skór.is",
+   "cat": "föt",
+   "unverified": true
+  },
+  {
+   "domain": "www.att.is",
+   "name": "Att.is",
+   "cat": "raftæki",
+   "unverified": true
+  },
+  {
+   "domain": "origo.is",
+   "name": "Origo",
+   "cat": "raftæki",
+   "unverified": true
+  },
+  {
+   "domain": "www.sense.is",
+   "name": "Sense",
+   "cat": "raftæki",
+   "unverified": true
+  },
+  {
+   "domain": "nespresso.is",
+   "name": "Nespresso",
+   "cat": "heimilistæki",
+   "unverified": true
+  },
+  {
+   "domain": "kaffitar.is",
+   "name": "Kaffitár",
+   "cat": "veitingar",
+   "unverified": true
+  },
+  {
+   "domain": "www.vinbudin.is",
+   "name": "Vínbúðin",
+   "cat": "veitingar",
+   "unverified": true
+  },
+  {
+   "domain": "costco.is",
+   "name": "Costco",
+   "cat": "allt",
+   "unverified": true
+  }
+ ]
+}

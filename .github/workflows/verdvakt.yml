@@ -1,0 +1,75 @@
+name: Verðvakt
+
+on:
+  # Keyrir á 30 mín fresti; src/gate.js ákveður hvort raunveruleg athugun sé tímabær
+  # (á 3 tíma fresti venjulega, á 30 mín fresti í kringum afsláttardaga).
+  schedule:
+    - cron: '7,37 * * * *'
+  workflow_dispatch:
+    inputs:
+      discover:
+        description: 'Leita að seljendum fyrir þessar vörur (id, kommu aðskilið)'
+        required: false
+        default: ''
+      force:
+        description: 'Athuga öll verð strax'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: verdvakt
+  cancel-in-progress: false
+
+jobs:
+  vakt:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Er athugun tímabær?
+        id: gate
+        run: node src/gate.js
+        env:
+          FORCE: ${{ github.event_name == 'workflow_dispatch' && (inputs.force || inputs.discover != '') }}
+
+      - name: Skyndiminni fyrir vafra
+        if: steps.gate.outputs.run == 'true'
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-1.63.0
+
+      - name: Setja upp
+        if: steps.gate.outputs.run == 'true'
+        run: |
+          npm install --no-audit --no-fund
+          npx playwright install --with-deps chromium
+
+      - name: Athuga verð og leita
+        if: steps.gate.outputs.run == 'true'
+        run: node src/run.js
+        env:
+          FORCE: ${{ github.event_name == 'workflow_dispatch' && inputs.force }}
+          DISCOVER: ${{ github.event_name == 'workflow_dispatch' && inputs.discover || '' }}
+
+      - name: Vista niðurstöður
+        if: steps.gate.outputs.run == 'true' && always()
+        run: |
+          git config user.name "verdvakt-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet && exit 0
+          git commit -q -m "Verðvakt: $(date -u '+%Y-%m-%d %H:%M') UTC"
+          for i in 1 2 3 4 5; do
+            git pull -q --rebase -X theirs origin main && git push -q origin HEAD:main && exit 0
+            sleep $((i * 5))
+          done
+          exit 1

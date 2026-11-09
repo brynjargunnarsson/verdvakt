@@ -1,0 +1,258 @@
+{
+ "productId": "normann-bit-stack",
+ "query": "Bit stack",
+ "variants": [
+  "Bit stack"
+ ],
+ "searchedAt": "2026-11-09T12:39:23.412Z",
+ "storesSearched": 70,
+ "storesFailed": [
+  {
+   "domain": "ht.is",
+   "error": "HTTP 403"
+  },
+  {
+   "domain": "tl.is",
+   "error": "HTTP 403"
+  },
+  {
+   "domain": "utilif.is",
+   "error": "HTTP 403"
+  },
+  {
+   "domain": "macland.is",
+   "error": "Fann ekki leit á síðunni"
+  },
+  {
+   "domain": "epli.is",
+   "error": "Fann ekki leit á síðunni"
+  },
+  {
+   "domain": "www.nova.is",
+   "error": "Fann ekki leit á síðunni"
+  },
+  {
+   "domain": "www.siminn.is",
+   "error": "Fann ekki leit á síðunni"
+  },
+  {
+   "domain": "vodafone.is",
+   "error": "Fann ekki leit á síðunni"
+  },
+  {
+   "domain": "sminor.is",
+   "error": "Fann ekki leit á síðunni"
+  },
+  {
+   "domain": "eirvik.is",
+   "error": "Fann ekki leit á síðunni"
+  },
+  {
+   "domain": "byggtogbuid.is",
+   "error": "Fann ekki leit á síðunni"
+  },
+  {
+   "domain": "samsungsetrid.is",
+   "error": "Fann ekki leit á síðunni"
+  },
+  {
+   "domain": "www.rafland.is",
+   "error": "Fann ekki leit á síðunni"
+  },
+  {
+   "domain": "nexus.is",
+   "error": "Fann ekki leit á síðunni"
+  },
+  {
+   "domain": "spilavinir.is",
+   "error": "Fann ekki leit á síðunni"
+  },
+  {
+   "domain": "rumfo.is",
+   "error": "Fann ekki leit á síðunni"
+  },
+  {
+   "domain": "dorma.is",
+   "error": "Fann ekki leit á síðunni"
+  },
+  {
+   "domain": "betrabak.is",
+   "error": "Fann ekki leit á síðunni"
+  },
+  {
+   "domain": "www.ikea.is",
+   "error": "Fann ekki leit á síðunni"
+  },
+  {
+   "domain": "a4.is",
+   "error": "Fann ekki leit á síðunni"
+  },
+  {
+   "domain": "www.penninn.is",
+   "error": "Fann ekki leit á síðunni"
+  },
+  {
+   "domain": "www.forlagid.is",
+   "error": "Fann ekki leit á síðunni"
+  },
+  {
+   "domain": "modern.is",
+   "error": "Fann ekki leit á síðunni"
+  },
+  {
+   "domain": "casa.is",
+   "error": "Fann ekki leit á síðunni"
+  },
+  {
+   "domain": "lumex.is",
+   "error": "Fann ekki leit á síðunni"
+  },
+  {
+   "domain": "dimm.is",
+   "error": "Fann ekki leit á síðunni"
+  },
+  {
+   "domain": "kunigund.is",
+   "error": "Fann ekki leit á síðunni"
+  },
+  {
+   "domain": "tekk.is",
+   "error": "Fann ekki leit á síðunni"
+  },
+  {
+   "domain": "www.habitat.is",
+   "error": "Fann ekki leit á síðunni"
+  },
+  {
+   "domain": "rammagerdin.is",
+   "error": "Fann ekki leit á síðunni"
+  },
+  {
+   "domain": "heimkaup.is",
+   "error": "Fann ekki leit á síðunni"
+  },
+  {
+   "domain": "pfaff.is",
+   "error": "Fann ekki leit á síðunni"
+  },
+  {
+   "domain": "cintamani.is",
+   "error": "Fann ekki leit á síðunni"
+  },
+  {
+   "domain": "zo-on.is",
+   "error": "Fann ekki leit á síðunni"
+  },
+  {
+   "domain": "fjallakofinn.is",
+   "error": "Fann ekki leit á síðunni"
+  },
+  {
+   "domain": "everest.is",
+   "error": "Fann ekki leit á síðunni"
+  },
+  {
+   "domain": "markid.is",
+   "error": "Fann ekki leit á síðunni"
+  },
+  {
+   "domain": "sportvorur.is",
+   "error": "Fann ekki leit á síðunni"
+  },
+  {
+   "domain": "afreksvorur.is",
+   "error": "Fann ekki leit á síðunni"
+  },
+  {
+   "domain": "ellingsen.is",
+   "error": "Fann ekki leit á síðunni"
+  },
+  {
+   "domain": "air.is",
+   "error": "Fann ekki leit á síðunni"
+  },
+  {
+   "domain": "lyfja.is",
+   "error": "Fann ekki leit á síðunni"
+  },
+  {
+   "domain": "orninn.is",
+   "error": "Fann ekki leit á síðunni"
+  },
+  {
+   "domain": "www.lyfogheilsa.is",
+   "error": "Fann ekki leit á síðunni"
+  },
+  {
+   "domain": "beautybox.is",
+   "error": "Fann ekki leit á síðunni"
+  },
+  {
+   "domain": "lindex.is",
+   "error": "Fann ekki leit á síðunni"
+  },
+  {
+   "domain": "www.66north.is",
+   "error": "Fann ekki leit á síðunni"
+  },
+  {
+   "domain": "skor.is",
+   "error": "Fann ekki leit á síðunni"
+  },
+  {
+   "domain": "www.att.is",
+   "error": "Fann ekki leit á síðunni"
+  },
+  {
+   "domain": "origo.is",
+   "error": "Fann ekki leit á síðunni"
+  },
+  {
+   "domain": "www.sense.is",
+   "error": "Fann ekki leit á síðunni"
+  },
+  {
+   "domain": "nespresso.is",
+   "error": "Fann ekki leit á síðunni"
+  },
+  {
+   "domain": "kaffitar.is",
+   "error": "Fann ekki leit á síðunni"
+  },
+  {
+   "domain": "www.vinbudin.is",
+   "error": "Fann ekki leit á síðunni"
+  },
+  {
+   "domain": "costco.is",
+   "error": "Fann ekki leit á síðunni"
+  }
+ ],
+ "seconds": 141,
+ "results": [
+  {
+   "url": "https://www.epal.is/products/kollur-bit-stack-hvitur-hvitur",
+   "store": "www.epal.is",
+   "storeName": "Epal",
+   "title": "Normann Copenhagen Kollur BIT STACK hvítur/hvítur",
+   "price": 37500,
+   "score": 1,
+   "marketplace": false,
+   "foundAt": "2026-11-09T12:28:15.774Z",
+   "seenAt": "2026-11-09T12:39:23.412Z",
+   "via": "leit"
+  },
+  {
+   "url": "https://www.epal.is/products/kollur-bit-stack-graenn",
+   "store": "www.epal.is",
+   "storeName": "Epal",
+   "title": "Normann Copenhagen Kollur BIT STACK grænn",
+   "price": 41700,
+   "score": 1,
+   "marketplace": false,
+   "foundAt": "2026-11-09T12:28:15.774Z",
+   "seenAt": "2026-11-09T12:39:23.412Z",
+   "via": "leit"
+  }
+ ]
+}

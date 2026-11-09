@@ -1,0 +1,20 @@
+{
+ "lastDiscovery": {
+  "brooks-glycerin-23": "2026-11-09T12:37:02.069Z",
+  "normann-bit-stack": "2026-11-09T12:39:23.413Z"
+ },
+ "lastSaleScan": {},
+ "runs": [
+  {
+   "at": "2026-11-09T12:28:15.776Z",
+   "mode": "venjulegt",
+   "checked": 2,
+   "changed": 0,
+   "drops": 0,
+   "errors": 0,
+   "seconds": 299
+  }
+ ],
+ "lastRun": "2026-11-09T12:23:28.364Z",
+ "lastFinished": "2026-11-09T12:28:15.776Z"
+}

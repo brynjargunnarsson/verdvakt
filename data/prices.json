@@ -1,0 +1,77 @@
+{
+ "offers": {
+  "0644ea56bb": {
+   "productId": "brooks-glycerin-23",
+   "url": "https://brooksrunning.is/vara/glycerin-23-8",
+   "since": "2026-11-09T12:23:16.797Z",
+   "store": "brooksrunning.is",
+   "storeName": "Brooks",
+   "marketplace": false,
+   "lastChecked": "2026-11-09T12:23:28.362Z",
+   "title": "Glycerin 23",
+   "available": true,
+   "wasPrice": null,
+   "memberPrice": null,
+   "source": "síða",
+   "current": 34990,
+   "max": 34990,
+   "min": 34990,
+   "lastChanged": "2026-11-09T12:23:28.362Z",
+   "maxAt": "2026-11-09T12:23:28.362Z",
+   "minAt": "2026-11-09T12:23:28.362Z"
+  },
+  "5f1cc0367b": {
+   "productId": "normann-bit-stack",
+   "url": "https://www.epal.is/collections/normann-copenhagen/products/kollur-bit-stack-raudur",
+   "since": "2026-11-09T12:23:16.797Z",
+   "store": "epal.is",
+   "storeName": "Epal",
+   "marketplace": false,
+   "lastChecked": "2026-11-09T12:23:17.577Z",
+   "title": "Kollur BIT STACK rauður",
+   "available": true,
+   "wasPrice": null,
+   "memberPrice": null,
+   "source": "json-ld",
+   "current": 41700,
+   "max": 41700,
+   "min": 41700,
+   "lastChanged": "2026-11-09T12:23:17.578Z",
+   "maxAt": "2026-11-09T12:23:17.578Z",
+   "minAt": "2026-11-09T12:23:17.578Z"
+  }
+ },
+ "products": {
+  "brooks-glycerin-23": {
+   "since": "2026-11-09T12:23:28.364Z",
+   "current": 34990,
+   "changedAt": "2026-11-09T12:23:28.364Z",
+   "store": "brooksrunning.is",
+   "storeName": "Brooks",
+   "url": "https://brooksrunning.is/vara/glycerin-23-8",
+   "min": 34990,
+   "minAt": "2026-11-09T12:23:28.364Z",
+   "minStore": "Brooks",
+   "max": 34990,
+   "maxAt": "2026-11-09T12:23:28.364Z",
+   "maxStore": "Brooks",
+   "checkedAt": "2026-11-09T12:23:28.364Z"
+  },
+  "normann-bit-stack": {
+   "since": "2026-11-09T12:23:28.364Z",
+   "current": 41700,
+   "changedAt": "2026-11-09T12:23:28.364Z",
+   "store": "epal.is",
+   "storeName": "Epal",
+   "url": "https://www.epal.is/collections/normann-copenhagen/products/kollur-bit-stack-raudur",
+   "min": 41700,
+   "minAt": "2026-11-09T12:23:28.364Z",
+   "minStore": "Epal",
+   "max": 41700,
+   "maxAt": "2026-11-09T12:23:28.364Z",
+   "maxStore": "Epal",
+   "checkedAt": "2026-11-09T12:23:28.364Z"
+  }
+ },
+ "updatedAt": "2026-11-09T12:23:28.364Z"
+}

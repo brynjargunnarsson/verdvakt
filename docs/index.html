@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="is">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Verðvakt</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%230f766e'/><text x='16' y='22' font-size='17' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='700'>kr</text></svg>">
+  <link rel="stylesheet" href="style.css">
+  <script src="config.js"></script>
+</head>
+<body>
+  <header class="top">
+    <div class="brand">
+      <span class="logo">kr</span>
+      <div>
+        <h1>Verðvakt</h1>
+        <div id="status" class="muted small">Hleð…</div>
+      </div>
+    </div>
+    <nav id="tabs">
+      <button data-tab="vorur" class="on">Vörur</button>
+      <button data-tab="breytingar">Breytingar <span id="unread" class="badge" hidden></span></button>
+      <button data-tab="dagar">Afsláttardagar</button>
+      <button data-tab="verslanir">Verslanir</button>
+      <button data-tab="stillingar">Stillingar</button>
+    </nav>
+  </header>
+
+  <main>
+    <div id="banner"></div>
+
+    <section id="tab-vorur">
+      <div class="toolbar">
+        <button id="btn-add" class="primary">+ Bæta við vöru</button>
+        <input id="filter" type="search" placeholder="Sía vörur…">
+        <select id="cat-filter"><option value="">Allir flokkar</option></select>
+        <span class="grow"></span>
+        <button id="btn-check" title="Athuga öll verð núna">Athuga verð núna</button>
+      </div>
+
+      <form id="add-form" class="card" hidden>
+        <h2 id="add-title">Ný vara</h2>
+        <div class="grid2">
+          <label>Heiti vöru<input name="name" required placeholder="t.d. Sony WH-1000XM6 heyrnartól"></label>
+          <label>Leitarorð <span class="muted">(það sem leitað er að í verslunum – stutt og nákvæmt)</span><input name="query" placeholder="t.d. WH-1000XM6"></label>
+          <label>Flokkur<input name="category" list="cats" placeholder="t.d. Raftæki"></label>
+          <label>Markverð <span class="muted">(valfrjálst – merkt sérstaklega ef verð fer undir það)</span><input name="targetPrice" inputmode="numeric" placeholder="t.d. 49990"></label>
+        </div>
+        <label>Slóðir sem þú veist um <span class="muted">(valfrjálst, ein í línu)</span><textarea name="urls" rows="2" placeholder="https://…"></textarea></label>
+        <label>Athugasemd<input name="notes" placeholder="valfrjálst"></label>
+        <datalist id="cats"></datalist>
+        <div class="row">
+          <button class="primary" type="submit">Vista og leita í verslunum</button>
+          <button type="button" id="add-cancel">Hætta við</button>
+          <span class="muted small">Leitin tekur yfirleitt 5–15 mínútur. Svo birtast tillögur sem þú staðfestir.</span>
+        </div>
+      </form>
+
+      <div id="products"></div>
+    </section>
+
+    <section id="tab-breytingar" hidden>
+      <p class="muted">Samantekt eftir hverja athugun þar sem verð lækkaði, og morgunyfirlit á afsláttardögum.</p>
+      <div id="summaries"></div>
+    </section>
+
+    <section id="tab-dagar" hidden>
+      <div class="card">
+        <h2>Afsláttardagar</h2>
+        <p class="muted">Frá <b id="win-before"></b> klst. fyrir og til <b id="win-after"></b> klst. eftir hvern dag er athugað á <b id="sale-int"></b> mín. fresti í stað <b id="norm-int"></b> klst. Tilboðssíður verslana og afsláttarkóðar eru skoðaðir, og vaktin athugar hvort afslættir séu raunverulegir.</p>
+        <table class="t" id="days"></table>
+        <form id="day-form" class="row">
+          <input name="name" placeholder="Heiti, t.d. Singles Week" required>
+          <label class="inline">Frá <input name="start" type="date" required></label>
+          <label class="inline">Til <input name="end" type="date"></label>
+          <button type="submit">Bæta við</button>
+        </form>
+        <form id="int-form" class="row">
+          <label class="inline">Venjulegt bil (klst.) <input name="normalIntervalHours" type="number" min="1" max="24" step="1"></label>
+          <label class="inline">Á afsláttartímabili (mín.) <input name="saleIntervalMin" type="number" min="30" max="180" step="5"></label>
+          <label class="inline">Byrja (klst. fyrir) <input name="windowBeforeHours" type="number" min="0" max="96"></label>
+          <label class="inline">Enda (klst. eftir) <input name="windowAfterHours" type="number" min="0" max="96"></label>
+          <button type="submit">Vista</button>
+        </form>
+      </div>
+      <div class="card">
+        <h2>Afsláttarkóðar sem verslanir auglýsa</h2>
+        <p class="muted">Lesið af forsíðum og tilboðssíðum. Þetta er ágiskun út frá texta; kannaðu skilmálana sjálfur.</p>
+        <div id="codes"></div>
+      </div>
+    </section>
+
+    <section id="tab-verslanir" hidden>
+      <div class="card">
+        <h2>Verslanir sem leitað er í</h2>
+        <p class="muted">Vaktin lærir sjálf hvernig leitin virkar á hverri síðu. Verslun sem svarar ekki fjórum sinnum í röð er hvíld í viku. Bættu við verslunum sem vantar.</p>
+        <form id="store-form" class="row">
+          <input name="domain" placeholder="lén, t.d. verslun.is" required pattern="[A-Za-z0-9.\-]+\.is">
+          <input name="name" placeholder="Heiti">
+          <input name="cat" placeholder="Flokkur">
+          <label class="inline"><input type="checkbox" name="marketplace"> Markaðstorg / notað</label>
+          <button type="submit">Bæta við</button>
+        </form>
+        <table class="t" id="stores"></table>
+      </div>
+    </section>
+
+    <section id="tab-stillingar" hidden>
+      <div class="card">
+        <h2>Aðgangur til að breyta</h2>
+        <p>Allir geta skoðað síðuna, en til að bæta við vörum og breyta þarf GitHub-lykil (fine-grained personal access token) sem hefur aðeins aðgang að <code id="repo-name"></code> með heimildunum <b>Contents: Read and write</b> og <b>Actions: Read and write</b>.</p>
+        <p class="muted small">Lykillinn er aðeins vistaður í þessum vafra (localStorage) og sendur beint til api.github.com.</p>
+        <form id="token-form" class="row">
+          <input name="token" type="password" placeholder="github_pat_…" autocomplete="off" size="50">
+          <button class="primary" type="submit">Vista lykil</button>
+          <button type="button" id="token-clear">Eyða lykli</button>
+        </form>
+        <div id="token-status" class="small"></div>
+      </div>
+      <div class="card">
+        <h2>Síðustu keyrslur</h2>
+        <table class="t" id="runs"></table>
+      </div>
+    </section>
+  </main>
+
+  <dialog id="toast"></dialog>
+  <script src="app.js" type="module"></script>
+</body>
+</html>

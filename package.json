@@ -1,0 +1,12 @@
+{
+  "name": "verdvakt",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "check": "node src/run.js",
+    "discover": "node src/discover.js"
+  },
+  "dependencies": {
+    "playwright": "1.63.0"
+  }
+}

@@ -1,0 +1,38 @@
+{
+ "products": [
+  {
+   "id": "brooks-glycerin-23",
+   "name": "Brooks Glycerin 23",
+   "query": "Glycerin 23",
+   "category": "Íþróttir",
+   "notes": "",
+   "paused": false,
+   "targetPrice": null,
+   "createdAt": "2026-11-09T12:00:00Z",
+   "offers": [
+    {
+     "url": "https://brooksrunning.is/vara/glycerin-23-8",
+     "addedAt": "2026-11-09T12:00:00Z"
+    }
+   ],
+   "rejected": []
+  },
+  {
+   "id": "normann-bit-stack",
+   "name": "Normann Copenhagen Bit Stack kollur (rauður)",
+   "query": "Bit stack",
+   "category": "Hönnun",
+   "notes": "",
+   "paused": false,
+   "targetPrice": null,
+   "createdAt": "2026-11-09T12:00:00Z",
+   "offers": [
+    {
+     "url": "https://www.epal.is/collections/normann-copenhagen/products/kollur-bit-stack-raudur",
+     "addedAt": "2026-11-09T12:00:00Z"
+    }
+   ],
+   "rejected": []
+  }
+ ]
+}

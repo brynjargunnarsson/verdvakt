@@ -1,0 +1,395 @@
+{
+ "tl.is": {
+  "fails": 4,
+  "lastError": "HTTP 403",
+  "lastErrorAt": "2026-11-09T12:37:07.208Z",
+  "pausedUntil": "2026-11-16T12:37:07.208Z"
+ },
+ "ht.is": {
+  "fails": 4,
+  "lastError": "HTTP 403",
+  "lastErrorAt": "2026-11-09T12:37:06.990Z",
+  "pausedUntil": "2026-11-16T12:37:06.990Z"
+ },
+ "elko.is": {
+  "fails": 0,
+  "lastOk": "2026-11-09T12:37:08.865Z"
+ },
+ "computer.is": {
+  "fails": 0,
+  "lastOk": "2026-11-09T12:37:08.632Z"
+ },
+ "www.ormsson.is": {
+  "fails": 0,
+  "learned": {
+   "kind": "woo"
+  },
+  "lastOk": "2026-11-09T12:37:08.170Z"
+ },
+ "www.epal.is": {
+  "fails": 0,
+  "lastOk": "2026-11-09T12:37:09.071Z"
+ },
+ "snuran.is": {
+  "fails": 0,
+  "lastOk": "2026-11-09T12:37:09.490Z"
+ },
+ "kd.is": {
+  "fails": 0,
+  "lastOk": "2026-11-09T12:37:09.288Z"
+ },
+ "kokka.is": {
+  "fails": 0,
+  "lastOk": "2026-11-09T12:37:11.385Z"
+ },
+ "www.tolvutek.is": {
+  "fails": 0,
+  "lastOk": "2026-11-09T12:37:11.438Z"
+ },
+ "hrim.is": {
+  "fails": 0,
+  "lastOk": "2026-11-09T12:37:14.682Z"
+ },
+ "www.ilva.is": {
+  "fails": 0,
+  "lastOk": "2026-11-09T12:37:16.343Z"
+ },
+ "www.hagkaup.is": {
+  "fails": 0,
+  "lastOk": "2026-11-09T12:37:18.070Z"
+ },
+ "www.husa.is": {
+  "fails": 0,
+  "lastOk": "2026-11-09T12:37:19.506Z"
+ },
+ "byko.is": {
+  "fails": 0,
+  "lastOk": "2026-11-09T12:37:21.397Z"
+ },
+ "utilif.is": {
+  "fails": 4,
+  "lastError": "HTTP 403",
+  "lastErrorAt": "2026-11-09T12:37:21.378Z",
+  "pausedUntil": "2026-11-16T12:37:21.378Z"
+ },
+ "brooksrunning.is": {
+  "fails": 0,
+  "lastOk": "2026-11-09T12:37:26.449Z"
+ },
+ "macland.is": {
+  "fails": 4,
+  "lastError": "Fann ekki leit á síðunni",
+  "lastErrorAt": "2026-11-09T12:37:31.719Z",
+  "pausedUntil": "2026-11-16T12:37:31.719Z"
+ },
+ "epli.is": {
+  "fails": 4,
+  "lastError": "Fann ekki leit á síðunni",
+  "lastErrorAt": "2026-11-09T12:37:33.546Z",
+  "pausedUntil": "2026-11-16T12:37:33.546Z"
+ },
+ "www.nova.is": {
+  "fails": 4,
+  "lastError": "Fann ekki leit á síðunni",
+  "lastErrorAt": "2026-11-09T12:37:33.636Z",
+  "pausedUntil": "2026-11-16T12:37:33.636Z"
+ },
+ "bland.is": {
+  "fails": 0,
+  "lastOk": "2026-11-09T12:37:35.603Z"
+ },
+ "www.siminn.is": {
+  "fails": 4,
+  "lastError": "Fann ekki leit á síðunni",
+  "lastErrorAt": "2026-11-09T12:37:38.666Z",
+  "pausedUntil": "2026-11-16T12:37:38.666Z"
+ },
+ "vodafone.is": {
+  "fails": 4,
+  "lastError": "Fann ekki leit á síðunni",
+  "lastErrorAt": "2026-11-09T12:37:43.790Z",
+  "pausedUntil": "2026-11-16T12:37:43.790Z"
+ },
+ "sminor.is": {
+  "fails": 4,
+  "lastError": "Fann ekki leit á síðunni",
+  "lastErrorAt": "2026-11-09T12:37:45.634Z",
+  "pausedUntil": "2026-11-16T12:37:45.634Z"
+ },
+ "eirvik.is": {
+  "fails": 4,
+  "lastError": "Fann ekki leit á síðunni",
+  "lastErrorAt": "2026-11-09T12:37:45.849Z",
+  "pausedUntil": "2026-11-16T12:37:45.849Z"
+ },
+ "byggtogbuid.is": {
+  "fails": 4,
+  "lastError": "Fann ekki leit á síðunni",
+  "lastErrorAt": "2026-11-09T12:37:47.752Z",
+  "pausedUntil": "2026-11-16T12:37:47.752Z"
+ },
+ "samsungsetrid.is": {
+  "fails": 4,
+  "lastError": "Fann ekki leit á síðunni",
+  "lastErrorAt": "2026-11-09T12:37:50.798Z",
+  "pausedUntil": "2026-11-16T12:37:50.798Z"
+ },
+ "www.rafland.is": {
+  "fails": 4,
+  "lastError": "Fann ekki leit á síðunni",
+  "lastErrorAt": "2026-11-09T12:37:55.873Z",
+  "pausedUntil": "2026-11-16T12:37:55.873Z"
+ },
+ "nexus.is": {
+  "fails": 4,
+  "lastError": "Fann ekki leit á síðunni",
+  "lastErrorAt": "2026-11-09T12:37:57.804Z",
+  "pausedUntil": "2026-11-16T12:37:57.804Z"
+ },
+ "spilavinir.is": {
+  "fails": 4,
+  "lastError": "Fann ekki leit á síðunni",
+  "lastErrorAt": "2026-11-09T12:37:58.002Z",
+  "pausedUntil": "2026-11-16T12:37:58.002Z"
+ },
+ "rumfo.is": {
+  "fails": 4,
+  "lastError": "Fann ekki leit á síðunni",
+  "lastErrorAt": "2026-11-09T12:37:59.971Z",
+  "pausedUntil": "2026-11-16T12:37:59.971Z"
+ },
+ "dorma.is": {
+  "fails": 4,
+  "lastError": "Fann ekki leit á síðunni",
+  "lastErrorAt": "2026-11-09T12:38:02.966Z",
+  "pausedUntil": "2026-11-16T12:38:02.966Z"
+ },
+ "betrabak.is": {
+  "fails": 4,
+  "lastError": "Fann ekki leit á síðunni",
+  "lastErrorAt": "2026-11-09T12:38:08.094Z",
+  "pausedUntil": "2026-11-16T12:38:08.094Z"
+ },
+ "www.ikea.is": {
+  "fails": 4,
+  "lastError": "Fann ekki leit á síðunni",
+  "lastErrorAt": "2026-11-09T12:38:09.962Z",
+  "pausedUntil": "2026-11-16T12:38:09.962Z"
+ },
+ "a4.is": {
+  "fails": 4,
+  "lastError": "Fann ekki leit á síðunni",
+  "lastErrorAt": "2026-11-09T12:38:10.143Z",
+  "pausedUntil": "2026-11-16T12:38:10.143Z"
+ },
+ "www.penninn.is": {
+  "fails": 4,
+  "lastError": "Fann ekki leit á síðunni",
+  "lastErrorAt": "2026-11-09T12:38:12.133Z",
+  "pausedUntil": "2026-11-16T12:38:12.133Z"
+ },
+ "www.forlagid.is": {
+  "fails": 4,
+  "lastError": "Fann ekki leit á síðunni",
+  "lastErrorAt": "2026-11-09T12:38:15.197Z",
+  "pausedUntil": "2026-11-16T12:38:15.197Z"
+ },
+ "modern.is": {
+  "fails": 4,
+  "lastError": "Fann ekki leit á síðunni",
+  "lastErrorAt": "2026-11-09T12:38:20.241Z",
+  "pausedUntil": "2026-11-16T12:38:20.241Z"
+ },
+ "casa.is": {
+  "fails": 4,
+  "lastError": "Fann ekki leit á síðunni",
+  "lastErrorAt": "2026-11-09T12:38:22.204Z",
+  "pausedUntil": "2026-11-16T12:38:22.204Z"
+ },
+ "lumex.is": {
+  "fails": 4,
+  "lastError": "Fann ekki leit á síðunni",
+  "lastErrorAt": "2026-11-09T12:38:22.369Z",
+  "pausedUntil": "2026-11-16T12:38:22.369Z"
+ },
+ "dimm.is": {
+  "fails": 4,
+  "lastError": "Fann ekki leit á síðunni",
+  "lastErrorAt": "2026-11-09T12:38:24.355Z",
+  "pausedUntil": "2026-11-16T12:38:24.355Z"
+ },
+ "kunigund.is": {
+  "fails": 4,
+  "lastError": "Fann ekki leit á síðunni",
+  "lastErrorAt": "2026-11-09T12:38:27.411Z",
+  "pausedUntil": "2026-11-16T12:38:27.411Z"
+ },
+ "tekk.is": {
+  "fails": 4,
+  "lastError": "Fann ekki leit á síðunni",
+  "lastErrorAt": "2026-11-09T12:38:32.466Z",
+  "pausedUntil": "2026-11-16T12:38:32.466Z"
+ },
+ "www.habitat.is": {
+  "fails": 4,
+  "lastError": "Fann ekki leit á síðunni",
+  "lastErrorAt": "2026-11-09T12:38:34.360Z",
+  "pausedUntil": "2026-11-16T12:38:34.360Z"
+ },
+ "heimkaup.is": {
+  "fails": 4,
+  "lastError": "Fann ekki leit á síðunni",
+  "lastErrorAt": "2026-11-09T12:38:34.643Z",
+  "pausedUntil": "2026-11-16T12:38:34.643Z"
+ },
+ "rammagerdin.is": {
+  "fails": 4,
+  "lastError": "Fann ekki leit á síðunni",
+  "lastErrorAt": "2026-11-09T12:38:34.537Z",
+  "pausedUntil": "2026-11-16T12:38:34.537Z"
+ },
+ "pfaff.is": {
+  "fails": 4,
+  "lastError": "Fann ekki leit á síðunni",
+  "lastErrorAt": "2026-11-09T12:38:36.557Z",
+  "pausedUntil": "2026-11-16T12:38:36.557Z"
+ },
+ "cintamani.is": {
+  "fails": 4,
+  "lastError": "Fann ekki leit á síðunni",
+  "lastErrorAt": "2026-11-09T12:38:39.556Z",
+  "pausedUntil": "2026-11-16T12:38:39.556Z"
+ },
+ "zo-on.is": {
+  "fails": 4,
+  "lastError": "Fann ekki leit á síðunni",
+  "lastErrorAt": "2026-11-09T12:38:44.693Z",
+  "pausedUntil": "2026-11-16T12:38:44.693Z"
+ },
+ "fjallakofinn.is": {
+  "fails": 4,
+  "lastError": "Fann ekki leit á síðunni",
+  "lastErrorAt": "2026-11-09T12:38:46.575Z",
+  "pausedUntil": "2026-11-16T12:38:46.575Z"
+ },
+ "everest.is": {
+  "fails": 4,
+  "lastError": "Fann ekki leit á síðunni",
+  "lastErrorAt": "2026-11-09T12:38:46.766Z",
+  "pausedUntil": "2026-11-16T12:38:46.766Z"
+ },
+ "markid.is": {
+  "fails": 4,
+  "lastError": "Fann ekki leit á síðunni",
+  "lastErrorAt": "2026-11-09T12:38:46.784Z",
+  "pausedUntil": "2026-11-16T12:38:46.784Z"
+ },
+ "sportvorur.is": {
+  "fails": 4,
+  "lastError": "Fann ekki leit á síðunni",
+  "lastErrorAt": "2026-11-09T12:38:48.770Z",
+  "pausedUntil": "2026-11-16T12:38:48.770Z"
+ },
+ "afreksvorur.is": {
+  "fails": 4,
+  "lastError": "Fann ekki leit á síðunni",
+  "lastErrorAt": "2026-11-09T12:38:51.773Z",
+  "pausedUntil": "2026-11-16T12:38:51.773Z"
+ },
+ "ellingsen.is": {
+  "fails": 4,
+  "lastError": "Fann ekki leit á síðunni",
+  "lastErrorAt": "2026-11-09T12:38:56.943Z",
+  "pausedUntil": "2026-11-16T12:38:56.943Z"
+ },
+ "air.is": {
+  "fails": 4,
+  "lastError": "Fann ekki leit á síðunni",
+  "lastErrorAt": "2026-11-09T12:38:58.768Z",
+  "pausedUntil": "2026-11-16T12:38:58.768Z"
+ },
+ "orninn.is": {
+  "fails": 4,
+  "lastError": "Fann ekki leit á síðunni",
+  "lastErrorAt": "2026-11-09T12:38:58.974Z",
+  "pausedUntil": "2026-11-16T12:38:58.974Z"
+ },
+ "lyfja.is": {
+  "fails": 4,
+  "lastError": "Fann ekki leit á síðunni",
+  "lastErrorAt": "2026-11-09T12:38:58.939Z",
+  "pausedUntil": "2026-11-16T12:38:58.939Z"
+ },
+ "www.lyfogheilsa.is": {
+  "fails": 4,
+  "lastError": "Fann ekki leit á síðunni",
+  "lastErrorAt": "2026-11-09T12:39:00.926Z",
+  "pausedUntil": "2026-11-16T12:39:00.926Z"
+ },
+ "beautybox.is": {
+  "fails": 4,
+  "lastError": "Fann ekki leit á síðunni",
+  "lastErrorAt": "2026-11-09T12:39:04.004Z",
+  "pausedUntil": "2026-11-16T12:39:04.004Z"
+ },
+ "lindex.is": {
+  "fails": 4,
+  "lastError": "Fann ekki leit á síðunni",
+  "lastErrorAt": "2026-11-09T12:39:09.142Z",
+  "pausedUntil": "2026-11-16T12:39:09.142Z"
+ },
+ "www.66north.is": {
+  "fails": 4,
+  "lastError": "Fann ekki leit á síðunni",
+  "lastErrorAt": "2026-11-09T12:39:10.973Z",
+  "pausedUntil": "2026-11-16T12:39:10.973Z"
+ },
+ "skor.is": {
+  "fails": 4,
+  "lastError": "Fann ekki leit á síðunni",
+  "lastErrorAt": "2026-11-09T12:39:11.168Z",
+  "pausedUntil": "2026-11-16T12:39:11.168Z"
+ },
+ "www.att.is": {
+  "fails": 4,
+  "lastError": "Fann ekki leit á síðunni",
+  "lastErrorAt": "2026-11-09T12:39:11.188Z",
+  "pausedUntil": "2026-11-16T12:39:11.188Z"
+ },
+ "origo.is": {
+  "fails": 4,
+  "lastError": "Fann ekki leit á síðunni",
+  "lastErrorAt": "2026-11-09T12:39:13.082Z",
+  "pausedUntil": "2026-11-16T12:39:13.082Z"
+ },
+ "www.sense.is": {
+  "fails": 4,
+  "lastError": "Fann ekki leit á síðunni",
+  "lastErrorAt": "2026-11-09T12:39:16.206Z",
+  "pausedUntil": "2026-11-16T12:39:16.206Z"
+ },
+ "nespresso.is": {
+  "fails": 4,
+  "lastError": "Fann ekki leit á síðunni",
+  "lastErrorAt": "2026-11-09T12:39:21.375Z",
+  "pausedUntil": "2026-11-16T12:39:21.375Z"
+ },
+ "kaffitar.is": {
+  "fails": 4,
+  "lastError": "Fann ekki leit á síðunni",
+  "lastErrorAt": "2026-11-09T12:39:23.188Z",
+  "pausedUntil": "2026-11-16T12:39:23.188Z"
+ },
+ "www.vinbudin.is": {
+  "fails": 4,
+  "lastError": "Fann ekki leit á síðunni",
+  "lastErrorAt": "2026-11-09T12:39:23.372Z",
+  "pausedUntil": "2026-11-16T12:39:23.372Z"
+ },
+ "costco.is": {
+  "fails": 4,
+  "lastError": "Fann ekki leit á síðunni",
+  "lastErrorAt": "2026-11-09T12:39:23.409Z",
+  "pausedUntil": "2026-11-16T12:39:23.409Z"
+ }
+}
