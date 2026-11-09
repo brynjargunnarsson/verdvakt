@@ -71,7 +71,8 @@ async function typeSearch(base, q) {
   const page = await ctx.newPage();
   await page.route('**/*', (r) => (['image', 'media', 'font'].includes(r.request().resourceType()) ? r.abort() : r.continue()));
   try {
-    await page.goto(base + '/', { waitUntil: 'domcontentloaded', timeout: 35000 });
+    const resp = await page.goto(base + '/', { waitUntil: 'domcontentloaded', timeout: 35000 });
+    if (resp && resp.status() >= 400) throw Object.assign(new Error(`HTTP ${resp.status()}`), { unreachable: true });
     await page.waitForLoadState('networkidle', { timeout: 8000 }).catch(() => {});
     await page
       .locator('button:has-text("Samþykkja"), button:has-text("Leyfa allar"), button:has-text("Accept")')
@@ -155,7 +156,13 @@ async function searchStoreInner(store, query, { minScore = 0.6 } = {}) {
     const res = await fn(base, query).catch(() => null);
     if (res) return { results: score(res), learned: { kind } };
   }
-  const typed = await typeSearch(base, query).catch(() => null);
+  let unreachable = null;
+  const typed = await typeSearch(base, query).catch((e) => {
+    // The site itself can't be reached (DNS, 403, timeout on the front page) – that's a real failure.
+    unreachable = e.message;
+    return null;
+  });
+  if (unreachable && !/Timeout|locator/i.test(unreachable)) return { results: [], learned: null, failed: true, error: unreachable.slice(0, 120) };
   if (typed?.template) return { results: score(typed.cards), learned: { kind: 'html', searchUrl: typed.template } };
   if (typed?.cards?.length) return { results: score(typed.cards), learned: { kind: 'type' } };
   for (const pattern of SEARCH_PATTERNS) {
@@ -163,7 +170,9 @@ async function searchStoreInner(store, query, { minScore = 0.6 } = {}) {
     const scored = res ? score(res) : [];
     if (scored.length) return { results: scored, learned: { kind: 'html', searchUrl: pattern } };
   }
-  return { results: [], learned: null, failed: true, error: 'Fann ekki leit á síðunni' };
+  // The store answered but no search was found or nothing matched. Not a failure:
+  // most stores simply don't sell most products. Detection is retried next time.
+  return { results: [], learned: null, unknown: true };
 }
 
 /**

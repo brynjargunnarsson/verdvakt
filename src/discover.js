@@ -49,6 +49,7 @@ export async function discoverProduct(product, { stores, cache, concurrency = 6,
         failed.push({ domain: store.domain, error: r.error });
         return;
       }
+      if (r.unknown) return; // store answered, but its search wasn't found / nothing matched – no point retrying variants
       for (const x of r.results) found.push({ ...x, store: store.domain, storeName: store.name, marketplace: !!store.marketplace });
       if (r.results.length) any = true;
       if (any) break;

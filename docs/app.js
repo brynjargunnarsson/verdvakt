@@ -407,7 +407,7 @@ function renderStores() {
       if (s.disabled) status = '<span class="chip">Slökkt</span>';
       else if (c.pausedUntil && Date.parse(c.pausedUntil) > Date.now()) status = `<span class="chip warn" title="${esc(c.lastError || '')}">Í hvíld til ${day(c.pausedUntil)}</span>`;
       else if (c.lastError && (!c.lastOk || c.lastErrorAt > c.lastOk)) status = `<span class="chip warn" title="${esc(c.lastError)}">Villa: ${esc(c.lastError.slice(0, 40))}</span>`;
-      else if (c.lastOk) status = `<span class="chip down">Virkar</span>`;
+      else if (c.lastOk) status = how ? `<span class="chip down">Virkar</span>` : `<span class="chip">Svarar – leit ekki fundin enn</span>`;
       else status = '<span class="chip">Óprófuð</span>';
       return `<tr><td>${esc(s.name)}${s.marketplace ? ' <span class="chip">markaðstorg</span>' : ''}</td><td><a href="https://${esc(s.domain)}" target="_blank" rel="noopener">${esc(s.domain)}</a></td><td>${esc(s.cat || '')}</td>
         <td class="small">${howTxt}${s.searchUrl || c.learned?.searchUrl ? `<div class="muted">${esc(s.searchUrl || c.learned.searchUrl)}</div>` : ''}</td><td>${status}</td>
