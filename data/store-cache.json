@@ -13,58 +13,58 @@
  },
  "elko.is": {
   "fails": 0,
-  "lastOk": "2026-11-09T12:37:08.865Z"
+  "lastOk": "2026-11-09T19:36:09.087Z"
  },
  "computer.is": {
   "fails": 0,
-  "lastOk": "2026-11-09T12:37:08.632Z"
+  "lastOk": "2026-11-09T19:36:05.372Z"
  },
  "www.ormsson.is": {
   "fails": 0,
   "learned": {
    "kind": "woo"
   },
-  "lastOk": "2026-11-09T12:37:08.170Z"
+  "lastOk": "2026-11-09T19:35:59.310Z"
  },
  "www.epal.is": {
   "fails": 0,
-  "lastOk": "2026-11-09T12:37:09.071Z"
+  "lastOk": "2026-11-09T19:35:59.564Z"
  },
  "snuran.is": {
   "fails": 0,
-  "lastOk": "2026-11-09T12:37:09.490Z"
+  "lastOk": "2026-11-09T19:35:59.898Z"
  },
  "kd.is": {
   "fails": 0,
-  "lastOk": "2026-11-09T12:37:09.288Z"
+  "lastOk": "2026-11-09T19:36:04.490Z"
  },
  "kokka.is": {
   "fails": 0,
-  "lastOk": "2026-11-09T12:37:11.385Z"
+  "lastOk": "2026-11-09T19:36:01.758Z"
  },
  "www.tolvutek.is": {
   "fails": 0,
-  "lastOk": "2026-11-09T12:37:11.438Z"
+  "lastOk": "2026-11-09T19:36:05.180Z"
  },
  "hrim.is": {
   "fails": 0,
-  "lastOk": "2026-11-09T12:37:14.682Z"
+  "lastOk": "2026-11-09T19:36:08.093Z"
  },
  "www.ilva.is": {
   "fails": 0,
-  "lastOk": "2026-11-09T12:37:16.343Z"
+  "lastOk": "2026-11-09T19:36:11.240Z"
  },
  "www.hagkaup.is": {
   "fails": 0,
-  "lastOk": "2026-11-09T12:37:18.070Z"
+  "lastOk": "2026-11-09T19:36:07.041Z"
  },
  "www.husa.is": {
   "fails": 0,
-  "lastOk": "2026-11-09T12:37:19.506Z"
+  "lastOk": "2026-11-09T19:36:12.640Z"
  },
  "byko.is": {
   "fails": 0,
-  "lastOk": "2026-11-09T12:37:21.397Z"
+  "lastOk": "2026-11-09T19:36:12.667Z"
  },
  "utilif.is": {
   "fails": 4,
@@ -74,7 +74,7 @@
  },
  "brooksrunning.is": {
   "fails": 0,
-  "lastOk": "2026-11-09T12:37:26.449Z"
+  "lastOk": "2026-11-09T19:36:17.443Z"
  },
  "macland.is": {
   "fails": 4,
@@ -96,7 +96,7 @@
  },
  "bland.is": {
   "fails": 0,
-  "lastOk": "2026-11-09T12:37:35.603Z"
+  "lastOk": "2026-11-09T19:36:35.369Z"
  },
  "www.siminn.is": {
   "fails": 4,
@@ -391,5 +391,38 @@
   "lastError": "Fann ekki leit á síðunni",
   "lastErrorAt": "2026-11-09T12:39:23.409Z",
   "pausedUntil": "2026-11-16T12:39:23.409Z"
+ },
+ "oskaskrin.is": {
+  "fails": 0,
+  "lastOk": "2026-11-09T19:36:14.720Z"
+ },
+ "gjafabref.is": {
+  "fails": 0,
+  "lastOk": "2026-11-09T19:36:14.603Z"
+ },
+ "noona.is": {
+  "fails": 0,
+  "learned": {
+   "kind": "html",
+   "searchUrl": "/n/search?q={q}"
+  },
+  "lastOk": "2026-11-09T19:36:22.420Z"
+ },
+ "www.dineout.is": {
+  "fails": 0,
+  "learned": {
+   "kind": "html",
+   "searchUrl": "/explore?q={q}"
+  },
+  "lastOk": "2026-11-09T19:36:26.476Z"
+ },
+ "hopkaup.is": {
+  "fails": 0,
+  "lastOk": "2026-11-09T19:36:30.976Z"
+ },
+ "aha.is": {
+  "fails": 2,
+  "lastError": "Fann ekki leit á síðunni",
+  "lastErrorAt": "2026-11-09T19:37:04.076Z"
  }
 }
