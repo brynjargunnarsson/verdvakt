@@ -416,21 +416,53 @@
    "unverified": true
   },
   {
-   "domain": "kaffitar.is",
-   "name": "Kaffitár",
-   "cat": "veitingar",
-   "unverified": true
-  },
-  {
-   "domain": "www.vinbudin.is",
-   "name": "Vínbúðin",
-   "cat": "veitingar",
-   "unverified": true
-  },
-  {
    "domain": "costco.is",
    "name": "Costco",
    "cat": "allt",
+   "unverified": true
+  },
+  {
+   "domain": "hopkaup.is",
+   "name": "Hópkaup",
+   "cat": "gjafabréf",
+   "kind": "list",
+   "listUrls": [
+    "/veitingar",
+    "/oll-tilbod",
+    "/jolagjafir"
+   ]
+  },
+  {
+   "domain": "www.dineout.is",
+   "name": "Dineout",
+   "cat": "gjafabréf",
+   "listUrls": [
+    "/giftcards/all"
+   ],
+   "unverified": true
+  },
+  {
+   "domain": "oskaskrin.is",
+   "name": "Óskaskrín",
+   "cat": "gjafabréf",
+   "kind": "woo"
+  },
+  {
+   "domain": "gjafabref.is",
+   "name": "Gjafabref.is",
+   "cat": "gjafabréf",
+   "kind": "woo"
+  },
+  {
+   "domain": "noona.is",
+   "name": "Noona",
+   "cat": "gjafabréf",
+   "unverified": true
+  },
+  {
+   "domain": "aha.is",
+   "name": "Aha",
+   "cat": "gjafabréf",
    "unverified": true
   }
  ]

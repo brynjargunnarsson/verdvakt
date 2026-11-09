@@ -119,7 +119,7 @@ function scoreList(base, query, list, minScore) {
       } catch {}
       return { ...x, score: matchScore(query, `${x.title} ${path}`) };
     })
-    .filter((x) => x.score >= minScore)
+    .filter((x, i, arr) => x.score >= minScore && arr.findIndex((y) => y.href === x.href) === i)
     .sort((a, b) => b.score - a.score)
     .slice(0, 8);
 }
@@ -129,7 +129,7 @@ function scoreList(base, query, list, minScore) {
  * Returns { results:[{href,title,price,score}], learned:{kind,searchUrl}|null, failed?, error? }.
  * `learned` is how the search worked, so next time it's fast.
  */
-export async function searchStore(store, query, { minScore = 0.6 } = {}) {
+async function searchStoreInner(store, query, { minScore = 0.6 } = {}) {
   const base = `https://${store.domain}`;
   const score = (list) => scoreList(base, query, list, minScore);
 
@@ -164,4 +164,32 @@ export async function searchStore(store, query, { minScore = 0.6 } = {}) {
     if (scored.length) return { results: scored, learned: { kind: 'html', searchUrl: pattern } };
   }
   return { results: [], learned: null, failed: true, error: 'Fann ekki leit á síðunni' };
+}
+
+/**
+ * Search a store. Stores may also list fixed pages (`listUrls`, e.g. a deals or
+ * gift-card page) that are read every time and matched against the query —
+ * useful for sites whose own search doesn't work. kind 'list' = only those pages.
+ */
+export async function searchStore(store, query, opts = {}) {
+  const minScore = opts.minScore ?? 0.6;
+  const fromLists = [];
+  let listOk = false;
+  for (const path of store.listUrls || []) {
+    const url = path.startsWith('http') ? path : `https://${store.domain}${path}`;
+    const cards = await htmlSearch(url).catch(() => null);
+    if (cards) {
+      listOk = true;
+      fromLists.push(...cards);
+    }
+  }
+  const lists = scoreList(`https://${store.domain}`, query, fromLists, minScore);
+  if (store.kind === 'list') {
+    return listOk ? { results: lists, learned: null } : { results: [], learned: null, failed: true, error: 'Gat ekki lesið tilboðslista' };
+  }
+  const r = await searchStoreInner(store, query, opts);
+  if (!store.listUrls?.length) return r;
+  const seen = new Set(r.results.map((x) => x.href));
+  const merged = [...r.results, ...lists.filter((x) => !seen.has(x.href))].sort((a, b) => b.score - a.score).slice(0, 12);
+  return listOk ? { results: merged, learned: r.learned } : r;
 }
