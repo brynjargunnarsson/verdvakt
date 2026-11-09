@@ -2,10 +2,19 @@
  "lastDiscovery": {
   "brooks-glycerin-23": "2026-11-09T19:45:21.913Z",
   "normann-bit-stack": "2026-11-09T19:52:18.742Z",
-  "samsung-the-frame-43-guax": "2026-11-09T22:36:50.419Z"
+  "samsung-the-frame-43-guax": "2026-11-09T22:57:40.587Z"
  },
  "lastSaleScan": {},
  "runs": [
+  {
+   "at": "2026-11-09T22:57:40.587Z",
+   "mode": "venjulegt",
+   "checked": 5,
+   "changed": 0,
+   "drops": 0,
+   "errors": 0,
+   "seconds": 1163
+  },
   {
    "at": "2026-11-09T22:36:50.419Z",
    "mode": "venjulegt",
@@ -52,6 +61,6 @@
    "seconds": 299
   }
  ],
- "lastRun": "2026-11-09T19:34:05.332Z",
- "lastFinished": "2026-11-09T22:36:50.419Z"
+ "lastRun": "2026-11-09T22:38:25.820Z",
+ "lastFinished": "2026-11-09T22:57:40.587Z"
 }

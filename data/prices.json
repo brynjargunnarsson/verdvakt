@@ -7,7 +7,7 @@
    "store": "brooksrunning.is",
    "storeName": "Brooks",
    "marketplace": false,
-   "lastChecked": "2026-11-09T19:34:05.329Z",
+   "lastChecked": "2026-11-09T22:38:25.818Z",
    "title": "Glycerin 23",
    "available": true,
    "wasPrice": null,
@@ -27,7 +27,7 @@
    "store": "epal.is",
    "storeName": "Epal",
    "marketplace": false,
-   "lastChecked": "2026-11-09T19:33:52.983Z",
+   "lastChecked": "2026-11-09T22:38:18.221Z",
    "title": "Kollur BIT STACK rauður",
    "available": true,
    "wasPrice": null,
@@ -39,6 +39,66 @@
    "lastChanged": "2026-11-09T12:23:17.578Z",
    "maxAt": "2026-11-09T12:23:17.578Z",
    "minAt": "2026-11-09T12:23:17.578Z"
+  },
+  "dda3089faf": {
+   "productId": "samsung-the-frame-43-guax",
+   "url": "https://ht.is/samsung-43-the-frame-qled-uhd-4k-sjonvarp-2026.html",
+   "since": "2026-11-09T22:38:17.641Z",
+   "store": "ht.is",
+   "storeName": "Heimilistæki",
+   "marketplace": false,
+   "lastChecked": "2026-11-09T22:38:19.192Z",
+   "title": "Samsung 43\" The Frame QLED UHD 4K Sjónvarp (2026)",
+   "available": false,
+   "wasPrice": null,
+   "memberPrice": null,
+   "source": "json-ld",
+   "current": 159995,
+   "max": 159995,
+   "min": 159995,
+   "lastChanged": "2026-11-09T22:38:19.192Z",
+   "maxAt": "2026-11-09T22:38:19.192Z",
+   "minAt": "2026-11-09T22:38:19.192Z"
+  },
+  "931366ee4b": {
+   "productId": "samsung-the-frame-43-guax",
+   "url": "https://elko.is/vorur/samsung-43-the-frame-qled-sjonvarp-2026-429929/TQ43LS03HEUXXC",
+   "since": "2026-11-09T22:38:17.641Z",
+   "store": "elko.is",
+   "storeName": "ELKO",
+   "marketplace": false,
+   "lastChecked": "2026-11-09T22:38:19.012Z",
+   "title": "Samsung 43 The Frame QLED sjónvarp (2026)",
+   "available": true,
+   "wasPrice": null,
+   "memberPrice": null,
+   "source": "json-ld",
+   "current": 159995,
+   "max": 159995,
+   "min": 159995,
+   "lastChanged": "2026-11-09T22:38:19.012Z",
+   "maxAt": "2026-11-09T22:38:19.012Z",
+   "minAt": "2026-11-09T22:38:19.012Z"
+  },
+  "ee51833f50": {
+   "productId": "samsung-the-frame-43-guax",
+   "url": "http://rafland.is/samsung-43-the-frame-qled-uhd-4k-sjonvarp-2026.html",
+   "since": "2026-11-09T22:38:17.641Z",
+   "store": "rafland.is",
+   "storeName": "Rafland",
+   "marketplace": false,
+   "lastChecked": "2026-11-09T22:38:20.087Z",
+   "title": "Samsung 43\" The Frame QLED UHD 4K Sjónvarp (2026)",
+   "available": false,
+   "wasPrice": null,
+   "memberPrice": null,
+   "source": "json-ld",
+   "current": 159995,
+   "max": 159995,
+   "min": 159995,
+   "lastChanged": "2026-11-09T22:38:20.087Z",
+   "maxAt": "2026-11-09T22:38:20.087Z",
+   "minAt": "2026-11-09T22:38:20.087Z"
   }
  },
  "products": {
@@ -55,7 +115,7 @@
    "max": 34990,
    "maxAt": "2026-11-09T12:23:28.364Z",
    "maxStore": "Brooks",
-   "checkedAt": "2026-11-09T19:34:05.332Z"
+   "checkedAt": "2026-11-09T22:38:25.820Z"
   },
   "normann-bit-stack": {
    "since": "2026-11-09T12:23:28.364Z",
@@ -70,8 +130,23 @@
    "max": 41700,
    "maxAt": "2026-11-09T12:23:28.364Z",
    "maxStore": "Epal",
-   "checkedAt": "2026-11-09T19:34:05.332Z"
+   "checkedAt": "2026-11-09T22:38:25.820Z"
+  },
+  "samsung-the-frame-43-guax": {
+   "since": "2026-11-09T22:38:25.820Z",
+   "current": 159995,
+   "changedAt": "2026-11-09T22:38:25.820Z",
+   "store": "elko.is",
+   "storeName": "ELKO",
+   "url": "https://elko.is/vorur/samsung-43-the-frame-qled-sjonvarp-2026-429929/TQ43LS03HEUXXC",
+   "min": 159995,
+   "minAt": "2026-11-09T22:38:25.820Z",
+   "minStore": "ELKO",
+   "max": 159995,
+   "maxAt": "2026-11-09T22:38:25.820Z",
+   "maxStore": "ELKO",
+   "checkedAt": "2026-11-09T22:38:25.820Z"
   }
  },
- "updatedAt": "2026-11-09T19:34:05.332Z"
+ "updatedAt": "2026-11-09T22:38:25.820Z"
 }
