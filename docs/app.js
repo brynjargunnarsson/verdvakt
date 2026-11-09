@@ -81,6 +81,9 @@ const b64enc = (str) => {
 
 async function gh(path, opts = {}) {
   const res = await fetch(API + path, {
+    // GitHub gives the raw and JSON forms of a file the same ETag, so a browser cache
+    // can hand back the raw file when we asked for JSON. Never cache API calls.
+    cache: 'no-store',
     ...opts,
     headers: { Accept: 'application/vnd.github+json', Authorization: `Bearer ${token()}`, 'X-GitHub-Api-Version': '2022-11-28', ...(opts.headers || {}) },
   });
@@ -96,14 +99,14 @@ async function gh(path, opts = {}) {
 async function load(rel, fallback) {
   try {
     if (LOCAL) {
-      const r = await fetch(`../data/${rel}?t=${Date.now()}`);
+      const r = await fetch(`../data/${rel}?t=${Date.now()}`, { cache: 'no-store' });
       return r.ok ? await r.json() : fallback;
     }
     if (token()) {
       const r = await gh(`/contents/data/${rel}?ref=${CFG.branch}`, { headers: { Accept: 'application/vnd.github.raw+json' } });
       return r.ok ? await r.json() : fallback;
     }
-    const r = await fetch(`https://raw.githubusercontent.com/${CFG.owner}/${CFG.repo}/${CFG.branch}/data/${rel}?t=${Date.now()}`);
+    const r = await fetch(`https://raw.githubusercontent.com/${CFG.owner}/${CFG.repo}/${CFG.branch}/data/${rel}?t=${Date.now()}`, { cache: 'no-store' });
     return r.ok ? await r.json() : fallback;
   } catch {
     return fallback;
@@ -116,6 +119,7 @@ async function mutate(rel, fn, message) {
   for (let i = 0; i < 4; i++) {
     const r = await gh(`/contents/data/${rel}?ref=${CFG.branch}`);
     const meta = r.status === 404 ? null : await r.json();
+    if (meta && typeof meta.content !== 'string') throw new Error('Óvænt svar frá GitHub. Endurhladdu síðuna og reyndu aftur.');
     const obj = meta ? JSON.parse(b64dec(meta.content)) : {};
     const next = (await fn(obj)) ?? obj;
     try {
@@ -134,7 +138,7 @@ async function mutate(rel, fn, message) {
 
 async function dispatch(inputs) {
   if (!token()) return;
-  await gh(`/actions/workflows/${CFG.workflow}/dispatches`, { method: 'POST', body: JSON.stringify({ ref: CFG.branch, inputs }) });
+  await gh(`/actions/workflows/${CFG.workflow}/dispatches`, { method: 'POST', body: JSON.stringify({ ref: CFG.branch, inputs: Object.fromEntries(Object.entries(inputs).map(([k, v]) => [k, String(v)])) }) });
 }
 
 // ---------- data ----------
