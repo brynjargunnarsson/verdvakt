@@ -1,0 +1,100 @@
+{
+ "productId": "samsung-the-frame-43-guax",
+ "query": "Samsung the frame 43\"",
+ "variants": [
+  "Samsung the frame 43\"",
+  "the frame 43\"",
+  "Samsung the frame"
+ ],
+ "searchedAt": "2026-11-09T22:36:50.417Z",
+ "storesSearched": 74,
+ "storesFailed": [
+  {
+   "domain": "tl.is",
+   "error": "HTTP 403"
+  },
+  {
+   "domain": "ht.is",
+   "error": "HTTP 403"
+  },
+  {
+   "domain": "utilif.is",
+   "error": "HTTP 403"
+  },
+  {
+   "domain": "byggtogbuid.is",
+   "error": "HTTP 403"
+  },
+  {
+   "domain": "samsungsetrid.is",
+   "error": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://samsungsetrid.is/\nCall log:\n  - navigating to \"https://samsungsetrid.is"
+  },
+  {
+   "domain": "www.rafland.is",
+   "error": "HTTP 403"
+  },
+  {
+   "domain": "a4.is",
+   "error": "HTTP 403"
+  },
+  {
+   "domain": "www.penninn.is",
+   "error": "HTTP 403"
+  },
+  {
+   "domain": "casa.is",
+   "error": "HTTP 403"
+  },
+  {
+   "domain": "www.habitat.is",
+   "error": "page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.habitat.is/\nCall log:\n  - navigating to \"https://www.habitat"
+  },
+  {
+   "domain": "kunigund.is",
+   "error": "HTTP 403"
+  },
+  {
+   "domain": "aha.is",
+   "error": "HTTP 403"
+  }
+ ],
+ "seconds": 488,
+ "results": [
+  {
+   "url": "https://elko.is/vorur/samsung-43-the-frame-rammi-hvitur-252884/VGSCFA43WTBXC",
+   "store": "elko.is",
+   "storeName": "ELKO",
+   "title": "Samsung 43\" The Frame rammi - Hvítur",
+   "price": 7995,
+   "score": 1,
+   "marketplace": false,
+   "foundAt": "2026-11-09T22:36:50.417Z",
+   "seenAt": "2026-11-09T22:36:50.417Z",
+   "via": "leit"
+  },
+  {
+   "url": "https://elko.is/vorur/samsung-43-the-frame-rammi-ljos-vidur-252912/VGSCFA43TKBXC",
+   "store": "elko.is",
+   "storeName": "ELKO",
+   "title": "Samsung 43\" The Frame rammi - Ljós viður",
+   "price": 7995,
+   "score": 1,
+   "marketplace": false,
+   "foundAt": "2026-11-09T22:36:50.417Z",
+   "seenAt": "2026-11-09T22:36:50.417Z",
+   "via": "leit"
+  },
+  {
+   "url": "https://elko.is/vorur/samsung-43-the-frame-rammi-brunn-252902/VGSCFA43BWBXC",
+   "store": "elko.is",
+   "storeName": "ELKO",
+   "title": "Samsung 43\" The Frame rammi - Brúnn",
+   "price": 7995,
+   "score": 1,
+   "marketplace": false,
+   "foundAt": "2026-11-09T22:36:50.417Z",
+   "seenAt": "2026-11-09T22:36:50.417Z",
+   "via": "leit"
+  }
+ ]
+}
