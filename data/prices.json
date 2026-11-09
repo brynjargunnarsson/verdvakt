@@ -7,7 +7,7 @@
    "store": "brooksrunning.is",
    "storeName": "Brooks",
    "marketplace": false,
-   "lastChecked": "2026-11-09T12:23:28.362Z",
+   "lastChecked": "2026-11-09T19:34:05.329Z",
    "title": "Glycerin 23",
    "available": true,
    "wasPrice": null,
@@ -27,7 +27,7 @@
    "store": "epal.is",
    "storeName": "Epal",
    "marketplace": false,
-   "lastChecked": "2026-11-09T12:23:17.577Z",
+   "lastChecked": "2026-11-09T19:33:52.983Z",
    "title": "Kollur BIT STACK rauður",
    "available": true,
    "wasPrice": null,
@@ -55,7 +55,7 @@
    "max": 34990,
    "maxAt": "2026-11-09T12:23:28.364Z",
    "maxStore": "Brooks",
-   "checkedAt": "2026-11-09T12:23:28.364Z"
+   "checkedAt": "2026-11-09T19:34:05.332Z"
   },
   "normann-bit-stack": {
    "since": "2026-11-09T12:23:28.364Z",
@@ -70,8 +70,8 @@
    "max": 41700,
    "maxAt": "2026-11-09T12:23:28.364Z",
    "maxStore": "Epal",
-   "checkedAt": "2026-11-09T12:23:28.364Z"
+   "checkedAt": "2026-11-09T19:34:05.332Z"
   }
  },
- "updatedAt": "2026-11-09T12:23:28.364Z"
+ "updatedAt": "2026-11-09T19:34:05.332Z"
 }
