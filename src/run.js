@@ -193,6 +193,8 @@ if (FORCE || (priceDue && !ONLY_DISCOVER.length)) {
   for (const k of Object.keys(prices.products)) if (!products.some((p) => p.id === k)) delete prices.products[k];
   prices.updatedAt = nowIso();
   state.lastRun = nowIso();
+  // Save now: the seller search below reads these (store titles, reference price).
+  await writeJson('prices.json', prices);
 }
 
 // ---------- 2. Sale pages and discount codes ----------
