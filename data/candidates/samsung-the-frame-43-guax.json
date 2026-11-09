@@ -4,34 +4,20 @@
  "variants": [
   "Samsung the frame 43",
   "TQ43LS03HEUXXC",
+  "Samsung 43\" The Frame QLED UHD 4K Sjónvarp (2026)",
+  "Samsung 43 The Frame QLED sjónvarp (2026)",
   "the frame 43\"",
   "Samsung the frame"
  ],
  "codes": [
   "TQ43LS03HEUXXC"
  ],
- "searchedAt": "2026-11-09T22:57:40.586Z",
- "storesSearched": 78,
+ "searchedAt": "2026-11-09T23:19:50.297Z",
+ "storesSearched": 70,
  "storesFailed": [
-  {
-   "domain": "ht.is",
-   "error": "HTTP 403"
-  },
-  {
-   "domain": "tl.is",
-   "error": "HTTP 403"
-  },
-  {
-   "domain": "utilif.is",
-   "error": "HTTP 403"
-  },
   {
    "domain": "byggtogbuid.is",
    "error": "HTTP 403"
-  },
-  {
-   "domain": "samsungsetrid.is",
-   "error": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://samsungsetrid.is/\nCall log:\n  - navigating to \"https://samsungsetrid.is"
   },
   {
    "domain": "www.rafland.is",
@@ -42,23 +28,11 @@
    "error": "HTTP 403"
   },
   {
-   "domain": "www.penninn.is",
-   "error": "HTTP 403"
-  },
-  {
-   "domain": "casa.is",
-   "error": "HTTP 403"
-  },
-  {
    "domain": "kunigund.is",
    "error": "HTTP 403"
   },
   {
-   "domain": "www.habitat.is",
-   "error": "page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.habitat.is/\nCall log:\n  - navigating to \"https://www.habitat"
-  },
-  {
-   "domain": "aha.is",
+   "domain": "www.att.is",
    "error": "HTTP 403"
   },
   {
@@ -70,7 +44,7 @@
    "error": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://gamestodin.is/\nCall log:\n  - navigating to \"https://gamestodin.is/\", wa"
   }
  ],
- "seconds": 1155,
+ "seconds": 1269,
  "results": [
   {
    "url": "https://elko.is/vorur/samsung-43-the-frame-rammi-hvitur-252884/VGSCFA43WTBXC",
@@ -81,9 +55,9 @@
    "score": 1,
    "marketplace": false,
    "foundAt": "2026-11-09T22:36:50.417Z",
-   "seenAt": "2026-11-09T22:57:40.585Z",
+   "seenAt": "2026-11-09T23:19:50.296Z",
    "via": "leit",
-   "accessory": false
+   "accessory": true
   },
   {
    "url": "https://elko.is/vorur/samsung-43-the-frame-rammi-brunn-252902/VGSCFA43BWBXC",
@@ -94,9 +68,9 @@
    "score": 1,
    "marketplace": false,
    "foundAt": "2026-11-09T22:36:50.417Z",
-   "seenAt": "2026-11-09T22:57:40.585Z",
+   "seenAt": "2026-11-09T23:19:50.296Z",
    "via": "leit",
-   "accessory": false
+   "accessory": true
   },
   {
    "url": "https://elko.is/vorur/samsung-43-the-frame-rammi-ljos-vidur-252912/VGSCFA43TKBXC",
@@ -107,9 +81,9 @@
    "score": 1,
    "marketplace": false,
    "foundAt": "2026-11-09T22:36:50.417Z",
-   "seenAt": "2026-11-09T22:57:40.585Z",
+   "seenAt": "2026-11-09T23:19:50.296Z",
    "via": "leit",
-   "accessory": false
+   "accessory": true
   }
  ]
 }
