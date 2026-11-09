@@ -4,15 +4,43 @@
  "variants": [
   "Glycerin 23"
  ],
- "searchedAt": "2026-11-09T19:35:57.897Z",
- "storesSearched": 21,
+ "searchedAt": "2026-11-09T19:45:21.912Z",
+ "storesSearched": 74,
  "storesFailed": [
   {
+   "domain": "tl.is",
+   "error": "HTTP 403"
+  },
+  {
+   "domain": "ht.is",
+   "error": "HTTP 403"
+  },
+  {
+   "domain": "utilif.is",
+   "error": "HTTP 403"
+  },
+  {
+   "domain": "samsungsetrid.is",
+   "error": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://samsungsetrid.is/\nCall log:\n  - navigating to \"https://samsungsetrid.is"
+  },
+  {
+   "domain": "www.penninn.is",
+   "error": "HTTP 403"
+  },
+  {
+   "domain": "casa.is",
+   "error": "HTTP 403"
+  },
+  {
+   "domain": "www.habitat.is",
+   "error": "page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.habitat.is/\nCall log:\n  - navigating to \"https://www.habitat"
+  },
+  {
    "domain": "aha.is",
-   "error": "Fann ekki leit á síðunni"
+   "error": "HTTP 403"
   }
  ],
- "seconds": 69,
+ "seconds": 411,
  "results": [
   {
    "url": "https://brooksrunning.is/vara/glycerin-23-7",
@@ -23,7 +51,7 @@
    "score": 1,
    "marketplace": false,
    "foundAt": "2026-11-09T12:25:51.832Z",
-   "seenAt": "2026-11-09T19:35:57.897Z",
+   "seenAt": "2026-11-09T19:45:21.911Z",
    "via": "leit"
   },
   {
@@ -35,7 +63,7 @@
    "score": 1,
    "marketplace": false,
    "foundAt": "2026-11-09T12:25:51.832Z",
-   "seenAt": "2026-11-09T19:35:57.897Z",
+   "seenAt": "2026-11-09T19:45:21.911Z",
    "via": "leit"
   },
   {
@@ -47,7 +75,7 @@
    "score": 1,
    "marketplace": false,
    "foundAt": "2026-11-09T12:25:51.832Z",
-   "seenAt": "2026-11-09T19:35:57.897Z",
+   "seenAt": "2026-11-09T19:45:21.911Z",
    "via": "leit"
   },
   {
@@ -59,7 +87,7 @@
    "score": 1,
    "marketplace": false,
    "foundAt": "2026-11-09T12:25:51.832Z",
-   "seenAt": "2026-11-09T19:35:57.897Z",
+   "seenAt": "2026-11-09T19:45:21.911Z",
    "via": "leit"
   },
   {
@@ -71,7 +99,7 @@
    "score": 1,
    "marketplace": false,
    "foundAt": "2026-11-09T12:25:51.832Z",
-   "seenAt": "2026-11-09T19:35:57.897Z",
+   "seenAt": "2026-11-09T19:45:21.911Z",
    "via": "leit"
   },
   {
@@ -83,7 +111,7 @@
    "score": 1,
    "marketplace": false,
    "foundAt": "2026-11-09T12:25:51.832Z",
-   "seenAt": "2026-11-09T19:35:57.897Z",
+   "seenAt": "2026-11-09T19:45:21.911Z",
    "via": "leit"
   }
  ]

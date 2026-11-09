@@ -4,15 +4,43 @@
  "variants": [
   "Bit stack"
  ],
- "searchedAt": "2026-11-09T19:37:04.078Z",
- "storesSearched": 21,
+ "searchedAt": "2026-11-09T19:52:18.741Z",
+ "storesSearched": 74,
  "storesFailed": [
   {
+   "domain": "ht.is",
+   "error": "HTTP 403"
+  },
+  {
+   "domain": "tl.is",
+   "error": "HTTP 403"
+  },
+  {
+   "domain": "utilif.is",
+   "error": "HTTP 403"
+  },
+  {
+   "domain": "samsungsetrid.is",
+   "error": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://samsungsetrid.is/\nCall log:\n  - navigating to \"https://samsungsetrid.is"
+  },
+  {
+   "domain": "www.penninn.is",
+   "error": "HTTP 403"
+  },
+  {
+   "domain": "casa.is",
+   "error": "HTTP 403"
+  },
+  {
+   "domain": "www.habitat.is",
+   "error": "page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.habitat.is/\nCall log:\n  - navigating to \"https://www.habitat"
+  },
+  {
    "domain": "aha.is",
-   "error": "Fann ekki leit á síðunni"
+   "error": "HTTP 403"
   }
  ],
- "seconds": 66,
+ "seconds": 417,
  "results": [
   {
    "url": "https://www.epal.is/products/kollur-bit-stack-hvitur-hvitur",
@@ -23,7 +51,7 @@
    "score": 1,
    "marketplace": false,
    "foundAt": "2026-11-09T12:28:15.774Z",
-   "seenAt": "2026-11-09T19:37:04.078Z",
+   "seenAt": "2026-11-09T19:52:18.741Z",
    "via": "leit"
   },
   {
@@ -35,7 +63,7 @@
    "score": 1,
    "marketplace": false,
    "foundAt": "2026-11-09T12:28:15.774Z",
-   "seenAt": "2026-11-09T19:37:04.078Z",
+   "seenAt": "2026-11-09T19:52:18.741Z",
    "via": "leit"
   }
  ]
