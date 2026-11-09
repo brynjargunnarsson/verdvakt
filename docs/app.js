@@ -293,9 +293,9 @@ function renderDetail(p) {
   const candRows = cands
     .map(
       (x, i) => `<tr>
-      <td><input type="checkbox" class="cand" data-pid="${esc(p.id)}" data-i="${i}" ${x.score >= 1 ? 'checked' : ''}></td>
+      <td><input type="checkbox" class="cand" data-pid="${esc(p.id)}" data-i="${i}" ${x.score >= 1 && !x.accessory ? 'checked' : ''}></td>
       <td>${esc(x.storeName || x.store)}${x.marketplace ? ' <span class="chip">markaðstorg</span>' : ''} ${x.foundAt > seen ? '<span class="chip new">Ný</span>' : ''}</td>
-      <td><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title || x.url)}</a>${x.via === 'tilboðssíða' ? ' <span class="chip down">af tilboðssíðu</span>' : ''}</td>
+      <td><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title || x.url)}</a>${x.via === 'tilboðssíða' ? ' <span class="chip down">af tilboðssíðu</span>' : ''}${x.accessory ? ' <span class="chip warn" title="Mun ódýrara en verðin sem þú hefur staðfest">líklega aukahlutur</span>' : ''}</td>
       <td class="num">${kr(x.price)}</td>
       <td class="num muted small">${Math.round(x.score * 100)}%</td>
     </tr>`

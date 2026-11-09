@@ -464,6 +464,30 @@
    "name": "Aha",
    "cat": "gjafabréf",
    "unverified": true
+  },
+  {
+   "domain": "sm.is",
+   "name": "Sjónvarpsmiðstöðin",
+   "cat": "raftæki",
+   "unverified": true
+  },
+  {
+   "domain": "www.heimilistaeki.is",
+   "name": "Heimilistæki (eldra lén)",
+   "cat": "raftæki",
+   "unverified": true
+  },
+  {
+   "domain": "gamestodin.is",
+   "name": "Gamestöðin",
+   "cat": "raftæki",
+   "unverified": true
+  },
+  {
+   "domain": "www.bako.is",
+   "name": "Bakó",
+   "cat": "raftæki",
+   "unverified": true
   }
  ]
 }

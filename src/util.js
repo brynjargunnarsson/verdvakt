@@ -139,3 +139,23 @@ export function canonicalUrl(url) {
     return url;
   }
 }
+
+/** Manufacturer model codes like TQ43LS03HEUXXC, WH-1000XM6, MQD83ZM/A found in text/URLs. */
+export function modelCodes(...texts) {
+  const out = new Set();
+  for (const t of texts) {
+    let s = String(t || '');
+    try {
+      s = decodeURIComponent(s);
+    } catch {}
+    for (const m of s.toUpperCase().matchAll(/(?<![A-Z0-9])[A-Z0-9][A-Z0-9-]{4,18}[A-Z0-9](?![A-Z0-9])/g)) {
+      const c = m[0];
+      const digits = (c.match(/\d/g) || []).length;
+      const letters = (c.match(/[A-Z]/g) || []).length;
+      // Hyphenated codes (WH-1000XM6) only if each part is short or has a digit – not URL slugs like SAMSUNG-43-THE-FRAME.
+      const partsOk = c.split('-').every((p) => p.length <= 3 || /\d/.test(p));
+      if (partsOk && digits >= 2 && letters >= 2 && !/^\d+(GB|TB|MM|CM|HZ|W|KG|MAH)$/.test(c) && !/^(HTTPS?|WWW)/.test(c)) out.add(c);
+    }
+  }
+  return [...out].slice(0, 3);
+}

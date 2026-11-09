@@ -1,7 +1,7 @@
 // Find which Icelandic stores sell a product. Results become *candidates*
 // which the user confirms on the page before they are tracked.
 import { searchStore } from './search.js';
-import { readJson, writeJson, pool, queryVariants, nowIso, hostOf, minScoreFor, canonicalUrl } from './util.js';
+import { readJson, writeJson, pool, queryVariants, nowIso, hostOf, minScoreFor, canonicalUrl, modelCodes, hash } from './util.js';
 import { closeBrowser } from './browser.js';
 
 export async function loadStores() {
@@ -35,7 +35,15 @@ export function noteStore(cache, domain, { ok, error, learned }) {
 /** Search every store for one product. Updates data/candidates/<id>.json. */
 export async function discoverProduct(product, { stores, cache, concurrency = 6, log = console.log } = {}) {
   const q = product.query || product.name;
-  const variants = queryVariants(q);
+  // Search phrasings, most specific first: the user's words, model codes found in the
+  // user's own URLs/titles, the names other stores give the product, then shorter forms.
+  const prices = await readJson('prices.json', { offers: {} });
+  const offerTitles = (product.offers || [])
+    .map((o) => prices.offers?.[hash(product.id + '|' + o.url)]?.title)
+    .filter((t) => t && t.length < 90);
+  const codes = modelCodes(q, product.name, ...(product.offers || []).map((o) => o.url), ...offerTitles);
+  const variants = [...new Set([q.replace(/["“”]/g, ' ').replace(/\s+/g, ' ').trim(), ...codes, ...offerTitles.slice(0, 2), ...queryVariants(q).slice(1)])];
+  const isCode = (v) => codes.includes(v);
   const t0 = Date.now();
   const found = [];
   const failed = [];
@@ -49,10 +57,12 @@ export async function discoverProduct(product, { stores, cache, concurrency = 6,
         failed.push({ domain: store.domain, error: r.error });
         return;
       }
-      if (r.unknown) return; // store answered, but its search wasn't found / nothing matched – no point retrying variants
+      // Store answered but its search wasn't found / nothing matched: only a model code is worth another try.
+      if (r.unknown && !variants.slice(variants.indexOf(v) + 1).some(isCode)) return;
       for (const x of r.results) found.push({ ...x, store: store.domain, storeName: store.name, marketplace: !!store.marketplace });
       if (r.results.length) any = true;
-      if (any) break;
+      // Stop once something was found – but always also try model codes, they're the most precise.
+      if (any && !variants.slice(variants.indexOf(v) + 1).some(isCode)) break;
     }
   });
 
@@ -79,13 +89,18 @@ export async function discoverProduct(product, { stores, cache, concurrency = 6,
       via: old?.via || 'leit',
     });
   }
+  // Much cheaper than what the user confirmed → probably an accessory (frame, case, cable).
+  const knownPrices = (product.offers || []).map((o) => prices.offers?.[hash(product.id + '|' + o.url)]?.current).filter(Boolean).sort((a, b) => a - b);
+  const ref = knownPrices.length ? knownPrices[Math.floor(knownPrices.length / 2)] : null;
   const results = [...byUrl.values()]
     .filter((r) => !known.has(canonicalUrl(r.url)))
-    .sort((a, b) => b.score - a.score || (a.price ?? 1e12) - (b.price ?? 1e12));
+    .map((r) => ({ ...r, accessory: !!(ref && r.price && r.price < ref * 0.4) }))
+    .sort((a, b) => a.accessory - b.accessory || b.score - a.score || (a.price ?? 1e12) - (b.price ?? 1e12));
   await writeJson(`candidates/${product.id}.json`, {
     productId: product.id,
     query: q,
     variants,
+    codes,
     searchedAt: nowIso(),
     storesSearched: stores.length,
     storesFailed: failed,

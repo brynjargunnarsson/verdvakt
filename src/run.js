@@ -54,7 +54,8 @@ function effectiveAt(hist, t) {
   return p;
 }
 
-if (priceDue && !ONLY_DISCOVER.length) {
+// FORCE (e.g. a new product saved with URLs) checks prices first, so the search can use the stores' own titles.
+if (FORCE || (priceDue && !ONLY_DISCOVER.length)) {
   const jobs = [];
   for (const p of active) for (const o of p.offers || []) if (!o.removed) jobs.push({ p, o });
   // Group by store so each store is visited one page at a time.
