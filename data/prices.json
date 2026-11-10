@@ -7,7 +7,7 @@
    "store": "brooksrunning.is",
    "storeName": "Brooks",
    "marketplace": false,
-   "lastChecked": "2026-11-10T11:27:53.392Z",
+   "lastChecked": "2026-11-10T12:10:22.535Z",
    "title": "Glycerin 23",
    "available": true,
    "wasPrice": null,
@@ -27,7 +27,7 @@
    "store": "epal.is",
    "storeName": "Epal",
    "marketplace": false,
-   "lastChecked": "2026-11-10T11:27:44.681Z",
+   "lastChecked": "2026-11-10T12:10:22.320Z",
    "title": "Kollur BIT STACK rauður",
    "available": true,
    "wasPrice": null,
@@ -47,7 +47,7 @@
    "store": "ht.is",
    "storeName": "Heimilistæki",
    "marketplace": false,
-   "lastChecked": "2026-11-10T11:27:45.148Z",
+   "lastChecked": "2026-11-10T12:10:20.439Z",
    "title": "Samsung 43\" The Frame QLED UHD 4K Sjónvarp (2026)",
    "available": false,
    "wasPrice": null,
@@ -67,7 +67,7 @@
    "store": "elko.is",
    "storeName": "ELKO",
    "marketplace": false,
-   "lastChecked": "2026-11-10T11:27:45.198Z",
+   "lastChecked": "2026-11-10T12:10:19.775Z",
    "title": "Samsung 43 The Frame QLED sjónvarp (2026)",
    "available": true,
    "wasPrice": null,
@@ -87,7 +87,7 @@
    "store": "rafland.is",
    "storeName": "Rafland",
    "marketplace": false,
-   "lastChecked": "2026-11-10T11:27:45.990Z",
+   "lastChecked": "2026-11-10T12:10:21.206Z",
    "title": "Samsung 43\" The Frame QLED UHD 4K Sjónvarp (2026)",
    "available": false,
    "wasPrice": null,
@@ -115,7 +115,7 @@
    "max": 34990,
    "maxAt": "2026-11-09T12:23:28.364Z",
    "maxStore": "Brooks",
-   "checkedAt": "2026-11-10T11:27:53.397Z"
+   "checkedAt": "2026-11-10T12:10:22.544Z"
   },
   "normann-bit-stack": {
    "since": "2026-11-09T12:23:28.364Z",
@@ -130,7 +130,7 @@
    "max": 41700,
    "maxAt": "2026-11-09T12:23:28.364Z",
    "maxStore": "Epal",
-   "checkedAt": "2026-11-10T11:27:53.397Z"
+   "checkedAt": "2026-11-10T12:10:22.544Z"
   },
   "samsung-the-frame-43-guax": {
    "since": "2026-11-09T22:38:25.820Z",
@@ -145,8 +145,8 @@
    "max": 159995,
    "maxAt": "2026-11-09T22:38:25.820Z",
    "maxStore": "ELKO",
-   "checkedAt": "2026-11-10T11:27:53.397Z"
+   "checkedAt": "2026-11-10T12:10:22.545Z"
   }
  },
- "updatedAt": "2026-11-10T11:27:53.398Z"
+ "updatedAt": "2026-11-10T12:10:22.545Z"
 }

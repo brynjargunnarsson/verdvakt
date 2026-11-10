@@ -4,8 +4,36 @@
   "normann-bit-stack": "2026-11-09T19:52:18.742Z",
   "samsung-the-frame-43-guax": "2026-11-09T23:19:50.298Z"
  },
- "lastSaleScan": {},
+ "lastSaleScan": {
+  "elko.is": "2026-11-10T12:10:29.829Z",
+  "kd.is": "2026-11-10T12:10:33.093Z",
+  "computer.is": "2026-11-10T12:10:34.287Z",
+  "www.ormsson.is": "2026-11-10T12:10:34.447Z",
+  "www.hagkaup.is": "2026-11-10T12:10:40.348Z",
+  "heimkaup.is": "2026-11-10T12:10:46.690Z",
+  "www.tolvutek.is": "2026-11-10T12:11:03.801Z",
+  "kokka.is": "2026-11-10T12:11:07.450Z",
+  "www.ilva.is": "2026-11-10T12:11:13.781Z",
+  "hrim.is": "2026-11-10T12:11:15.459Z",
+  "www.husa.is": "2026-11-10T12:11:33.436Z",
+  "byko.is": "2026-11-10T12:11:36.409Z",
+  "www.epal.is": "2026-11-10T12:11:36.796Z",
+  "snuran.is": "2026-11-10T12:11:42.517Z",
+  "oskaskrin.is": "2026-11-10T12:11:48.366Z",
+  "gjafabref.is": "2026-11-10T12:11:52.255Z",
+  "hopkaup.is": "2026-11-10T12:12:07.359Z",
+  "brooksrunning.is": "2026-11-10T12:12:18.627Z"
+ },
  "runs": [
+  {
+   "at": "2026-11-10T12:12:18.627Z",
+   "mode": "afsláttur",
+   "checked": 5,
+   "changed": 0,
+   "drops": 0,
+   "errors": 0,
+   "seconds": 130
+  },
   {
    "at": "2026-11-10T11:27:53.398Z",
    "mode": "venjulegt",
@@ -106,6 +134,6 @@
    "seconds": 299
   }
  ],
- "lastRun": "2026-11-10T11:27:53.398Z",
- "lastFinished": "2026-11-10T11:27:53.398Z"
+ "lastRun": "2026-11-10T12:10:22.545Z",
+ "lastFinished": "2026-11-10T12:12:18.627Z"
 }
