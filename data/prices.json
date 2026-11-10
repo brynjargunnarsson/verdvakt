@@ -7,7 +7,7 @@
    "store": "brooksrunning.is",
    "storeName": "Brooks",
    "marketplace": false,
-   "lastChecked": "2026-11-10T20:48:57.707Z",
+   "lastChecked": "2026-11-10T20:59:58.429Z",
    "title": "Glycerin 23",
    "available": true,
    "wasPrice": null,
@@ -27,7 +27,7 @@
    "store": "ht.is",
    "storeName": "Heimilistæki",
    "marketplace": false,
-   "lastChecked": "2026-11-10T20:48:54.869Z",
+   "lastChecked": "2026-11-10T20:59:55.618Z",
    "title": "Samsung 43\" The Frame QLED UHD 4K Sjónvarp (2026)",
    "available": false,
    "wasPrice": null,
@@ -47,7 +47,7 @@
    "store": "elko.is",
    "storeName": "ELKO",
    "marketplace": false,
-   "lastChecked": "2026-11-10T20:48:55.972Z",
+   "lastChecked": "2026-11-10T20:59:55.325Z",
    "title": "Samsung 43 The Frame QLED sjónvarp (2026)",
    "available": true,
    "wasPrice": null,
@@ -67,7 +67,7 @@
    "store": "rafland.is",
    "storeName": "Rafland",
    "marketplace": false,
-   "lastChecked": "2026-11-10T20:48:54.495Z",
+   "lastChecked": "2026-11-10T20:59:55.882Z",
    "title": "Samsung 43\" The Frame QLED UHD 4K Sjónvarp (2026)",
    "available": false,
    "wasPrice": null,
@@ -87,7 +87,7 @@
    "store": "markid.is",
    "storeName": "Markið",
    "marketplace": false,
-   "lastChecked": "2026-11-10T20:48:58.255Z",
+   "lastChecked": "2026-11-10T20:59:56.338Z",
    "title": "CHASE 2 PLUS Mips | Skíðahjálmur",
    "available": true,
    "wasPrice": 995,
@@ -101,6 +101,26 @@
    "minAt": "2026-11-10T13:48:31.742Z",
    "previous": 21995,
    "previousAt": "2026-11-10T12:13:01.345Z"
+  },
+  "9d3c7bf3e2": {
+   "productId": "milwaukee-hjolsog-wfso",
+   "url": "https://rubix.is/vorur/MW-4933493587",
+   "since": "2026-11-10T20:59:43.052Z",
+   "store": "rubix.is",
+   "storeName": "rubix.is",
+   "marketplace": false,
+   "lastChecked": "2026-11-10T20:59:51.871Z",
+   "title": "Hjólsög M18 FUEL™ FCS552-0 165mm",
+   "available": true,
+   "wasPrice": null,
+   "memberPrice": null,
+   "source": "síða",
+   "current": 77990,
+   "max": 77990,
+   "min": 77990,
+   "lastChanged": "2026-11-10T20:59:51.873Z",
+   "maxAt": "2026-11-10T20:59:51.873Z",
+   "minAt": "2026-11-10T20:59:51.873Z"
   }
  },
  "products": {
@@ -117,7 +137,7 @@
    "max": 34990,
    "maxAt": "2026-11-09T12:23:28.364Z",
    "maxStore": "Brooks",
-   "checkedAt": "2026-11-10T20:48:58.257Z"
+   "checkedAt": "2026-11-10T20:59:58.433Z"
   },
   "samsung-the-frame-43-guax": {
    "since": "2026-11-09T22:38:25.820Z",
@@ -132,7 +152,7 @@
    "max": 159995,
    "maxAt": "2026-11-09T22:38:25.820Z",
    "maxStore": "ELKO",
-   "checkedAt": "2026-11-10T20:48:58.257Z"
+   "checkedAt": "2026-11-10T20:59:58.433Z"
   },
   "chase-2-plus-mips-skidahjalmur-m2d4": {
    "since": "2026-11-10T12:13:01.662Z",
@@ -147,10 +167,25 @@
    "max": 21995,
    "maxAt": "2026-11-10T12:13:01.662Z",
    "maxStore": "Markið",
-   "checkedAt": "2026-11-10T20:48:58.257Z",
+   "checkedAt": "2026-11-10T20:59:58.433Z",
    "previous": 21995,
    "previousAt": "2026-11-10T12:13:01.662Z"
+  },
+  "milwaukee-hjolsog-wfso": {
+   "since": "2026-11-10T20:59:58.433Z",
+   "current": 77990,
+   "changedAt": "2026-11-10T20:59:58.433Z",
+   "store": "rubix.is",
+   "storeName": "rubix.is",
+   "url": "https://rubix.is/vorur/MW-4933493587",
+   "min": 77990,
+   "minAt": "2026-11-10T20:59:58.433Z",
+   "minStore": "rubix.is",
+   "max": 77990,
+   "maxAt": "2026-11-10T20:59:58.433Z",
+   "maxStore": "rubix.is",
+   "checkedAt": "2026-11-10T20:59:58.433Z"
   }
  },
- "updatedAt": "2026-11-10T20:48:58.257Z"
+ "updatedAt": "2026-11-10T20:59:58.434Z"
 }
