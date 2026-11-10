@@ -7,7 +7,7 @@
    "store": "brooksrunning.is",
    "storeName": "Brooks",
    "marketplace": false,
-   "lastChecked": "2026-11-10T12:12:58.993Z",
+   "lastChecked": "2026-11-10T13:48:32.195Z",
    "title": "Glycerin 23",
    "available": true,
    "wasPrice": null,
@@ -27,7 +27,7 @@
    "store": "epal.is",
    "storeName": "Epal",
    "marketplace": false,
-   "lastChecked": "2026-11-10T12:13:01.659Z",
+   "lastChecked": "2026-11-10T13:48:32.089Z",
    "title": "Kollur BIT STACK rauður",
    "available": true,
    "wasPrice": null,
@@ -47,7 +47,7 @@
    "store": "ht.is",
    "storeName": "Heimilistæki",
    "marketplace": false,
-   "lastChecked": "2026-11-10T12:12:59.002Z",
+   "lastChecked": "2026-11-10T13:48:31.622Z",
    "title": "Samsung 43\" The Frame QLED UHD 4K Sjónvarp (2026)",
    "available": false,
    "wasPrice": null,
@@ -67,7 +67,7 @@
    "store": "elko.is",
    "storeName": "ELKO",
    "marketplace": false,
-   "lastChecked": "2026-11-10T12:12:58.846Z",
+   "lastChecked": "2026-11-10T13:48:31.966Z",
    "title": "Samsung 43 The Frame QLED sjónvarp (2026)",
    "available": true,
    "wasPrice": null,
@@ -87,7 +87,7 @@
    "store": "rafland.is",
    "storeName": "Rafland",
    "marketplace": false,
-   "lastChecked": "2026-11-10T12:12:58.991Z",
+   "lastChecked": "2026-11-10T13:48:34.523Z",
    "title": "Samsung 43\" The Frame QLED UHD 4K Sjónvarp (2026)",
    "available": false,
    "wasPrice": null,
@@ -107,18 +107,20 @@
    "store": "markid.is",
    "storeName": "Markið",
    "marketplace": false,
-   "lastChecked": "2026-11-10T12:13:01.343Z",
+   "lastChecked": "2026-11-10T13:48:31.741Z",
    "title": "CHASE 2 PLUS Mips | Skíðahjálmur",
    "available": true,
-   "wasPrice": null,
+   "wasPrice": 995,
    "memberPrice": null,
    "source": "json-ld",
-   "current": 21995,
+   "current": 17156,
    "max": 21995,
-   "min": 21995,
-   "lastChanged": "2026-11-10T12:13:01.345Z",
+   "min": 17156,
+   "lastChanged": "2026-11-10T13:48:31.742Z",
    "maxAt": "2026-11-10T12:13:01.345Z",
-   "minAt": "2026-11-10T12:13:01.345Z"
+   "minAt": "2026-11-10T13:48:31.742Z",
+   "previous": 21995,
+   "previousAt": "2026-11-10T12:13:01.345Z"
   }
  },
  "products": {
@@ -135,7 +137,7 @@
    "max": 34990,
    "maxAt": "2026-11-09T12:23:28.364Z",
    "maxStore": "Brooks",
-   "checkedAt": "2026-11-10T12:13:01.662Z"
+   "checkedAt": "2026-11-10T13:48:34.528Z"
   },
   "normann-bit-stack": {
    "since": "2026-11-09T12:23:28.364Z",
@@ -150,7 +152,7 @@
    "max": 41700,
    "maxAt": "2026-11-09T12:23:28.364Z",
    "maxStore": "Epal",
-   "checkedAt": "2026-11-10T12:13:01.662Z"
+   "checkedAt": "2026-11-10T13:48:34.528Z"
   },
   "samsung-the-frame-43-guax": {
    "since": "2026-11-09T22:38:25.820Z",
@@ -165,23 +167,25 @@
    "max": 159995,
    "maxAt": "2026-11-09T22:38:25.820Z",
    "maxStore": "ELKO",
-   "checkedAt": "2026-11-10T12:13:01.662Z"
+   "checkedAt": "2026-11-10T13:48:34.529Z"
   },
   "chase-2-plus-mips-skidahjalmur-m2d4": {
    "since": "2026-11-10T12:13:01.662Z",
-   "current": 21995,
-   "changedAt": "2026-11-10T12:13:01.662Z",
+   "current": 17156,
+   "changedAt": "2026-11-10T13:48:34.529Z",
    "store": "markid.is",
    "storeName": "Markið",
    "url": "https://markid.is/products/chase-2-plus-mips-skidahjalmur-3",
-   "min": 21995,
-   "minAt": "2026-11-10T12:13:01.662Z",
+   "min": 17156,
+   "minAt": "2026-11-10T13:48:34.529Z",
    "minStore": "Markið",
    "max": 21995,
    "maxAt": "2026-11-10T12:13:01.662Z",
    "maxStore": "Markið",
-   "checkedAt": "2026-11-10T12:13:01.662Z"
+   "checkedAt": "2026-11-10T13:48:34.529Z",
+   "previous": 21995,
+   "previousAt": "2026-11-10T12:13:01.662Z"
   }
  },
- "updatedAt": "2026-11-10T12:13:01.662Z"
+ "updatedAt": "2026-11-10T13:48:34.529Z"
 }

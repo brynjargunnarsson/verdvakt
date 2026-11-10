@@ -1,3 +1,25 @@
 {
- "items": []
+ "items": [
+  {
+   "id": "d7d8dbfe24",
+   "at": "2026-11-10T13:48:34.530Z",
+   "type": "lækkanir",
+   "event": "Dagur einhleypra (11.11)",
+   "changes": [
+    {
+     "productId": "chase-2-plus-mips-skidahjalmur-m2d4",
+     "name": "CHASE 2 PLUS Mips | Skíðahjálmur",
+     "store": "markid.is",
+     "storeName": "Markið",
+     "url": "https://markid.is/products/chase-2-plus-mips-skidahjalmur-3",
+     "from": 21995,
+     "to": 17156,
+     "pct": -22,
+     "newLow": true,
+     "target": 21000,
+     "marketplace": false
+    }
+   ]
+  }
+ ]
 }
