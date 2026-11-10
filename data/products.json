@@ -58,6 +58,23 @@
     }
    ],
    "rejected": []
+  },
+  {
+   "id": "milwaukee-hjolsog-wfso",
+   "name": "Milwaukee Hjólsög",
+   "query": "Hjólsög M18",
+   "category": "",
+   "notes": "",
+   "paused": false,
+   "targetPrice": 78000,
+   "createdAt": "2026-11-10T20:59:16.227Z",
+   "offers": [
+    {
+     "url": "https://rubix.is/vorur/MW-4933493587",
+     "addedAt": "2026-11-10T20:59:16.227Z"
+    }
+   ],
+   "rejected": []
   }
  ]
 }
