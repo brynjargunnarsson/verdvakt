@@ -2,45 +2,23 @@
  "productId": "normann-bit-stack",
  "query": "Bit stack",
  "variants": [
-  "Bit stack"
+  "Bit stack",
+  "Kollur BIT STACK rauður"
  ],
- "searchedAt": "2026-11-09T19:52:18.741Z",
- "storesSearched": 74,
+ "codes": [],
+ "searchedAt": "2026-11-10T20:15:14.455Z",
+ "storesSearched": 66,
  "storesFailed": [
   {
-   "domain": "ht.is",
-   "error": "HTTP 403"
+   "domain": "sm.is",
+   "error": "HTTP 404"
   },
   {
-   "domain": "tl.is",
-   "error": "HTTP 403"
-  },
-  {
-   "domain": "utilif.is",
-   "error": "HTTP 403"
-  },
-  {
-   "domain": "samsungsetrid.is",
-   "error": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://samsungsetrid.is/\nCall log:\n  - navigating to \"https://samsungsetrid.is"
-  },
-  {
-   "domain": "www.penninn.is",
-   "error": "HTTP 403"
-  },
-  {
-   "domain": "casa.is",
-   "error": "HTTP 403"
-  },
-  {
-   "domain": "www.habitat.is",
-   "error": "page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.habitat.is/\nCall log:\n  - navigating to \"https://www.habitat"
-  },
-  {
-   "domain": "aha.is",
-   "error": "HTTP 403"
+   "domain": "gamestodin.is",
+   "error": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://gamestodin.is/\nCall log:\n  - navigating to \"https://gamestodin.is/\", wa"
   }
  ],
- "seconds": 417,
+ "seconds": 582,
  "results": [
   {
    "url": "https://www.epal.is/products/kollur-bit-stack-hvitur-hvitur",
@@ -51,8 +29,9 @@
    "score": 1,
    "marketplace": false,
    "foundAt": "2026-11-09T12:28:15.774Z",
-   "seenAt": "2026-11-09T19:52:18.741Z",
-   "via": "leit"
+   "seenAt": "2026-11-10T20:15:14.454Z",
+   "via": "leit",
+   "accessory": false
   },
   {
    "url": "https://www.epal.is/products/kollur-bit-stack-graenn",
@@ -63,8 +42,9 @@
    "score": 1,
    "marketplace": false,
    "foundAt": "2026-11-09T12:28:15.774Z",
-   "seenAt": "2026-11-09T19:52:18.741Z",
-   "via": "leit"
+   "seenAt": "2026-11-10T20:15:14.454Z",
+   "via": "leit",
+   "accessory": false
   }
  ]
 }

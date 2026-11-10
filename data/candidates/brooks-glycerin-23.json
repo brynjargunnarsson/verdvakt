@@ -4,43 +4,20 @@
  "variants": [
   "Glycerin 23"
  ],
- "searchedAt": "2026-11-09T19:45:21.912Z",
- "storesSearched": 74,
+ "codes": [],
+ "searchedAt": "2026-11-10T20:05:32.753Z",
+ "storesSearched": 66,
  "storesFailed": [
   {
-   "domain": "tl.is",
-   "error": "HTTP 403"
+   "domain": "sm.is",
+   "error": "HTTP 404"
   },
   {
-   "domain": "ht.is",
-   "error": "HTTP 403"
-  },
-  {
-   "domain": "utilif.is",
-   "error": "HTTP 403"
-  },
-  {
-   "domain": "samsungsetrid.is",
-   "error": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://samsungsetrid.is/\nCall log:\n  - navigating to \"https://samsungsetrid.is"
-  },
-  {
-   "domain": "www.penninn.is",
-   "error": "HTTP 403"
-  },
-  {
-   "domain": "casa.is",
-   "error": "HTTP 403"
-  },
-  {
-   "domain": "www.habitat.is",
-   "error": "page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.habitat.is/\nCall log:\n  - navigating to \"https://www.habitat"
-  },
-  {
-   "domain": "aha.is",
-   "error": "HTTP 403"
+   "domain": "gamestodin.is",
+   "error": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://gamestodin.is/\nCall log:\n  - navigating to \"https://gamestodin.is/\", wa"
   }
  ],
- "seconds": 411,
+ "seconds": 516,
  "results": [
   {
    "url": "https://brooksrunning.is/vara/glycerin-23-7",
@@ -51,8 +28,9 @@
    "score": 1,
    "marketplace": false,
    "foundAt": "2026-11-09T12:25:51.832Z",
-   "seenAt": "2026-11-09T19:45:21.911Z",
-   "via": "leit"
+   "seenAt": "2026-11-10T20:05:32.753Z",
+   "via": "leit",
+   "accessory": false
   },
   {
    "url": "https://brooksrunning.is/vara/glycerin-23-6",
@@ -63,8 +41,9 @@
    "score": 1,
    "marketplace": false,
    "foundAt": "2026-11-09T12:25:51.832Z",
-   "seenAt": "2026-11-09T19:45:21.911Z",
-   "via": "leit"
+   "seenAt": "2026-11-10T20:05:32.753Z",
+   "via": "leit",
+   "accessory": false
   },
   {
    "url": "https://brooksrunning.is/vara/glycerin-23-3",
@@ -75,8 +54,9 @@
    "score": 1,
    "marketplace": false,
    "foundAt": "2026-11-09T12:25:51.832Z",
-   "seenAt": "2026-11-09T19:45:21.911Z",
-   "via": "leit"
+   "seenAt": "2026-11-10T20:05:32.753Z",
+   "via": "leit",
+   "accessory": false
   },
   {
    "url": "https://brooksrunning.is/vara/glycerin-gts-23-4",
@@ -87,8 +67,9 @@
    "score": 1,
    "marketplace": false,
    "foundAt": "2026-11-09T12:25:51.832Z",
-   "seenAt": "2026-11-09T19:45:21.911Z",
-   "via": "leit"
+   "seenAt": "2026-11-10T20:05:32.753Z",
+   "via": "leit",
+   "accessory": false
   },
   {
    "url": "https://brooksrunning.is/vara/glycerin-gts-23-3",
@@ -99,8 +80,9 @@
    "score": 1,
    "marketplace": false,
    "foundAt": "2026-11-09T12:25:51.832Z",
-   "seenAt": "2026-11-09T19:45:21.911Z",
-   "via": "leit"
+   "seenAt": "2026-11-10T20:05:32.753Z",
+   "via": "leit",
+   "accessory": false
   },
   {
    "url": "https://brooksrunning.is/vara/glycerin-gts-23",
@@ -111,8 +93,9 @@
    "score": 1,
    "marketplace": false,
    "foundAt": "2026-11-09T12:25:51.832Z",
-   "seenAt": "2026-11-09T19:45:21.911Z",
-   "via": "leit"
+   "seenAt": "2026-11-10T20:05:32.753Z",
+   "via": "leit",
+   "accessory": false
   }
  ]
 }
