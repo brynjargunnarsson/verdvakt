@@ -7,7 +7,7 @@
    "store": "brooksrunning.is",
    "storeName": "Brooks",
    "marketplace": false,
-   "lastChecked": "2026-11-10T19:56:56.762Z",
+   "lastChecked": "2026-11-10T20:48:57.707Z",
    "title": "Glycerin 23",
    "available": true,
    "wasPrice": null,
@@ -20,26 +20,6 @@
    "maxAt": "2026-11-09T12:23:28.362Z",
    "minAt": "2026-11-09T12:23:28.362Z"
   },
-  "5f1cc0367b": {
-   "productId": "normann-bit-stack",
-   "url": "https://www.epal.is/collections/normann-copenhagen/products/kollur-bit-stack-raudur",
-   "since": "2026-11-09T12:23:16.797Z",
-   "store": "epal.is",
-   "storeName": "Epal",
-   "marketplace": false,
-   "lastChecked": "2026-11-10T19:56:55.672Z",
-   "title": "Kollur BIT STACK rauður",
-   "available": true,
-   "wasPrice": null,
-   "memberPrice": null,
-   "source": "json-ld",
-   "current": 41700,
-   "max": 41700,
-   "min": 41700,
-   "lastChanged": "2026-11-09T12:23:17.578Z",
-   "maxAt": "2026-11-09T12:23:17.578Z",
-   "minAt": "2026-11-09T12:23:17.578Z"
-  },
   "dda3089faf": {
    "productId": "samsung-the-frame-43-guax",
    "url": "https://ht.is/samsung-43-the-frame-qled-uhd-4k-sjonvarp-2026.html",
@@ -47,7 +27,7 @@
    "store": "ht.is",
    "storeName": "Heimilistæki",
    "marketplace": false,
-   "lastChecked": "2026-11-10T19:56:54.696Z",
+   "lastChecked": "2026-11-10T20:48:54.869Z",
    "title": "Samsung 43\" The Frame QLED UHD 4K Sjónvarp (2026)",
    "available": false,
    "wasPrice": null,
@@ -67,7 +47,7 @@
    "store": "elko.is",
    "storeName": "ELKO",
    "marketplace": false,
-   "lastChecked": "2026-11-10T19:56:54.241Z",
+   "lastChecked": "2026-11-10T20:48:55.972Z",
    "title": "Samsung 43 The Frame QLED sjónvarp (2026)",
    "available": true,
    "wasPrice": null,
@@ -87,7 +67,7 @@
    "store": "rafland.is",
    "storeName": "Rafland",
    "marketplace": false,
-   "lastChecked": "2026-11-10T19:56:53.155Z",
+   "lastChecked": "2026-11-10T20:48:54.495Z",
    "title": "Samsung 43\" The Frame QLED UHD 4K Sjónvarp (2026)",
    "available": false,
    "wasPrice": null,
@@ -107,7 +87,7 @@
    "store": "markid.is",
    "storeName": "Markið",
    "marketplace": false,
-   "lastChecked": "2026-11-10T19:56:55.287Z",
+   "lastChecked": "2026-11-10T20:48:58.255Z",
    "title": "CHASE 2 PLUS Mips | Skíðahjálmur",
    "available": true,
    "wasPrice": 995,
@@ -137,22 +117,7 @@
    "max": 34990,
    "maxAt": "2026-11-09T12:23:28.364Z",
    "maxStore": "Brooks",
-   "checkedAt": "2026-11-10T19:56:56.766Z"
-  },
-  "normann-bit-stack": {
-   "since": "2026-11-09T12:23:28.364Z",
-   "current": 41700,
-   "changedAt": "2026-11-09T12:23:28.364Z",
-   "store": "epal.is",
-   "storeName": "Epal",
-   "url": "https://www.epal.is/collections/normann-copenhagen/products/kollur-bit-stack-raudur",
-   "min": 41700,
-   "minAt": "2026-11-09T12:23:28.364Z",
-   "minStore": "Epal",
-   "max": 41700,
-   "maxAt": "2026-11-09T12:23:28.364Z",
-   "maxStore": "Epal",
-   "checkedAt": "2026-11-10T19:56:56.766Z"
+   "checkedAt": "2026-11-10T20:48:58.257Z"
   },
   "samsung-the-frame-43-guax": {
    "since": "2026-11-09T22:38:25.820Z",
@@ -167,7 +132,7 @@
    "max": 159995,
    "maxAt": "2026-11-09T22:38:25.820Z",
    "maxStore": "ELKO",
-   "checkedAt": "2026-11-10T19:56:56.767Z"
+   "checkedAt": "2026-11-10T20:48:58.257Z"
   },
   "chase-2-plus-mips-skidahjalmur-m2d4": {
    "since": "2026-11-10T12:13:01.662Z",
@@ -182,10 +147,10 @@
    "max": 21995,
    "maxAt": "2026-11-10T12:13:01.662Z",
    "maxStore": "Markið",
-   "checkedAt": "2026-11-10T19:56:56.767Z",
+   "checkedAt": "2026-11-10T20:48:58.257Z",
    "previous": 21995,
    "previousAt": "2026-11-10T12:13:01.662Z"
   }
  },
- "updatedAt": "2026-11-10T19:56:56.767Z"
+ "updatedAt": "2026-11-10T20:48:58.257Z"
 }

@@ -5,38 +5,38 @@
   "salePages": []
  },
  "kd.is": {
-  "checkedAt": "2026-11-10T12:10:33.093Z",
+  "checkedAt": "2026-11-10T20:49:08.886Z",
   "codes": [],
   "salePages": [
    "https://kd.is/category/30?pc_promo=3%20%C3%A1ra%20%C3%A1byrg%C3%B0"
   ]
  },
  "computer.is": {
-  "checkedAt": "2026-11-10T12:10:34.287Z",
+  "checkedAt": "2026-11-10T20:49:08.452Z",
   "codes": [],
   "salePages": [
    "https://computer.is/is/products/tilbod"
   ]
  },
  "www.ormsson.is": {
-  "checkedAt": "2026-11-10T12:10:34.447Z",
+  "checkedAt": "2026-11-10T20:49:04.084Z",
   "codes": [],
   "salePages": []
  },
  "www.hagkaup.is": {
-  "checkedAt": "2026-11-10T12:10:40.348Z",
+  "checkedAt": "2026-11-10T20:49:15.335Z",
   "codes": [],
   "salePages": []
  },
  "heimkaup.is": {
-  "checkedAt": "2026-11-10T12:10:46.690Z",
+  "checkedAt": "2026-11-10T20:49:16.450Z",
   "codes": [],
   "salePages": [
    "https://heimkaup.is/c/great-deals1-2718?showProducts=true"
   ]
  },
  "www.tolvutek.is": {
-  "checkedAt": "2026-11-10T12:11:03.801Z",
+  "checkedAt": "2026-11-10T20:49:34.393Z",
   "codes": [
    {
     "code": "ÖLL",
@@ -52,26 +52,31 @@
   ]
  },
  "kokka.is": {
-  "checkedAt": "2026-11-10T12:11:07.450Z",
+  "checkedAt": "2026-11-10T20:49:48.531Z",
   "codes": [],
   "salePages": [
    "https://kokka.is/utsala/"
   ]
  },
  "www.ilva.is": {
-  "checkedAt": "2026-11-10T12:11:13.781Z",
+  "checkedAt": "2026-11-10T20:49:40.957Z",
   "codes": [],
   "salePages": []
  },
  "hrim.is": {
-  "checkedAt": "2026-11-10T12:11:15.459Z",
+  "checkedAt": "2026-11-10T20:49:45.321Z",
   "codes": [],
   "salePages": [
-   "https://hrim.is/product/carolinembg-glove-caramel"
+   "https://hrim.is/product/global-goals-bangle-white",
+   "https://hrim.is/product/ruby-eyrnalokkar-raudir-steinar",
+   "https://hrim.is/product/ruby-armband-raudir-steinar",
+   "https://hrim.is/product/ruby-halsmen-raudir-steinar",
+   "https://hrim.is/product/gjafasett-salt-shallots-and-rosemary-olive",
+   "https://hrim.is/product/gjafasett-ruby-salt-and-seeds-+-pepper-mix"
   ]
  },
  "www.husa.is": {
-  "checkedAt": "2026-11-10T12:11:33.436Z",
+  "checkedAt": "2026-11-10T20:50:02.039Z",
   "codes": [],
   "salePages": [
    "https://www.husa.is/eldhus-og-badherbergi/salerni/veggtengd-salerni/wc-laufen-pro-veggskalplusseta-svart-h8669577160001/",
@@ -79,7 +84,7 @@
   ]
  },
  "byko.is": {
-  "checkedAt": "2026-11-10T12:11:36.409Z",
+  "checkedAt": "2026-11-10T20:50:06.412Z",
   "codes": [],
   "salePages": [
    "https://byko.is/blair-dagar",
@@ -97,7 +102,7 @@
   ]
  },
  "snuran.is": {
-  "checkedAt": "2026-11-10T12:11:42.517Z",
+  "checkedAt": "2026-11-10T20:50:10.652Z",
   "codes": [
    {
     "code": "ÚTSKRIFTIR",
@@ -123,25 +128,25 @@
   ]
  },
  "oskaskrin.is": {
-  "checkedAt": "2026-11-10T12:11:48.366Z",
+  "checkedAt": "2026-11-10T20:50:14.127Z",
   "codes": [],
   "salePages": []
  },
  "gjafabref.is": {
-  "checkedAt": "2026-11-10T12:11:52.255Z",
+  "checkedAt": "2026-11-10T20:50:16.219Z",
   "codes": [],
   "salePages": []
  },
  "hopkaup.is": {
-  "checkedAt": "2026-11-10T12:12:07.359Z",
+  "checkedAt": "2026-11-10T20:50:20.466Z",
   "codes": [],
   "salePages": [
    "https://hopkaup.is/oll-tilbod",
    "https://hopkaup.is/thjonusta",
    "https://hopkaup.is/vinsaelustu-tilbodin",
    "https://hopkaup.is/veitingar",
-   "https://hopkaup.is/sanavorur_gamatilbod_jol26",
-   "https://hopkaup.is/jolagjafir"
+   "https://hopkaup.is/nlg_spilatimi_singlesday26",
+   "https://hopkaup.is/echelon_ex3_singlesday26"
   ]
  },
  "brooksrunning.is": {
