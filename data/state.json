@@ -2,7 +2,8 @@
  "lastDiscovery": {
   "brooks-glycerin-23": "2026-11-09T19:45:21.913Z",
   "normann-bit-stack": "2026-11-09T19:52:18.742Z",
-  "samsung-the-frame-43-guax": "2026-11-09T23:19:50.298Z"
+  "samsung-the-frame-43-guax": "2026-11-09T23:19:50.298Z",
+  "chase-2-plus-mips-skidahjalmur-m2d4": "2026-11-10T12:24:20.380Z"
  },
  "lastSaleScan": {
   "elko.is": "2026-11-10T12:10:29.829Z",
@@ -26,13 +27,13 @@
  },
  "runs": [
   {
-   "at": "2026-11-10T12:12:18.627Z",
+   "at": "2026-11-10T12:24:20.380Z",
    "mode": "afsláttur",
-   "checked": 5,
+   "checked": 6,
    "changed": 0,
    "drops": 0,
    "errors": 0,
-   "seconds": 130
+   "seconds": 693
   },
   {
    "at": "2026-11-10T11:27:53.398Z",
@@ -134,6 +135,6 @@
    "seconds": 299
   }
  ],
- "lastRun": "2026-11-10T12:10:22.545Z",
- "lastFinished": "2026-11-10T12:12:18.627Z"
+ "lastRun": "2026-11-10T12:13:01.662Z",
+ "lastFinished": "2026-11-10T12:24:20.380Z"
 }
