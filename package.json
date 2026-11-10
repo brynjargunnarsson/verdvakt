@@ -4,7 +4,9 @@
   "type": "module",
   "scripts": {
     "check": "node src/run.js",
-    "discover": "node src/discover.js"
+    "discover": "node src/discover.js",
+    "hirdir:scan": "node src/hirdir/scan.js",
+    "test": "node --test test/*.test.js"
   },
   "dependencies": {
     "playwright": "1.63.0"

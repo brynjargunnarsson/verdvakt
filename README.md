@@ -36,6 +36,20 @@ Fyrir hverja verslun er prófað: Shopify-leit (JSON), WooCommerce-leit (JSON), 
 ### Gjafabréf og veitingar
 Hópkaup (veitingatilboð, öll tilboð, jólagjafir), Dineout, Óskaskrín, Gjafabref.is, Noona og Aha eru á verslanalistanum. Hjá síðum þar sem leitin virkar ekki eru fastir tilboðslistar (`listUrls` í `data/stores.json`) lesnir í hverri leit. Gjafabréf með föstu nafnverði (t.d. 10.000 kr. kort) breytast sjaldan í verði; vaktin nýtist best á tilboð eins og „kvöldverður fyrir tvo“ eða þegar gjafabréf eru seld með afslætti.
 
+## Góði hirðirinn (`src/hirdir/`)
+Sérstakt tól sem vaktar nýjar vörur á godihirdirinn.is og á að flagga þær sem eru verðlagðar langt undir markaðsvirði. Enn sem komið er er aðeins fyrsta skrefið til:
+
+```bash
+npm run hirdir:scan                 # skannar og vistar nýjar, óseldar vörur í data/hirdir/hirdir.db
+npm run hirdir:scan -- --verify 5   # ber auk þess 5 vörur saman við vörusíðurnar
+npm test
+```
+
+- Forsíðan sendir allan vörulistann (líka það sem „Hlaða inn eldri vörum“ birtir) í síðugögnunum, svo hver keyrsla er tvær fyrirspurnir: `robots.txt` og forsíðan. Ef listinn finnst ekki þar eru sýnilegu vöruspjöldin lesin og lýsingin sótt af vörusíðum (mest 40 í keyrslu).
+- `robots.txt` er lesið í hverri keyrslu og virt (`/api/` og `/admin` eru bönnuð); a.m.k. 2,5 sek. eru milli fyrirspurna.
+- Vörur merktar SELT eru ekki vistaðar. Vara sem selst eða hverfur síðar er merkt `sold`/`gone`. Dálkurinn `analyzed_at` er `NULL` þar til næstu skref hafa unnið vöruna; lækki verð fer varan aftur í vinnslu.
+- Grunnurinn er ekki í git (`.gitignore`).
+
 ## Keyra á eigin tölvu
 
 ```bash
