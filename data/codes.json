@@ -1,8 +1,15 @@
 {
  "elko.is": {
-  "checkedAt": "2026-11-10T18:55:25.861Z",
+  "checkedAt": "2026-11-10T22:47:32.003Z",
   "codes": [],
-  "salePages": []
+  "salePages": [
+   "https://elko.is/leit?q=%C3%A1%20tilbo%C3%B0i",
+   "https://elko.is/leit?q=Tilbo%C3%B0",
+   "https://elko.is/leit?q=tilbo%C3%B0+%C3%AD+vefverslun",
+   "https://elko.is/voruflokkar/lego-67009",
+   "https://elko.is/leit?q=kaffiv%C3%A9l+%C3%A1+tilbo%C3%B0i+%C3%AD+vefverslun",
+   "https://elko.is/leit?q=frystikista+%C3%A1+tilbo%C3%B0i"
+  ]
  },
  "kd.is": {
   "checkedAt": "2026-11-10T20:49:08.886Z",
@@ -150,15 +157,15 @@
   ]
  },
  "brooksrunning.is": {
-  "checkedAt": "2026-11-10T18:56:06.709Z",
+  "checkedAt": "2026-11-10T22:47:45.796Z",
   "codes": [],
   "salePages": [
    "https://brooksrunning.is/vara/hyperion-elite-5-2",
    "https://brooksrunning.is/vara/movement-built-in-bra-tank-2",
+   "https://brooksrunning.is/vara/dash-short-printed",
    "https://brooksrunning.is/vara/canopy-jacket-2",
    "https://brooksrunning.is/vara/ghost-17-8",
-   "https://brooksrunning.is/vara/distance-short-sleeve-3-0",
-   "https://brooksrunning.is/vara/high-point-waterproof-jacket-2"
+   "https://brooksrunning.is/vara/distance-short-sleeve-3-0"
   ]
  }
 }
