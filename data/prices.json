@@ -7,7 +7,7 @@
    "store": "brooksrunning.is",
    "storeName": "Brooks",
    "marketplace": false,
-   "lastChecked": "2026-11-10T20:59:58.429Z",
+   "lastChecked": "2026-11-10T21:44:36.954Z",
    "title": "Glycerin 23",
    "available": true,
    "wasPrice": null,
@@ -27,7 +27,7 @@
    "store": "ht.is",
    "storeName": "Heimilistæki",
    "marketplace": false,
-   "lastChecked": "2026-11-10T20:59:55.618Z",
+   "lastChecked": "2026-11-10T21:44:34.278Z",
    "title": "Samsung 43\" The Frame QLED UHD 4K Sjónvarp (2026)",
    "available": false,
    "wasPrice": null,
@@ -47,7 +47,7 @@
    "store": "elko.is",
    "storeName": "ELKO",
    "marketplace": false,
-   "lastChecked": "2026-11-10T20:59:55.325Z",
+   "lastChecked": "2026-11-10T21:44:34.799Z",
    "title": "Samsung 43 The Frame QLED sjónvarp (2026)",
    "available": true,
    "wasPrice": null,
@@ -67,7 +67,7 @@
    "store": "rafland.is",
    "storeName": "Rafland",
    "marketplace": false,
-   "lastChecked": "2026-11-10T20:59:55.882Z",
+   "lastChecked": "2026-11-10T21:44:34.402Z",
    "title": "Samsung 43\" The Frame QLED UHD 4K Sjónvarp (2026)",
    "available": false,
    "wasPrice": null,
@@ -87,7 +87,7 @@
    "store": "markid.is",
    "storeName": "Markið",
    "marketplace": false,
-   "lastChecked": "2026-11-10T20:59:56.338Z",
+   "lastChecked": "2026-11-10T21:44:36.923Z",
    "title": "CHASE 2 PLUS Mips | Skíðahjálmur",
    "available": true,
    "wasPrice": 995,
@@ -109,7 +109,7 @@
    "store": "rubix.is",
    "storeName": "rubix.is",
    "marketplace": false,
-   "lastChecked": "2026-11-10T20:59:51.871Z",
+   "lastChecked": "2026-11-10T21:44:31.274Z",
    "title": "Hjólsög M18 FUEL™ FCS552-0 165mm",
    "available": true,
    "wasPrice": null,
@@ -137,7 +137,7 @@
    "max": 34990,
    "maxAt": "2026-11-09T12:23:28.364Z",
    "maxStore": "Brooks",
-   "checkedAt": "2026-11-10T20:59:58.433Z"
+   "checkedAt": "2026-11-10T21:44:36.957Z"
   },
   "samsung-the-frame-43-guax": {
    "since": "2026-11-09T22:38:25.820Z",
@@ -152,7 +152,7 @@
    "max": 159995,
    "maxAt": "2026-11-09T22:38:25.820Z",
    "maxStore": "ELKO",
-   "checkedAt": "2026-11-10T20:59:58.433Z"
+   "checkedAt": "2026-11-10T21:44:36.957Z"
   },
   "chase-2-plus-mips-skidahjalmur-m2d4": {
    "since": "2026-11-10T12:13:01.662Z",
@@ -167,7 +167,7 @@
    "max": 21995,
    "maxAt": "2026-11-10T12:13:01.662Z",
    "maxStore": "Markið",
-   "checkedAt": "2026-11-10T20:59:58.433Z",
+   "checkedAt": "2026-11-10T21:44:36.957Z",
    "previous": 21995,
    "previousAt": "2026-11-10T12:13:01.662Z"
   },
@@ -184,8 +184,8 @@
    "max": 77990,
    "maxAt": "2026-11-10T20:59:58.433Z",
    "maxStore": "rubix.is",
-   "checkedAt": "2026-11-10T20:59:58.433Z"
+   "checkedAt": "2026-11-10T21:44:36.957Z"
   }
  },
- "updatedAt": "2026-11-10T20:59:58.434Z"
+ "updatedAt": "2026-11-10T21:44:36.957Z"
 }
