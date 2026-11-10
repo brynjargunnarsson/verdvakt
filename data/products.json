@@ -58,6 +58,23 @@
     }
    ],
    "rejected": []
+  },
+  {
+   "id": "chase-2-plus-mips-skidahjalmur-m2d4",
+   "name": "CHASE 2 PLUS Mips | Skíðahjálmur",
+   "query": "CHASE 2 PLUS",
+   "category": "Skíðavörur",
+   "notes": "",
+   "paused": false,
+   "targetPrice": 21000,
+   "createdAt": "2026-11-10T12:11:26.150Z",
+   "offers": [
+    {
+     "url": "https://markid.is/products/chase-2-plus-mips-skidahjalmur-3",
+     "addedAt": "2026-11-10T12:11:26.150Z"
+    }
+   ],
+   "rejected": []
   }
  ]
 }
