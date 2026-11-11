@@ -1,14 +1,14 @@
 {
  "elko.is": {
-  "checkedAt": "2026-11-11T13:11:44.206Z",
+  "checkedAt": "2026-11-11T17:37:21.340Z",
   "codes": [],
   "salePages": [
    "https://elko.is/leit?q=%C3%A1%20tilbo%C3%B0i",
    "https://elko.is/leit?q=Tilbo%C3%B0",
    "https://elko.is/leit?q=tilbo%C3%B0+%C3%AD+vefverslun",
-   "https://elko.is/voruflokkar/lego-67009",
    "https://elko.is/leit?q=kaffiv%C3%A9l+%C3%A1+tilbo%C3%B0i+%C3%AD+vefverslun",
-   "https://elko.is/leit?q=pl%C3%B6tuspilarar%20%C3%A1%20afsl%C3%A6tti"
+   "https://elko.is/leit?q=pl%C3%B6tuspilarar%20%C3%A1%20afsl%C3%A6tti",
+   "https://elko.is/leit?categories=2&q=%C3%A1+tilbo%C3%B0i+%C3%AD+vefverslun"
   ]
  },
  "kd.is": {
@@ -83,7 +83,7 @@
   ]
  },
  "www.husa.is": {
-  "checkedAt": "2026-11-11T13:12:22.924Z",
+  "checkedAt": "2026-11-11T17:36:59.699Z",
   "codes": [],
   "salePages": [
    "https://www.husa.is/eldhus-og-badherbergi/salerni/veggtengd-salerni/wc-laufen-pro-veggskalplusseta-svart-h8669577160001/",
@@ -157,13 +157,13 @@
   ]
  },
  "brooksrunning.is": {
-  "checkedAt": "2026-11-11T13:13:03.876Z",
+  "checkedAt": "2026-11-11T17:37:24.142Z",
   "codes": [],
   "salePages": [
    "https://brooksrunning.is/vara/hyperion-elite-5-2",
+   "https://brooksrunning.is/vara/hyperion-max-3-5",
    "https://brooksrunning.is/vara/movement-built-in-bra-tank-2",
    "https://brooksrunning.is/vara/dash-short-printed",
-   "https://brooksrunning.is/vara/canopy-jacket-2",
    "https://brooksrunning.is/vara/ghost-17-8",
    "https://brooksrunning.is/vara/distance-short-sleeve-3-0"
   ]
