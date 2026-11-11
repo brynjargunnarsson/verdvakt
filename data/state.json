@@ -1,32 +1,41 @@
 {
  "lastDiscovery": {
-  "brooks-glycerin-23": "2026-11-10T20:05:32.754Z",
+  "brooks-glycerin-23": "2026-11-11T21:50:41.452Z",
   "normann-bit-stack": "2026-11-10T20:15:14.455Z",
   "samsung-the-frame-43-guax": "2026-11-11T00:00:58.346Z",
   "chase-2-plus-mips-skidahjalmur-m2d4": "2026-11-11T13:24:42.719Z",
-  "milwaukee-hjolsog-wfso": "2026-11-10T21:26:41.104Z"
+  "milwaukee-hjolsog-wfso": "2026-11-11T22:18:25.170Z"
  },
  "lastSaleScan": {
-  "elko.is": "2026-11-11T17:37:21.340Z",
-  "kd.is": "2026-11-11T13:11:10.917Z",
-  "computer.is": "2026-11-11T13:11:11.601Z",
-  "www.ormsson.is": "2026-11-11T13:11:15.414Z",
-  "www.hagkaup.is": "2026-11-11T13:11:22.204Z",
-  "heimkaup.is": "2026-11-11T13:11:25.313Z",
-  "www.tolvutek.is": "2026-11-11T13:12:21.078Z",
-  "kokka.is": "2026-11-11T13:11:54.027Z",
-  "www.ilva.is": "2026-11-11T13:12:00.267Z",
-  "hrim.is": "2026-11-11T13:12:15.127Z",
-  "www.husa.is": "2026-11-11T17:36:59.699Z",
-  "byko.is": "2026-11-11T13:12:37.021Z",
-  "www.epal.is": "2026-11-11T11:59:54.833Z",
-  "snuran.is": "2026-11-11T13:12:20.217Z",
-  "oskaskrin.is": "2026-11-11T13:12:38.417Z",
-  "gjafabref.is": "2026-11-11T13:12:47.137Z",
-  "hopkaup.is": "2026-11-11T13:12:55.968Z",
-  "brooksrunning.is": "2026-11-11T17:37:24.142Z"
+  "elko.is": "2026-11-11T21:40:48.663Z",
+  "kd.is": "2026-11-11T21:40:15.299Z",
+  "computer.is": "2026-11-11T21:40:22.216Z",
+  "www.ormsson.is": "2026-11-11T21:40:19.776Z",
+  "www.hagkaup.is": "2026-11-11T21:40:34.344Z",
+  "heimkaup.is": "2026-11-11T21:40:33.638Z",
+  "www.tolvutek.is": "2026-11-11T21:40:40.642Z",
+  "kokka.is": "2026-11-11T21:40:55.601Z",
+  "www.ilva.is": "2026-11-11T21:41:02.693Z",
+  "hrim.is": "2026-11-11T21:41:17.105Z",
+  "www.husa.is": "2026-11-11T21:41:24.157Z",
+  "byko.is": "2026-11-11T21:41:38.432Z",
+  "www.epal.is": "2026-11-11T21:41:33.895Z",
+  "snuran.is": "2026-11-11T21:41:36.694Z",
+  "oskaskrin.is": "2026-11-11T21:41:49.539Z",
+  "gjafabref.is": "2026-11-11T21:41:48.485Z",
+  "hopkaup.is": "2026-11-11T21:42:08.189Z",
+  "brooksrunning.is": "2026-11-11T21:42:07.602Z"
  },
  "runs": [
+  {
+   "at": "2026-11-11T22:18:25.170Z",
+   "mode": "afsláttur",
+   "checked": 15,
+   "changed": 0,
+   "drops": 0,
+   "errors": 0,
+   "seconds": 2375
+  },
   {
    "at": "2026-11-11T19:39:52.455Z",
    "mode": "afsláttur",
@@ -379,7 +388,7 @@
    "seconds": 299
   }
  ],
- "lastRun": "2026-11-11T19:39:52.453Z",
- "lastFinished": "2026-11-11T19:39:52.455Z",
+ "lastRun": "2026-11-11T21:40:04.198Z",
+ "lastFinished": "2026-11-11T22:18:25.170Z",
  "lastMorning": "2026-11-11"
 }
