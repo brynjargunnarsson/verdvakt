@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { parseRobots, isAllowed, productsFromFlight, productsFromCards, detailsFromProductPage, createClient } from '../src/hirdir/site.js';
 import { openDb, applyScan, pendingProducts } from '../src/hirdir/db.js';
 import Anthropic from '@anthropic-ai/sdk';
-import { analyzePending, imageUrlFor, Analysis } from '../src/hirdir/analyze.js';
+import { analyzePending, importAnalyses, imageUrlFor, Analysis } from '../src/hirdir/analyze.js';
 import { scan } from '../src/hirdir/scan.js';
 
 const ROBOTS = 'User-Agent: *\nAllow: /\nDisallow: /admin\nDisallow: /api/\n';
@@ -170,4 +170,13 @@ test('greining: villur, mynd sem ekki næst og rangur lykill', async () => {
   await assert.rejects(analyzePending({ db, client: fakeClaude(() => { throw bad(401, Anthropic.AuthenticationError); }) }), Anthropic.AuthenticationError);
   assert.equal(db.prepare('SELECT analysis_attempts n FROM products').get().n, 0);
   assert.equal(imageUrlFor('ekki slóð'), null);
+});
+
+test('innlestur greininga án API', async () => {
+  const db = await freshDb([prod('a'), prod('b')]);
+  const r = importAnalyses(db, [{ handle: 'a', ...reply().parsed_output }, { handle: 'b', comparable: true }, { handle: 'x', ...reply().parsed_output }], 'handvirkt');
+  assert.deepEqual([r.saved, r.rejected.map((x) => x.handle)], [1, ['b', 'x']]);
+  const a = db.prepare(`SELECT analysis_status s, ebay_query q, analysis_model m FROM products WHERE handle = 'a'`).get();
+  assert.deepEqual([a.s, a.q, a.m], ['ok', 'Stelton EM77 vacuum jug 1L red', 'handvirkt']);
+  assert.deepEqual(pendingProducts(db).map((p) => p.handle), ['b']);
 });

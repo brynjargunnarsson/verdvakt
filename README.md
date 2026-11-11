@@ -59,6 +59,7 @@ npm test
 - Almennar, ómerktar eða séríslenskar vörur fá `analysis_status = 'no_comparison'` með ástæðu; hinar `ok`.
 - Líkan: `claude-opus-5-5` (breytist með `HIRDIR_MODEL`). Ef líkanið hafnar beiðni reynir API-ið sjálft annað líkan (`fallbacks`).
 - Villa á einni vöru stöðvar ekki keyrsluna; varan er reynd aftur í næstu keyrslum, mest þrisvar. Lækki verð á greindri vöru fer hún aftur í vinnslu.
+- Án API-lykils: `--export` prentar óunnar vörur sem JSON og `--import skrá.json` les inn greiningar sem gerðar voru annars staðar (t.d. í Claude Code lotu), á sama sniði og API-svarið.
 - `--handle <slóðarheiti>` greinir eina tiltekna vöru, líka úr bakskrá – hentugt til að prófa.
 
 Grunnurinn er ekki í git (`.gitignore`).

@@ -9,7 +9,13 @@
 //   --skip-pending  merkja allar óunnar vörur sem bakskrá án þess að greina þær
 //   --dry-run       sýna hvaða vörur yrðu greindar, án þess að kalla á Claude
 //
-// Þarf ANTHROPIC_API_KEY. Líkan: HIRDIR_MODEL (sjálfgefið claude-opus-5-5).
+// Án API-lykils (greining gerð annars staðar, t.d. í Claude Code lotu):
+//   --export        prenta óunnar vörur sem JSON
+//   --import skrá   lesa inn greiningar: [{ handle, comparable, brand, model, ebay_query, … }]
+//   --source heiti  hvaðan innlesnar greiningar koma (vistað í analysis_model)
+//
+// API-leiðin þarf ANTHROPIC_API_KEY. Líkan: HIRDIR_MODEL (sjálfgefið claude-opus-5-5).
+import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import Anthropic from '@anthropic-ai/sdk';
@@ -70,6 +76,43 @@ function listingText(p) {
   return `<listing>\n${lines.filter(Boolean).join('\n')}\n</listing>`;
 }
 
+/** Hreinsar svar á Analysis-sniði yfir í það sem vistað er. */
+export function normalizeAnalysis(a) {
+  const clean = (s) => (typeof s === 'string' && s.trim() ? s.trim() : null);
+  const query = clean(a.ebay_query)?.replace(/["'“”]/g, '').replace(/\s+/g, ' ') || null;
+  const comparable = a.comparable && !!query;
+  return {
+    comparable,
+    reason: comparable ? null : clean(a.no_comparison_reason) || 'Ekki hægt að bera saman',
+    brand: clean(a.brand),
+    model: clean(a.model),
+    productType: clean(a.product_type),
+    ebayQuery: comparable ? query : null,
+    quantity: Number.isFinite(a.quantity) && a.quantity >= 1 ? Math.round(a.quantity) : 1,
+    confidence: a.confidence,
+    evidence: clean(a.evidence),
+  };
+}
+
+/**
+ * Les inn greiningar sem gerðar voru utan API-sins (t.d. handvirkt eða í Claude Code lotu).
+ * `entries`: [{ handle, ...Analysis-reitir }]. Skilar { saved, rejected: [{ handle, error }] }.
+ */
+export function importAnalyses(db, entries, source = 'manual') {
+  const out = { saved: 0, rejected: [] };
+  for (const e of entries) {
+    const row = db.prepare('SELECT id FROM products WHERE handle = ?').get(e?.handle ?? '');
+    const parsed = Analysis.safeParse(e);
+    if (!row || !parsed.success) {
+      out.rejected.push({ handle: e?.handle, error: row ? parsed.error.issues.map((i) => `${i.path.join('.')}: ${i.message}`).join('; ') : 'óþekkt vara' });
+      continue;
+    }
+    saveAnalysis(db, row.id, { analysis: normalizeAnalysis(parsed.data), model: source, imageUsed: e.image_used !== false });
+    out.saved++;
+  }
+  return out;
+}
+
 /** Eitt kall á Claude fyrir eina vöru. Skilar { analysis, model, imageUsed, usage }. */
 export async function analyzeProduct(client, product, { withImage = true } = {}) {
   const image = withImage ? imageUrlFor(product.image_url) : null;
@@ -99,21 +142,8 @@ export async function analyzeProduct(client, product, { withImage = true } = {})
   const a = res.parsed_output;
   if (!a) throw new Error('svar Claude stóðst ekki skemað');
 
-  const clean = (s) => (typeof s === 'string' && s.trim() ? s.trim() : null);
-  const query = clean(a.ebay_query)?.replace(/["'“”]/g, '').replace(/\s+/g, ' ') || null;
-  const comparable = a.comparable && !!query;
   return {
-    analysis: {
-      comparable,
-      reason: comparable ? null : clean(a.no_comparison_reason) || 'Ekki hægt að bera saman',
-      brand: clean(a.brand),
-      model: clean(a.model),
-      productType: clean(a.product_type),
-      ebayQuery: comparable ? query : null,
-      quantity: Number.isFinite(a.quantity) && a.quantity >= 1 ? Math.round(a.quantity) : 1,
-      confidence: a.confidence,
-      evidence: clean(a.evidence),
-    },
+    analysis: normalizeAnalysis(a),
     model: res.model,
     imageUsed: !!image,
     usage: res.usage,
@@ -152,7 +182,7 @@ export async function analyzePending({ db, client, limit = 50, handle = null, lo
 }
 
 function args(argv) {
-  const o = { db: process.env.HIRDIR_DB || DEFAULT_DB, limit: 50, handle: null, skipPending: false, dryRun: false };
+  const o = { db: process.env.HIRDIR_DB || DEFAULT_DB, limit: 50, handle: null, skipPending: false, dryRun: false, export: false, import: null, source: 'manual' };
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     if (a === '--db') o.db = argv[++i];
@@ -160,6 +190,9 @@ function args(argv) {
     else if (a === '--handle') o.handle = argv[++i];
     else if (a === '--skip-pending') o.skipPending = true;
     else if (a === '--dry-run') o.dryRun = true;
+    else if (a === '--export') o.export = true;
+    else if (a === '--import') o.import = argv[++i];
+    else if (a === '--source') o.source = argv[++i];
     else throw new Error(`Óþekkt viðfang: ${a}`);
   }
   return o;
@@ -171,6 +204,20 @@ async function main() {
   try {
     if (o.skipPending) {
       console.error(`${markBacklog(db)} óunnar vörur merktar sem bakskrá (verða ekki greindar).`);
+      return;
+    }
+    if (o.export) {
+      const rows = o.handle ? db.prepare('SELECT * FROM products WHERE handle = ?').all(o.handle) : pendingProducts(db, o.limit);
+      const pick = ({ handle, url, title, category, price_isk, item_count, condition, condition_notes, description, image_url, images_json }) =>
+        ({ handle, url, title, category, price_isk, item_count, condition, condition_notes, description, image_url, images: JSON.parse(images_json || '[]') });
+      console.log(JSON.stringify(rows.map(pick), null, 2));
+      return;
+    }
+    if (o.import) {
+      const r = importAnalyses(db, JSON.parse(fs.readFileSync(o.import, 'utf8')), o.source);
+      console.error(`Lesnar inn: ${r.saved}   Hafnað: ${r.rejected.length}`);
+      for (const x of r.rejected) console.error(`  ✗ ${x.handle}: ${x.error}`);
+      if (r.rejected.length) process.exitCode = 2;
       return;
     }
     const waiting = pendingProducts(db, 1e6).length;
