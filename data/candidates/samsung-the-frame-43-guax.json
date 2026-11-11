@@ -12,39 +12,15 @@
  "codes": [
   "TQ43LS03HEUXXC"
  ],
- "searchedAt": "2026-11-09T23:19:50.297Z",
- "storesSearched": 70,
+ "searchedAt": "2026-11-11T00:00:58.345Z",
+ "storesSearched": 64,
  "storesFailed": [
-  {
-   "domain": "byggtogbuid.is",
-   "error": "HTTP 403"
-  },
-  {
-   "domain": "www.rafland.is",
-   "error": "HTTP 403"
-  },
-  {
-   "domain": "a4.is",
-   "error": "HTTP 403"
-  },
-  {
-   "domain": "kunigund.is",
-   "error": "HTTP 403"
-  },
   {
    "domain": "www.att.is",
    "error": "HTTP 403"
-  },
-  {
-   "domain": "sm.is",
-   "error": "HTTP 404"
-  },
-  {
-   "domain": "gamestodin.is",
-   "error": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://gamestodin.is/\nCall log:\n  - navigating to \"https://gamestodin.is/\", wa"
   }
  ],
- "seconds": 1269,
+ "seconds": 1247,
  "results": [
   {
    "url": "https://elko.is/vorur/samsung-43-the-frame-rammi-hvitur-252884/VGSCFA43WTBXC",
@@ -55,7 +31,7 @@
    "score": 1,
    "marketplace": false,
    "foundAt": "2026-11-09T22:36:50.417Z",
-   "seenAt": "2026-11-09T23:19:50.296Z",
+   "seenAt": "2026-11-11T00:00:58.344Z",
    "via": "leit",
    "accessory": true
   },
@@ -68,7 +44,7 @@
    "score": 1,
    "marketplace": false,
    "foundAt": "2026-11-09T22:36:50.417Z",
-   "seenAt": "2026-11-09T23:19:50.296Z",
+   "seenAt": "2026-11-11T00:00:58.345Z",
    "via": "leit",
    "accessory": true
   },
@@ -81,7 +57,7 @@
    "score": 1,
    "marketplace": false,
    "foundAt": "2026-11-09T22:36:50.417Z",
-   "seenAt": "2026-11-09T23:19:50.296Z",
+   "seenAt": "2026-11-11T00:00:58.345Z",
    "via": "leit",
    "accessory": true
   }

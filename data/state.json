@@ -2,7 +2,7 @@
  "lastDiscovery": {
   "brooks-glycerin-23": "2026-11-10T20:05:32.754Z",
   "normann-bit-stack": "2026-11-10T20:15:14.455Z",
-  "samsung-the-frame-43-guax": "2026-11-09T23:19:50.298Z",
+  "samsung-the-frame-43-guax": "2026-11-11T00:00:58.346Z",
   "chase-2-plus-mips-skidahjalmur-m2d4": "2026-11-10T12:24:20.380Z",
   "milwaukee-hjolsog-wfso": "2026-11-10T21:26:41.104Z"
  },
@@ -27,6 +27,15 @@
   "brooksrunning.is": "2026-11-10T22:47:45.796Z"
  },
  "runs": [
+  {
+   "at": "2026-11-11T00:00:58.346Z",
+   "mode": "afsláttur",
+   "checked": 6,
+   "changed": 0,
+   "drops": 0,
+   "errors": 0,
+   "seconds": 1262
+  },
   {
    "at": "2026-11-10T22:47:45.798Z",
    "mode": "afsláttur",
@@ -235,6 +244,6 @@
    "seconds": 299
   }
  ],
- "lastRun": "2026-11-10T22:46:45.013Z",
- "lastFinished": "2026-11-10T22:47:45.798Z"
+ "lastRun": "2026-11-10T23:40:10.936Z",
+ "lastFinished": "2026-11-11T00:00:58.346Z"
 }
