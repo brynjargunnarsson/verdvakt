@@ -37,18 +37,31 @@ Fyrir hverja verslun er prófað: Shopify-leit (JSON), WooCommerce-leit (JSON), 
 Hópkaup (veitingatilboð, öll tilboð, jólagjafir), Dineout, Óskaskrín, Gjafabref.is, Noona og Aha eru á verslanalistanum. Hjá síðum þar sem leitin virkar ekki eru fastir tilboðslistar (`listUrls` í `data/stores.json`) lesnir í hverri leit. Gjafabréf með föstu nafnverði (t.d. 10.000 kr. kort) breytast sjaldan í verði; vaktin nýtist best á tilboð eins og „kvöldverður fyrir tvo“ eða þegar gjafabréf eru seld með afslætti.
 
 ## Góði hirðirinn (`src/hirdir/`)
-Sérstakt tól sem vaktar nýjar vörur á godihirdirinn.is og á að flagga þær sem eru verðlagðar langt undir markaðsvirði. Enn sem komið er er aðeins fyrsta skrefið til:
+Sérstakt tól sem vaktar nýjar vörur á godihirdirinn.is og á að flagga þær sem eru verðlagðar langt undir markaðsvirði. Skref 1 og 2 eru til:
 
 ```bash
-npm run hirdir:scan                 # skannar og vistar nýjar, óseldar vörur í data/hirdir/hirdir.db
-npm run hirdir:scan -- --verify 5   # ber auk þess 5 vörur saman við vörusíðurnar
+npm install
+npm run hirdir:scan                  # 1. skannar og vistar nýjar, óseldar vörur í data/hirdir/hirdir.db
+export ANTHROPIC_API_KEY=...         #    lykill frá console.anthropic.com
+npm run hirdir:analyze               # 2. Claude greinir óunnar vörur (mest 50 í keyrslu)
+npm run hirdir:analyze -- --dry-run  #    sýnir hvað yrði greint, án þess að kalla á Claude
 npm test
 ```
 
+**Skönnun (`scan.js`)**
 - Forsíðan sendir allan vörulistann (líka það sem „Hlaða inn eldri vörum“ birtir) í síðugögnunum, svo hver keyrsla er tvær fyrirspurnir: `robots.txt` og forsíðan. Ef listinn finnst ekki þar eru sýnilegu vöruspjöldin lesin og lýsingin sótt af vörusíðum (mest 40 í keyrslu).
 - `robots.txt` er lesið í hverri keyrslu og virt (`/api/` og `/admin` eru bönnuð); a.m.k. 2,5 sek. eru milli fyrirspurna.
-- Vörur merktar SELT eru ekki vistaðar. Vara sem selst eða hverfur síðar er merkt `sold`/`gone`. Dálkurinn `analyzed_at` er `NULL` þar til næstu skref hafa unnið vöruna; lækki verð fer varan aftur í vinnslu.
-- Grunnurinn er ekki í git (`.gitignore`).
+- Vörur merktar SELT eru ekki vistaðar. Vara sem selst eða hverfur síðar er merkt `sold`/`gone`.
+- Í fyrstu keyrslu á tóman grunn fer allt sem þegar er á síðunni í bakskrá (`analysis_status = 'backlog'`) og er aldrei greint; aðeins vörur sem bætast við eftir það eru unnar. `--analyze-all` sleppir bakskránni.
+
+**Greining (`analyze.js`)**
+- Sendir Claude aðalmynd vörunnar (slóð á 1024 px útgáfu), titil, flokk, verð, ástand og lýsingu og fær til baka framleiðanda, gerð, enskan eBay-leitarstreng, fjölda eininga og öryggisstig (`high`/`medium`/`low`).
+- Almennar, ómerktar eða séríslenskar vörur fá `analysis_status = 'no_comparison'` með ástæðu; hinar `ok`.
+- Líkan: `claude-opus-5-5` (breytist með `HIRDIR_MODEL`). Ef líkanið hafnar beiðni reynir API-ið sjálft annað líkan (`fallbacks`).
+- Villa á einni vöru stöðvar ekki keyrsluna; varan er reynd aftur í næstu keyrslum, mest þrisvar. Lækki verð á greindri vöru fer hún aftur í vinnslu.
+- `--handle <slóðarheiti>` greinir eina tiltekna vöru, líka úr bakskrá – hentugt til að prófa.
+
+Grunnurinn er ekki í git (`.gitignore`).
 
 ## Keyra á eigin tölvu
 

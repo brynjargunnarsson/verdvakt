@@ -41,11 +41,32 @@ CREATE TABLE IF NOT EXISTS runs (
 
 const nn = (v) => v ?? null;
 
+// Dálkar sem bættust við eftir fyrstu útgáfu (skref 2: greining Claude).
+const ADDED_COLUMNS = {
+  analysis_status: 'TEXT',        // ok | no_comparison | backlog  (NULL = óunnin)
+  brand: 'TEXT',
+  model: 'TEXT',
+  product_type: 'TEXT',
+  ebay_query: 'TEXT',
+  quantity: 'INTEGER',
+  id_confidence: 'TEXT',          // high | medium | low
+  analysis_note: 'TEXT',          // rökstuðningur, eða ástæða fyrir „enginn samanburður“
+  analysis_model: 'TEXT',
+  analysis_image_used: 'INTEGER',
+  analysis_attempts: 'INTEGER NOT NULL DEFAULT 0',
+  analysis_error: 'TEXT',
+};
+export const MAX_ATTEMPTS = 3;
+
 export function openDb(file) {
   if (file !== ':memory:') fs.mkdirSync(path.dirname(file), { recursive: true });
   const db = new DatabaseSync(file);
   db.exec('PRAGMA journal_mode = WAL; PRAGMA foreign_keys = ON;');
   db.exec(SCHEMA);
+  const have = new Set(db.prepare('PRAGMA table_info(products)').all().map((c) => c.name));
+  for (const [name, type] of Object.entries(ADDED_COLUMNS)) {
+    if (!have.has(name)) db.exec(`ALTER TABLE products ADD COLUMN ${name} ${type}`);
+  }
   return db;
 }
 
@@ -57,7 +78,7 @@ export function openDb(file) {
  * - Þekktar vörur sem hverfa af síðunni → 'gone' (aðeins ef listinn er tæmandi).
  */
 export function applyScan(db, items, { now = new Date().toISOString(), complete = true } = {}) {
-  const get = db.prepare('SELECT id, price_isk, status FROM products WHERE id = ? OR handle = ?');
+  const get = db.prepare('SELECT id, price_isk, status, analysis_status FROM products WHERE id = ? OR handle = ?');
   const insert = db.prepare(`INSERT INTO products
     (id, handle, url, title, price_isk, compare_at_isk, category, description, image_url, images_json,
      condition, condition_notes, item_count, listed_at, status, first_seen_at, last_seen_at)
@@ -65,7 +86,8 @@ export function applyScan(db, items, { now = new Date().toISOString(), complete 
   const seen = db.prepare(`UPDATE products SET last_seen_at = ?, status = 'available', sold_at = NULL,
     price_isk = ?, compare_at_isk = ?, title = ?, category = COALESCE(?, category),
     description = COALESCE(?, description), image_url = COALESCE(?, image_url),
-    analyzed_at = CASE WHEN ? THEN NULL ELSE analyzed_at END WHERE id = ?`);
+    analyzed_at = CASE WHEN ? THEN NULL ELSE analyzed_at END,
+    analysis_attempts = CASE WHEN ? THEN 0 ELSE analysis_attempts END WHERE id = ?`);
   const sold = db.prepare(`UPDATE products SET status = 'sold', sold_at = ?, last_seen_at = ? WHERE id = ? AND status != 'sold'`);
 
   const res = { added: [], priceChanges: [], markedSold: 0, markedGone: 0, skippedSold: 0 };
@@ -84,9 +106,10 @@ export function applyScan(db, items, { now = new Date().toISOString(), complete 
         res.added.push(p);
         continue;
       }
-      const dropped = p.priceIsk < row.price_isk;
+      // Verðlækkun setur vöruna aftur í vinnslu – nema hún sé í bakskrá.
+      const requeue = p.priceIsk < row.price_isk && row.analysis_status !== 'backlog' ? 1 : 0;
       if (p.priceIsk !== row.price_isk) res.priceChanges.push({ handle: p.handle, from: row.price_isk, to: p.priceIsk });
-      seen.run(...[now, p.priceIsk, p.compareAtIsk, p.title, p.category, p.description, p.image, dropped ? 1 : 0, row.id].map(nn));
+      seen.run(...[now, p.priceIsk, p.compareAtIsk, p.title, p.category, p.description, p.image, requeue, requeue, row.id].map(nn));
     }
     if (complete && items.length) {
       res.markedGone = Number(
@@ -104,8 +127,29 @@ export function applyScan(db, items, { now = new Date().toISOString(), complete 
 /** Vörur sem næstu skref eiga eftir að vinna. */
 export function pendingProducts(db, limit = 1000) {
   return db
-    .prepare(`SELECT * FROM products WHERE analyzed_at IS NULL AND status = 'available' ORDER BY listed_at DESC LIMIT ?`)
-    .all(limit);
+    .prepare(`SELECT * FROM products WHERE analyzed_at IS NULL AND status = 'available' AND analysis_attempts < ?
+      ORDER BY listed_at DESC LIMIT ?`)
+    .all(MAX_ATTEMPTS, limit);
+}
+
+/** Merkir allar óunnar vörur sem bakskrá: þær verða hvorki greindar né bornar saman. */
+export function markBacklog(db, now = new Date().toISOString()) {
+  return Number(
+    db.prepare(`UPDATE products SET analyzed_at = ?, analysis_status = 'backlog' WHERE analyzed_at IS NULL`).run(now).changes,
+  );
+}
+
+export function saveAnalysis(db, id, { analysis: a, model, imageUsed }, now = new Date().toISOString()) {
+  db.prepare(`UPDATE products SET analyzed_at = ?, analysis_status = ?, brand = ?, model = ?, product_type = ?,
+    ebay_query = ?, quantity = ?, id_confidence = ?, analysis_note = ?, analysis_model = ?, analysis_image_used = ?,
+    analysis_error = NULL WHERE id = ?`).run(...[now, a.comparable ? 'ok' : 'no_comparison', a.brand, a.model, a.productType,
+    a.ebayQuery, a.quantity, a.confidence, a.comparable ? a.evidence : a.reason, model, imageUsed ? 1 : 0, id].map(nn));
+}
+
+/** Skráir misheppnaða tilraun; eftir MAX_ATTEMPTS er vörunni sleppt. Skilar fjölda tilrauna. */
+export function recordAnalysisError(db, id, message) {
+  db.prepare('UPDATE products SET analysis_attempts = analysis_attempts + 1, analysis_error = ? WHERE id = ?').run(String(message).slice(0, 500), id);
+  return db.prepare('SELECT analysis_attempts n FROM products WHERE id = ?').get(id).n;
 }
 
 export function recordRun(db, r) {

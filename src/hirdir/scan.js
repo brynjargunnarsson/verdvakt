@@ -1,26 +1,28 @@
 #!/usr/bin/env node
 // Skref 1: skanna godihirdirinn.is og vista nýjar, óseldar vörur í SQLite.
 //
-//   node src/hirdir/scan.js [--db skrá] [--verify N] [--max-pages N] [--list] [--quiet]
+//   node src/hirdir/scan.js [--db skrá] [--verify N] [--max-pages N] [--analyze-all] [--list] [--quiet]
 //
 //   --verify N     sækir N vörusíður af handahófi og ber saman við forsíðugögnin
 //   --max-pages N  hámark vörusíðna sem sóttar eru í einni keyrslu (sjálfgefið 40)
+//   --analyze-all  í fyrstu keyrslu: ekki setja vörur sem þegar eru á síðunni í bakskrá
 //   --list         prentar nýjar vörur sem JSON-línur á stdout
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { openDb, applyScan, recordRun, pendingProducts } from './db.js';
+import { openDb, applyScan, recordRun, pendingProducts, markBacklog } from './db.js';
 import { ORIGIN, createClient, productsFromFlight, productsFromCards, detailsFromProductPage } from './site.js';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 export const DEFAULT_DB = path.join(ROOT, 'data', 'hirdir', 'hirdir.db');
 
 function args(argv) {
-  const o = { db: process.env.HIRDIR_DB || DEFAULT_DB, verify: 0, maxPages: 40, list: false, quiet: false };
+  const o = { db: process.env.HIRDIR_DB || DEFAULT_DB, verify: 0, maxPages: 40, analyzeAll: false, list: false, quiet: false };
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i];
     if (a === '--db') o.db = argv[++i];
     else if (a === '--verify') o.verify = Number(argv[++i]);
     else if (a === '--max-pages') o.maxPages = Number(argv[++i]);
+    else if (a === '--analyze-all') o.analyzeAll = true;
     else if (a === '--list') o.list = true;
     else if (a === '--quiet') o.quiet = true;
     else throw new Error(`Óþekkt viðfang: ${a}`);
@@ -30,8 +32,9 @@ function args(argv) {
 
 const kr = (n) => `${n.toLocaleString('de-DE')} kr`;
 
-export async function scan({ db, client, maxPages = 40, verify = 0, log = () => {} }) {
+export async function scan({ db, client, maxPages = 40, verify = 0, analyzeAll = false, log = () => {} }) {
   const startedAt = new Date().toISOString();
+  const firstRun = db.prepare('SELECT count(*) n FROM products').get().n === 0;
   const html = await client.get(`${ORIGIN}/`);
 
   let items = productsFromFlight(html);
@@ -62,6 +65,10 @@ export async function scan({ db, client, maxPages = 40, verify = 0, log = () => 
   const ready = items.filter((p) => !deferred.has(p.handle));
 
   const res = applyScan(db, ready, { now: startedAt, complete: source === 'flight' });
+  // Fyrsta keyrsla: allt sem þegar er á síðunni fer í bakskrá, svo aðeins vörur
+  // sem bætast við héðan í frá séu greindar (nema beðið sé um annað).
+  const backlog = firstRun && !analyzeAll ? markBacklog(db, startedAt) : 0;
+  if (backlog) log(`Fyrsta keyrsla: ${backlog} vörur sem þegar voru á síðunni settar í bakskrá (--analyze-all greinir þær líka).`);
 
   const mismatches = [];
   if (verify > 0) {
@@ -104,7 +111,7 @@ async function main() {
   const db = openDb(o.db);
   const client = createClient({ log: o.quiet ? undefined : (m) => console.error(`  ${m}`) });
   try {
-    const r = await scan({ db, client, maxPages: o.maxPages, verify: o.verify, log });
+    const r = await scan({ db, client, maxPages: o.maxPages, verify: o.verify, analyzeAll: o.analyzeAll, log });
     log(
       `\nGóði hirðirinn: ${r.listed} vörur á síðunni (${r.source}), ${r.skippedSold} seldum sleppt.` +
         `\n  Nýjar: ${r.newCount}   Verðbreytingar: ${r.priceChanges}   Seldust: ${r.markedSold}   Horfnar: ${r.markedGone}` +

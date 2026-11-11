@@ -6,9 +6,12 @@
     "check": "node src/run.js",
     "discover": "node src/discover.js",
     "hirdir:scan": "node src/hirdir/scan.js",
-    "test": "node --test test/*.test.js"
+    "test": "node --test test/*.test.js",
+    "hirdir:analyze": "node src/hirdir/analyze.js"
   },
   "dependencies": {
-    "playwright": "1.63.0"
+    "@anthropic-ai/sdk": "^1.8.0",
+    "playwright": "1.63.0",
+    "zod": "^4.6.7"
   }
 }
