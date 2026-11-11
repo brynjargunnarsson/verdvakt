@@ -3,30 +3,39 @@
   "brooks-glycerin-23": "2026-11-10T20:05:32.754Z",
   "normann-bit-stack": "2026-11-10T20:15:14.455Z",
   "samsung-the-frame-43-guax": "2026-11-11T00:00:58.346Z",
-  "chase-2-plus-mips-skidahjalmur-m2d4": "2026-11-10T12:24:20.380Z",
+  "chase-2-plus-mips-skidahjalmur-m2d4": "2026-11-11T13:24:42.719Z",
   "milwaukee-hjolsog-wfso": "2026-11-10T21:26:41.104Z"
  },
  "lastSaleScan": {
-  "elko.is": "2026-11-11T09:37:11.549Z",
-  "kd.is": "2026-11-11T05:02:47.338Z",
-  "computer.is": "2026-11-11T05:02:48.899Z",
-  "www.ormsson.is": "2026-11-11T05:02:40.213Z",
-  "www.hagkaup.is": "2026-11-11T05:02:52.376Z",
-  "heimkaup.is": "2026-11-11T05:02:54.048Z",
-  "www.tolvutek.is": "2026-11-11T05:03:16.381Z",
-  "kokka.is": "2026-11-11T05:03:18.106Z",
-  "www.ilva.is": "2026-11-11T05:03:23.515Z",
-  "hrim.is": "2026-11-11T05:03:24.938Z",
-  "www.husa.is": "2026-11-11T05:03:40.760Z",
-  "byko.is": "2026-11-11T05:03:44.986Z",
+  "elko.is": "2026-11-11T13:11:44.206Z",
+  "kd.is": "2026-11-11T13:11:10.917Z",
+  "computer.is": "2026-11-11T13:11:11.601Z",
+  "www.ormsson.is": "2026-11-11T13:11:15.414Z",
+  "www.hagkaup.is": "2026-11-11T13:11:22.204Z",
+  "heimkaup.is": "2026-11-11T13:11:25.313Z",
+  "www.tolvutek.is": "2026-11-11T13:12:21.078Z",
+  "kokka.is": "2026-11-11T13:11:54.027Z",
+  "www.ilva.is": "2026-11-11T13:12:00.267Z",
+  "hrim.is": "2026-11-11T13:12:15.127Z",
+  "www.husa.is": "2026-11-11T13:12:22.924Z",
+  "byko.is": "2026-11-11T13:12:37.021Z",
   "www.epal.is": "2026-11-11T11:59:54.833Z",
-  "snuran.is": "2026-11-11T05:03:48.602Z",
-  "oskaskrin.is": "2026-11-11T05:03:53.164Z",
-  "gjafabref.is": "2026-11-11T05:03:55.113Z",
-  "hopkaup.is": "2026-11-11T05:03:59.585Z",
-  "brooksrunning.is": "2026-11-11T09:37:10.117Z"
+  "snuran.is": "2026-11-11T13:12:20.217Z",
+  "oskaskrin.is": "2026-11-11T13:12:38.417Z",
+  "gjafabref.is": "2026-11-11T13:12:47.137Z",
+  "hopkaup.is": "2026-11-11T13:12:55.968Z",
+  "brooksrunning.is": "2026-11-11T13:13:03.876Z"
  },
  "runs": [
+  {
+   "at": "2026-11-11T13:24:42.719Z",
+   "mode": "afsláttur",
+   "checked": 6,
+   "changed": 0,
+   "drops": 0,
+   "errors": 0,
+   "seconds": 839
+  },
   {
    "at": "2026-11-11T11:59:54.833Z",
    "mode": "afsláttur",
@@ -343,7 +352,7 @@
    "seconds": 299
   }
  ],
- "lastRun": "2026-11-11T11:59:00.169Z",
- "lastFinished": "2026-11-11T11:59:54.833Z",
+ "lastRun": "2026-11-11T13:10:58.586Z",
+ "lastFinished": "2026-11-11T13:24:42.719Z",
  "lastMorning": "2026-11-11"
 }
