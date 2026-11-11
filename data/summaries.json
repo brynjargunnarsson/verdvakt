@@ -1,6 +1,27 @@
 {
  "items": [
   {
+   "id": "25f3e54971",
+   "at": "2026-11-11T02:08:26.507Z",
+   "type": "lækkanir",
+   "event": "Dagur einhleypra (11.11)",
+   "changes": [
+    {
+     "productId": "milwaukee-hjolsog-wfso",
+     "name": "Milwaukee Hjólsög",
+     "store": "rubix.is",
+     "storeName": "rubix.is",
+     "url": "https://rubix.is/vorur/MW-4933493587",
+     "from": 77990,
+     "to": 66291,
+     "pct": -15,
+     "newLow": true,
+     "target": null,
+     "marketplace": false
+    }
+   ]
+  },
+  {
    "id": "d7d8dbfe24",
    "at": "2026-11-10T13:48:34.530Z",
    "type": "lækkanir",

@@ -7,7 +7,7 @@
   "milwaukee-hjolsog-wfso": "2026-11-10T21:26:41.104Z"
  },
  "lastSaleScan": {
-  "elko.is": "2026-11-10T22:47:32.003Z",
+  "elko.is": "2026-11-11T02:08:26.507Z",
   "kd.is": "2026-11-10T20:49:08.886Z",
   "computer.is": "2026-11-10T20:49:08.452Z",
   "www.ormsson.is": "2026-11-10T20:49:04.084Z",
@@ -24,9 +24,18 @@
   "oskaskrin.is": "2026-11-10T20:50:14.127Z",
   "gjafabref.is": "2026-11-10T20:50:16.219Z",
   "hopkaup.is": "2026-11-10T20:50:20.466Z",
-  "brooksrunning.is": "2026-11-10T22:47:45.796Z"
+  "brooksrunning.is": "2026-11-11T02:08:21.649Z"
  },
  "runs": [
+  {
+   "at": "2026-11-11T02:08:26.507Z",
+   "mode": "afsláttur",
+   "checked": 6,
+   "changed": 1,
+   "drops": 1,
+   "errors": 0,
+   "seconds": 65
+  },
   {
    "at": "2026-11-11T01:05:41.873Z",
    "mode": "afsláttur",
@@ -253,6 +262,6 @@
    "seconds": 299
   }
  ],
- "lastRun": "2026-11-11T01:05:41.872Z",
- "lastFinished": "2026-11-11T01:05:41.873Z"
+ "lastRun": "2026-11-11T02:07:35.703Z",
+ "lastFinished": "2026-11-11T02:08:26.507Z"
 }
