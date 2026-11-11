@@ -7,7 +7,7 @@
    "store": "brooksrunning.is",
    "storeName": "Brooks",
    "marketplace": false,
-   "lastChecked": "2026-11-11T02:07:35.697Z",
+   "lastChecked": "2026-11-11T02:58:26.239Z",
    "title": "Glycerin 23",
    "available": true,
    "wasPrice": null,
@@ -27,18 +27,20 @@
    "store": "ht.is",
    "storeName": "Heimilistæki",
    "marketplace": false,
-   "lastChecked": "2026-11-11T02:07:32.864Z",
+   "lastChecked": "2026-11-11T02:58:26.931Z",
    "title": "Samsung 43\" The Frame QLED UHD 4K Sjónvarp (2026)",
    "available": false,
-   "wasPrice": null,
+   "wasPrice": 159995,
    "memberPrice": null,
    "source": "json-ld",
-   "current": 159995,
+   "current": 135996,
    "max": 159995,
-   "min": 159995,
-   "lastChanged": "2026-11-09T22:38:19.192Z",
+   "min": 135996,
+   "lastChanged": "2026-11-11T02:58:26.936Z",
    "maxAt": "2026-11-09T22:38:19.192Z",
-   "minAt": "2026-11-09T22:38:19.192Z"
+   "minAt": "2026-11-11T02:58:26.936Z",
+   "previous": 159995,
+   "previousAt": "2026-11-09T22:38:19.192Z"
   },
   "931366ee4b": {
    "productId": "samsung-the-frame-43-guax",
@@ -47,7 +49,7 @@
    "store": "elko.is",
    "storeName": "ELKO",
    "marketplace": false,
-   "lastChecked": "2026-11-11T02:07:34.009Z",
+   "lastChecked": "2026-11-11T02:58:26.985Z",
    "title": "Samsung 43 The Frame QLED sjónvarp (2026)",
    "available": true,
    "wasPrice": null,
@@ -67,18 +69,20 @@
    "store": "rafland.is",
    "storeName": "Rafland",
    "marketplace": false,
-   "lastChecked": "2026-11-11T02:07:33.567Z",
+   "lastChecked": "2026-11-11T02:58:27.952Z",
    "title": "Samsung 43\" The Frame QLED UHD 4K Sjónvarp (2026)",
    "available": false,
-   "wasPrice": null,
+   "wasPrice": 159995,
    "memberPrice": null,
    "source": "json-ld",
-   "current": 159995,
+   "current": 135996,
    "max": 159995,
-   "min": 159995,
-   "lastChanged": "2026-11-09T22:38:20.087Z",
+   "min": 135996,
+   "lastChanged": "2026-11-11T02:58:27.952Z",
    "maxAt": "2026-11-09T22:38:20.087Z",
-   "minAt": "2026-11-09T22:38:20.087Z"
+   "minAt": "2026-11-11T02:58:27.952Z",
+   "previous": 159995,
+   "previousAt": "2026-11-09T22:38:20.087Z"
   },
   "737d5ca565": {
    "productId": "chase-2-plus-mips-skidahjalmur-m2d4",
@@ -87,7 +91,7 @@
    "store": "markid.is",
    "storeName": "Markið",
    "marketplace": false,
-   "lastChecked": "2026-11-11T02:07:34.559Z",
+   "lastChecked": "2026-11-11T02:58:28.666Z",
    "title": "CHASE 2 PLUS Mips | Skíðahjálmur",
    "available": true,
    "wasPrice": 995,
@@ -109,7 +113,7 @@
    "store": "rubix.is",
    "storeName": "rubix.is",
    "marketplace": false,
-   "lastChecked": "2026-11-11T02:07:30.587Z",
+   "lastChecked": "2026-11-11T02:58:23.692Z",
    "title": "Hjólsög M18 FUEL™ FCS552-0 165mm",
    "available": true,
    "wasPrice": 77990,
@@ -139,7 +143,7 @@
    "max": 34990,
    "maxAt": "2026-11-09T12:23:28.364Z",
    "maxStore": "Brooks",
-   "checkedAt": "2026-11-11T02:07:35.702Z"
+   "checkedAt": "2026-11-11T02:58:28.672Z"
   },
   "samsung-the-frame-43-guax": {
    "since": "2026-11-09T22:38:25.820Z",
@@ -154,7 +158,7 @@
    "max": 159995,
    "maxAt": "2026-11-09T22:38:25.820Z",
    "maxStore": "ELKO",
-   "checkedAt": "2026-11-11T02:07:35.703Z"
+   "checkedAt": "2026-11-11T02:58:28.672Z"
   },
   "chase-2-plus-mips-skidahjalmur-m2d4": {
    "since": "2026-11-10T12:13:01.662Z",
@@ -169,7 +173,7 @@
    "max": 21995,
    "maxAt": "2026-11-10T12:13:01.662Z",
    "maxStore": "Markið",
-   "checkedAt": "2026-11-11T02:07:35.703Z",
+   "checkedAt": "2026-11-11T02:58:28.672Z",
    "previous": 21995,
    "previousAt": "2026-11-10T12:13:01.662Z"
   },
@@ -186,10 +190,10 @@
    "max": 77990,
    "maxAt": "2026-11-10T20:59:58.433Z",
    "maxStore": "rubix.is",
-   "checkedAt": "2026-11-11T02:07:35.703Z",
+   "checkedAt": "2026-11-11T02:58:28.672Z",
    "previous": 77990,
    "previousAt": "2026-11-10T20:59:58.433Z"
   }
  },
- "updatedAt": "2026-11-11T02:07:35.703Z"
+ "updatedAt": "2026-11-11T02:58:28.672Z"
 }

@@ -1,6 +1,40 @@
 {
  "items": [
   {
+   "id": "8606578955",
+   "at": "2026-11-11T02:59:25.064Z",
+   "type": "lækkanir",
+   "event": "Dagur einhleypra (11.11)",
+   "changes": [
+    {
+     "productId": "samsung-the-frame-43-guax",
+     "name": "Samsung the frame 43\"",
+     "store": "ht.is",
+     "storeName": "Heimilistæki",
+     "url": "https://ht.is/samsung-43-the-frame-qled-uhd-4k-sjonvarp-2026.html",
+     "from": 159995,
+     "to": 135996,
+     "pct": -15,
+     "newLow": true,
+     "target": null,
+     "marketplace": false
+    },
+    {
+     "productId": "samsung-the-frame-43-guax",
+     "name": "Samsung the frame 43\"",
+     "store": "rafland.is",
+     "storeName": "Rafland",
+     "url": "http://rafland.is/samsung-43-the-frame-qled-uhd-4k-sjonvarp-2026.html",
+     "from": 159995,
+     "to": 135996,
+     "pct": -15,
+     "newLow": true,
+     "target": null,
+     "marketplace": false
+    }
+   ]
+  },
+  {
    "id": "25f3e54971",
    "at": "2026-11-11T02:08:26.507Z",
    "type": "lækkanir",
