@@ -66,15 +66,10 @@
   "salePages": []
  },
  "hrim.is": {
-  "checkedAt": "2026-11-11T21:41:17.105Z",
+  "checkedAt": "2026-11-12T07:22:02.160Z",
   "codes": [],
   "salePages": [
-   "https://hrim.is/product/svart-kaffi-30-x-40-cm",
-   "https://hrim.is/product/global-goals-bangle-white",
-   "https://hrim.is/product/plakat-gleym-mer-ei",
-   "https://hrim.is/product/jellycat-amu-hosomaki-bag-charm",
-   "https://hrim.is/product/jellycat-smudge-monkey-medium",
-   "https://hrim.is/product/jellycat-bizzlestomp-bear"
+   "https://hrim.is/product/carolinembg-glove-caramel"
   ]
  },
  "www.husa.is": {
@@ -86,15 +81,14 @@
   ]
  },
  "byko.is": {
-  "checkedAt": "2026-11-11T21:41:38.432Z",
+  "checkedAt": "2026-11-12T07:22:04.104Z",
   "codes": [],
   "salePages": [
-   "https://byko.is/blair-dagar",
    "https://byko.is/plus-tilbod"
   ]
  },
  "www.epal.is": {
-  "checkedAt": "2026-11-11T21:41:33.895Z",
+  "checkedAt": "2026-11-12T07:22:46.462Z",
   "codes": [],
   "salePages": [
    "https://www.epal.is/collections/tilbod",
@@ -104,7 +98,7 @@
   ]
  },
  "snuran.is": {
-  "checkedAt": "2026-11-11T21:41:36.694Z",
+  "checkedAt": "2026-11-12T07:22:43.014Z",
   "codes": [
    {
     "code": "ÚTSKRIFTIR",
@@ -130,25 +124,25 @@
   ]
  },
  "oskaskrin.is": {
-  "checkedAt": "2026-11-11T21:41:49.539Z",
+  "checkedAt": "2026-11-12T07:22:21.413Z",
   "codes": [],
   "salePages": []
  },
  "gjafabref.is": {
-  "checkedAt": "2026-11-11T21:41:48.485Z",
+  "checkedAt": "2026-11-12T07:22:30.833Z",
   "codes": [],
   "salePages": []
  },
  "hopkaup.is": {
-  "checkedAt": "2026-11-11T21:42:08.189Z",
+  "checkedAt": "2026-11-12T07:22:33.394Z",
   "codes": [],
   "salePages": [
    "https://hopkaup.is/oll-tilbod",
    "https://hopkaup.is/thjonusta",
    "https://hopkaup.is/singles-day",
    "https://hopkaup.is/vinsaelustu-tilbodin",
-   "https://hopkaup.is/smarabio_biomidi_singlesday26",
-   "https://hopkaup.is/smarabio_skemmtisvaedi_singlesday26"
+   "https://hopkaup.is/sanavorur_gamatilbod_jol26",
+   "https://hopkaup.is/jolagjafir"
   ]
  },
  "brooksrunning.is": {
