@@ -1,6 +1,6 @@
 {
  "elko.is": {
-  "checkedAt": "2026-11-12T12:34:09.550Z",
+  "checkedAt": "2026-11-12T16:05:34.823Z",
   "codes": [],
   "salePages": []
  },
@@ -63,14 +63,19 @@
   "salePages": []
  },
  "hrim.is": {
-  "checkedAt": "2026-11-12T07:22:02.160Z",
+  "checkedAt": "2026-11-12T16:05:57.842Z",
   "codes": [],
   "salePages": [
-   "https://hrim.is/product/carolinembg-glove-caramel"
+   "https://hrim.is/product/svart-kaffi-30-x-40-cm",
+   "https://hrim.is/product/global-goals-bangle-white",
+   "https://hrim.is/product/plakat-gleym-mer-ei",
+   "https://hrim.is/product/jellycat-amu-hosomaki-bag-charm",
+   "https://hrim.is/product/jellycat-smudge-monkey-medium",
+   "https://hrim.is/product/jellycat-bizzlestomp-bear"
   ]
  },
  "www.husa.is": {
-  "checkedAt": "2026-11-12T12:34:22.391Z",
+  "checkedAt": "2026-11-12T16:05:58.804Z",
   "codes": [],
   "salePages": [
    "https://www.husa.is/eldhus-og-badherbergi/salerni/veggtengd-salerni/wc-laufen-pro-veggskalplusseta-svart-h8669577160001/",
@@ -78,14 +83,14 @@
   ]
  },
  "byko.is": {
-  "checkedAt": "2026-11-12T07:22:04.104Z",
+  "checkedAt": "2026-11-12T16:06:14.062Z",
   "codes": [],
   "salePages": [
    "https://byko.is/plus-tilbod"
   ]
  },
  "www.epal.is": {
-  "checkedAt": "2026-11-12T07:22:46.462Z",
+  "checkedAt": "2026-11-12T16:06:29.980Z",
   "codes": [],
   "salePages": [
    "https://www.epal.is/collections/tilbod",
@@ -95,7 +100,7 @@
   ]
  },
  "snuran.is": {
-  "checkedAt": "2026-11-12T07:22:43.014Z",
+  "checkedAt": "2026-11-12T16:06:32.391Z",
   "codes": [
    {
     "code": "ÚTSKRIFTIR",
@@ -121,17 +126,17 @@
   ]
  },
  "oskaskrin.is": {
-  "checkedAt": "2026-11-12T07:22:21.413Z",
+  "checkedAt": "2026-11-12T16:06:42.151Z",
   "codes": [],
   "salePages": []
  },
  "gjafabref.is": {
-  "checkedAt": "2026-11-12T07:22:30.833Z",
+  "checkedAt": "2026-11-12T16:06:42.741Z",
   "codes": [],
   "salePages": []
  },
  "hopkaup.is": {
-  "checkedAt": "2026-11-12T07:22:33.394Z",
+  "checkedAt": "2026-11-12T16:06:49.592Z",
   "codes": [],
   "salePages": [
    "https://hopkaup.is/oll-tilbod",
@@ -143,7 +148,7 @@
   ]
  },
  "brooksrunning.is": {
-  "checkedAt": "2026-11-12T12:34:39.191Z",
+  "checkedAt": "2026-11-12T16:06:41.679Z",
   "codes": [],
   "salePages": [
    "https://brooksrunning.is/vara/hyperion-elite-5-2",
