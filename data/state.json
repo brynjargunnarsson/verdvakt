@@ -2,12 +2,12 @@
  "lastDiscovery": {
   "brooks-glycerin-23": "2026-11-11T21:50:41.452Z",
   "normann-bit-stack": "2026-11-10T20:15:14.455Z",
-  "samsung-the-frame-43-guax": "2026-11-11T00:00:58.346Z",
+  "samsung-the-frame-43-guax": "2026-11-12T01:35:45.999Z",
   "chase-2-plus-mips-skidahjalmur-m2d4": "2026-11-11T13:24:42.719Z",
   "milwaukee-hjolsog-wfso": "2026-11-11T22:18:25.170Z"
  },
  "lastSaleScan": {
-  "elko.is": "2026-11-11T21:40:48.663Z",
+  "elko.is": "2026-11-12T01:14:49.008Z",
   "kd.is": "2026-11-11T21:40:15.299Z",
   "computer.is": "2026-11-11T21:40:22.216Z",
   "www.ormsson.is": "2026-11-11T21:40:19.776Z",
@@ -17,16 +17,25 @@
   "kokka.is": "2026-11-11T21:40:55.601Z",
   "www.ilva.is": "2026-11-11T21:41:02.693Z",
   "hrim.is": "2026-11-11T21:41:17.105Z",
-  "www.husa.is": "2026-11-11T21:41:24.157Z",
+  "www.husa.is": "2026-11-12T01:14:26.870Z",
   "byko.is": "2026-11-11T21:41:38.432Z",
   "www.epal.is": "2026-11-11T21:41:33.895Z",
   "snuran.is": "2026-11-11T21:41:36.694Z",
   "oskaskrin.is": "2026-11-11T21:41:49.539Z",
   "gjafabref.is": "2026-11-11T21:41:48.485Z",
   "hopkaup.is": "2026-11-11T21:42:08.189Z",
-  "brooksrunning.is": "2026-11-11T21:42:07.602Z"
+  "brooksrunning.is": "2026-11-12T01:14:45.696Z"
  },
  "runs": [
+  {
+   "at": "2026-11-12T01:35:45.999Z",
+   "mode": "afsláttur",
+   "checked": 15,
+   "changed": 4,
+   "drops": 0,
+   "errors": 0,
+   "seconds": 1372
+  },
   {
    "at": "2026-11-11T23:52:46.231Z",
    "mode": "afsláttur",
@@ -406,7 +415,7 @@
    "seconds": 299
   }
  ],
- "lastRun": "2026-11-11T23:52:46.230Z",
- "lastFinished": "2026-11-11T23:52:46.231Z",
+ "lastRun": "2026-11-12T01:14:05.831Z",
+ "lastFinished": "2026-11-12T01:35:45.999Z",
  "lastMorning": "2026-11-11"
 }

@@ -12,7 +12,7 @@
  "codes": [
   "TQ43LS03HEUXXC"
  ],
- "searchedAt": "2026-11-11T00:00:58.345Z",
+ "searchedAt": "2026-11-12T01:35:45.998Z",
  "storesSearched": 64,
  "storesFailed": [
   {
@@ -20,7 +20,7 @@
    "error": "HTTP 403"
   }
  ],
- "seconds": 1247,
+ "seconds": 1257,
  "results": [
   {
    "url": "https://elko.is/vorur/samsung-43-the-frame-rammi-hvitur-252884/VGSCFA43WTBXC",
@@ -31,20 +31,7 @@
    "score": 1,
    "marketplace": false,
    "foundAt": "2026-11-09T22:36:50.417Z",
-   "seenAt": "2026-11-11T00:00:58.344Z",
-   "via": "leit",
-   "accessory": true
-  },
-  {
-   "url": "https://elko.is/vorur/samsung-43-the-frame-rammi-brunn-252902/VGSCFA43BWBXC",
-   "store": "elko.is",
-   "storeName": "ELKO",
-   "title": "Samsung 43\" The Frame rammi - Brúnn",
-   "price": 7995,
-   "score": 1,
-   "marketplace": false,
-   "foundAt": "2026-11-09T22:36:50.417Z",
-   "seenAt": "2026-11-11T00:00:58.345Z",
+   "seenAt": "2026-11-12T01:35:45.997Z",
    "via": "leit",
    "accessory": true
   },
@@ -57,7 +44,20 @@
    "score": 1,
    "marketplace": false,
    "foundAt": "2026-11-09T22:36:50.417Z",
-   "seenAt": "2026-11-11T00:00:58.345Z",
+   "seenAt": "2026-11-12T01:35:45.997Z",
+   "via": "leit",
+   "accessory": true
+  },
+  {
+   "url": "https://elko.is/vorur/samsung-43-the-frame-rammi-brunn-252902/VGSCFA43BWBXC",
+   "store": "elko.is",
+   "storeName": "ELKO",
+   "title": "Samsung 43\" The Frame rammi - Brúnn",
+   "price": 7995,
+   "score": 1,
+   "marketplace": false,
+   "foundAt": "2026-11-09T22:36:50.417Z",
+   "seenAt": "2026-11-12T01:35:45.997Z",
    "via": "leit",
    "accessory": true
   }
