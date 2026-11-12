@@ -5,63 +5,60 @@
   "salePages": []
  },
  "kd.is": {
-  "checkedAt": "2026-11-12T05:41:16.199Z",
+  "checkedAt": "2026-11-12T13:53:40.623Z",
   "codes": [],
   "salePages": [
    "https://kd.is/category/30?pc_promo=3%20%C3%A1ra%20%C3%A1byrg%C3%B0"
   ]
  },
  "computer.is": {
-  "checkedAt": "2026-11-12T05:41:15.926Z",
+  "checkedAt": "2026-11-12T13:53:41.879Z",
   "codes": [],
   "salePages": [
    "https://computer.is/is/products/tilbod"
   ]
  },
  "www.ormsson.is": {
-  "checkedAt": "2026-11-12T05:41:08.219Z",
+  "checkedAt": "2026-11-12T13:53:39.976Z",
   "codes": [],
   "salePages": []
  },
  "www.hagkaup.is": {
-  "checkedAt": "2026-11-12T05:41:27.919Z",
+  "checkedAt": "2026-11-12T13:53:47.264Z",
   "codes": [],
-  "salePages": [
-   "https://www.hagkaup.is/grein/11.11-i-hagkaup"
-  ]
+  "salePages": []
  },
  "heimkaup.is": {
-  "checkedAt": "2026-11-12T05:41:22.732Z",
+  "checkedAt": "2026-11-12T13:53:52.922Z",
   "codes": [],
   "salePages": [
    "https://heimkaup.is/c/great-deals1-2718?showProducts=true"
   ]
  },
  "www.tolvutek.is": {
-  "checkedAt": "2026-11-12T05:41:41.686Z",
+  "checkedAt": "2026-11-12T13:54:05.868Z",
   "codes": [
    {
     "code": "ÖLL",
-    "pct": 50,
-    "text": "Dagur einhleypra í Tölvutek 🔥1️⃣ 11-50% afsláttur af ÖLLU! 1️⃣🔥 Skoða ÖLL tilboð Heit tilboð 🔥"
+    "pct": null,
+    "text": "Dagur einhleypra í Tölvutek 🔥1️⃣ Valin tilboð til 15.11&nbsp; 1️⃣🔥 Skoða ÖLL tilboð Heit tilboð 🔥"
    }
   ],
   "salePages": [
    "https://www.tolvutek.is/shop/category/562",
    "https://www.tolvutek.is/shop/category/591",
    "https://www.tolvutek.is/1111-tilbod",
+   "https://www.tolvutek.is/shop/category/featured-allar-tilbo%C3%B0svorur-562",
    "https://www.tolvutek.is/shop/category/heimilistaeki-379?tt_all=379"
   ]
  },
  "kokka.is": {
-  "checkedAt": "2026-11-12T05:41:43.539Z",
+  "checkedAt": "2026-11-12T13:53:49.561Z",
   "codes": [],
-  "salePages": [
-   "https://kokka.is/utsala/"
-  ]
+  "salePages": []
  },
  "www.ilva.is": {
-  "checkedAt": "2026-11-12T05:41:29.675Z",
+  "checkedAt": "2026-11-12T13:53:52.948Z",
   "codes": [],
   "salePages": []
  },
