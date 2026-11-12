@@ -5,38 +5,38 @@
   "salePages": []
  },
  "kd.is": {
-  "checkedAt": "2026-11-12T13:53:40.623Z",
+  "checkedAt": "2026-11-12T22:51:24.975Z",
   "codes": [],
   "salePages": [
    "https://kd.is/category/30?pc_promo=3%20%C3%A1ra%20%C3%A1byrg%C3%B0"
   ]
  },
  "computer.is": {
-  "checkedAt": "2026-11-12T13:53:41.879Z",
+  "checkedAt": "2026-11-12T22:51:25.481Z",
   "codes": [],
   "salePages": [
    "https://computer.is/is/products/tilbod"
   ]
  },
  "www.ormsson.is": {
-  "checkedAt": "2026-11-12T13:53:39.976Z",
+  "checkedAt": "2026-11-12T22:51:18.963Z",
   "codes": [],
   "salePages": []
  },
  "www.hagkaup.is": {
-  "checkedAt": "2026-11-12T13:53:47.264Z",
+  "checkedAt": "2026-11-12T22:51:30.498Z",
   "codes": [],
   "salePages": []
  },
  "heimkaup.is": {
-  "checkedAt": "2026-11-12T13:53:52.922Z",
+  "checkedAt": "2026-11-12T22:51:32.304Z",
   "codes": [],
   "salePages": [
    "https://heimkaup.is/c/great-deals1-2718?showProducts=true"
   ]
  },
  "www.tolvutek.is": {
-  "checkedAt": "2026-11-12T13:54:05.868Z",
+  "checkedAt": "2026-11-12T22:51:46.914Z",
   "codes": [
    {
     "code": "ÖLL",
@@ -46,6 +46,7 @@
   ],
   "salePages": [
    "https://www.tolvutek.is/shop/category/562",
+   "https://www.tolvutek.is/shop/category/featured-50-75-afslattur-591",
    "https://www.tolvutek.is/shop/category/591",
    "https://www.tolvutek.is/1111-tilbod",
    "https://www.tolvutek.is/shop/category/featured-allar-tilbo%C3%B0svorur-562",
@@ -53,12 +54,12 @@
   ]
  },
  "kokka.is": {
-  "checkedAt": "2026-11-12T13:53:49.561Z",
+  "checkedAt": "2026-11-12T22:51:32.277Z",
   "codes": [],
   "salePages": []
  },
  "www.ilva.is": {
-  "checkedAt": "2026-11-12T13:53:52.948Z",
+  "checkedAt": "2026-11-12T22:51:35.913Z",
   "codes": [],
   "salePages": []
  },

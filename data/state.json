@@ -1,21 +1,21 @@
 {
  "lastDiscovery": {
-  "brooks-glycerin-23": "2026-11-11T21:50:41.452Z",
+  "brooks-glycerin-23": "2026-11-12T23:00:06.314Z",
   "normann-bit-stack": "2026-11-10T20:15:14.455Z",
   "samsung-the-frame-43-guax": "2026-11-12T01:35:45.999Z",
   "chase-2-plus-mips-skidahjalmur-m2d4": "2026-11-12T14:05:39.379Z",
-  "milwaukee-hjolsog-wfso": "2026-11-11T22:18:25.170Z"
+  "milwaukee-hjolsog-wfso": "2026-11-12T23:27:13.390Z"
  },
  "lastSaleScan": {
   "elko.is": "2026-11-12T19:58:44.013Z",
-  "kd.is": "2026-11-12T13:53:40.623Z",
-  "computer.is": "2026-11-12T13:53:41.879Z",
-  "www.ormsson.is": "2026-11-12T13:53:39.976Z",
-  "www.hagkaup.is": "2026-11-12T13:53:47.264Z",
-  "heimkaup.is": "2026-11-12T13:53:52.922Z",
-  "www.tolvutek.is": "2026-11-12T13:54:05.868Z",
-  "kokka.is": "2026-11-12T13:53:49.561Z",
-  "www.ilva.is": "2026-11-12T13:53:52.948Z",
+  "kd.is": "2026-11-12T22:51:24.975Z",
+  "computer.is": "2026-11-12T22:51:25.481Z",
+  "www.ormsson.is": "2026-11-12T22:51:18.963Z",
+  "www.hagkaup.is": "2026-11-12T22:51:30.498Z",
+  "heimkaup.is": "2026-11-12T22:51:32.304Z",
+  "www.tolvutek.is": "2026-11-12T22:51:46.914Z",
+  "kokka.is": "2026-11-12T22:51:32.277Z",
+  "www.ilva.is": "2026-11-12T22:51:35.913Z",
   "hrim.is": "2026-11-12T16:05:57.842Z",
   "www.husa.is": "2026-11-12T19:58:57.370Z",
   "byko.is": "2026-11-12T16:06:14.063Z",
@@ -27,6 +27,15 @@
   "brooksrunning.is": "2026-11-12T19:59:06.645Z"
  },
  "runs": [
+  {
+   "at": "2026-11-12T23:27:13.391Z",
+   "mode": "afsláttur",
+   "checked": 15,
+   "changed": 0,
+   "drops": 0,
+   "errors": 0,
+   "seconds": 2224
+  },
   {
    "at": "2026-11-12T21:51:32.593Z",
    "mode": "afsláttur",
@@ -577,7 +586,7 @@
    "seconds": 299
   }
  ],
- "lastRun": "2026-11-12T21:51:32.593Z",
- "lastFinished": "2026-11-12T21:51:32.593Z",
+ "lastRun": "2026-11-12T22:51:14.178Z",
+ "lastFinished": "2026-11-12T23:27:13.391Z",
  "lastMorning": "2026-11-11"
 }
