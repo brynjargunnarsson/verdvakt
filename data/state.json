@@ -28,6 +28,15 @@
  },
  "runs": [
   {
+   "at": "2026-11-12T17:07:43.735Z",
+   "mode": "afsláttur",
+   "checked": 15,
+   "changed": 0,
+   "drops": 0,
+   "errors": 0,
+   "seconds": 76
+  },
+  {
    "at": "2026-11-12T16:06:49.593Z",
    "mode": "afsláttur",
    "checked": 15,
@@ -523,7 +532,7 @@
    "seconds": 299
   }
  ],
- "lastRun": "2026-11-12T16:05:26.185Z",
- "lastFinished": "2026-11-12T16:06:49.593Z",
+ "lastRun": "2026-11-12T17:07:43.734Z",
+ "lastFinished": "2026-11-12T17:07:43.735Z",
  "lastMorning": "2026-11-11"
 }
