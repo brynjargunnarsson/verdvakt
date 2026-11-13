@@ -90,7 +90,11 @@ export function pageProbe() {
   const PRICE_G = new RegExp(PRICE.source, 'gi');
   const OLD = /\b(old|was|before|compare|regular|original|strike|line-through|previous|fyrra|adur|retail|list-price)\b/i;
   const MEMBER = /(klúbb|vildar|félaga|meðlima|member|áskrif)/i;
-  const BAD_AREA = 'header, nav, footer, [class*="related"], [class*="upsell"], [class*="cross"], [class*="recommend"], [class*="carousel"], [class*="slider"], [id*="related"], [class*="cart"], [class*="minicart"]';
+  const BAD_AREA = 'header, nav, footer, [class*="related"], [class*="upsell"], [class*="cross"], [class*="recommend"], [class*="carousel"], [class*="slider"], [id*="related"], [class*="cart"], [class*="minicart"], [class*="instal"], [class*="finance"], [class*="greidsl"]';
+  // "Sparaðu 19.972 kr." is the discount, not the price. Monthly/financing figures aren't either.
+  const SAVING_TXT = /(sparaðu|sparar|þú sparar|sparnaður|you save|save\s)/i;
+  const SAVING_CLS = /(save|saving|sparn|you-save|price-diff)/i;
+  const NOT_PRICE_TXT = /(\/\s*m[áa]n|á mánuði|per month|\/mo\b|vextir|greiðsludreif|heildarkostnað|lántöku|afborgun|raðgreiðsl|kostnaður á hverja|sendingark|frí heimsending)/i;
   const num = (s) => {
     const m = s.match(PRICE);
     if (!m) return null;
@@ -130,6 +134,7 @@ export function pageProbe() {
     if (!PRICE.test(txt) || txt.length > 80 || seen.has(el)) continue;
     seen.add(el);
     if (!visible(el) || el.closest(BAD_AREA)) continue;
+    if (SAVING_TXT.test(txt) || SAVING_CLS.test(String(el.className?.baseVal ?? el.className)) || NOT_PRICE_TXT.test(txt)) continue;
     const label = (el.parentElement?.parentElement?.textContent || '').slice(0, 200);
     cands.push({ el, price: num(txt), old: isOld(el), member: MEMBER.test(label) && !/verð\s*$/i.test(label) && MEMBER.test(el.parentElement?.textContent || '') });
   }
@@ -164,8 +169,11 @@ export function pageProbe() {
   const old = chosen.filter((c) => c.old && c.price);
   const mem = chosen.filter((c) => c.member && c.price);
   if (!cur.length) return null;
-  const price = Math.min(...cur.map((c) => c.price));
   const wasPrice = old.length ? Math.max(...old.map((c) => c.price)) : null;
+  // If wasPrice - A = B, then the smaller of A/B is the saving (e.g. 79.890 - 59.918 = 19.972).
+  const isSaving = (p) => !!wasPrice && cur.some((c) => c.price !== p && Math.abs(wasPrice - c.price - p) <= 2);
+  const real = cur.filter((c) => !isSaving(c.price));
+  const price = Math.min(...(real.length ? real : cur).map((c) => c.price));
   const memberPrice = mem.length ? Math.min(...mem.map((c) => c.price)) : null;
 
   const body = (document.querySelector('main') || document.body).innerText.slice(0, 20000);
@@ -241,6 +249,7 @@ export function cardProbe() {
       if (t.length > 40) return;
       const m = t.match(PRICE);
       if (!m) return;
+      if (/(sparaðu|sparar|you save|save\s|\/\s*m[áa]n|á mánuði|vextir)/i.test(t) || /(save|saving|sparn)/i.test(String(e.className))) return;
       const old =
         /^(S|DEL|STRIKE)$/.test(e.tagName) ||
         !!e.closest('s, del, strike') ||

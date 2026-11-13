@@ -235,7 +235,7 @@ function renderProducts() {
     const chips = [
       trendChip(ps.current, ps.previous),
       p.targetPrice && ps.current != null && ps.current <= p.targetPrice ? `<span class="chip down">Undir markverði</span>` : '',
-      flags.length ? `<span class="chip warn" title="${esc(flags.map((x) => x.text).join('\n'))}">⚠ Grunsamlegur afsláttur</span>` : '',
+      flags.length ? `<span class="chip warn" title="${esc(flags.map((x) => x.text).join('\n'))}">⚠ ${flags.some((x) => x.type === 'lestur') ? 'Athugaðu verðið' : 'Grunsamlegur afsláttur'}</span>` : '',
       nc ? `<span class="chip new">${nc} ${nc === 1 ? 'tillaga' : 'tillögur'}</span>` : '',
       searching ? `<span class="chip">Leitar í verslunum…</span>` : '',
       errs ? `<span class="chip warn">${errs} ${errs === 1 ? 'síða svarar' : 'síður svara'} ekki</span>` : '',
@@ -364,7 +364,7 @@ function renderSummaries() {
         <table class="t"><tbody>${s.changes
           .map(
             (c) => `<tr><td>${esc(c.name)}</td><td><a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.storeName)}</a>${c.marketplace ? ' <span class="chip">markaðstorg</span>' : ''}</td>
-            <td class="num"><s class="muted">${kr(c.from)}</s> → <b>${kr(c.to)}</b></td><td>${trendChip(c.to, c.from)} ${c.newLow ? '<span class="chip down">Nýtt lægsta verð</span>' : ''} ${c.target ? '<span class="chip down">Undir markverði</span>' : ''}</td></tr>`
+            <td class="num"><s class="muted">${kr(c.from)}</s> → <b>${kr(c.to)}</b></td><td>${trendChip(c.to, c.from)} ${c.newLow ? '<span class="chip down">Nýtt lægsta verð</span>' : ''} ${c.suspect ? '<span class="chip warn">Gæti verið villa í lestri</span>' : ''} ${c.target ? '<span class="chip down">Undir markverði</span>' : ''}</td></tr>`
           )
           .join('')}</tbody></table></div>`;
     })

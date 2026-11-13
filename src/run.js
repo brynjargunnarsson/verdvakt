@@ -124,12 +124,16 @@ if (FORCE || (priceDue && !ONLY_DISCOVER.length)) {
           to: r.price,
           pct: Math.round(((r.price - old) / old) * 1000) / 10,
           newLow: r.price < wasMin,
+          suspect: r.price < old * 0.4,
           target: p.targetPrice && r.price <= p.targetPrice && old > p.targetPrice ? p.targetPrice : null,
           marketplace: rec.marketplace,
         });
       }
       // ---- Is the discount real? ----
       rec.flags = [];
+      if (rec.previous != null && rec.current < rec.previous * 0.4 && now - Date.parse(rec.lastChanged) < 7 * 864e5) {
+        rec.flags.push({ type: 'lestur', text: `Verðið féll um meira en 60% (${rec.previous.toLocaleString('de-DE')} → ${rec.current.toLocaleString('de-DE')} kr.). Kannaðu á síðunni hvort vaktin hafi lesið rétt verð.` });
+      }
       const tracked = (now - Date.parse(rec.since)) / 864e5;
       if (ev) {
         const winStart = Date.parse(ev.start + 'T00:00:00Z') - (sale.windowBeforeHours ?? 12) * 3600e3;

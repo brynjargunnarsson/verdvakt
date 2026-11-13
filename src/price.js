@@ -37,7 +37,8 @@ export async function getPrice(url, { thorough = false } = {}) {
   let price = st?.price ?? null;
   let source = st?.source ?? null;
   // The visible price wins if it's a plausible discount on the structured one.
-  if (dom?.price && (!price || (dom.price < price && dom.price >= price * 0.3))) {
+  const saleConfirmed = dom?.wasPrice && price && Math.abs(dom.wasPrice - price) <= price * 0.03;
+  if (dom?.price && (!price || (dom.price < price && (saleConfirmed || dom.price >= price * 0.6)))) {
     price = dom.price;
     source = price === st?.price ? source : 'síða';
   }
