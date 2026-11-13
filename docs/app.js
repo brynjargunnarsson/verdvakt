@@ -1,4 +1,6 @@
 // Verðvakt – vefsíða. Les gögn úr repo-inu og skrifar breytingar í gegnum GitHub API.
+import { drawPriceChart } from './chart.js';
+
 const CFG = window.VERDVAKT;
 const LOCAL = ['localhost', '127.0.0.1'].includes(location.hostname) || location.protocol === 'file:';
 const API = `https://api.github.com/repos/${CFG.owner}/${CFG.repo}`;
@@ -323,20 +325,108 @@ function renderDetail(p) {
     <form class="row" data-act="add-url" data-pid="${esc(p.id)}"><input name="url" type="url" placeholder="Bæta við slóð á vöruna í annarri verslun" size="60" required><button type="submit">Bæta við</button></form>`;
 }
 
+const chartHidden = new Map(); // vara -> mengi lykla sem eru faldir (í minni, endist meðan síðan er opin)
+const charts = new Map(); // vara -> teikna aftur (við breytta gluggastærð)
+const slugTail = (u) => {
+  try {
+    return decodeURIComponent(new URL(u).pathname.split('/').filter(Boolean).pop() || '').slice(0, 26);
+  } catch {
+    return '';
+  }
+};
+
 async function loadHistory(p) {
   const el = document.getElementById('hist-' + p.id);
   if (!el) return;
   D.hist[p.id] ||= await load(`history/${p.id}.json`, {});
-  const h = D.hist[p.id];
-  const lines = [];
-  for (const o of p.offers || []) {
-    const pts = h[D.keys[p.id + '|' + o.url]] || [];
-    if (pts.length < 2) continue;
-    const name = offerRec(p, o)?.storeName || hostOf(o.url);
-    lines.push(`<div><b>${esc(name)}:</b> ${pts.slice(-8).map(([t, v]) => `${kr(v)} <span class="muted">(${day(t)})</span>`).join(' → ')}</div>`);
+  if (!el.isConnected) return;
+  const hist = D.hist[p.id];
+  const offers = (p.offers || []).filter((o) => !o.removed);
+
+  // Ein röð á verslun. Litur fylgir versluninni (röð í vörunni), ekki stöðu hennar í verðröð.
+  const series = offers
+    .map((o, i) => {
+      const rec = offerRec(p, o) || {};
+      const key = D.keys[p.id + '|' + o.url];
+      const pts = (hist[key] || []).map(([t, v]) => [Date.parse(t), v]).filter(([t, v]) => t && v).sort((a, b) => a[0] - b[0]);
+      return { key, url: o.url, base: rec.storeName || storeName(hostOf(o.url)), color: `var(--series-${(i % 8) + 1})`, pts, marketplace: !!rec.marketplace, avail: rec.available !== false, i };
+    })
+    .filter((s) => s.pts.length);
+  if (!series.length) {
+    el.innerHTML = `<h3>Verðsaga</h3><p class="muted">Verðsaga birtist eftir fyrstu verðathugun.</p>`;
+    return;
   }
-  el.innerHTML = lines.length ? `<h3>Verðsaga</h3>${lines.join('')}` : '';
+  const dup = {};
+  for (const s of series) dup[s.base] = (dup[s.base] || 0) + 1;
+  for (const s of series) s.name = dup[s.base] > 1 ? `${s.base} · ${slugTail(s.url)}` : s.base;
+
+  // Besta verð = lægsta verð hjá verslun (ekki markaðstorgi, ekki uppselt núna) á hverjum tíma – eins og taflan.
+  const shops = series.filter((s) => !s.marketplace && s.avail);
+  let best = null;
+  if (shops.length > 1) {
+    const times = [...new Set(shops.flatMap((s) => s.pts.map(([t]) => t)))].sort((a, b) => a - b);
+    best = [];
+    for (const t of times) {
+      const vals = shops.map((s) => s.pts.filter(([ts]) => ts <= t).at(-1)?.[1]).filter((v) => v != null);
+      const v = Math.min(...vals);
+      if (!best.length || best.at(-1)[1] !== v) best.push([t, v]);
+    }
+  }
+
+  const t0 = Math.min(...series.map((s) => s.pts[0][0]));
+  const t1 = Date.now();
+  if (!chartHidden.has(p.id)) chartHidden.set(p.id, new Set(series.length > 4 ? series.map((s) => s.key) : [])); // margar verslanir: byrja á besta verði einu
+  const hidden = chartHidden.get(p.id);
+
+  // Allar verðbreytingar, nýjustu efst.
+  const rows = [];
+  for (const s of series) s.pts.forEach(([t, v], i) => rows.push({ t, name: s.name, url: s.url, from: i ? s.pts[i - 1][1] : null, to: v }));
+  rows.sort((a, b) => b.t - a.t);
+  const changes = rows.filter((r) => r.from != null).length;
+  const tbl = rows
+    .slice(0, 300)
+    .map((r) => {
+      const ch = r.from == null ? '<span class="muted">Vöktun hófst</span>' : trendChip(r.to, r.from);
+      return `<tr><td>${when(new Date(r.t).toISOString())}</td><td><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.name)}</a></td><td class="num">${kr(r.from)}</td><td class="num"><b>${kr(r.to)}</b></td><td>${ch}</td></tr>`;
+    })
+    .join('');
+
+  el.innerHTML = `<h3>Verðsaga <span class="muted small" style="font-weight:400">frá ${day(new Date(t0).toISOString())} til dagsins í dag · ${changes} ${changes === 1 ? 'verðbreyting' : 'verðbreytingar'}</span></h3>
+    <div class="chartbox"></div>
+    <details class="chart-table"><summary>Sýna allar verðbreytingar sem tafla</summary>
+      <table class="t"><thead><tr><th>Tími</th><th>Verslun</th><th class="num">Fyrra verð</th><th class="num">Nýtt verð</th><th>Breyting</th></tr></thead><tbody>${tbl}</tbody></table>
+    </details>`;
+  const box = el.querySelector('.chartbox');
+  const fmt = {
+    kr: (v) => kr(v),
+    num: (v) => thous(v),
+    day: (t) => day(new Date(t).toISOString()),
+    time: (t) => hhmm(new Date(t)),
+    when: (t) => when(new Date(t).toISOString()),
+  };
+  const draw = () =>
+    drawPriceChart(box, {
+      series,
+      best,
+      t0,
+      t1,
+      hidden,
+      fmt,
+      label: `Verðsaga: ${p.name}`,
+      onToggle: (key) => {
+        hidden.has(key) ? hidden.delete(key) : hidden.add(key);
+        draw();
+      },
+    });
+  charts.set(p.id, () => (box.isConnected ? draw() : charts.delete(p.id)));
+  draw();
 }
+
+let resizeT;
+window.addEventListener('resize', () => {
+  clearTimeout(resizeT);
+  resizeT = setTimeout(() => charts.forEach((f) => f()), 150);
+});
 
 function renderSummaries() {
   const seen = LS.get('seen-summary', '');

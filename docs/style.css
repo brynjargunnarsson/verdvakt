@@ -14,6 +14,9 @@
   --warn-bg: #fff6dc;
   --chip: #eef1f4;
   --shadow: 0 1px 2px rgba(16, 24, 40, 0.06);
+  /* línurit: flokkalitir í fastri röð (sannprófaðir með validate_palette.js, ljós og dökk stilling) */
+  --series-1: #2a78d6; --series-2: #eb6834; --series-3: #1baf7a; --series-4: #eda100;
+  --series-5: #e87ba4; --series-6: #008300; --series-7: #6250d6; --series-8: #e34948;
   color-scheme: light;
 }
 @media (prefers-color-scheme: dark) {
@@ -33,6 +36,8 @@
     --warn-bg: #2e2510;
     --chip: #242a30;
     --shadow: none;
+    --series-1: #3987e5; --series-2: #d95926; --series-3: #199e70; --series-4: #c98500;
+    --series-5: #d55181; --series-6: #008300; --series-7: #9085e9; --series-8: #e66767;
     color-scheme: dark;
   }
 }
@@ -145,4 +150,38 @@ dialog#toast {
   .top, main { padding-left: 16px; padding-right: 16px; }
   .grid2 { grid-template-columns: 1fr; }
   .products { overflow-x: auto; }
+}
+
+/* ---- verðlínurit ---- */
+.chartbox { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px 8px; }
+.cl-legend { display: flex; flex-wrap: wrap; gap: 6px 8px; margin-bottom: 8px; }
+.cl-key { display: inline-flex; align-items: center; gap: 7px; padding: 3px 10px; border-radius: 999px; font-size: 12px; color: var(--ink); background: var(--chip); border: 1px solid transparent; }
+.cl-key[aria-pressed='false'] { background: transparent; border-color: var(--line); color: var(--muted); }
+.cl-key[aria-pressed='false'] .cl-sw { opacity: .35; }
+.cl-sw { display: inline-block; width: 16px; height: 0; border-top: 2px solid var(--c, var(--ink)); border-radius: 2px; flex: none; }
+.cl-sw.best { height: 5px; border: 0; background: var(--ink); opacity: .28; border-radius: 3px; }
+.cl-wrap { position: relative; }
+.cl-svg { display: block; max-width: 100%; overflow: visible; outline: none; touch-action: pan-y; }
+.cl-svg:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+.cl-grid { stroke: var(--line); stroke-width: 1; }
+.cl-tick { fill: var(--muted); font-size: 11px; }
+.cl-end { fill: var(--ink); font-size: 12px; font-weight: 600; }
+.cl-line { fill: none; stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+.cl-best { fill: none; stroke-width: 6; stroke-linejoin: round; stroke-linecap: round; opacity: .2; }
+.cl-dot { stroke: var(--card); stroke-width: 2; }
+.cl-cross { stroke: var(--muted); stroke-width: 1; }
+.cl-tip { position: absolute; pointer-events: none; z-index: 3; min-width: 150px; padding: 8px 10px; border-radius: 8px; background: var(--card); border: 1px solid var(--line); box-shadow: 0 4px 14px rgba(0, 0, 0, .18); font-size: 12px; }
+.cl-tip-h { color: var(--muted); margin-bottom: 4px; }
+.cl-tip-r { display: flex; align-items: center; gap: 8px; margin-top: 3px; }
+.cl-tip-r b { font-size: 13px; color: var(--ink); }
+.cl-tip-n { color: var(--muted); }
+details.chart-table { margin-top: 10px; }
+details.chart-table summary { cursor: pointer; color: var(--accent); font-size: 13px; }
+details.chart-table table.t { margin-top: 8px; background: var(--card); border: 1px solid var(--line); border-radius: 10px; }
+
+@media (max-width: 760px) {
+  /* Vörutaflan skrunast til hliðar; línuritið og taflan undir því eiga að halda sig innan skjásins. */
+  .chartbox, details.chart-table { max-width: calc(100vw - 56px); position: sticky; left: 12px; }
+  details.chart-table { overflow-x: auto; }
+  .cl-svg { height: auto; }
 }

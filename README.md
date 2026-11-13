@@ -33,6 +33,9 @@ Fyrir hverja verslun er prófað: Shopify-leit (JSON), WooCommerce-leit (JSON), 
 - Afsláttarkóðar eru lesnir af forsíðum („Notaðu kóðann BF20 …“) og áætlað verð með kóða sýnt.
 - **Gerviafsláttur:** merkt ef verð var hækkað innan 45 daga fyrir afsláttartímabilið og „tilboðið“ er ekki lægra en verðið var áður, eða ef „fyrra verð“ verslunar er hærra en nokkurt verð sem vaktin sá síðustu 30 daga.
 
+### Verðsaga og línurit
+Hver verðbreyting er skráð í `data/history/<vara>.json` (tími og verð fyrir hverja slóð) frá fyrstu athugun. Á síðunni sýnir línuritið verð hverrar verslunar frá því vöktun hófst til dagsins í dag. Verð helst óbreytt þar til það breytist, svo línan er skreflína. Breið ljós lína sýnir besta verð (ekki markaðstorg og ekki uppselt), músarvísir sýnir öll gildi á völdum tíma og smellt er á lykil til að fela eða sýna línu. Hjá vörum með fleiri en 4 verslanir byrjar línuritið á besta verði einu. Taflan undir línuritinu lýsir öllum verðbreytingum. Línuritið er í `docs/chart.js` án utanaðkomandi bókasafna.
+
 ### Gjafabréf og veitingar
 Hópkaup (veitingatilboð, öll tilboð, jólagjafir), Dineout, Óskaskrín, Gjafabref.is, Noona og Aha eru á verslanalistanum. Hjá síðum þar sem leitin virkar ekki eru fastir tilboðslistar (`listUrls` í `data/stores.json`) lesnir í hverri leit. Gjafabréf með föstu nafnverði (t.d. 10.000 kr. kort) breytast sjaldan í verði; vaktin nýtist best á tilboð eins og „kvöldverður fyrir tvo“ eða þegar gjafabréf eru seld með afslætti.
 
