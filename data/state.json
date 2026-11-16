@@ -5,7 +5,7 @@
   "samsung-the-frame-43-guax": "2026-11-12T01:35:45.999Z",
   "chase-2-plus-mips-skidahjalmur-m2d4": "2026-11-12T14:05:39.379Z",
   "milwaukee-hjolsog-wfso": "2026-11-12T23:27:13.390Z",
-  "hoka-clifton-herra-40-2-3-fyy6": "2026-11-16T10:50:31.811Z"
+  "hoka-clifton-herra-40-2-3-fyy6": "2026-11-16T11:02:30.729Z"
  },
  "lastSaleScan": {
   "elko.is": "2026-11-12T23:46:57.594Z",
@@ -29,13 +29,13 @@
  },
  "runs": [
   {
-   "at": "2026-11-16T10:50:31.811Z",
+   "at": "2026-11-16T11:02:30.729Z",
    "mode": "venjulegt",
    "checked": 17,
    "changed": 0,
    "drops": 0,
    "errors": 0,
-   "seconds": 696
+   "seconds": 679
   },
   {
    "at": "2026-11-16T05:55:41.455Z",
@@ -812,7 +812,7 @@
    "seconds": 299
   }
  ],
- "lastRun": "2026-11-16T10:39:55.976Z",
- "lastFinished": "2026-11-16T10:50:31.811Z",
+ "lastRun": "2026-11-16T10:52:04.845Z",
+ "lastFinished": "2026-11-16T11:02:30.729Z",
  "lastMorning": "2026-11-11"
 }
