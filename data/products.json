@@ -111,6 +111,27 @@
     }
    ],
    "rejected": []
+  },
+  {
+   "id": "hoka-clifton-herra-40-2-3-fyy6",
+   "name": "Hoka Clifton Herra 40 2/3",
+   "query": "Clifton Herra",
+   "category": "Skór",
+   "notes": "Stærð 40 2/3",
+   "paused": false,
+   "targetPrice": 25000,
+   "createdAt": "2026-11-16T10:38:32.157Z",
+   "offers": [
+    {
+     "url": "https://sportis.is/collections/hoka-clifton-10/products/hoka-clifton-10-herrar-2?variant=50318762377498",
+     "addedAt": "2026-11-16T10:38:32.157Z"
+    },
+    {
+     "url": "https://gongugreining.is/vara/hoka-clifton-10-herra-hlutlaus-hoggdempandi/",
+     "addedAt": "2026-11-16T10:38:32.157Z"
+    }
+   ],
+   "rejected": []
   }
  ]
 }
