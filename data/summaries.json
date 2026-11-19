@@ -1,6 +1,28 @@
 {
  "items": [
   {
+   "id": "08579fdc41",
+   "at": "2026-11-19T05:00:00.761Z",
+   "type": "lækkanir",
+   "event": null,
+   "changes": [
+    {
+     "productId": "milwaukee-hjolsog-wfso",
+     "name": "Milwaukee Hjólsög",
+     "store": "husa.is",
+     "storeName": "Húsasmiðjan",
+     "url": "https://www.husa.is/verkfaeri/rafmagns-hledsluverkfaeri/hjolsagir/hledsluhjolsagir/hjolsog-18v-165mm-milwaukee-fcs552-0-basic/",
+     "from": 79890,
+     "to": 59918,
+     "pct": -25,
+     "newLow": false,
+     "suspect": false,
+     "target": 78000,
+     "marketplace": false
+    }
+   ]
+  },
+  {
    "id": "388ff0fcfa",
    "at": "2026-11-11T07:16:38.069Z",
    "type": "morgunyfirlit",
