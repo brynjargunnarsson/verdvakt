@@ -12,9 +12,14 @@
   "MW-4933493587",
   "FCS552-0"
  ],
- "searchedAt": "2026-11-12T23:27:13.389Z",
- "storesSearched": 64,
- "storesFailed": [],
- "seconds": 1627,
+ "searchedAt": "2026-11-20T02:27:20.363Z",
+ "storesSearched": 66,
+ "storesFailed": [
+  {
+   "domain": "spilavinir.is",
+   "error": "HTTP 403"
+  }
+ ],
+ "seconds": 1595,
  "results": []
 }
