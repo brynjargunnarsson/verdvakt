@@ -29,6 +29,15 @@
  },
  "runs": [
   {
+   "at": "2026-11-21T12:25:44.989Z",
+   "mode": "venjulegt",
+   "checked": 17,
+   "changed": 0,
+   "drops": 0,
+   "errors": 0,
+   "seconds": 55
+  },
+  {
    "at": "2026-11-21T09:25:46.793Z",
    "mode": "venjulegt",
    "checked": 17,
@@ -918,18 +927,9 @@
    "drops": 0,
    "errors": 0,
    "seconds": 14
-  },
-  {
-   "at": "2026-11-10T21:26:41.104Z",
-   "mode": "afsláttur",
-   "checked": 6,
-   "changed": 0,
-   "drops": 0,
-   "errors": 0,
-   "seconds": 1618
   }
  ],
- "lastRun": "2026-11-21T09:25:46.793Z",
- "lastFinished": "2026-11-21T09:25:46.793Z",
+ "lastRun": "2026-11-21T12:25:44.988Z",
+ "lastFinished": "2026-11-21T12:25:44.989Z",
  "lastMorning": "2026-11-11"
 }
