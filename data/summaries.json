@@ -1,6 +1,28 @@
 {
  "items": [
   {
+   "id": "a26e8bd8ba",
+   "at": "2026-11-22T04:38:07.085Z",
+   "type": "lækkanir",
+   "event": null,
+   "changes": [
+    {
+     "productId": "samsung-the-frame-43-guax",
+     "name": "Samsung the frame 43\"",
+     "store": "elko.is",
+     "storeName": "ELKO",
+     "url": "https://elko.is/vorur/samsung-43-the-frame-qled-sjonvarp-2026-429929/TQ43LS03HEUXXC",
+     "from": 159995,
+     "to": 119995,
+     "pct": -25,
+     "newLow": true,
+     "suspect": false,
+     "target": null,
+     "marketplace": false
+    }
+   ]
+  },
+  {
    "id": "08579fdc41",
    "at": "2026-11-19T05:00:00.761Z",
    "type": "lækkanir",
