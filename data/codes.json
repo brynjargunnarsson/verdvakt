@@ -1,8 +1,21 @@
 {
  "elko.is": {
-  "checkedAt": "2026-11-22T12:24:45.190Z",
-  "codes": [],
-  "salePages": []
+  "checkedAt": "2026-11-22T15:51:11.287Z",
+  "codes": [
+   {
+    "code": "ELKO",
+    "pct": 74,
+    "text": "og tilboð fyrir fyrirtæki Gjafahugmyndir Við hjálpum þér að finna réttu gjöfina Nýtt ELKO blað Smelltu hér til að skoða ELKO blaðið Stærsta tilboðsvika ársins (18) -- 74% Svartur Grænn Kremað Grár Ljósgrænn Hvítur Blár V"
+   }
+  ],
+  "salePages": [
+   "https://elko.is/leit?q=tilbo%C3%B0",
+   "https://elko.is/b2b/gjafir-til-starfsfolks",
+   "https://elko.is/leit?q=Bose",
+   "https://elko.is/leit?q=%C3%A1%20tilbo%C3%B0i",
+   "https://elko.is/leit?q=Sj%C3%B3nv%C3%B6rp%20%C3%A1%20tilbo%C3%B0i",
+   "https://elko.is/leit?q=ryksugur%20%C3%A1%20tilbo%C3%B0i"
+  ]
  },
  "kd.is": {
   "checkedAt": "2026-11-22T12:24:50.781Z",
@@ -70,7 +83,7 @@
   ]
  },
  "www.husa.is": {
-  "checkedAt": "2026-11-22T12:25:48.856Z",
+  "checkedAt": "2026-11-22T15:50:58.116Z",
   "codes": [],
   "salePages": [
    "https://www.husa.is/eldhus-og-badherbergi/salerni/veggtengd-salerni/wc-laufen-pro-veggskalplusseta-svart-h8669577160001/",
@@ -141,7 +154,7 @@
   ]
  },
  "brooksrunning.is": {
-  "checkedAt": "2026-11-22T12:26:14.642Z",
+  "checkedAt": "2026-11-22T15:51:15.414Z",
   "codes": [],
   "salePages": [
    "https://brooksrunning.is/vara/hyperion-elite-5-2",

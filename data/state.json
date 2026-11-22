@@ -8,7 +8,7 @@
   "hoka-clifton-herra-40-2-3-fyy6": "2026-11-22T12:36:28.634Z"
  },
  "lastSaleScan": {
-  "elko.is": "2026-11-22T12:24:45.190Z",
+  "elko.is": "2026-11-22T15:51:11.287Z",
   "kd.is": "2026-11-22T12:24:50.781Z",
   "computer.is": "2026-11-22T12:24:50.163Z",
   "www.ormsson.is": "2026-11-22T12:24:49.968Z",
@@ -18,16 +18,25 @@
   "kokka.is": "2026-11-22T12:25:21.163Z",
   "www.ilva.is": "2026-11-22T12:25:39.229Z",
   "hrim.is": "2026-11-22T12:25:29.654Z",
-  "www.husa.is": "2026-11-22T12:25:48.856Z",
+  "www.husa.is": "2026-11-22T15:50:58.116Z",
   "byko.is": "2026-11-22T12:25:50.420Z",
   "www.epal.is": "2026-11-22T12:25:38.952Z",
   "snuran.is": "2026-11-22T12:25:30.530Z",
   "oskaskrin.is": "2026-11-22T12:26:00.915Z",
   "gjafabref.is": "2026-11-22T12:25:59.714Z",
   "hopkaup.is": "2026-11-22T12:26:09.945Z",
-  "brooksrunning.is": "2026-11-22T12:26:14.642Z"
+  "brooksrunning.is": "2026-11-22T15:51:15.414Z"
  },
  "runs": [
+  {
+   "at": "2026-11-22T15:51:15.415Z",
+   "mode": "afsláttur",
+   "checked": 17,
+   "changed": 1,
+   "drops": 1,
+   "errors": 0,
+   "seconds": 101
+  },
   {
    "at": "2026-11-22T14:54:23.176Z",
    "mode": "afsláttur",
@@ -918,18 +927,9 @@
    "drops": 0,
    "errors": 0,
    "seconds": 59
-  },
-  {
-   "at": "2026-11-11T08:35:44.562Z",
-   "mode": "afsláttur",
-   "checked": 6,
-   "changed": 0,
-   "drops": 0,
-   "errors": 0,
-   "seconds": 13
   }
  ],
- "lastRun": "2026-11-22T14:54:23.175Z",
- "lastFinished": "2026-11-22T14:54:23.176Z",
+ "lastRun": "2026-11-22T15:50:37.393Z",
+ "lastFinished": "2026-11-22T15:51:15.415Z",
  "lastMorning": "2026-11-11"
 }
