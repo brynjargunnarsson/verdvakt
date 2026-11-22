@@ -1,82 +1,76 @@
 {
  "elko.is": {
-  "checkedAt": "2026-11-12T23:46:57.594Z",
+  "checkedAt": "2026-11-22T12:24:45.190Z",
   "codes": [],
   "salePages": []
  },
  "kd.is": {
-  "checkedAt": "2026-11-12T22:51:24.975Z",
+  "checkedAt": "2026-11-22T12:24:50.781Z",
   "codes": [],
   "salePages": [
    "https://kd.is/category/30?pc_promo=3%20%C3%A1ra%20%C3%A1byrg%C3%B0"
   ]
  },
  "computer.is": {
-  "checkedAt": "2026-11-12T22:51:25.481Z",
+  "checkedAt": "2026-11-22T12:24:50.163Z",
   "codes": [],
   "salePages": [
    "https://computer.is/is/products/tilbod"
   ]
  },
  "www.ormsson.is": {
-  "checkedAt": "2026-11-12T22:51:18.963Z",
+  "checkedAt": "2026-11-22T12:24:49.968Z",
   "codes": [],
   "salePages": []
  },
  "www.hagkaup.is": {
-  "checkedAt": "2026-11-12T22:51:30.498Z",
+  "checkedAt": "2026-11-22T12:24:56.512Z",
   "codes": [],
   "salePages": []
  },
  "heimkaup.is": {
-  "checkedAt": "2026-11-12T22:51:32.304Z",
+  "checkedAt": "2026-11-22T12:25:19.668Z",
   "codes": [],
   "salePages": [
-   "https://heimkaup.is/c/great-deals1-2718?showProducts=true"
+   "https://heimkaup.is/c/peroni-tilbo-8885?showProducts=true",
+   "https://heimkaup.is/c/great-deals1-2718?showProducts=true",
+   "https://heimkaup.is/p/ratti-brigata-langhe-chardonnay-750ml-111175"
   ]
  },
  "www.tolvutek.is": {
-  "checkedAt": "2026-11-12T22:51:46.914Z",
-  "codes": [
-   {
-    "code": "ÖLL",
-    "pct": null,
-    "text": "Dagur einhleypra í Tölvutek 🔥1️⃣ Valin tilboð til 15.11&nbsp; 1️⃣🔥 Skoða ÖLL tilboð Heit tilboð 🔥"
-   }
-  ],
+  "checkedAt": "2026-11-22T12:25:14.516Z",
+  "codes": [],
   "salePages": [
    "https://www.tolvutek.is/shop/category/562",
    "https://www.tolvutek.is/shop/category/featured-50-75-afslattur-591",
    "https://www.tolvutek.is/shop/category/591",
-   "https://www.tolvutek.is/1111-tilbod",
-   "https://www.tolvutek.is/shop/category/featured-allar-tilbo%C3%B0svorur-562",
-   "https://www.tolvutek.is/shop/category/heimilistaeki-379?tt_all=379"
+   "https://www.tolvutek.is/shop/category/featured-allar-tilbodsvorur-562",
+   "https://www.tolvutek.is/shop/category/featured-allar-tilbodsvorur-562?search=playstation",
+   "https://www.tolvutek.is/shop/category/lifsstils-og-snjallvorur-dotakassinn-422"
   ]
  },
  "kokka.is": {
-  "checkedAt": "2026-11-12T22:51:32.277Z",
+  "checkedAt": "2026-11-22T12:25:21.163Z",
   "codes": [],
   "salePages": []
  },
  "www.ilva.is": {
-  "checkedAt": "2026-11-12T22:51:35.913Z",
-  "codes": [],
-  "salePages": []
- },
- "hrim.is": {
-  "checkedAt": "2026-11-12T16:05:57.842Z",
+  "checkedAt": "2026-11-22T12:25:39.229Z",
   "codes": [],
   "salePages": [
-   "https://hrim.is/product/svart-kaffi-30-x-40-cm",
-   "https://hrim.is/product/global-goals-bangle-white",
-   "https://hrim.is/product/plakat-gleym-mer-ei",
-   "https://hrim.is/product/jellycat-amu-hosomaki-bag-charm",
-   "https://hrim.is/product/jellycat-smudge-monkey-medium",
-   "https://hrim.is/product/jellycat-bizzlestomp-bear"
+   "https://www.ilva.is/tilbod/black-friday-/",
+   "https://www.ilva.is/tilbod/black-friday-/sofar/"
+  ]
+ },
+ "hrim.is": {
+  "checkedAt": "2026-11-22T12:25:29.654Z",
+  "codes": [],
+  "salePages": [
+   "https://hrim.is/product/carolinembg-glove-caramel"
   ]
  },
  "www.husa.is": {
-  "checkedAt": "2026-11-12T23:47:10.531Z",
+  "checkedAt": "2026-11-22T12:25:48.856Z",
   "codes": [],
   "salePages": [
    "https://www.husa.is/eldhus-og-badherbergi/salerni/veggtengd-salerni/wc-laufen-pro-veggskalplusseta-svart-h8669577160001/",
@@ -84,24 +78,24 @@
   ]
  },
  "byko.is": {
-  "checkedAt": "2026-11-12T16:06:14.062Z",
+  "checkedAt": "2026-11-22T12:25:50.420Z",
   "codes": [],
   "salePages": [
+   "https://byko.is/bjartir-dagar",
    "https://byko.is/plus-tilbod"
   ]
  },
  "www.epal.is": {
-  "checkedAt": "2026-11-12T16:06:29.980Z",
+  "checkedAt": "2026-11-22T12:25:38.952Z",
   "codes": [],
   "salePages": [
    "https://www.epal.is/collections/tilbod",
-   "https://www.epal.is/collections/montana",
    "https://www.epal.is/search?q=j39&options%5Bprefix%5D=last&type=product",
    "https://www.epal.is/pages/fyrirtaekjagjafir"
   ]
  },
  "snuran.is": {
-  "checkedAt": "2026-11-12T16:06:32.391Z",
+  "checkedAt": "2026-11-22T12:25:30.530Z",
   "codes": [
    {
     "code": "ÚTSKRIFTIR",
@@ -121,23 +115,21 @@
   ],
   "salePages": [
    "https://snuran.is/products/skovby-bordstofubord-staekkanlegt-sm-111-serpontun-copy",
-   "https://snuran.is/products/skovby-bordstofubord-staekkanlegt-sm-112-serpontun-copy",
-   "https://snuran.is/products/skovby-bordstofubord-staekkanlegt-sm-33-serpontun-copy",
-   "https://snuran.is/products/skovby-bordstofubord-staekkanlegt-120-serpontun"
+   "https://snuran.is/products/skovby-bordstofubord-staekkanlegt-sm-33-serpontun-copy"
   ]
  },
  "oskaskrin.is": {
-  "checkedAt": "2026-11-12T16:06:42.151Z",
+  "checkedAt": "2026-11-22T12:26:00.915Z",
   "codes": [],
   "salePages": []
  },
  "gjafabref.is": {
-  "checkedAt": "2026-11-12T16:06:42.741Z",
+  "checkedAt": "2026-11-22T12:25:59.714Z",
   "codes": [],
   "salePages": []
  },
  "hopkaup.is": {
-  "checkedAt": "2026-11-12T16:06:49.592Z",
+  "checkedAt": "2026-11-22T12:26:09.945Z",
   "codes": [],
   "salePages": [
    "https://hopkaup.is/oll-tilbod",
@@ -149,15 +141,15 @@
   ]
  },
  "brooksrunning.is": {
-  "checkedAt": "2026-11-12T23:47:28.580Z",
+  "checkedAt": "2026-11-22T12:26:14.642Z",
   "codes": [],
   "salePages": [
    "https://brooksrunning.is/vara/hyperion-elite-5-2",
    "https://brooksrunning.is/vara/hyperion-max-3-5",
    "https://brooksrunning.is/vara/movement-built-in-bra-tank-2",
    "https://brooksrunning.is/vara/dash-short-printed",
-   "https://brooksrunning.is/vara/ghost-17-8",
-   "https://brooksrunning.is/vara/distance-short-sleeve-3-0"
+   "https://brooksrunning.is/vara/catamount-4-6",
+   "https://brooksrunning.is/vara/catamount-4-5"
   ]
  }
 }

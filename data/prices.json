@@ -7,7 +7,7 @@
    "store": "brooksrunning.is",
    "storeName": "Brooks",
    "marketplace": false,
-   "lastChecked": "2026-11-22T11:24:04.624Z",
+   "lastChecked": "2026-11-22T12:23:49.195Z",
    "title": "Glycerin 23",
    "available": true,
    "wasPrice": null,
@@ -27,7 +27,7 @@
    "store": "ht.is",
    "storeName": "Heimilistæki",
    "marketplace": false,
-   "lastChecked": "2026-11-22T11:23:55.072Z",
+   "lastChecked": "2026-11-22T12:23:48.884Z",
    "title": "Samsung 43\" The Frame QLED UHD 4K Sjónvarp (2026)",
    "available": false,
    "wasPrice": null,
@@ -40,7 +40,13 @@
    "maxAt": "2026-11-09T22:38:19.192Z",
    "minAt": "2026-11-11T02:58:26.936Z",
    "previous": 135996,
-   "previousAt": "2026-11-11T02:58:26.936Z"
+   "previousAt": "2026-11-11T02:58:26.936Z",
+   "flags": [
+    {
+     "type": "gervi",
+     "text": "Verðið var hækkað fyrir afsláttardaginn: það var 135.996 kr. fyrr á tímabilinu, svo „tilboðið“ er ekki lægra en það."
+    }
+   ]
   },
   "931366ee4b": {
    "productId": "samsung-the-frame-43-guax",
@@ -49,7 +55,7 @@
    "store": "elko.is",
    "storeName": "ELKO",
    "marketplace": false,
-   "lastChecked": "2026-11-22T11:23:55.763Z",
+   "lastChecked": "2026-11-22T12:23:48.620Z",
    "title": "Samsung 43 The Frame QLED sjónvarp (2026)",
    "available": true,
    "wasPrice": null,
@@ -71,7 +77,7 @@
    "store": "rafland.is",
    "storeName": "Rafland",
    "marketplace": false,
-   "lastChecked": "2026-11-22T11:23:55.741Z",
+   "lastChecked": "2026-11-22T12:23:48.927Z",
    "title": "Samsung 43\" The Frame QLED UHD 4K Sjónvarp (2026)",
    "available": false,
    "wasPrice": null,
@@ -84,7 +90,13 @@
    "maxAt": "2026-11-09T22:38:20.087Z",
    "minAt": "2026-11-11T02:58:27.952Z",
    "previous": 135996,
-   "previousAt": "2026-11-11T02:58:27.952Z"
+   "previousAt": "2026-11-11T02:58:27.952Z",
+   "flags": [
+    {
+     "type": "gervi",
+     "text": "Verðið var hækkað fyrir afsláttardaginn: það var 135.996 kr. fyrr á tímabilinu, svo „tilboðið“ er ekki lægra en það."
+    }
+   ]
   },
   "737d5ca565": {
    "productId": "chase-2-plus-mips-skidahjalmur-m2d4",
@@ -93,7 +105,7 @@
    "store": "markid.is",
    "storeName": "Markið",
    "marketplace": false,
-   "lastChecked": "2026-11-22T11:23:55.400Z",
+   "lastChecked": "2026-11-22T12:23:52.237Z",
    "title": "CHASE 2 PLUS Mips | Skíðahjálmur",
    "available": true,
    "wasPrice": null,
@@ -106,7 +118,13 @@
    "maxAt": "2026-11-10T12:13:01.345Z",
    "minAt": "2026-11-10T13:48:31.742Z",
    "previous": 17156,
-   "previousAt": "2026-11-10T13:48:31.742Z"
+   "previousAt": "2026-11-10T13:48:31.742Z",
+   "flags": [
+    {
+     "type": "gervi",
+     "text": "Verðið var hækkað fyrir afsláttardaginn: það var 17.156 kr. fyrr á tímabilinu, svo „tilboðið“ er ekki lægra en það."
+    }
+   ]
   },
   "9d3c7bf3e2": {
    "productId": "milwaukee-hjolsog-wfso",
@@ -115,7 +133,7 @@
    "store": "rubix.is",
    "storeName": "rubix.is",
    "marketplace": false,
-   "lastChecked": "2026-11-22T11:24:03.071Z",
+   "lastChecked": "2026-11-22T12:23:46.862Z",
    "title": "Hjólsög M18 FUEL™ FCS552-0 165mm",
    "available": true,
    "wasPrice": null,
@@ -128,7 +146,13 @@
    "maxAt": "2026-11-10T20:59:51.873Z",
    "minAt": "2026-11-11T02:07:30.591Z",
    "previous": 66291,
-   "previousAt": "2026-11-11T02:07:30.591Z"
+   "previousAt": "2026-11-11T02:07:30.591Z",
+   "flags": [
+    {
+     "type": "gervi",
+     "text": "Verðið var hækkað fyrir afsláttardaginn: það var 66.291 kr. fyrr á tímabilinu, svo „tilboðið“ er ekki lægra en það."
+    }
+   ]
   },
   "d773c834cc": {
    "productId": "milwaukee-hjolsog-wfso",
@@ -137,7 +161,7 @@
    "store": "husa.is",
    "storeName": "Húsasmiðjan",
    "marketplace": false,
-   "lastChecked": "2026-11-22T11:24:03.305Z",
+   "lastChecked": "2026-11-22T12:23:53.855Z",
    "title": "Hjólsög 18V 165mm Milwaukee FCS552-0 Basic - Húsasmiðjan",
    "available": false,
    "memberPrice": null,
@@ -159,7 +183,7 @@
    "store": "brooksrunning.is",
    "storeName": "Brooks",
    "marketplace": false,
-   "lastChecked": "2026-11-22T11:24:12.806Z",
+   "lastChecked": "2026-11-22T12:23:57.939Z",
    "title": "Glycerin 23",
    "available": true,
    "wasPrice": null,
@@ -179,7 +203,7 @@
    "store": "markid.is",
    "storeName": "Markið",
    "marketplace": false,
-   "lastChecked": "2026-11-22T11:23:55.958Z",
+   "lastChecked": "2026-11-22T12:24:04.547Z",
    "title": "CHASE 2 PLUS Mips | Skíðahjálmur",
    "available": true,
    "wasPrice": null,
@@ -192,7 +216,13 @@
    "maxAt": "2026-11-12T01:13:19.559Z",
    "minAt": "2026-11-11T17:35:50.654Z",
    "previous": 17156,
-   "previousAt": "2026-11-11T17:35:50.654Z"
+   "previousAt": "2026-11-11T17:35:50.654Z",
+   "flags": [
+    {
+     "type": "gervi",
+     "text": "Verðið var hækkað fyrir afsláttardaginn: það var 17.156 kr. fyrr á tímabilinu, svo „tilboðið“ er ekki lægra en það."
+    }
+   ]
   },
   "a76034138f": {
    "productId": "brooks-glycerin-23",
@@ -201,7 +231,7 @@
    "store": "brooksrunning.is",
    "storeName": "Brooks",
    "marketplace": false,
-   "lastChecked": "2026-11-22T11:24:21.925Z",
+   "lastChecked": "2026-11-22T12:24:07.709Z",
    "title": "Glycerin 23",
    "available": true,
    "wasPrice": null,
@@ -221,7 +251,7 @@
    "store": "markid.is",
    "storeName": "Markið",
    "marketplace": false,
-   "lastChecked": "2026-11-22T11:23:57.450Z",
+   "lastChecked": "2026-11-22T12:24:16.899Z",
    "title": "CHASE 2 PLUS Mips | Skíðahjálmur",
    "available": true,
    "wasPrice": null,
@@ -234,7 +264,13 @@
    "maxAt": "2026-11-12T01:13:32.004Z",
    "minAt": "2026-11-11T17:36:03.102Z",
    "previous": 17156,
-   "previousAt": "2026-11-11T17:36:03.102Z"
+   "previousAt": "2026-11-11T17:36:03.102Z",
+   "flags": [
+    {
+     "type": "gervi",
+     "text": "Verðið var hækkað fyrir afsláttardaginn: það var 17.156 kr. fyrr á tímabilinu, svo „tilboðið“ er ekki lægra en það."
+    }
+   ]
   },
   "de28ae27af": {
    "productId": "brooks-glycerin-23",
@@ -243,7 +279,7 @@
    "store": "brooksrunning.is",
    "storeName": "Brooks",
    "marketplace": false,
-   "lastChecked": "2026-11-22T11:24:29.605Z",
+   "lastChecked": "2026-11-22T12:24:15.558Z",
    "title": "Glycerin 23",
    "available": true,
    "wasPrice": null,
@@ -263,7 +299,7 @@
    "store": "brooksrunning.is",
    "storeName": "Brooks",
    "marketplace": false,
-   "lastChecked": "2026-11-22T11:24:38.241Z",
+   "lastChecked": "2026-11-22T12:24:23.598Z",
    "title": "Glycerin GTS 23",
    "available": true,
    "wasPrice": null,
@@ -283,7 +319,7 @@
    "store": "brooksrunning.is",
    "storeName": "Brooks",
    "marketplace": false,
-   "lastChecked": "2026-11-22T11:24:45.604Z",
+   "lastChecked": "2026-11-22T12:24:32.366Z",
    "title": "Glycerin GTS 23",
    "available": true,
    "wasPrice": null,
@@ -303,7 +339,7 @@
    "store": "brooksrunning.is",
    "storeName": "Brooks",
    "marketplace": false,
-   "lastChecked": "2026-11-22T11:24:53.840Z",
+   "lastChecked": "2026-11-22T12:24:39.646Z",
    "title": "Glycerin GTS 23",
    "available": true,
    "wasPrice": null,
@@ -323,10 +359,10 @@
    "store": "sportis.is",
    "storeName": "sportis.is",
    "marketplace": false,
-   "lastChecked": "2026-11-22T11:23:56.848Z",
+   "lastChecked": "2026-11-22T12:24:01.671Z",
    "title": "Hoka Clifton 10 Herra",
    "available": true,
-   "wasPrice": null,
+   "wasPrice": 990,
    "memberPrice": null,
    "source": "json-ld",
    "current": 25592,
@@ -343,7 +379,7 @@
    "store": "gongugreining.is",
    "storeName": "gongugreining.is",
    "marketplace": false,
-   "lastChecked": "2026-11-22T11:24:02.145Z",
+   "lastChecked": "2026-11-22T12:23:55.287Z",
    "title": "Hoka Clifton 10 Herra Hlutlaus höggdempandi",
    "available": true,
    "wasPrice": null,
@@ -371,7 +407,7 @@
    "max": 34990,
    "maxAt": "2026-11-09T12:23:28.364Z",
    "maxStore": "Brooks",
-   "checkedAt": "2026-11-22T11:24:53.854Z"
+   "checkedAt": "2026-11-22T12:24:39.649Z"
   },
   "samsung-the-frame-43-guax": {
    "since": "2026-11-09T22:38:25.820Z",
@@ -386,7 +422,7 @@
    "max": 159995,
    "maxAt": "2026-11-09T22:38:25.820Z",
    "maxStore": "ELKO",
-   "checkedAt": "2026-11-22T11:24:53.854Z",
+   "checkedAt": "2026-11-22T12:24:39.649Z",
    "previous": 159995,
    "previousAt": "2026-11-09T22:38:25.820Z"
   },
@@ -403,7 +439,7 @@
    "max": 21995,
    "maxAt": "2026-11-10T12:13:01.662Z",
    "maxStore": "Markið",
-   "checkedAt": "2026-11-22T11:24:53.854Z",
+   "checkedAt": "2026-11-22T12:24:39.649Z",
    "previous": 17156,
    "previousAt": "2026-11-10T13:48:34.529Z"
   },
@@ -420,7 +456,7 @@
    "max": 77990,
    "maxAt": "2026-11-10T20:59:58.433Z",
    "maxStore": "rubix.is",
-   "checkedAt": "2026-11-22T11:24:53.854Z",
+   "checkedAt": "2026-11-22T12:24:39.649Z",
    "previous": 66291,
    "previousAt": "2026-11-11T02:07:35.703Z"
   },
@@ -437,8 +473,8 @@
    "max": 25592,
    "maxAt": "2026-11-16T10:52:04.845Z",
    "maxStore": "sportis.is",
-   "checkedAt": "2026-11-22T11:24:53.854Z"
+   "checkedAt": "2026-11-22T12:24:39.649Z"
   }
  },
- "updatedAt": "2026-11-22T11:24:53.855Z"
+ "updatedAt": "2026-11-22T12:24:39.649Z"
 }
