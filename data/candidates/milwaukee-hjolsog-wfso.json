@@ -12,14 +12,14 @@
   "MW-4933493587",
   "FCS552-0"
  ],
- "searchedAt": "2026-11-20T02:27:20.363Z",
+ "searchedAt": "2026-11-22T14:26:10.051Z",
  "storesSearched": 66,
  "storesFailed": [
   {
-   "domain": "spilavinir.is",
+   "domain": "www.att.is",
    "error": "HTTP 403"
   }
  ],
- "seconds": 1595,
+ "seconds": 1629,
  "results": []
 }
