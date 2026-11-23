@@ -1,6 +1,6 @@
 {
  "elko.is": {
-  "checkedAt": "2026-11-23T13:25:12.394Z",
+  "checkedAt": "2026-11-23T17:45:27.089Z",
   "codes": [
    {
     "code": "ELKO",
@@ -83,7 +83,7 @@
   ]
  },
  "www.husa.is": {
-  "checkedAt": "2026-11-23T13:25:01.081Z",
+  "checkedAt": "2026-11-23T17:45:16.221Z",
   "codes": [],
   "salePages": [
    "https://www.husa.is/eldhus-og-badherbergi/salerni/veggtengd-salerni/wc-laufen-pro-veggskalplusseta-svart-h8669577160001/",
@@ -154,7 +154,7 @@
   ]
  },
  "brooksrunning.is": {
-  "checkedAt": "2026-11-23T13:25:10.246Z",
+  "checkedAt": "2026-11-23T17:45:26.100Z",
   "codes": [],
   "salePages": [
    "https://brooksrunning.is/vara/dash-short-sleeve-2",
@@ -162,7 +162,7 @@
    "https://brooksrunning.is/vara/dash-tank",
    "https://brooksrunning.is/vara/graphic-short-sleeve-2",
    "https://brooksrunning.is/vara/graphic-short-sleeve",
-   "https://brooksrunning.is/vara/movement-built-in-bra-tank-2"
+   "https://brooksrunning.is/vara/hyperion-elite-5-2"
   ]
  }
 }
