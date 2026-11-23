@@ -132,6 +132,31 @@
     }
    ],
    "rejected": []
+  },
+  {
+   "id": "kitchenaid-artisan-6eex",
+   "name": "Kitchenaid artisan",
+   "query": "KIT-5KSM125",
+   "category": "Raftæki",
+   "notes": "",
+   "paused": false,
+   "targetPrice": 114000,
+   "createdAt": "2026-11-23T17:31:03.319Z",
+   "offers": [
+    {
+     "url": "https://byggtogbuid.is/kitchenaid-hrarivel-125-djupbla.html",
+     "addedAt": "2026-11-23T17:31:03.319Z"
+    },
+    {
+     "url": "https://rafland.is/kitchenaid-hrarivel-125-pistasiugran.html",
+     "addedAt": "2026-11-23T17:31:03.319Z"
+    },
+    {
+     "url": "https://www.husa.is/heimilistaeki/matvinnslutaeki/hraerivelar/hraerivel-kitchenaid-artisan-125-svort/",
+     "addedAt": "2026-11-23T17:31:03.319Z"
+    }
+   ],
+   "rejected": []
   }
  ]
 }
