@@ -165,6 +165,35 @@
     }
    ],
    "rejected": []
+  },
+  {
+   "id": "kenwood-kmix-4ngi",
+   "name": "Kenwood Kmix",
+   "query": "DEL-KMX751",
+   "category": "Raftæki",
+   "notes": "",
+   "paused": false,
+   "targetPrice": 49000,
+   "createdAt": "2026-11-23T20:19:28.819Z",
+   "offers": [
+    {
+     "url": "https://ormsson.is/product/kenwood-kmix-hraerivel-kremud/?utm_source=Ja.is&utm_campaign=ja-feed&utm_medium=cpc&utm_term=adtribes",
+     "addedAt": "2026-11-23T20:19:28.819Z"
+    },
+    {
+     "url": "https://ormsson.is/product/kenwood-kmix-hraerivel-svort/?utm_source=Ja.is&utm_campaign=ja-feed&utm_medium=cpc&utm_term=adtribes",
+     "addedAt": "2026-11-23T20:19:28.819Z"
+    },
+    {
+     "url": "https://byggtogbuid.is/kenwood-kmix-hrarivel-svort.html",
+     "addedAt": "2026-11-23T20:19:28.819Z"
+    },
+    {
+     "url": "https://ht.is/kenwood-kmix-hrarivel-svort.html",
+     "addedAt": "2026-11-23T20:19:28.819Z"
+    }
+   ],
+   "rejected": []
   }
  ]
 }
