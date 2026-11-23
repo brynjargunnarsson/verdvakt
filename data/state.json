@@ -4,7 +4,7 @@
   "normann-bit-stack": "2026-11-10T20:15:14.455Z",
   "samsung-the-frame-43-guax": "2026-11-23T14:01:53.791Z",
   "chase-2-plus-mips-skidahjalmur-m2d4": "2026-11-23T14:58:27.301Z",
-  "milwaukee-hjolsog-wfso": "2026-11-22T14:26:10.053Z",
+  "milwaukee-hjolsog-wfso": "2026-11-23T16:38:03.880Z",
   "hoka-clifton-herra-40-2-3-fyy6": "2026-11-23T13:37:25.286Z"
  },
  "lastSaleScan": {
@@ -28,6 +28,15 @@
   "brooksrunning.is": "2026-11-23T13:25:10.246Z"
  },
  "runs": [
+  {
+   "at": "2026-11-23T16:38:03.880Z",
+   "mode": "afsláttur",
+   "checked": 17,
+   "changed": 0,
+   "drops": 0,
+   "errors": 0,
+   "seconds": 1606
+  },
   {
    "at": "2026-11-23T15:09:06.666Z",
    "mode": "afsláttur",
@@ -918,18 +927,9 @@
    "drops": 0,
    "errors": 0,
    "seconds": 94
-  },
-  {
-   "at": "2026-11-12T11:09:41.827Z",
-   "mode": "afsláttur",
-   "checked": 15,
-   "changed": 0,
-   "drops": 0,
-   "errors": 0,
-   "seconds": 62
   }
  ],
- "lastRun": "2026-11-23T14:44:09.715Z",
- "lastFinished": "2026-11-23T15:09:06.666Z",
+ "lastRun": "2026-11-23T16:12:27.539Z",
+ "lastFinished": "2026-11-23T16:38:03.880Z",
  "lastMorning": "2026-11-23"
 }
