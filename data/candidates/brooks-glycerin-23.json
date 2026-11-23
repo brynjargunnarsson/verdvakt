@@ -5,9 +5,14 @@
   "Glycerin 23"
  ],
  "codes": [],
- "searchedAt": "2026-11-22T13:59:01.474Z",
+ "searchedAt": "2026-11-23T15:09:06.664Z",
  "storesSearched": 66,
- "storesFailed": [],
- "seconds": 499,
+ "storesFailed": [
+  {
+   "domain": "www.lyfogheilsa.is",
+   "error": "HTTP 429"
+  }
+ ],
+ "seconds": 639,
  "results": []
 }

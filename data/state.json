@@ -1,33 +1,42 @@
 {
  "lastDiscovery": {
-  "brooks-glycerin-23": "2026-11-22T13:59:01.475Z",
+  "brooks-glycerin-23": "2026-11-23T15:09:06.665Z",
   "normann-bit-stack": "2026-11-10T20:15:14.455Z",
   "samsung-the-frame-43-guax": "2026-11-23T14:01:53.791Z",
-  "chase-2-plus-mips-skidahjalmur-m2d4": "2026-11-22T13:50:42.873Z",
+  "chase-2-plus-mips-skidahjalmur-m2d4": "2026-11-23T14:58:27.301Z",
   "milwaukee-hjolsog-wfso": "2026-11-22T14:26:10.053Z",
   "hoka-clifton-herra-40-2-3-fyy6": "2026-11-23T13:37:25.286Z"
  },
  "lastSaleScan": {
   "elko.is": "2026-11-23T13:25:12.394Z",
-  "kd.is": "2026-11-23T05:45:22.779Z",
-  "computer.is": "2026-11-23T05:45:20.908Z",
-  "www.ormsson.is": "2026-11-23T05:45:24.907Z",
-  "www.hagkaup.is": "2026-11-23T05:45:30.435Z",
-  "heimkaup.is": "2026-11-23T05:45:52.308Z",
-  "www.tolvutek.is": "2026-11-23T05:45:48.467Z",
-  "kokka.is": "2026-11-23T05:45:56.604Z",
-  "www.ilva.is": "2026-11-23T05:46:14.457Z",
-  "hrim.is": "2026-11-23T05:46:02.695Z",
+  "kd.is": "2026-11-23T14:44:22.842Z",
+  "computer.is": "2026-11-23T14:44:21.778Z",
+  "www.ormsson.is": "2026-11-23T14:44:13.702Z",
+  "www.hagkaup.is": "2026-11-23T14:44:28.053Z",
+  "heimkaup.is": "2026-11-23T14:44:42.933Z",
+  "www.tolvutek.is": "2026-11-23T14:44:48.840Z",
+  "kokka.is": "2026-11-23T14:44:49.452Z",
+  "www.ilva.is": "2026-11-23T14:45:08.177Z",
+  "hrim.is": "2026-11-23T14:44:59.995Z",
   "www.husa.is": "2026-11-23T13:25:01.081Z",
-  "byko.is": "2026-11-23T05:46:35.939Z",
-  "www.epal.is": "2026-11-23T05:46:16.153Z",
-  "snuran.is": "2026-11-23T05:46:18.692Z",
-  "oskaskrin.is": "2026-11-23T05:46:38.381Z",
-  "gjafabref.is": "2026-11-23T05:46:46.088Z",
-  "hopkaup.is": "2026-11-23T05:46:55.058Z",
+  "byko.is": "2026-11-23T14:45:21.560Z",
+  "www.epal.is": "2026-11-23T14:45:08.519Z",
+  "snuran.is": "2026-11-23T14:45:02.909Z",
+  "oskaskrin.is": "2026-11-23T14:45:23.450Z",
+  "gjafabref.is": "2026-11-23T14:45:19.499Z",
+  "hopkaup.is": "2026-11-23T14:45:38.314Z",
   "brooksrunning.is": "2026-11-23T13:25:10.246Z"
  },
  "runs": [
+  {
+   "at": "2026-11-23T15:09:06.666Z",
+   "mode": "afsláttur",
+   "checked": 17,
+   "changed": 0,
+   "drops": 0,
+   "errors": 0,
+   "seconds": 1557
+  },
   {
    "at": "2026-11-23T14:01:53.791Z",
    "mode": "afsláttur",
@@ -918,18 +927,9 @@
    "drops": 0,
    "errors": 0,
    "seconds": 62
-  },
-  {
-   "at": "2026-11-12T10:05:34.269Z",
-   "mode": "afsláttur",
-   "checked": 15,
-   "changed": 0,
-   "drops": 0,
-   "errors": 0,
-   "seconds": 60
   }
  ],
- "lastRun": "2026-11-23T13:24:38.379Z",
- "lastFinished": "2026-11-23T14:01:53.791Z",
+ "lastRun": "2026-11-23T14:44:09.715Z",
+ "lastFinished": "2026-11-23T15:09:06.666Z",
  "lastMorning": "2026-11-23"
 }
