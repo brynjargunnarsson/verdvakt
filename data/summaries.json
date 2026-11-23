@@ -1,6 +1,70 @@
 {
  "items": [
   {
+   "id": "efed88d3f1",
+   "at": "2026-11-23T10:42:52.729Z",
+   "type": "lækkanir",
+   "event": "Svarta vikan",
+   "changes": [
+    {
+     "productId": "brooks-glycerin-23",
+     "name": "Brooks Glycerin 23",
+     "store": "brooksrunning.is",
+     "storeName": "Brooks",
+     "url": "https://brooksrunning.is/vara/glycerin-23-8",
+     "from": 34990,
+     "to": 19990,
+     "pct": -42.9,
+     "newLow": true,
+     "suspect": false,
+     "target": null,
+     "marketplace": false
+    },
+    {
+     "productId": "brooks-glycerin-23",
+     "name": "Brooks Glycerin 23",
+     "store": "brooksrunning.is",
+     "storeName": "Brooks",
+     "url": "https://brooksrunning.is/vara/glycerin-23-6",
+     "from": 34990,
+     "to": 19990,
+     "pct": -42.9,
+     "newLow": true,
+     "suspect": false,
+     "target": null,
+     "marketplace": false
+    },
+    {
+     "productId": "brooks-glycerin-23",
+     "name": "Brooks Glycerin 23",
+     "store": "brooksrunning.is",
+     "storeName": "Brooks",
+     "url": "https://brooksrunning.is/vara/glycerin-23-3",
+     "from": 34990,
+     "to": 19990,
+     "pct": -42.9,
+     "newLow": true,
+     "suspect": false,
+     "target": null,
+     "marketplace": false
+    },
+    {
+     "productId": "brooks-glycerin-23",
+     "name": "Brooks Glycerin 23",
+     "store": "brooksrunning.is",
+     "storeName": "Brooks",
+     "url": "https://brooksrunning.is/vara/glycerin-gts-23-4",
+     "from": 35990,
+     "to": 19990,
+     "pct": -44.5,
+     "newLow": true,
+     "suspect": false,
+     "target": null,
+     "marketplace": false
+    }
+   ]
+  },
+  {
    "id": "99d8f78079",
    "at": "2026-11-23T07:39:12.828Z",
    "type": "morgunyfirlit",
