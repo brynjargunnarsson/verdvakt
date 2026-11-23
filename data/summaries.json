@@ -1,6 +1,91 @@
 {
  "items": [
   {
+   "id": "99d8f78079",
+   "at": "2026-11-23T07:39:12.828Z",
+   "type": "morgunyfirlit",
+   "event": "Svarta vikan",
+   "best": [
+    {
+     "productId": "samsung-the-frame-43-guax",
+     "name": "Samsung the frame 43\"",
+     "price": 119995,
+     "storeName": "ELKO",
+     "url": "https://elko.is/vorur/samsung-43-the-frame-qled-sjonvarp-2026-429929/TQ43LS03HEUXXC",
+     "min": 119995,
+     "previous": 159995
+    },
+    {
+     "productId": "milwaukee-hjolsog-wfso",
+     "name": "Milwaukee Hjólsög",
+     "price": 62392,
+     "storeName": "rubix.is",
+     "url": "https://rubix.is/vorur/MW-4933493587",
+     "min": 62392,
+     "previous": 77990
+    },
+    {
+     "productId": "brooks-glycerin-23",
+     "name": "Brooks Glycerin 23",
+     "price": 34990,
+     "storeName": "Brooks",
+     "url": "https://brooksrunning.is/vara/glycerin-23-8",
+     "min": 34990,
+     "previous": null
+    },
+    {
+     "productId": "hoka-clifton-herra-40-2-3-fyy6",
+     "name": "Hoka Clifton Herra 40 2/3",
+     "price": 25592,
+     "storeName": "sportis.is",
+     "url": "https://sportis.is/collections/hoka-clifton-10/products/hoka-clifton-10-herrar-2?variant=50318762377498",
+     "min": 25592,
+     "previous": null
+    },
+    {
+     "productId": "chase-2-plus-mips-skidahjalmur-m2d4",
+     "name": "CHASE 2 PLUS Mips | Skíðahjálmur",
+     "price": 21995,
+     "storeName": "Markið",
+     "url": "https://markid.is/products/chase-2-plus-mips-skidahjalmur-3",
+     "min": 17156,
+     "previous": 17156
+    }
+   ],
+   "codes": [
+    {
+     "store": "elko.is",
+     "codes": [
+      {
+       "code": "ELKO",
+       "pct": 74,
+       "text": "og tilboð fyrir fyrirtæki Gjafahugmyndir Við hjálpum þér að finna réttu gjöfina Nýtt ELKO blað Smelltu hér til að skoða ELKO blaðið Stærsta tilboðsvika ársins (17) SVARTUR FÖSSARI -- 74% Svartur Grænn Kremað Grár Ljósgræ"
+      }
+     ]
+    },
+    {
+     "store": "snuran.is",
+     "codes": [
+      {
+       "code": "ÚTSKRIFTIR",
+       "pct": null,
+       "text": "rslun Snúrunnar og Bústoðar Tökum líka vel á móti ykkur í verslun okkar að Miðhrauni 24, Garðabæ GLUCKIGLUCK KLASSÍK Skoða ÚTSKRIFTIR HUGMYNDIR AF ÚTSKRIFTARGJÖFUM Skoða NÝTT MERKI!! URBAN NATURE CULTURE Skoða Húsgögn Sk"
+      },
+      {
+       "code": "NÝTT",
+       "pct": null,
+       "text": "ykkur í verslun okkar að Miðhrauni 24, Garðabæ GLUCKIGLUCK KLASSÍK Skoða ÚTSKRIFTIR HUGMYNDIR AF ÚTSKRIFTARGJÖFUM Skoða NÝTT MERKI!! URBAN NATURE CULTURE Skoða Húsgögn Skoða Nýjar vörur NÝTT Sérpöntun Calia Calia Italia "
+      },
+      {
+       "code": "DAY",
+       "pct": null,
+       "text": "Skoða DAY et Gweneth RE-S SB S 8.796 kr 10.995 kr Vinsælt"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "id": "d0100cbb13",
    "at": "2026-11-23T05:46:55.059Z",
    "type": "lækkanir",
