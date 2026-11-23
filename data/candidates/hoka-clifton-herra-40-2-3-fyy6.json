@@ -7,9 +7,14 @@
   "Hoka Clifton 10 Herra Hlutlaus höggdempandi"
  ],
  "codes": [],
- "searchedAt": "2026-11-22T12:36:28.632Z",
+ "searchedAt": "2026-11-23T13:37:25.286Z",
  "storesSearched": 66,
- "storesFailed": [],
- "seconds": 614,
+ "storesFailed": [
+  {
+   "domain": "www.lyfogheilsa.is",
+   "error": "HTTP 429"
+  }
+ ],
+ "seconds": 733,
  "results": []
 }

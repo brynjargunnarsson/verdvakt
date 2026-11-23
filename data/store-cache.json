@@ -4,7 +4,7 @@
   "learned": {
    "kind": "woo"
   },
-  "lastOk": "2026-11-22T13:59:08.180Z"
+  "lastOk": "2026-11-23T13:37:33.529Z"
  },
  "noona.is": {
   "fails": 0,
@@ -12,7 +12,7 @@
    "kind": "html",
    "searchUrl": "/n/search?q={q}"
   },
-  "lastOk": "2026-11-22T14:11:08.505Z"
+  "lastOk": "2026-11-23T13:51:50.990Z"
  },
  "www.dineout.is": {
   "fails": 0,
@@ -20,7 +20,7 @@
    "kind": "html",
    "searchUrl": "/explore?q={q}"
   },
-  "lastOk": "2026-11-22T14:10:23.507Z"
+  "lastOk": "2026-11-23T13:50:57.106Z"
  },
  "tl.is": {
   "fails": 5,
@@ -36,65 +36,65 @@
  },
  "kd.is": {
   "fails": 0,
-  "lastOk": "2026-11-22T13:59:36.381Z"
+  "lastOk": "2026-11-23T13:38:10.198Z"
  },
  "www.epal.is": {
   "fails": 0,
-  "lastOk": "2026-11-22T13:59:42.602Z"
+  "lastOk": "2026-11-23T13:37:48.627Z"
  },
  "www.tolvutek.is": {
   "fails": 0,
-  "lastOk": "2026-11-22T13:59:42.503Z"
+  "lastOk": "2026-11-23T13:38:10.709Z"
  },
  "snuran.is": {
   "fails": 0,
-  "lastOk": "2026-11-22T13:59:48.682Z"
+  "lastOk": "2026-11-23T13:37:56.375Z"
  },
  "kokka.is": {
   "fails": 0,
-  "lastOk": "2026-11-22T13:59:50.840Z"
+  "lastOk": "2026-11-23T13:38:06.298Z"
  },
  "computer.is": {
   "fails": 0,
-  "lastOk": "2026-11-22T13:59:44.494Z"
+  "lastOk": "2026-11-23T13:38:07.676Z"
  },
  "elko.is": {
   "fails": 0,
-  "lastOk": "2026-11-22T13:59:43.700Z"
+  "lastOk": "2026-11-23T13:37:40.904Z"
  },
  "www.hagkaup.is": {
   "fails": 0,
-  "lastOk": "2026-11-22T13:59:46.868Z"
+  "lastOk": "2026-11-23T13:38:25.146Z"
  },
  "hrim.is": {
   "fails": 0,
-  "lastOk": "2026-11-22T14:00:15.392Z"
+  "lastOk": "2026-11-23T13:38:41.755Z"
  },
  "www.ilva.is": {
   "fails": 0,
-  "lastOk": "2026-11-22T14:00:18.399Z"
+  "lastOk": "2026-11-23T13:38:47.562Z"
  },
  "www.husa.is": {
   "fails": 0,
-  "lastOk": "2026-11-22T14:00:11.766Z"
+  "lastOk": "2026-11-23T13:38:54.129Z"
  },
  "heimkaup.is": {
   "fails": 0,
   "learned": {
    "kind": "type"
   },
-  "lastOk": "2026-11-22T14:00:02.486Z"
+  "lastOk": "2026-11-23T13:38:35.231Z"
  },
  "byko.is": {
   "fails": 0,
-  "lastOk": "2026-11-22T14:00:25.015Z"
+  "lastOk": "2026-11-23T13:38:52.120Z"
  },
  "macland.is": {
   "fails": 0,
   "learned": {
    "kind": "woo"
   },
-  "lastOk": "2026-11-22T14:00:18.389Z"
+  "lastOk": "2026-11-23T13:38:49.826Z"
  },
  "utilif.is": {
   "fails": 5,
@@ -108,15 +108,15 @@
    "kind": "html",
    "searchUrl": "/leit/?q={q}"
   },
-  "lastOk": "2026-11-22T14:00:49.805Z"
+  "lastOk": "2026-11-23T13:39:29.631Z"
  },
  "brooksrunning.is": {
   "fails": 0,
-  "lastOk": "2026-11-22T14:00:54.407Z"
+  "lastOk": "2026-11-23T13:39:08.375Z"
  },
  "bland.is": {
   "fails": 0,
-  "lastOk": "2026-11-22T14:01:36.228Z"
+  "lastOk": "2026-11-23T13:49:47.773Z"
  },
  "www.siminn.is": {
   "fails": 0,
@@ -124,7 +124,7 @@
    "kind": "html",
    "searchUrl": "/leit?q={q}"
   },
-  "lastOk": "2026-11-22T14:01:05.121Z"
+  "lastOk": "2026-11-23T13:39:45.657Z"
  },
  "samsungsetrid.is": {
   "fails": 5,
@@ -159,7 +159,7 @@
   "learned": {
    "kind": "woo"
   },
-  "lastOk": "2026-11-22T14:01:21.154Z",
+  "lastOk": "2026-11-23T13:39:54.151Z",
   "lastErrorAt": "2026-11-20T02:02:51.973Z"
  },
  "nexus.is": {
@@ -167,21 +167,21 @@
   "learned": {
    "kind": "woo"
   },
-  "lastOk": "2026-11-22T14:01:14.378Z"
+  "lastOk": "2026-11-23T13:39:52.191Z"
  },
  "dorma.is": {
   "fails": 0,
   "learned": {
    "kind": "woo"
   },
-  "lastOk": "2026-11-22T14:01:30.116Z"
+  "lastOk": "2026-11-23T13:40:05.444Z"
  },
  "betrabak.is": {
   "fails": 0,
   "learned": {
    "kind": "woo"
   },
-  "lastOk": "2026-11-22T14:01:37.615Z"
+  "lastOk": "2026-11-23T13:40:14.398Z"
  },
  "rumfo.is": {
   "fails": 0,
@@ -189,11 +189,11 @@
    "kind": "html",
    "searchUrl": "/search?search={q}"
   },
-  "lastOk": "2026-11-22T14:01:57.121Z"
+  "lastOk": "2026-11-23T13:40:42.736Z"
  },
  "sminor.is": {
   "fails": 0,
-  "lastOk": "2026-11-22T14:01:18.495Z",
+  "lastOk": "2026-11-23T13:39:43.514Z",
   "learned": {
    "kind": "html",
    "searchUrl": "/leit?s={q}"
@@ -207,7 +207,7 @@
  },
  "vodafone.is": {
   "fails": 0,
-  "lastOk": "2026-11-22T14:03:12.918Z"
+  "lastOk": "2026-11-23T13:40:42.610Z"
  },
  "a4.is": {
   "fails": 5,
@@ -225,21 +225,21 @@
   "learned": {
    "kind": "woo"
   },
-  "lastOk": "2026-11-22T14:02:13.164Z"
+  "lastOk": "2026-11-23T13:40:51.635Z"
  },
  "lumex.is": {
   "fails": 0,
   "learned": {
    "kind": "shopify"
   },
-  "lastOk": "2026-11-22T14:02:19.270Z"
+  "lastOk": "2026-11-23T13:41:04.564Z"
  },
  "dimm.is": {
   "fails": 0,
   "learned": {
    "kind": "shopify"
   },
-  "lastOk": "2026-11-22T14:02:19.370Z"
+  "lastOk": "2026-11-23T13:41:08.412Z"
  },
  "casa.is": {
   "fails": 0,
@@ -247,14 +247,14 @@
   "learned": {
    "kind": "woo"
   },
-  "lastOk": "2026-11-22T14:02:13.076Z"
+  "lastOk": "2026-11-23T13:41:00.678Z"
  },
  "tekk.is": {
   "fails": 0,
   "learned": {
    "kind": "shopify"
   },
-  "lastOk": "2026-11-22T14:02:25.489Z"
+  "lastOk": "2026-11-23T13:41:12.278Z"
  },
  "www.habitat.is": {
   "fails": 5,
@@ -267,7 +267,7 @@
   "learned": {
    "kind": "shopify"
   },
-  "lastOk": "2026-11-22T14:02:25.571Z"
+  "lastOk": "2026-11-23T13:41:16.075Z"
  },
  "www.forlagid.is": {
   "fails": 0,
@@ -275,25 +275,25 @@
    "kind": "html",
    "searchUrl": "/leit?q={q}"
   },
-  "lastOk": "2026-11-22T14:02:05.690Z"
+  "lastOk": "2026-11-23T13:41:15.402Z"
  },
  "cintamani.is": {
   "fails": 0,
   "learned": {
    "kind": "woo"
   },
-  "lastOk": "2026-11-22T14:02:33.555Z"
+  "lastOk": "2026-11-23T13:41:24.411Z"
  },
  "zo-on.is": {
   "fails": 0,
   "learned": {
    "kind": "shopify"
   },
-  "lastOk": "2026-11-22T14:02:39.763Z"
+  "lastOk": "2026-11-23T13:41:23.765Z"
  },
  "eirvik.is": {
   "fails": 0,
-  "lastOk": "2026-11-22T14:03:06.883Z",
+  "lastOk": "2026-11-23T13:40:56.874Z",
   "lastErrorAt": "2026-11-10T12:14:52.663Z"
  },
  "www.ikea.is": {
@@ -302,14 +302,14 @@
    "kind": "html",
    "searchUrl": "/is/search/?q={q}"
   },
-  "lastOk": "2026-11-22T14:02:51.533Z"
+  "lastOk": "2026-11-23T13:41:48.773Z"
  },
  "markid.is": {
   "fails": 0,
   "learned": {
    "kind": "shopify"
   },
-  "lastOk": "2026-11-22T14:03:05.093Z"
+  "lastOk": "2026-11-23T13:41:56.442Z"
  },
  "pfaff.is": {
   "fails": 0,
@@ -317,18 +317,18 @@
    "kind": "html",
    "searchUrl": "/search?advs=false&cid=0&mid=0&vid=0&q={q}&sid=false&isc=true&orderBy=11"
   },
-  "lastOk": "2026-11-22T14:02:58.919Z"
+  "lastOk": "2026-11-23T13:41:53.004Z"
  },
  "www.nova.is": {
   "fails": 0,
-  "lastOk": "2026-11-22T14:04:13.315Z"
+  "lastOk": "2026-11-23T13:43:33.532Z"
  },
  "afreksvorur.is": {
   "fails": 0,
   "learned": {
    "kind": "shopify"
   },
-  "lastOk": "2026-11-22T14:03:13.064Z"
+  "lastOk": "2026-11-23T13:42:04.106Z"
  },
  "kunigund.is": {
   "fails": 5,
@@ -346,7 +346,7 @@
   "learned": {
    "kind": "woo"
   },
-  "lastOk": "2026-11-22T14:03:15.783Z"
+  "lastOk": "2026-11-23T13:42:06.181Z"
  },
  "everest.is": {
   "fails": 0,
@@ -354,7 +354,7 @@
    "kind": "html",
    "searchUrl": "/is/leit?q={q}"
   },
-  "lastOk": "2026-11-22T14:03:25.390Z"
+  "lastOk": "2026-11-23T13:42:00.583Z"
  },
  "orninn.is": {
   "fails": 0,
@@ -362,7 +362,7 @@
    "kind": "html",
    "searchUrl": "/search?q={q}"
   },
-  "lastOk": "2026-11-22T14:03:46.759Z"
+  "lastOk": "2026-11-23T13:42:42.131Z"
  },
  "beautybox.is": {
   "fails": 0,
@@ -370,7 +370,7 @@
    "kind": "html",
    "searchUrl": "/?s={q}&post_type=product"
   },
-  "lastOk": "2026-11-22T14:04:56.865Z"
+  "lastOk": "2026-11-23T13:44:16.935Z"
  },
  "lyfja.is": {
   "fails": 0,
@@ -378,22 +378,24 @@
    "kind": "html",
    "searchUrl": "/leit?query={q}"
   },
-  "lastOk": "2026-11-22T14:04:12.766Z"
+  "lastOk": "2026-11-23T13:43:34.271Z"
  },
  "www.66north.is": {
   "fails": 0,
   "learned": {
    "kind": "shopify"
   },
-  "lastOk": "2026-11-22T14:05:03.056Z"
+  "lastOk": "2026-11-23T13:43:41.952Z"
  },
  "www.lyfogheilsa.is": {
-  "fails": 0,
-  "lastOk": "2026-11-22T14:06:14.401Z"
+  "fails": 2,
+  "lastOk": "2026-11-22T14:06:14.401Z",
+  "lastError": "HTTP 429",
+  "lastErrorAt": "2026-11-23T13:43:25.445Z"
  },
  "fjallakofinn.is": {
   "fails": 0,
-  "lastOk": "2026-11-22T14:05:37.509Z"
+  "lastOk": "2026-11-23T13:43:23.789Z"
  },
  "origo.is": {
   "fails": 0,
@@ -401,7 +403,7 @@
    "kind": "html",
    "searchUrl": "/leitarnidurstodur?q={q}&page=1&perPage=10&Category=&notCategory=Blogg,Vidburdir"
   },
-  "lastOk": "2026-11-22T14:06:50.127Z"
+  "lastOk": "2026-11-23T13:46:05.992Z"
  },
  "www.att.is": {
   "fails": 1,
@@ -409,13 +411,13 @@
    "kind": "html",
    "searchUrl": "/catalogsearch/result?q={q}"
   },
-  "lastOk": "2026-11-22T14:06:32.221Z",
-  "lastErrorAt": "2026-11-22T14:06:37.098Z",
+  "lastOk": "2026-11-23T13:45:15.384Z",
+  "lastErrorAt": "2026-11-23T13:45:20.242Z",
   "lastError": "HTTP 403"
  },
  "www.sense.is": {
   "fails": 0,
-  "lastOk": "2026-11-22T14:08:39.888Z"
+  "lastOk": "2026-11-23T13:47:29.515Z"
  },
  "costco.is": {
   "fails": 0,
@@ -423,23 +425,23 @@
    "kind": "html",
    "searchUrl": "/search?text={q}"
   },
-  "lastOk": "2026-11-22T14:09:10.815Z"
+  "lastOk": "2026-11-23T13:49:51.085Z"
  },
  "nespresso.is": {
   "fails": 0,
-  "lastOk": "2026-11-22T14:09:26.684Z"
+  "lastOk": "2026-11-23T13:49:16.420Z"
  },
  "oskaskrin.is": {
   "fails": 0,
-  "lastOk": "2026-11-22T14:10:30.697Z"
+  "lastOk": "2026-11-23T13:51:05.840Z"
  },
  "hopkaup.is": {
   "fails": 0,
-  "lastOk": "2026-11-22T14:11:05.753Z"
+  "lastOk": "2026-11-23T13:52:10.174Z"
  },
  "gjafabref.is": {
   "fails": 0,
-  "lastOk": "2026-11-22T14:10:39.134Z"
+  "lastOk": "2026-11-23T13:51:15.870Z"
  },
  "aha.is": {
   "fails": 5,
@@ -449,19 +451,19 @@
  },
  "ellingsen.is": {
   "fails": 0,
-  "lastOk": "2026-11-22T14:18:17.138Z"
+  "lastOk": "2026-11-23T13:52:02.571Z"
  },
  "air.is": {
   "fails": 0,
-  "lastOk": "2026-11-22T14:18:17.143Z"
+  "lastOk": "2026-11-23T13:52:06.176Z"
  },
  "lindex.is": {
   "fails": 0,
-  "lastOk": "2026-11-22T14:19:17.412Z"
+  "lastOk": "2026-11-23T13:53:36.036Z"
  },
  "skor.is": {
   "fails": 0,
-  "lastOk": "2026-11-22T14:20:07.089Z"
+  "lastOk": "2026-11-23T13:53:43.514Z"
  },
  "sm.is": {
   "fails": 6,
@@ -477,14 +479,14 @@
  "gamestodin.is": {
   "fails": 0,
   "lastErrorAt": "2026-11-10T20:10:19.052Z",
-  "lastOk": "2026-11-22T14:13:01.228Z"
+  "lastOk": "2026-11-23T13:53:17.921Z"
  },
  "www.bako.is": {
   "fails": 0,
-  "lastOk": "2026-11-22T14:15:51.269Z"
+  "lastOk": "2026-11-23T13:53:58.644Z"
  },
  "www.heimilistaeki.is": {
   "fails": 0,
-  "lastOk": "2026-11-22T14:26:10.048Z"
+  "lastOk": "2026-11-23T14:01:53.788Z"
  }
 }

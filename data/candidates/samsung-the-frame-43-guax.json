@@ -12,16 +12,33 @@
  "codes": [
   "TQ43LS03HEUXXC"
  ],
- "searchedAt": "2026-11-22T12:56:35.331Z",
+ "searchedAt": "2026-11-23T14:01:53.790Z",
  "storesSearched": 66,
  "storesFailed": [
+  {
+   "domain": "www.lyfogheilsa.is",
+   "error": "HTTP 429"
+  },
   {
    "domain": "www.att.is",
    "error": "HTTP 403"
   }
  ],
- "seconds": 1207,
+ "seconds": 1469,
  "results": [
+  {
+   "url": "https://elko.is/vorur/samsung-43-the-frame-rammi-brunn-252902/VGSCFA43BWBXC",
+   "store": "elko.is",
+   "storeName": "ELKO",
+   "title": "Samsung 43\" The Frame rammi - Brúnn",
+   "price": 7995,
+   "score": 1,
+   "marketplace": false,
+   "foundAt": "2026-11-09T22:36:50.417Z",
+   "seenAt": "2026-11-23T14:01:53.790Z",
+   "via": "leit",
+   "accessory": true
+  },
   {
    "url": "https://elko.is/vorur/samsung-43-the-frame-rammi-hvitur-252884/VGSCFA43WTBXC",
    "store": "elko.is",
@@ -31,7 +48,7 @@
    "score": 1,
    "marketplace": false,
    "foundAt": "2026-11-09T22:36:50.417Z",
-   "seenAt": "2026-11-22T12:56:35.330Z",
+   "seenAt": "2026-11-23T14:01:53.790Z",
    "via": "leit",
    "accessory": true
   },
@@ -44,33 +61,7 @@
    "score": 1,
    "marketplace": false,
    "foundAt": "2026-11-09T22:36:50.417Z",
-   "seenAt": "2026-11-22T12:56:35.331Z",
-   "via": "leit",
-   "accessory": true
-  },
-  {
-   "url": "https://elko.is/vorur/samsung-43-the-frame-rammi-brunn-252902/VGSCFA43BWBXC",
-   "store": "elko.is",
-   "storeName": "ELKO",
-   "title": "Samsung 43\" The Frame rammi - Brúnn",
-   "price": 7995,
-   "score": 1,
-   "marketplace": false,
-   "foundAt": "2026-11-09T22:36:50.417Z",
-   "seenAt": "2026-11-22T12:56:35.331Z",
-   "via": "leit",
-   "accessory": true
-  },
-  {
-   "url": "https://bland.is/til-solu/raftaeki/sjonvarp-og-hljod/samsung-music-frame-hatalari/5292039/",
-   "store": "bland.is",
-   "storeName": "Bland (markaðstorg)",
-   "title": "Samsung Music Frame hátalari",
-   "price": 20000,
-   "score": 0.67,
-   "marketplace": true,
-   "foundAt": "2026-11-22T12:56:35.331Z",
-   "seenAt": "2026-11-22T12:56:35.331Z",
+   "seenAt": "2026-11-23T14:01:53.790Z",
    "via": "leit",
    "accessory": true
   }
