@@ -13,7 +13,7 @@
   "elko.is": "2026-11-23T20:58:00.841Z",
   "kd.is": "2026-11-23T22:58:48.114Z",
   "computer.is": "2026-11-23T22:58:49.629Z",
-  "www.ormsson.is": "2026-11-23T20:31:53.489Z",
+  "www.ormsson.is": "2026-11-23T23:55:47.617Z",
   "www.hagkaup.is": "2026-11-23T22:58:52.895Z",
   "heimkaup.is": "2026-11-23T22:59:07.743Z",
   "www.tolvutek.is": "2026-11-23T22:59:14.282Z",
@@ -30,6 +30,15 @@
   "brooksrunning.is": "2026-11-23T20:57:59.126Z"
  },
  "runs": [
+  {
+   "at": "2026-11-23T23:55:47.618Z",
+   "mode": "afsláttur",
+   "checked": 26,
+   "changed": 0,
+   "drops": 0,
+   "errors": 2,
+   "seconds": 73
+  },
   {
    "at": "2026-11-23T22:59:59.088Z",
    "mode": "afsláttur",
@@ -920,18 +929,9 @@
    "drops": 0,
    "errors": 0,
    "seconds": 66
-  },
-  {
-   "at": "2026-11-12T20:54:38.657Z",
-   "mode": "afsláttur",
-   "checked": 15,
-   "changed": 0,
-   "drops": 0,
-   "errors": 0,
-   "seconds": 74
   }
  ],
- "lastRun": "2026-11-23T22:58:37.416Z",
- "lastFinished": "2026-11-23T22:59:59.088Z",
+ "lastRun": "2026-11-23T23:55:43.254Z",
+ "lastFinished": "2026-11-23T23:55:47.618Z",
  "lastMorning": "2026-11-23"
 }
