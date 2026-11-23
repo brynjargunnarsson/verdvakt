@@ -1,0 +1,30 @@
+{
+ "productId": "kenwood-kmix-4ngi",
+ "query": "DEL-KMX751",
+ "variants": [
+  "DEL-KMX751",
+  "Kenwood KMIX hrærivél svört"
+ ],
+ "codes": [
+  "DEL-KMX751"
+ ],
+ "searchedAt": "2026-11-23T20:30:13.507Z",
+ "storesSearched": 65,
+ "storesFailed": [],
+ "seconds": 554,
+ "results": [
+  {
+   "url": "https://elko.is/vorur/kenwood-chef-xl-pro-hraerivel-442889/0W20011556",
+   "store": "elko.is",
+   "storeName": "ELKO",
+   "title": "Kenwood Chef XL Pro hrærivél - Svört",
+   "price": 119995,
+   "score": 0.75,
+   "marketplace": false,
+   "foundAt": "2026-11-23T20:30:13.507Z",
+   "seenAt": "2026-11-23T20:30:13.507Z",
+   "via": "leit",
+   "accessory": false
+  }
+ ]
+}
