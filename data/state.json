@@ -1,9 +1,9 @@
 {
  "lastDiscovery": {
-  "brooks-glycerin-23": "2026-11-23T15:09:06.665Z",
+  "brooks-glycerin-23": "2026-11-24T16:00:21.117Z",
   "normann-bit-stack": "2026-11-10T20:15:14.455Z",
   "samsung-the-frame-43-guax": "2026-11-24T14:57:27.357Z",
-  "chase-2-plus-mips-skidahjalmur-m2d4": "2026-11-23T14:58:27.301Z",
+  "chase-2-plus-mips-skidahjalmur-m2d4": "2026-11-24T15:52:21.259Z",
   "milwaukee-hjolsog-wfso": "2026-11-23T16:38:03.880Z",
   "hoka-clifton-herra-40-2-3-fyy6": "2026-11-24T14:36:48.359Z",
   "kitchenaid-artisan-6eex": "2026-11-23T17:55:38.735Z",
@@ -13,7 +13,7 @@
   "elko.is": "2026-11-24T12:41:14.774Z",
   "kd.is": "2026-11-24T08:00:58.756Z",
   "computer.is": "2026-11-24T08:00:58.485Z",
-  "www.ormsson.is": "2026-11-24T11:33:02.940Z",
+  "www.ormsson.is": "2026-11-24T15:41:04.555Z",
   "www.hagkaup.is": "2026-11-24T08:01:04.893Z",
   "heimkaup.is": "2026-11-24T08:01:20.587Z",
   "www.tolvutek.is": "2026-11-24T08:01:24.639Z",
@@ -30,6 +30,15 @@
   "brooksrunning.is": "2026-11-24T12:41:13.221Z"
  },
  "runs": [
+  {
+   "at": "2026-11-24T16:00:21.118Z",
+   "mode": "afsláttur",
+   "checked": 26,
+   "changed": 0,
+   "drops": 0,
+   "errors": 2,
+   "seconds": 1239
+  },
   {
    "at": "2026-11-24T14:57:27.357Z",
    "mode": "afsláttur",
@@ -920,18 +929,9 @@
    "drops": 0,
    "errors": 0,
    "seconds": 63
-  },
-  {
-   "at": "2026-11-14T07:01:39.557Z",
-   "mode": "venjulegt",
-   "checked": 15,
-   "changed": 0,
-   "drops": 0,
-   "errors": 0,
-   "seconds": 56
   }
  ],
- "lastRun": "2026-11-24T14:26:24.999Z",
- "lastFinished": "2026-11-24T14:57:27.357Z",
+ "lastRun": "2026-11-24T15:40:59.306Z",
+ "lastFinished": "2026-11-24T16:00:21.118Z",
  "lastMorning": "2026-11-24"
 }

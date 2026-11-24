@@ -8,15 +8,10 @@
   "CHASE 2"
  ],
  "codes": [],
- "searchedAt": "2026-11-23T14:58:27.300Z",
- "storesSearched": 66,
- "storesFailed": [
-  {
-   "domain": "www.lyfogheilsa.is",
-   "error": "HTTP 429"
-  }
- ],
- "seconds": 769,
+ "searchedAt": "2026-11-24T15:52:21.258Z",
+ "storesSearched": 65,
+ "storesFailed": [],
+ "seconds": 677,
  "results": [
   {
    "url": "https://elko.is/vorur/lexar-microsdxc-silver-plus-v30-64-gb-minnikort-2-stk-426740/LMSSIPL064GB2ANG",
@@ -27,7 +22,7 @@
    "score": 1,
    "marketplace": false,
    "foundAt": "2026-11-19T15:47:09.527Z",
-   "seenAt": "2026-11-23T14:58:27.300Z",
+   "seenAt": "2026-11-24T15:52:21.258Z",
    "via": "leit",
    "accessory": false
   },
@@ -40,7 +35,7 @@
    "score": 1,
    "marketplace": false,
    "foundAt": "2026-11-10T12:24:20.378Z",
-   "seenAt": "2026-11-23T14:58:27.300Z",
+   "seenAt": "2026-11-24T15:52:21.258Z",
    "via": "leit",
    "accessory": false
   },
@@ -53,7 +48,7 @@
    "score": 1,
    "marketplace": false,
    "foundAt": "2026-11-10T12:24:20.378Z",
-   "seenAt": "2026-11-23T14:58:27.300Z",
+   "seenAt": "2026-11-24T15:52:21.258Z",
    "via": "leit",
    "accessory": false
   },
@@ -66,7 +61,7 @@
    "score": 1,
    "marketplace": false,
    "foundAt": "2026-11-10T12:24:20.378Z",
-   "seenAt": "2026-11-23T14:58:27.300Z",
+   "seenAt": "2026-11-24T15:52:21.258Z",
    "via": "leit",
    "accessory": false
   },
@@ -79,7 +74,7 @@
    "score": 1,
    "marketplace": false,
    "foundAt": "2026-11-10T12:24:20.378Z",
-   "seenAt": "2026-11-23T14:58:27.300Z",
+   "seenAt": "2026-11-24T15:52:21.258Z",
    "via": "leit",
    "accessory": false
   },
@@ -92,7 +87,7 @@
    "score": 1,
    "marketplace": false,
    "foundAt": "2026-11-10T12:24:20.378Z",
-   "seenAt": "2026-11-23T14:58:27.300Z",
+   "seenAt": "2026-11-24T15:52:21.258Z",
    "via": "leit",
    "accessory": false
   },
@@ -105,7 +100,7 @@
    "score": 1,
    "marketplace": false,
    "foundAt": "2026-11-10T12:24:20.378Z",
-   "seenAt": "2026-11-23T14:58:27.300Z",
+   "seenAt": "2026-11-24T15:52:21.258Z",
    "via": "leit",
    "accessory": false
   },
@@ -118,7 +113,7 @@
    "score": 1,
    "marketplace": false,
    "foundAt": "2026-11-10T12:24:20.378Z",
-   "seenAt": "2026-11-23T14:58:27.300Z",
+   "seenAt": "2026-11-24T15:52:21.258Z",
    "via": "leit",
    "accessory": false
   },
@@ -131,7 +126,7 @@
    "score": 1,
    "marketplace": false,
    "foundAt": "2026-11-10T12:24:20.378Z",
-   "seenAt": "2026-11-23T14:58:27.300Z",
+   "seenAt": "2026-11-24T15:52:21.258Z",
    "via": "leit",
    "accessory": false
   },
@@ -144,7 +139,7 @@
    "score": 1,
    "marketplace": false,
    "foundAt": "2026-11-10T12:24:20.378Z",
-   "seenAt": "2026-11-23T14:58:27.300Z",
+   "seenAt": "2026-11-24T15:52:21.258Z",
    "via": "leit",
    "accessory": false
   },
@@ -157,7 +152,7 @@
    "score": 1,
    "marketplace": false,
    "foundAt": "2026-11-10T12:24:20.378Z",
-   "seenAt": "2026-11-23T14:58:27.300Z",
+   "seenAt": "2026-11-24T15:52:21.258Z",
    "via": "leit",
    "accessory": false
   },
@@ -170,7 +165,20 @@
    "score": 1,
    "marketplace": false,
    "foundAt": "2026-11-10T12:24:20.378Z",
-   "seenAt": "2026-11-23T14:58:27.300Z",
+   "seenAt": "2026-11-24T15:52:21.258Z",
+   "via": "leit",
+   "accessory": false
+  },
+  {
+   "url": "https://bland.is/til-solu/afthreying/hljodfaeri/ssl-2-plus-mkii-audio-interface/5306492/",
+   "store": "bland.is",
+   "storeName": "Bland (markaðstorg)",
+   "title": "SSL 2 Plus MKII Audio Interface",
+   "price": 39000,
+   "score": 0.67,
+   "marketplace": true,
+   "foundAt": "2026-11-24T15:52:21.258Z",
+   "seenAt": "2026-11-24T15:52:21.258Z",
    "via": "leit",
    "accessory": false
   },
@@ -183,7 +191,7 @@
    "score": 0.67,
    "marketplace": false,
    "foundAt": "2026-11-10T12:24:20.378Z",
-   "seenAt": "2026-11-23T14:58:27.300Z",
+   "seenAt": "2026-11-24T15:52:21.258Z",
    "via": "leit",
    "accessory": false
   },
@@ -196,7 +204,7 @@
    "score": 0.67,
    "marketplace": false,
    "foundAt": "2026-11-10T12:24:20.378Z",
-   "seenAt": "2026-11-23T14:58:27.300Z",
+   "seenAt": "2026-11-24T15:52:21.258Z",
    "via": "leit",
    "accessory": false
   },
@@ -209,7 +217,7 @@
    "score": 0.67,
    "marketplace": false,
    "foundAt": "2026-11-10T12:24:20.378Z",
-   "seenAt": "2026-11-23T14:58:27.300Z",
+   "seenAt": "2026-11-24T15:52:21.258Z",
    "via": "leit",
    "accessory": false
   },
@@ -222,7 +230,7 @@
    "score": 1,
    "marketplace": false,
    "foundAt": "2026-11-10T12:24:20.378Z",
-   "seenAt": "2026-11-23T14:58:27.300Z",
+   "seenAt": "2026-11-24T15:52:21.258Z",
    "via": "leit",
    "accessory": true
   },
@@ -235,7 +243,7 @@
    "score": 1,
    "marketplace": false,
    "foundAt": "2026-11-10T12:24:20.378Z",
-   "seenAt": "2026-11-23T14:58:27.300Z",
+   "seenAt": "2026-11-24T15:52:21.258Z",
    "via": "leit",
    "accessory": true
   },
@@ -248,7 +256,7 @@
    "score": 1,
    "marketplace": false,
    "foundAt": "2026-11-10T12:24:20.378Z",
-   "seenAt": "2026-11-23T14:58:27.300Z",
+   "seenAt": "2026-11-24T15:52:21.258Z",
    "via": "leit",
    "accessory": true
   },
@@ -261,7 +269,7 @@
    "score": 1,
    "marketplace": false,
    "foundAt": "2026-11-10T12:24:20.378Z",
-   "seenAt": "2026-11-23T14:58:27.300Z",
+   "seenAt": "2026-11-24T15:52:21.258Z",
    "via": "leit",
    "accessory": true
   },
@@ -274,7 +282,7 @@
    "score": 1,
    "marketplace": false,
    "foundAt": "2026-11-10T12:24:20.378Z",
-   "seenAt": "2026-11-23T14:58:27.300Z",
+   "seenAt": "2026-11-24T15:52:21.258Z",
    "via": "leit",
    "accessory": true
   },
@@ -287,7 +295,7 @@
    "score": 0.67,
    "marketplace": false,
    "foundAt": "2026-11-10T12:24:20.378Z",
-   "seenAt": "2026-11-23T14:58:27.300Z",
+   "seenAt": "2026-11-24T15:52:21.258Z",
    "via": "leit",
    "accessory": true
   }
