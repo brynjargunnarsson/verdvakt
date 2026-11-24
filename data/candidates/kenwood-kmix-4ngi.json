@@ -8,23 +8,9 @@
  "codes": [
   "DEL-KMX751"
  ],
- "searchedAt": "2026-11-23T20:41:10.439Z",
+ "searchedAt": "2026-11-24T21:11:37.621Z",
  "storesSearched": 65,
  "storesFailed": [],
- "seconds": 557,
- "results": [
-  {
-   "url": "https://elko.is/vorur/kenwood-chef-xl-pro-hraerivel-442889/0W20011556",
-   "store": "elko.is",
-   "storeName": "ELKO",
-   "title": "Kenwood Chef XL Pro hrærivél - Svört",
-   "price": 119995,
-   "score": 0.75,
-   "marketplace": false,
-   "foundAt": "2026-11-23T20:41:10.439Z",
-   "seenAt": "2026-11-23T20:41:10.439Z",
-   "via": "leit",
-   "accessory": false
-  }
- ]
+ "seconds": 672,
+ "results": []
 }
