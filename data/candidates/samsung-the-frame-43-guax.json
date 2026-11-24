@@ -12,19 +12,15 @@
  "codes": [
   "TQ43LS03HEUXXC"
  ],
- "searchedAt": "2026-11-23T14:01:53.790Z",
- "storesSearched": 66,
+ "searchedAt": "2026-11-24T14:57:27.357Z",
+ "storesSearched": 65,
  "storesFailed": [
-  {
-   "domain": "www.lyfogheilsa.is",
-   "error": "HTTP 429"
-  },
   {
    "domain": "www.att.is",
    "error": "HTTP 403"
   }
  ],
- "seconds": 1469,
+ "seconds": 1239,
  "results": [
   {
    "url": "https://elko.is/vorur/samsung-43-the-frame-rammi-brunn-252902/VGSCFA43BWBXC",
@@ -35,7 +31,7 @@
    "score": 1,
    "marketplace": false,
    "foundAt": "2026-11-09T22:36:50.417Z",
-   "seenAt": "2026-11-23T14:01:53.790Z",
+   "seenAt": "2026-11-24T14:57:27.356Z",
    "via": "leit",
    "accessory": true
   },
@@ -48,7 +44,7 @@
    "score": 1,
    "marketplace": false,
    "foundAt": "2026-11-09T22:36:50.417Z",
-   "seenAt": "2026-11-23T14:01:53.790Z",
+   "seenAt": "2026-11-24T14:57:27.356Z",
    "via": "leit",
    "accessory": true
   },
@@ -61,7 +57,7 @@
    "score": 1,
    "marketplace": false,
    "foundAt": "2026-11-09T22:36:50.417Z",
-   "seenAt": "2026-11-23T14:01:53.790Z",
+   "seenAt": "2026-11-24T14:57:27.356Z",
    "via": "leit",
    "accessory": true
   }
