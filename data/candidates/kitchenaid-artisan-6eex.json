@@ -9,36 +9,9 @@
  "codes": [
   "KIT-5KSM125"
  ],
- "searchedAt": "2026-11-23T17:55:38.734Z",
+ "searchedAt": "2026-11-24T18:40:42.557Z",
  "storesSearched": 65,
  "storesFailed": [],
- "seconds": 612,
- "results": [
-  {
-   "url": "https://www.husa.is/heimilistaeki/matvinnslutaeki/hraerivelar/hraerivel-kitchenaid-artisan-125-48l-svort-mott/",
-   "store": "www.husa.is",
-   "storeName": "Húsasmiðjan",
-   "title": "Tilboðsverð",
-   "price": 86175,
-   "score": 0.75,
-   "marketplace": false,
-   "foundAt": "2026-11-23T17:55:38.734Z",
-   "seenAt": "2026-11-23T17:55:38.734Z",
-   "via": "leit",
-   "accessory": false
-  },
-  {
-   "url": "https://www.husa.is/heimilistaeki/matvinnslutaeki/hraerivelar/hraerivel-kitchenaid-artisan-125-48l-hvit/",
-   "store": "www.husa.is",
-   "storeName": "Húsasmiðjan",
-   "title": "Tilboðsverð",
-   "price": 86175,
-   "score": 0.75,
-   "marketplace": false,
-   "foundAt": "2026-11-23T17:55:38.734Z",
-   "seenAt": "2026-11-23T17:55:38.734Z",
-   "via": "leit",
-   "accessory": false
-  }
- ]
+ "seconds": 625,
+ "results": []
 }
