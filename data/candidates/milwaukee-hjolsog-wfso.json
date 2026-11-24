@@ -12,7 +12,7 @@
   "MW-4933493587",
   "FCS552-0"
  ],
- "searchedAt": "2026-11-23T16:38:03.879Z",
+ "searchedAt": "2026-11-24T17:08:49.030Z",
  "storesSearched": 65,
  "storesFailed": [
   {
@@ -20,6 +20,6 @@
    "error": "HTTP 403"
   }
  ],
- "seconds": 1536,
+ "seconds": 1531,
  "results": []
 }

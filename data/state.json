@@ -4,32 +4,41 @@
   "normann-bit-stack": "2026-11-10T20:15:14.455Z",
   "samsung-the-frame-43-guax": "2026-11-24T14:57:27.357Z",
   "chase-2-plus-mips-skidahjalmur-m2d4": "2026-11-24T15:52:21.259Z",
-  "milwaukee-hjolsog-wfso": "2026-11-23T16:38:03.880Z",
+  "milwaukee-hjolsog-wfso": "2026-11-24T17:08:49.031Z",
   "hoka-clifton-herra-40-2-3-fyy6": "2026-11-24T14:36:48.359Z",
   "kitchenaid-artisan-6eex": "2026-11-23T17:55:38.735Z",
   "kenwood-kmix-4ngi": "2026-11-23T20:41:10.440Z"
  },
  "lastSaleScan": {
-  "elko.is": "2026-11-24T12:41:14.774Z",
-  "kd.is": "2026-11-24T08:00:58.756Z",
-  "computer.is": "2026-11-24T08:00:58.485Z",
+  "elko.is": "2026-11-24T16:42:10.931Z",
+  "kd.is": "2026-11-24T16:41:47.297Z",
+  "computer.is": "2026-11-24T16:41:47.961Z",
   "www.ormsson.is": "2026-11-24T15:41:04.555Z",
-  "www.hagkaup.is": "2026-11-24T08:01:04.893Z",
-  "heimkaup.is": "2026-11-24T08:01:20.587Z",
-  "www.tolvutek.is": "2026-11-24T08:01:24.639Z",
-  "kokka.is": "2026-11-24T08:01:28.519Z",
-  "www.ilva.is": "2026-11-24T08:01:47.584Z",
-  "hrim.is": "2026-11-24T08:01:35.403Z",
-  "www.husa.is": "2026-11-24T12:41:02.692Z",
-  "byko.is": "2026-11-24T08:01:50.098Z",
-  "www.epal.is": "2026-11-24T08:01:46.283Z",
-  "snuran.is": "2026-11-24T08:01:28.572Z",
-  "oskaskrin.is": "2026-11-24T08:01:59.199Z",
-  "gjafabref.is": "2026-11-24T08:01:57.440Z",
-  "hopkaup.is": "2026-11-24T08:02:10.371Z",
-  "brooksrunning.is": "2026-11-24T12:41:13.221Z"
+  "www.hagkaup.is": "2026-11-24T16:41:53.003Z",
+  "heimkaup.is": "2026-11-24T16:42:14.107Z",
+  "www.tolvutek.is": "2026-11-24T16:42:11.754Z",
+  "kokka.is": "2026-11-24T16:42:19.706Z",
+  "www.ilva.is": "2026-11-24T16:42:36.204Z",
+  "hrim.is": "2026-11-24T16:42:26.087Z",
+  "www.husa.is": "2026-11-24T16:42:50.733Z",
+  "byko.is": "2026-11-24T16:42:51.269Z",
+  "www.epal.is": "2026-11-24T16:42:40.119Z",
+  "snuran.is": "2026-11-24T16:42:31.556Z",
+  "oskaskrin.is": "2026-11-24T16:43:03.046Z",
+  "gjafabref.is": "2026-11-24T16:43:00.015Z",
+  "hopkaup.is": "2026-11-24T16:43:10.723Z",
+  "brooksrunning.is": "2026-11-24T16:43:18.210Z"
  },
  "runs": [
+  {
+   "at": "2026-11-24T17:08:49.031Z",
+   "mode": "afsláttur",
+   "checked": 26,
+   "changed": 0,
+   "drops": 0,
+   "errors": 2,
+   "seconds": 1702
+  },
   {
    "at": "2026-11-24T16:00:21.118Z",
    "mode": "afsláttur",
@@ -920,18 +929,9 @@
    "drops": 0,
    "errors": 0,
    "seconds": 59
-  },
-  {
-   "at": "2026-11-14T10:46:51.256Z",
-   "mode": "venjulegt",
-   "checked": 15,
-   "changed": 0,
-   "drops": 0,
-   "errors": 0,
-   "seconds": 63
   }
  ],
- "lastRun": "2026-11-24T15:40:59.306Z",
- "lastFinished": "2026-11-24T16:00:21.118Z",
+ "lastRun": "2026-11-24T16:41:36.985Z",
+ "lastFinished": "2026-11-24T17:08:49.031Z",
  "lastMorning": "2026-11-24"
 }
