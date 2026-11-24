@@ -1,6 +1,28 @@
 {
  "items": [
   {
+   "id": "b58cf61893",
+   "at": "2026-11-24T04:08:19.678Z",
+   "type": "lækkanir",
+   "event": "Svarta vikan",
+   "changes": [
+    {
+     "productId": "kitchenaid-artisan-6eex",
+     "name": "Kitchenaid artisan",
+     "store": "rafland.is",
+     "storeName": "Rafland",
+     "url": "https://rafland.is/kitchenaid-hrarivel-125-pistasiugran.html",
+     "from": 114995,
+     "to": 91996,
+     "pct": -20,
+     "newLow": true,
+     "suspect": false,
+     "target": 114000,
+     "marketplace": false
+    }
+   ]
+  },
+  {
    "id": "ba05e432c2",
    "at": "2026-11-23T12:01:40.181Z",
    "type": "lækkanir",
