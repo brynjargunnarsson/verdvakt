@@ -5,6 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Verðvakt</title>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='7' fill='%230f766e'/><text x='16' y='22' font-size='17' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='700'>kr</text></svg>">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <meta name="theme-color" content="#0f766e">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Verðvakt">
   <link rel="stylesheet" href="style.css">
   <script src="config.js"></script>
 </head>
@@ -44,7 +50,9 @@
           <label>Heiti vöru<input name="name" required placeholder="t.d. Sony WH-1000XM6 heyrnartól"></label>
           <label>Leitarorð <span class="muted">(það sem leitað er að í verslunum – stutt og nákvæmt)</span><input name="query" placeholder="t.d. WH-1000XM6"></label>
           <label>Flokkur<input name="category" list="cats" placeholder="t.d. Raftæki"></label>
-          <label>Markverð <span class="muted">(valfrjálst – merkt sérstaklega ef verð fer undir það)</span><input name="targetPrice" inputmode="numeric" placeholder="t.d. 49990"></label>
+          <label>Markverð <span class="muted">(valfrjálst – tilkynning þegar besta verð fer niður í þetta)</span><input name="targetPrice" inputmode="numeric" placeholder="t.d. 49990"></label>
+          <label>Tilkynna ef verð lækkar um (%) <span class="muted">(autt = sjálfgefið úr Stillingum, 0 = bara markverð)</span><input name="alertPct" inputmode="decimal" placeholder="sjálfgefið"></label>
+          <label class="inline" style="align-self:end;margin-bottom:12px"><input type="checkbox" name="alertsOff"> Engar tilkynningar fyrir þessa vöru</label>
         </div>
         <label>Slóðir sem þú veist um <span class="muted">(valfrjálst, ein í línu)</span><textarea name="urls" rows="2" placeholder="https://…"></textarea></label>
         <label>Athugasemd<input name="notes" placeholder="valfrjálst"></label>
@@ -116,6 +124,27 @@
           <button type="button" id="token-clear">Eyða lykli</button>
         </form>
         <div id="token-status" class="small"></div>
+      </div>
+      <div class="card">
+        <h2>Tilkynningar</h2>
+        <p class="muted">Þú færð tilkynningu í símann þegar besta verð vöru fer undir <b>markverð</b> hennar, eða þegar það lækkar um valda <b>prósentu</b> miðað við miðgildi síðustu 30 daga. Aftur er tilkynnt ef verðið lækkar enn meira. Hver vara getur haft sína prósentu og markverð.</p>
+        <form id="alert-form" class="row">
+          <label class="inline"><input type="checkbox" name="enabled"> Tilkynningar á</label>
+          <label class="inline">Sjálfgefin lækkun (%) <input name="defaultPct" type="number" min="1" max="95" step="1" style="width:80px"></label>
+          <label class="inline">Þögn frá kl. <input name="quietFrom" type="number" min="0" max="23" style="width:70px"></label>
+          <label class="inline">til kl. <input name="quietTo" type="number" min="0" max="23" style="width:70px"></label>
+          <button class="primary" type="submit">Vista</button>
+        </form>
+        <p class="muted small">Á þagnartíma bíða tilkynningar til morguns og eru þá aðeins sendar ef verðið er enn lágt. Tími er íslenskur.</p>
+        <h3 style="font-size:14px;margin:16px 0 6px">Tilkynningar í símann (ntfy)</h3>
+        <ol class="small" style="margin:0 0 10px 18px;padding:0;line-height:1.7">
+          <li>Settu upp ókeypis appið <b>ntfy</b> í símann (App Store eða Google Play).</li>
+          <li>Veldu leynilegt heiti, t.d. <code>verdvakt-</code> og 12 tilviljanakenndir stafir. Hver sem þekkir heitið getur lesið tilkynningarnar.</li>
+          <li>Í ntfy: <b>Subscribe to topic</b> og sláðu inn heitið.</li>
+          <li>Á GitHub: <b>Settings → Secrets and variables → Actions → New repository secret</b>. Nafn: <code>NTFY_TOPIC</code>, gildi: heitið.</li>
+          <li>Smelltu á hnappinn hér fyrir neðan. Þá á prufutilkynning að berast innan mínútu.</li>
+        </ol>
+        <div class="row"><button id="test-notify" type="button">Senda prufutilkynningu</button></div>
       </div>
       <div class="card">
         <h2>Síðustu keyrslur</h2>

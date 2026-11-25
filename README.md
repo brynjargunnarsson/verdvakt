@@ -33,6 +33,12 @@ Fyrir hverja verslun er prófað: Shopify-leit (JSON), WooCommerce-leit (JSON), 
 - Afsláttarkóðar eru lesnir af forsíðum („Notaðu kóðann BF20 …“) og áætlað verð með kóða sýnt.
 - **Gerviafsláttur:** merkt ef verð var hækkað innan 45 daga fyrir afsláttartímabilið og „tilboðið“ er ekki lægra en verðið var áður, eða ef „fyrra verð“ verslunar er hærra en nokkurt verð sem vaktin sá síðustu 30 daga.
 
+### Tilkynningar
+`src/alerts.js` metur eftir hverja verðathugun hvort **besta verð** vöru (ekki markaðstorg, ekki uppselt) sé undir **markverði** eða **prósentu undir miðgildi síðustu 30 daga** (sjálfgefið 25%, stillanlegt fyrir allt og fyrir hverja vöru í `data/settings.json` / `products.json`). Tilkynnt er einu sinni og aftur ef verðið lækkar enn meira; eftir að verðið fer upp fyrir mörkin byrjar lotan upp á nýtt. Á þagnartíma (sjálfgefið 23–07) bíða tilkynningar og eru sendar um morguninn ef verðið er enn lágt. Sent er með [ntfy](https://ntfy.sh) – rásin er leynilegt heiti í GitHub-leyndarmálinu `NTFY_TOPIC`. Próf: `npm test`.
+
+### Sem app (Netlify / heimaskjár)
+`netlify.toml` gerir Netlify kleift að birta `docs/` án byggingar. Síðan er með `manifest.webmanifest` og lágmarks `sw.js`, svo hún er uppsetjanleg á heimaskjá (iPhone: Deila → Bæta á heimaskjá; Android: Setja upp). Gögnin eru áfram lesin úr GitHub.
+
 ### Verðsaga og línurit
 Hver verðbreyting er skráð í `data/history/<vara>.json` (tími og verð fyrir hverja slóð) frá fyrstu athugun. Á síðunni sýnir línuritið verð hverrar verslunar frá því vöktun hófst til dagsins í dag. Verð helst óbreytt þar til það breytist, svo línan er skreflína. Breið ljós lína sýnir besta verð (ekki markaðstorg og ekki uppselt), músarvísir sýnir öll gildi á völdum tíma og smellt er á lykil til að fela eða sýna línu. Hjá vörum með fleiri en 4 verslanir byrjar línuritið á besta verði einu. Taflan undir línuritinu lýsir öllum verðbreytingum. Línuritið er í `docs/chart.js` án utanaðkomandi bókasafna.
 

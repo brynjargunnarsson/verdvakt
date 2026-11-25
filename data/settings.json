@@ -1,0 +1,10 @@
+{
+ "_athugasemd": "Tilkynningar. defaultPct = sjálfgefin prósentulækkun miðað við miðgildi síðustu 30 daga. Hver vara getur haft sína prósentu (alertPct) og markverð (targetPrice). Þögn á nóttunni er í UTC (sama og íslenskur tími).",
+ "alerts": {
+  "enabled": true,
+  "defaultPct": 25,
+  "quietFrom": 23,
+  "quietTo": 7,
+  "windowDays": 30
+ }
+}

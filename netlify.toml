@@ -1,0 +1,14 @@
+# Netlify: engin byggingarskref, síðan er í docs/. Gögnin eru lesin úr GitHub-repo-inu.
+[build]
+  publish = "docs"
+
+[[headers]]
+  for = "/sw.js"
+  [headers.values]
+    Cache-Control = "no-cache"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"

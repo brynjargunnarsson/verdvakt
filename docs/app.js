@@ -144,10 +144,10 @@ async function dispatch(inputs) {
 }
 
 // ---------- data ----------
-const D = { products: [], prices: { offers: {}, products: {} }, summaries: { items: [] }, state: {}, sale: { events: [] }, stores: { stores: [] }, cache: {}, codes: {}, cands: {}, hist: {} };
+const D = { settings: { alerts: { enabled: true, defaultPct: 25, quietFrom: 23, quietTo: 7 } }, products: [], prices: { offers: {}, products: {} }, summaries: { items: [] }, state: {}, sale: { events: [] }, stores: { stores: [] }, cache: {}, codes: {}, cands: {}, hist: {} };
 
 async function loadAll() {
-  const [products, prices, summaries, state, sale, stores, cache, codes] = await Promise.all([
+  const [products, prices, summaries, state, sale, stores, cache, codes, settings] = await Promise.all([
     load('products.json', { products: [] }),
     load('prices.json', { offers: {}, products: {} }),
     load('summaries.json', { items: [] }),
@@ -156,8 +156,10 @@ async function loadAll() {
     load('stores.json', { stores: [] }),
     load('store-cache.json', {}),
     load('codes.json', {}),
+    load('settings.json', {}),
   ]);
   Object.assign(D, { products: products.products || [], prices, summaries, state, sale, stores, cache, codes });
+  D.settings = { alerts: { ...D.settings.alerts, ...(settings.alerts || {}) } };
   const cands = await Promise.all(D.products.map((p) => load(`candidates/${p.id}.json`, null)));
   D.cands = Object.fromEntries(D.products.map((p, i) => [p.id, cands[i]]));
   D.keys = {};
@@ -208,6 +210,13 @@ function renderStatus() {
   $('#banner').innerHTML = notes.join('');
 }
 
+function alertLabel(p) {
+  const a = D.settings.alerts;
+  if (!a.enabled || p.alertsOff) return ' · tilkynningar slökkt';
+  const pct = p.alertPct == null || p.alertPct === '' ? a.defaultPct : Number(p.alertPct);
+  return pct > 0 ? ` · tilkynning við −${pct}%` : '';
+}
+
 function trendChip(cur, prev) {
   if (cur == null || prev == null || cur === prev) return '';
   const p = pct(prev, cur);
@@ -245,7 +254,7 @@ function renderProducts() {
     ].join(' ');
     const isOpen = open.has(p.id);
     return `<tr class="p ${p.paused ? 'paused' : ''}" data-id="${esc(p.id)}">
-      <td><span class="muted">${isOpen ? '▾' : '▸'}</span> <span class="pname">${esc(p.name)}</span><div class="muted small">${esc(p.category || '')}${p.targetPrice ? ' · markverð ' + kr(p.targetPrice) : ''}</div></td>
+      <td><span class="muted">${isOpen ? '▾' : '▸'}</span> <span class="pname">${esc(p.name)}</span><div class="muted small">${esc(p.category || '')}${p.targetPrice ? ' · markverð ' + kr(p.targetPrice) : ''}${alertLabel(p)}</div></td>
       <td class="num"><div class="price">${kr(ps.current)}</div><div class="muted small">${esc(ps.storeName || '')}</div></td>
       <td class="num">${kr(ps.previous)}<div class="muted small">${ps.previous != null ? 'til ' + when(ps.changedAt) : ''}</div></td>
       <td class="num">${kr(ps.min)}<div class="muted small">${ps.min != null ? esc(ps.minStore || '') + ' · ' + day(ps.minAt) : ''}</div></td>
@@ -442,6 +451,17 @@ function renderSummaries() {
     .slice(0, 80)
     .map((s) => {
       const isNew = s.at > seen;
+      if (s.type === 'tilkynning') {
+        const state = s.held ? '<span class="chip">Haldið til morguns</span>' : s.sent ? '<span class="chip down">Send í síma</span>' : `<span class="chip warn" title="${esc(s.reason || '')}">Ekki send</span>`;
+        return `<div class="card summary ${isNew ? 'unread' : ''}"><h3>🔔 ${s.events.length === 1 ? 'Tilkynning' : s.events.length + ' tilkynningar'} <span class="muted small">${when(s.at)}</span> ${state} ${isNew ? '<span class="chip new">Nýtt</span>' : ''}</h3>
+          <table class="t"><tbody>${s.events
+            .map(
+              (c) => `<tr><td>${esc(c.name)}</td><td><a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.store)}</a></td><td class="num"><b>${kr(c.price)}</b></td>
+              <td class="small">${(c.reasons || []).map((r) => (r.type === 'verð' ? `undir markverði (${kr(r.target)})` : `${String(r.drop).replace('.', ',')}% undir miðgildi (${kr(r.baseline)})`)).join(' · ')}${c.suspect ? ' <span class="chip warn">Gæti verið villa í lestri</span>' : ''}</td></tr>`
+            )
+            .join('')}</tbody></table>
+          ${!s.held && !s.sent && s.reason ? `<p class="small muted">${esc(s.reason)} Sjá Stillingar → Tilkynningar.</p>` : ''}</div>`;
+      }
       if (s.type === 'morgunyfirlit') {
         return `<div class="card summary ${isNew ? 'unread' : ''}"><h3>☀️ Morgunyfirlit: ${esc(s.event)} <span class="muted small">${when(s.at)}</span> ${isNew ? '<span class="chip new">Nýtt</span>' : ''}</h3>
           <table class="t"><thead><tr><th>Vara</th><th class="num">Besta verð</th><th>Verslun</th><th class="num">Fyrra besta verð</th><th class="num">Lægst frá upphafi</th></tr></thead><tbody>
@@ -512,6 +532,14 @@ function renderStores() {
 }
 
 function renderSettings() {
+  const a = D.settings.alerts;
+  const f = $('#alert-form');
+  if (f && !f.contains(document.activeElement)) {
+    f.elements.enabled.checked = !!a.enabled;
+    f.elements.defaultPct.value = a.defaultPct;
+    f.elements.quietFrom.value = a.quietFrom;
+    f.elements.quietTo.value = a.quietTo;
+  }
   $('#repo-name').textContent = `${CFG.owner}/${CFG.repo}`;
   $('#token-status').innerHTML = token() ? '✔ Lykill vistaður í þessum vafra.' : 'Enginn lykill. Síðan er í skoðunarham.';
   $('#runs').innerHTML =
@@ -554,7 +582,8 @@ function showForm(p = null) {
   f.reset();
   $('#add-title').textContent = p ? `Breyta: ${p.name}` : 'Ný vara';
   f.querySelector('button[type=submit]').textContent = p ? 'Vista breytingar' : 'Vista og leita í verslunum';
-  if (p) for (const k of ['name', 'query', 'category', 'targetPrice', 'notes']) f.elements[k].value = p[k] ?? '';
+  if (p) for (const k of ['name', 'query', 'category', 'targetPrice', 'alertPct', 'notes']) f.elements[k].value = p[k] ?? '';
+  if (p) f.elements.alertsOff.checked = !!p.alertsOff;
   f.elements.urls.closest('label').hidden = !!p;
   f.hidden = false;
   f.elements.name.focus();
@@ -567,11 +596,14 @@ $('#add-form').onsubmit = (e) => {
   const f = e.target;
   const v = Object.fromEntries(new FormData(f));
   const target = parseInt(String(v.targetPrice).replace(/\D/g, ''), 10) || null;
+  const pctRaw = String(v.alertPct || '').replace(',', '.').trim();
+  const alertPct = pctRaw === '' || isNaN(+pctRaw) ? null : Math.min(95, Math.max(0, +pctRaw));
+  const alertsOff = !!v.alertsOff;
   withBusy(f.querySelector('button[type=submit]'), async () => {
     if (editing) {
       const id = editing;
       await saveProducts(
-        (ps) => ps.map((p) => (p.id === id ? { ...p, name: v.name.trim(), query: (v.query || v.name).trim(), category: v.category.trim(), targetPrice: target, notes: v.notes.trim() } : p)),
+        (ps) => ps.map((p) => (p.id === id ? { ...p, name: v.name.trim(), query: (v.query || v.name).trim(), category: v.category.trim(), targetPrice: target, alertPct, alertsOff, notes: v.notes.trim() } : p)),
         `Breyta vöru: ${v.name}`
       );
       toast('Vistað.');
@@ -580,7 +612,7 @@ $('#add-form').onsubmit = (e) => {
       const now = new Date().toISOString();
       const urls = String(v.urls || '').split(/\s+/).filter((u) => /^https?:\/\/[^/]+\.is(\/|$)/i.test(u));
       await saveProducts(
-        (ps) => [...ps, { id, name: v.name.trim(), query: (v.query || v.name).trim(), category: v.category.trim(), notes: v.notes.trim(), paused: false, targetPrice: target, createdAt: now, offers: urls.map((url) => ({ url, addedAt: now })), rejected: [] }],
+        (ps) => [...ps, { id, name: v.name.trim(), query: (v.query || v.name).trim(), category: v.category.trim(), notes: v.notes.trim(), paused: false, targetPrice: target, alertPct, alertsOff, createdAt: now, offers: urls.map((url) => ({ url, addedAt: now })), rejected: [] }],
         `Ný vara: ${v.name}`
       );
       await dispatch({ discover: id, force: urls.length > 0 }).catch(() => {});
@@ -731,6 +763,26 @@ $('#stores').addEventListener('click', (e) => {
   });
 });
 
+$('#alert-form').onsubmit = (e) => {
+  e.preventDefault();
+  const f = e.target.elements;
+  const num = (el, lo, hi, d) => Math.min(hi, Math.max(lo, Math.round(Number(el.value)) || d));
+  const alerts = { enabled: f.enabled.checked, defaultPct: num(f.defaultPct, 1, 95, 25), quietFrom: num(f.quietFrom, 0, 23, 23), quietTo: num(f.quietTo, 0, 23, 7), windowDays: 30 };
+  withBusy(e.target.querySelector('button'), async () => {
+    const next = await mutate('settings.json', (o) => ({ ...o, alerts }), 'Breyta tilkynningastillingum');
+    D.settings = { alerts: { ...D.settings.alerts, ...next.alerts } };
+    toast('Vistað.');
+    renderProducts();
+    renderSettings();
+  });
+};
+$('#test-notify').onclick = (e) =>
+  withBusy(e.target, async () => {
+    if (!token()) throw new Error('Settu inn GitHub-lykil hér fyrir ofan fyrst.');
+    await dispatch({ test_notification: true });
+    toast('Prufutilkynning send af stað. Hún á að berast innan mínútu. Ef ekkert berst vantar NTFY_TOPIC leyndarmálið á GitHub.', 9000);
+  });
+
 $('#token-form').onsubmit = (e) => {
   e.preventDefault();
   const t = e.target.elements.token.value.trim();
@@ -778,6 +830,10 @@ async function refresh() {
   D.hist = {};
   renderAll();
 }
+
+try {
+  if ('serviceWorker' in navigator && (location.protocol === 'https:' || LOCAL)) navigator.serviceWorker.register('sw.js').catch(() => {});
+} catch {}
 
 showTab(LS.get('tab', 'vorur'));
 await refresh();

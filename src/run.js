@@ -5,6 +5,7 @@ import { closeBrowser } from './browser.js';
 import { discoverProduct, loadStores } from './discover.js';
 import { scanStore } from './sales.js';
 import { activeEvent, onEventDay, isDue } from './schedule.js';
+import { runAlerts } from './alerts.js';
 import { readJson, writeJson, hash, hostOf, nowIso, pool, canonicalUrl, minScoreFor } from './util.js';
 
 const t0 = Date.now();
@@ -55,7 +56,8 @@ function effectiveAt(hist, t) {
 }
 
 // FORCE (e.g. a new product saved with URLs) checks prices first, so the search can use the stores' own titles.
-if (FORCE || (priceDue && !ONLY_DISCOVER.length)) {
+const doPrices = FORCE || (priceDue && !ONLY_DISCOVER.length);
+if (doPrices) {
   const jobs = [];
   for (const p of active) for (const o of p.offers || []) if (!o.removed) jobs.push({ p, o });
   // Group by store so each store is visited one page at a time.
@@ -247,6 +249,20 @@ if (ev && !ONLY_DISCOVER.length) {
     if (overBudget() && !ONLY_DISCOVER.length) break;
     await discoverProduct(p, { stores, cache, log });
     state.lastDiscovery[p.id] = nowIso();
+  }
+}
+
+// ---------- 3b. Notifications (price targets / % drop) ----------
+if (doPrices) {
+  const settings = (await readJson('settings.json', {})).alerts;
+  const res = await runAlerts({ products, prices, state, settings, log }).catch((e) => (log('Tilkynningar mistókust:', e.message), null));
+  if (res?.summary) {
+    summaries.items.unshift({
+      id: hash('a' + nowIso()),
+      at: nowIso(),
+      ...res.summary,
+      events: res.summary.events.map(({ productId, name, price, store, url, baseline, reasons, suspect }) => ({ productId, name, price, store, url, baseline, reasons, suspect })),
+    });
   }
 }
 

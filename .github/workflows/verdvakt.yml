@@ -15,6 +15,10 @@ on:
         description: 'Athuga öll verð strax'
         type: boolean
         default: false
+      test_notification:
+        description: 'Senda prufutilkynningu'
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -33,6 +37,13 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+
+      - name: Prufutilkynning
+        if: github.event_name == 'workflow_dispatch' && inputs.test_notification
+        continue-on-error: true
+        run: node src/test-notify.js
+        env:
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
 
       - name: Er athugun tímabær?
         id: gate
@@ -59,6 +70,7 @@ jobs:
         env:
           FORCE: ${{ github.event_name == 'workflow_dispatch' && inputs.force }}
           DISCOVER: ${{ github.event_name == 'workflow_dispatch' && inputs.discover || '' }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
 
       - name: Vista niðurstöður
         if: steps.gate.outputs.run == 'true' && always()
