@@ -31,6 +31,15 @@
  },
  "runs": [
   {
+   "at": "2026-11-25T12:27:06.609Z",
+   "mode": "afsláttur",
+   "checked": 26,
+   "changed": 0,
+   "drops": 0,
+   "errors": 0,
+   "seconds": 72
+  },
+  {
    "at": "2026-11-25T12:05:00.248Z",
    "mode": "afsláttur",
    "checked": 26,
@@ -920,18 +929,24 @@
    "drops": 0,
    "errors": 0,
    "seconds": 74
-  },
-  {
-   "at": "2026-11-16T23:24:36.743Z",
-   "mode": "venjulegt",
-   "checked": 17,
-   "changed": 0,
-   "drops": 0,
-   "errors": 0,
-   "seconds": 69
   }
  ],
- "lastRun": "2026-11-25T12:05:00.247Z",
- "lastFinished": "2026-11-25T12:05:00.248Z",
- "lastMorning": "2026-11-25"
+ "lastRun": "2026-11-25T12:27:06.603Z",
+ "lastFinished": "2026-11-25T12:27:06.609Z",
+ "lastMorning": "2026-11-25",
+ "alerts": {
+  "brooks-glycerin-23": {
+   "active": false
+  },
+  "chase-2-plus-mips-skidahjalmur-m2d4": {
+   "active": false
+  },
+  "hoka-clifton-herra-40-2-3-fyy6": {
+   "active": false
+  },
+  "kenwood-kmix-4ngi": {
+   "active": false
+  }
+ },
+ "pendingAlerts": []
 }
