@@ -1,35 +1,44 @@
 {
  "lastDiscovery": {
-  "brooks-glycerin-23": "2026-11-24T16:00:21.117Z",
+  "brooks-glycerin-23": "2026-11-25T17:37:31.773Z",
   "normann-bit-stack": "2026-11-10T20:15:14.455Z",
   "samsung-the-frame-43-guax": "2026-11-25T16:34:37.151Z",
   "chase-2-plus-mips-skidahjalmur-m2d4": "2026-11-25T16:45:12.051Z",
-  "milwaukee-hjolsog-wfso": "2026-11-24T17:08:49.031Z",
+  "milwaukee-hjolsog-wfso": "2026-11-25T18:03:35.292Z",
   "hoka-clifton-herra-40-2-3-fyy6": "2026-11-25T14:59:33.069Z",
   "kitchenaid-artisan-6eex": "2026-11-24T18:40:42.558Z",
   "kenwood-kmix-4ngi": "2026-11-24T21:11:37.622Z"
  },
  "lastSaleScan": {
-  "elko.is": "2026-11-25T13:34:10.435Z",
+  "elko.is": "2026-11-25T17:29:29.869Z",
   "kd.is": "2026-11-25T09:52:22.977Z",
   "computer.is": "2026-11-25T09:52:22.794Z",
-  "www.ormsson.is": "2026-11-25T13:33:41.242Z",
+  "www.ormsson.is": "2026-11-25T17:28:57.241Z",
   "www.hagkaup.is": "2026-11-25T09:52:33.167Z",
   "heimkaup.is": "2026-11-25T09:52:53.829Z",
   "www.tolvutek.is": "2026-11-25T09:52:47.804Z",
   "kokka.is": "2026-11-25T09:52:55.714Z",
   "www.ilva.is": "2026-11-25T09:53:15.725Z",
   "hrim.is": "2026-11-25T09:53:05.863Z",
-  "www.husa.is": "2026-11-25T13:34:00.365Z",
+  "www.husa.is": "2026-11-25T17:29:14.629Z",
   "byko.is": "2026-11-25T09:53:29.335Z",
   "www.epal.is": "2026-11-25T09:53:20.467Z",
   "snuran.is": "2026-11-25T09:53:06.724Z",
   "oskaskrin.is": "2026-11-25T09:53:41.453Z",
   "gjafabref.is": "2026-11-25T09:53:40.398Z",
   "hopkaup.is": "2026-11-25T09:53:56.466Z",
-  "brooksrunning.is": "2026-11-25T13:34:12.356Z"
+  "brooksrunning.is": "2026-11-25T17:29:29.458Z"
  },
  "runs": [
+  {
+   "at": "2026-11-25T18:03:35.295Z",
+   "mode": "afsláttur",
+   "checked": 26,
+   "changed": 0,
+   "drops": 0,
+   "errors": 0,
+   "seconds": 2153
+  },
   {
    "at": "2026-11-25T16:45:12.054Z",
    "mode": "afsláttur",
@@ -920,19 +929,10 @@
    "drops": 0,
    "errors": 0,
    "seconds": 99
-  },
-  {
-   "at": "2026-11-17T13:52:24.369Z",
-   "mode": "venjulegt",
-   "checked": 17,
-   "changed": 0,
-   "drops": 0,
-   "errors": 0,
-   "seconds": 60
   }
  ],
- "lastRun": "2026-11-25T16:14:50.535Z",
- "lastFinished": "2026-11-25T16:45:12.054Z",
+ "lastRun": "2026-11-25T17:28:52.386Z",
+ "lastFinished": "2026-11-25T18:03:35.295Z",
  "lastMorning": "2026-11-25",
  "alerts": {
   "brooks-glycerin-23": {
