@@ -49,6 +49,12 @@ node src/discover.js <vöru-id>      # leita að seljendum
 python3 -m http.server 8000         # og opna http://localhost:8000/docs/
 ```
 
+### Lagerstaða
+Gögn síðunnar um lager (`availability` í JSON-LD) eru oft röng: Byggt og búið merkir t.d. allar vörur „OutOfStock“. Vaktin staðfestir því „uppselt“ með því að opna síðuna í vafra. Sýnilegur texti („ekki á lager“, „uppselt“) gildir fyrst, svo virkur „Setja í körfu“ hnappur við vöruna sjálfa, og aðeins ef hvorugt sést er gögnunum treyst.
+
+### Síður með Cloudflare-vörn
+Sumar verslanir (t.d. Ormsson) loka á sjálfvirkar heimsóknir með Cloudflare „Just a moment…“ síðu. Vaktin reynir ekki að fara í kringum slíka vörn. Ef verslunin er á WooCommerce les vaktin verðið úr opinberu vöruviðmóti hennar (`/wp-json/wc/store/v1/products?slug=…`), sem er ekki varið.
+
 ## Takmarkanir
 - Sumar verslanir loka á sjálfvirkar heimsóknir frá gagnaverum (t.d. ht.is svarar 403). Þær birtast með villu undir *Verslanir*.
 - Verð sem krefjast innskráningar sjást ekki. Klúbbverð eru aðeins lesin ef þau sjást án innskráningar.

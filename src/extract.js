@@ -180,11 +180,28 @@ export function pageProbe() {
   const oos = /(uppselt|ekki til á lager|ekki á lager|ekki til í vefverslun|out of stock|sold out|væntanleg)/i.test(
     (h1?.parentElement?.parentElement?.innerText || body).slice(0, 3000)
   );
+  // Can the visitor actually add it to the basket? Looks at the product's own area (not related-product carousels).
+  const CART = /(setja í körfu|bæta í körfu|bæta við í körfu|add to cart|kaupa núna|panta núna)/i;
+  const OUTSIDE = 'header, nav, footer, [class*="related"], [class*="upsell"], [class*="cross"], [class*="recommend"], [class*="carousel"], [class*="slider"], [id*="related"]';
+  const isCartBtn = (b) => {
+    const t = (b.innerText || b.value || b.getAttribute('aria-label') || '').replace(/\s+/g, ' ').trim();
+    return !!t && t.length <= 40 && CART.test(t);
+  };
+  const btns = (root) => [...root.querySelectorAll('button, a, input[type="submit"]')];
+  let scope = h1 || document.body;
+  for (let i = 0; i < 6 && scope.parentElement; i++) {
+    scope = scope.parentElement;
+    if (btns(scope).some((b) => isCartBtn(b) && !b.closest(OUTSIDE))) break;
+  }
+  const canBuy = btns(scope).some(
+    (b) => isCartBtn(b) && visible(b) && !b.disabled && b.getAttribute('aria-disabled') !== 'true' && !/(disabled|unavailable|sold-?out)/i.test(String(b.className)) && !b.closest(OUTSIDE)
+  );
   return {
     price,
     wasPrice: wasPrice && wasPrice > price ? wasPrice : null,
     memberPrice: memberPrice && memberPrice < price ? memberPrice : null,
     available: oos ? false : null,
+    canBuy,
     title: h1?.innerText.trim() || document.title,
     allPrices: [...body.matchAll(PRICE_G)].length,
   };

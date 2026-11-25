@@ -1,6 +1,56 @@
 import { fetchHtml, render } from './browser.js';
 import { extractStructured, pageProbe } from './extract.js';
 
+const decodeEnt = (t) =>
+  String(t || '')
+    .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(+n))
+    .replace(/&amp;/g, '&')
+    .replace(/&quot;/g, '"')
+    .replace(/&#039;|&apos;/g, "'")
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>');
+
+/**
+ * WooCommerce shops expose a public storefront API (the one their own product blocks use).
+ * Handy when the page itself is behind a bot challenge. Only for /product/<slug>/ URLs.
+ */
+async function wooStorePrice(url) {
+  let u;
+  try {
+    u = new URL(url);
+  } catch {
+    return null;
+  }
+  const m = u.pathname.match(/\/product\/([^/]+)\/?$/);
+  if (!m) return null;
+  const r = await fetchHtml(`${u.origin}/wp-json/wc/store/v1/products?slug=${encodeURIComponent(m[1])}`).catch(() => null);
+  if (!r || r.status !== 200 || !r.type.includes('json')) return null;
+  let p;
+  try {
+    p = JSON.parse(r.text)?.[0];
+  } catch {
+    return null;
+  }
+  if (!p?.prices || (p.prices.currency_code && p.prices.currency_code !== 'ISK')) return null;
+  const minor = p.prices.currency_minor_unit ?? 0;
+  const f = (x) => {
+    const n = parseInt(x, 10);
+    return Number.isFinite(n) && n > 0 ? Math.round(n / 10 ** minor) : null;
+  };
+  const price = f(p.prices.price);
+  if (!price) return null;
+  const was = f(p.prices.regular_price);
+  return {
+    ok: true,
+    price,
+    source: 'woocommerce',
+    wasPrice: was && was > price ? was : null,
+    memberPrice: null,
+    available: p.is_in_stock !== false && p.is_purchasable !== false,
+    title: decodeEnt(p.name).trim().slice(0, 200),
+  };
+}
+
 /**
  * Read the current price of a product page.
  * thorough=true always renders the page in a browser as well (used around sale days),
@@ -19,8 +69,16 @@ export async function getPrice(url, { thorough = false } = {}) {
   }
   if (st?.currency && !/ISK/i.test(st.currency)) st = null; // only ISK prices
 
+  // The store's page is blocked or has no price: try its public WooCommerce API before a browser.
+  if (!st?.price) {
+    const w = await wooStorePrice(url);
+    if (w) return w;
+  }
+
   let dom = null;
-  if (!st?.price || thorough || staticErr) {
+  // A structured "OutOfStock" is checked against the visible page: several shops get it wrong
+  // (Byggt og búið marks every product OutOfStock while the page sells it normally).
+  if (!st?.price || thorough || staticErr || st?.available === false) {
     try {
       const r = await render(url, pageProbe);
       if (r.status === 404) return { ok: false, error: 'Síða fannst ekki (404)', gone: true };
@@ -49,7 +107,19 @@ export async function getPrice(url, { thorough = false } = {}) {
     source,
     wasPrice: dom?.wasPrice ?? st?.wasPrice ?? null,
     memberPrice: dom?.memberPrice ?? null,
-    available: st?.available === false || dom?.available === false ? false : true,
+    available: availability(st, dom),
     title: (st?.title || dom?.title || '').trim().slice(0, 200),
   };
+}
+
+/**
+ * What the visitor sees beats what the page's metadata claims:
+ *  - visible "uppselt / ekki á lager" text → unavailable
+ *  - otherwise a working add-to-basket button → available, even if the metadata says OutOfStock
+ *  - otherwise believe the metadata
+ */
+function availability(st, dom) {
+  if (dom?.available === false) return false;
+  if (dom?.canBuy) return true;
+  return st?.available !== false;
 }
