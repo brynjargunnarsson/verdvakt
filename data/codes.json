@@ -1,6 +1,6 @@
 {
  "elko.is": {
-  "checkedAt": "2026-11-25T09:52:42.889Z",
+  "checkedAt": "2026-11-25T13:34:10.435Z",
   "codes": [
    {
     "code": "ELKO",
@@ -12,7 +12,7 @@
    "https://elko.is/leit?q=tilbo%C3%B0",
    "https://elko.is/leit?q=Dyson",
    "https://elko.is/leit?q=%C3%A1%20tilbo%C3%B0i",
-   "https://elko.is/leit?q=Sj%C3%B3nv%C3%B6rp%20%C3%A1%20tilbo%C3%B0i",
+   "https://elko.is/leit?q=tilbo%C3%B0&categories=57",
    "https://elko.is/leit?q=ryksugur%20%C3%A1%20tilbo%C3%B0i",
    "https://elko.is/voruflokkar/eldhustaeki-26"
   ]
@@ -32,7 +32,7 @@
   ]
  },
  "www.ormsson.is": {
-  "checkedAt": "2026-11-25T09:52:27.121Z",
+  "checkedAt": "2026-11-25T13:33:41.242Z",
   "codes": [],
   "salePages": []
  },
@@ -83,7 +83,7 @@
   ]
  },
  "www.husa.is": {
-  "checkedAt": "2026-11-25T09:53:30.226Z",
+  "checkedAt": "2026-11-25T13:34:00.365Z",
   "codes": [],
   "salePages": [
    "https://www.husa.is/eldhus-og-badherbergi/salerni/veggtengd-salerni/wc-laufen-pro-veggskalplusseta-svart-h8669577160001/",
@@ -153,7 +153,7 @@
   ]
  },
  "brooksrunning.is": {
-  "checkedAt": "2026-11-25T09:53:54.303Z",
+  "checkedAt": "2026-11-25T13:34:12.356Z",
   "codes": [],
   "salePages": [
    "https://brooksrunning.is/vara/run-in-crew-3-pack-2",

@@ -1,6 +1,61 @@
 {
  "items": [
   {
+   "id": "d38b91ca6c",
+   "at": "2026-11-25T13:34:12.510Z",
+   "type": "tilkynning",
+   "held": false,
+   "sent": true,
+   "reason": null,
+   "events": [
+    {
+     "productId": "samsung-the-frame-43-guax",
+     "name": "Samsung the frame 43\"",
+     "price": 119995,
+     "store": "ELKO",
+     "url": "https://elko.is/vorur/samsung-43-the-frame-qled-sjonvarp-2026-429929/TQ43LS03HEUXXC",
+     "baseline": 135996,
+     "reasons": [
+      {
+       "type": "verð",
+       "target": 160000
+      }
+     ],
+     "suspect": false
+    },
+    {
+     "productId": "milwaukee-hjolsog-wfso",
+     "name": "Milwaukee Hjólsög",
+     "price": 62392,
+     "store": "rubix.is",
+     "url": "https://rubix.is/vorur/MW-4933493587",
+     "baseline": 77990,
+     "reasons": [
+      {
+       "type": "verð",
+       "target": 78000
+      }
+     ],
+     "suspect": false
+    },
+    {
+     "productId": "kitchenaid-artisan-6eex",
+     "name": "Kitchenaid artisan",
+     "price": 91996,
+     "store": "Rafland",
+     "url": "https://rafland.is/kitchenaid-hrarivel-125-pistasiugran.html",
+     "baseline": 91996,
+     "reasons": [
+      {
+       "type": "verð",
+       "target": 114000
+      }
+     ],
+     "suspect": false
+    }
+   ]
+  },
+  {
    "id": "f7046b8a1c",
    "at": "2026-11-25T08:37:17.146Z",
    "type": "morgunyfirlit",

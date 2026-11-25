@@ -10,26 +10,35 @@
   "kenwood-kmix-4ngi": "2026-11-24T21:11:37.622Z"
  },
  "lastSaleScan": {
-  "elko.is": "2026-11-25T09:52:42.891Z",
+  "elko.is": "2026-11-25T13:34:10.435Z",
   "kd.is": "2026-11-25T09:52:22.977Z",
   "computer.is": "2026-11-25T09:52:22.794Z",
-  "www.ormsson.is": "2026-11-25T09:52:27.121Z",
+  "www.ormsson.is": "2026-11-25T13:33:41.242Z",
   "www.hagkaup.is": "2026-11-25T09:52:33.167Z",
   "heimkaup.is": "2026-11-25T09:52:53.829Z",
   "www.tolvutek.is": "2026-11-25T09:52:47.804Z",
   "kokka.is": "2026-11-25T09:52:55.714Z",
   "www.ilva.is": "2026-11-25T09:53:15.725Z",
   "hrim.is": "2026-11-25T09:53:05.863Z",
-  "www.husa.is": "2026-11-25T09:53:30.226Z",
+  "www.husa.is": "2026-11-25T13:34:00.365Z",
   "byko.is": "2026-11-25T09:53:29.335Z",
   "www.epal.is": "2026-11-25T09:53:20.467Z",
   "snuran.is": "2026-11-25T09:53:06.724Z",
   "oskaskrin.is": "2026-11-25T09:53:41.453Z",
   "gjafabref.is": "2026-11-25T09:53:40.398Z",
   "hopkaup.is": "2026-11-25T09:53:56.466Z",
-  "brooksrunning.is": "2026-11-25T09:53:54.303Z"
+  "brooksrunning.is": "2026-11-25T13:34:12.356Z"
  },
  "runs": [
+  {
+   "at": "2026-11-25T13:34:12.510Z",
+   "mode": "afsláttur",
+   "checked": 26,
+   "changed": 0,
+   "drops": 0,
+   "errors": 0,
+   "seconds": 103
+  },
   {
    "at": "2026-11-25T12:27:06.609Z",
    "mode": "afsláttur",
@@ -920,19 +929,10 @@
    "drops": 0,
    "errors": 0,
    "seconds": 69
-  },
-  {
-   "at": "2026-11-17T02:55:59.453Z",
-   "mode": "venjulegt",
-   "checked": 17,
-   "changed": 0,
-   "drops": 0,
-   "errors": 0,
-   "seconds": 74
   }
  ],
- "lastRun": "2026-11-25T12:27:06.603Z",
- "lastFinished": "2026-11-25T12:27:06.609Z",
+ "lastRun": "2026-11-25T13:33:35.797Z",
+ "lastFinished": "2026-11-25T13:34:12.510Z",
  "lastMorning": "2026-11-25",
  "alerts": {
   "brooks-glycerin-23": {
@@ -946,6 +946,21 @@
   },
   "kenwood-kmix-4ngi": {
    "active": false
+  },
+  "samsung-the-frame-43-guax": {
+   "active": true,
+   "lastPrice": 119995,
+   "lastAt": "2026-11-25T13:34:12.359Z"
+  },
+  "milwaukee-hjolsog-wfso": {
+   "active": true,
+   "lastPrice": 62392,
+   "lastAt": "2026-11-25T13:34:12.360Z"
+  },
+  "kitchenaid-artisan-6eex": {
+   "active": true,
+   "lastPrice": 91996,
+   "lastAt": "2026-11-25T13:34:12.361Z"
   }
  },
  "pendingAlerts": []
