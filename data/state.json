@@ -6,7 +6,7 @@
   "chase-2-plus-mips-skidahjalmur-m2d4": "2026-11-25T16:45:12.051Z",
   "milwaukee-hjolsog-wfso": "2026-11-25T18:03:35.292Z",
   "hoka-clifton-herra-40-2-3-fyy6": "2026-11-25T14:59:33.069Z",
-  "kitchenaid-artisan-6eex": "2026-11-24T18:40:42.558Z",
+  "kitchenaid-artisan-6eex": "2026-11-25T19:49:12.206Z",
   "kenwood-kmix-4ngi": "2026-11-24T21:11:37.622Z"
  },
  "lastSaleScan": {
@@ -30,6 +30,15 @@
   "brooksrunning.is": "2026-11-25T17:29:29.458Z"
  },
  "runs": [
+  {
+   "at": "2026-11-25T19:49:12.210Z",
+   "mode": "afsláttur",
+   "checked": 26,
+   "changed": 0,
+   "drops": 0,
+   "errors": 0,
+   "seconds": 800
+  },
   {
    "at": "2026-11-25T18:25:54.317Z",
    "mode": "afsláttur",
@@ -920,19 +929,10 @@
    "drops": 0,
    "errors": 0,
    "seconds": 73
-  },
-  {
-   "at": "2026-11-17T20:58:44.536Z",
-   "mode": "venjulegt",
-   "checked": 17,
-   "changed": 0,
-   "drops": 0,
-   "errors": 0,
-   "seconds": 72
   }
  ],
- "lastRun": "2026-11-25T18:24:31.816Z",
- "lastFinished": "2026-11-25T18:25:54.317Z",
+ "lastRun": "2026-11-25T19:36:59.670Z",
+ "lastFinished": "2026-11-25T19:49:12.210Z",
  "lastMorning": "2026-11-25",
  "alerts": {
   "brooks-glycerin-23": {
