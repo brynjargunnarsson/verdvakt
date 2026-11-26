@@ -30,9 +30,18 @@
   "brooksrunning.is": "2026-11-26T08:05:29.692Z",
   "utilif.is": "2026-11-26T05:19:21.291Z",
   "tl.is": "2026-11-26T05:19:43.203Z",
-  "ht.is": "2026-11-26T05:19:46.863Z"
+  "ht.is": "2026-11-26T09:17:15.476Z"
  },
  "runs": [
+  {
+   "at": "2026-11-26T09:17:15.482Z",
+   "mode": "afsláttur",
+   "checked": 26,
+   "changed": 0,
+   "drops": 0,
+   "errors": 0,
+   "seconds": 97
+  },
   {
    "at": "2026-11-26T08:05:29.697Z",
    "mode": "afsláttur",
@@ -923,19 +932,10 @@
    "drops": 0,
    "errors": 0,
    "seconds": 745
-  },
-  {
-   "at": "2026-11-19T12:39:11.774Z",
-   "mode": "venjulegt",
-   "checked": 17,
-   "changed": 0,
-   "drops": 0,
-   "errors": 0,
-   "seconds": 55
   }
  ],
- "lastRun": "2026-11-26T08:04:53.855Z",
- "lastFinished": "2026-11-26T08:05:29.697Z",
+ "lastRun": "2026-11-26T09:16:37.860Z",
+ "lastFinished": "2026-11-26T09:17:15.482Z",
  "lastMorning": "2026-11-26",
  "alerts": {
   "brooks-glycerin-23": {
