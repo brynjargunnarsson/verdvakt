@@ -1,6 +1,6 @@
 {
  "elko.is": {
-  "checkedAt": "2026-11-25T23:55:36.884Z",
+  "checkedAt": "2026-11-26T04:07:09.279Z",
   "codes": [
    {
     "code": "ELKO",
@@ -32,7 +32,7 @@
   ]
  },
  "www.ormsson.is": {
-  "checkedAt": "2026-11-25T23:55:06.873Z",
+  "checkedAt": "2026-11-26T04:06:43.165Z",
   "codes": [],
   "salePages": []
  },
@@ -84,9 +84,10 @@
   ]
  },
  "www.husa.is": {
-  "checkedAt": "2026-11-25T23:55:23.258Z",
+  "checkedAt": "2026-11-26T04:07:09.215Z",
   "codes": [],
   "salePages": [
+   "https://www.husa.is/adventuhatid/",
    "https://www.husa.is/eldhus-og-badherbergi/salerni/veggtengd-salerni/wc-laufen-pro-veggskalplusseta-svart-h8669577160001/",
    "https://www.husa.is/eldhus-og-badherbergi/salerni/veggtengd-salerni/wc-veggskal-laufen-pro-rimless/"
   ]
@@ -154,15 +155,15 @@
   ]
  },
  "brooksrunning.is": {
-  "checkedAt": "2026-11-25T23:55:39.549Z",
+  "checkedAt": "2026-11-26T04:07:12.329Z",
   "codes": [],
   "salePages": [
-   "https://brooksrunning.is/vara/run-in-crew-3-pack-2",
-   "https://brooksrunning.is/vara/run-in-crew-3-pack",
    "https://brooksrunning.is/vara/hyperion-elite-5-2",
    "https://brooksrunning.is/vara/hyperion-max-3-5",
    "https://brooksrunning.is/vara/movement-built-in-bra-tank-2",
-   "https://brooksrunning.is/vara/ghost-crew-2"
+   "https://brooksrunning.is/vara/dash-short-printed",
+   "https://brooksrunning.is/vara/catamount-4-6",
+   "https://brooksrunning.is/vara/catamount-4-5"
   ]
  }
 }
