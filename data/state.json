@@ -7,7 +7,7 @@
   "milwaukee-hjolsog-wfso": "2026-11-26T19:00:10.387Z",
   "hoka-clifton-herra-40-2-3-fyy6": "2026-11-26T15:50:37.595Z",
   "kitchenaid-artisan-6eex": "2026-11-26T21:10:13.915Z",
-  "kenwood-kmix-4ngi": "2026-11-25T21:48:36.982Z"
+  "kenwood-kmix-4ngi": "2026-11-26T22:10:13.341Z"
  },
  "lastSaleScan": {
   "elko.is": "2026-11-26T19:43:26.512Z",
@@ -33,6 +33,15 @@
   "ht.is": "2026-11-26T12:47:23.128Z"
  },
  "runs": [
+  {
+   "at": "2026-11-26T22:10:13.344Z",
+   "mode": "afsláttur",
+   "checked": 26,
+   "changed": 0,
+   "drops": 0,
+   "errors": 0,
+   "seconds": 678
+  },
   {
    "at": "2026-11-26T21:10:13.918Z",
    "mode": "afsláttur",
@@ -923,19 +932,10 @@
    "drops": 0,
    "errors": 0,
    "seconds": 58
-  },
-  {
-   "at": "2026-11-20T22:52:36.124Z",
-   "mode": "venjulegt",
-   "checked": 17,
-   "changed": 0,
-   "drops": 0,
-   "errors": 0,
-   "seconds": 69
   }
  ],
- "lastRun": "2026-11-26T20:59:58.380Z",
- "lastFinished": "2026-11-26T21:10:13.918Z",
+ "lastRun": "2026-11-26T22:00:01.638Z",
+ "lastFinished": "2026-11-26T22:10:13.344Z",
  "lastMorning": "2026-11-26",
  "alerts": {
   "brooks-glycerin-23": {
