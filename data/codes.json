@@ -1,11 +1,11 @@
 {
  "elko.is": {
-  "checkedAt": "2026-11-26T08:05:24.844Z",
+  "checkedAt": "2026-11-26T11:38:35.015Z",
   "codes": [
    {
     "code": "ELKO",
-    "pct": 15,
-    "text": "vörurnar í vefverslun ELKO Gjafahugmyndir Við hjálpum þér að finna réttu gjöfina Nýtt ELKO blað Smelltu hér til að skoða ELKO blaðið Stærsta tilboðsvika ársins (66) SVARTUR FÖSSARI -- 15% Garmin GPS DriveSmart 76 leiðsög"
+    "pct": 30,
+    "text": "vörurnar í vefverslun ELKO Gjafahugmyndir Við hjálpum þér að finna réttu gjöfina Nýtt ELKO blað Smelltu hér til að skoða ELKO blaðið Stærsta tilboðsvika ársins (25) SVARTUR FÖSSARI -- 30% Garmin Forerunner 970 snjallúr -"
    }
   ],
   "salePages": [
@@ -18,33 +18,33 @@
   ]
  },
  "kd.is": {
-  "checkedAt": "2026-11-26T02:41:18.812Z",
+  "checkedAt": "2026-11-26T11:38:11.086Z",
   "codes": [],
   "salePages": [
    "https://kd.is/category/30?pc_promo=3%20%C3%A1ra%20%C3%A1byrg%C3%B0"
   ]
  },
  "computer.is": {
-  "checkedAt": "2026-11-26T02:41:19.506Z",
+  "checkedAt": "2026-11-26T11:38:11.614Z",
   "codes": [],
   "salePages": [
    "https://computer.is/is/products/tilbod"
   ]
  },
  "www.ormsson.is": {
-  "checkedAt": "2026-11-26T08:04:58.646Z",
+  "checkedAt": "2026-11-26T11:38:15.453Z",
   "codes": [],
   "salePages": []
  },
  "www.hagkaup.is": {
-  "checkedAt": "2026-11-26T02:41:29.605Z",
+  "checkedAt": "2026-11-26T11:38:29.613Z",
   "codes": [],
   "salePages": [
    "https://www.hagkaup.is/grein/%C3%BEa%C3%B0-er-ekki-bara-gl%C3%A6silegur-afslattur-a-dimmum-dog"
   ]
  },
  "heimkaup.is": {
-  "checkedAt": "2026-11-26T02:41:37.637Z",
+  "checkedAt": "2026-11-26T11:38:42.491Z",
   "codes": [],
   "salePages": [
    "https://heimkaup.is/c/peroni-tilbo-8885?showProducts=true",
@@ -53,7 +53,7 @@
   ]
  },
  "www.tolvutek.is": {
-  "checkedAt": "2026-11-26T02:41:39.958Z",
+  "checkedAt": "2026-11-26T11:38:32.178Z",
   "codes": [],
   "salePages": [
    "https://www.tolvutek.is/shop/category/562",
@@ -65,26 +65,26 @@
   ]
  },
  "kokka.is": {
-  "checkedAt": "2026-11-26T02:41:45.929Z",
+  "checkedAt": "2026-11-26T11:38:41.588Z",
   "codes": [],
   "salePages": []
  },
  "www.ilva.is": {
-  "checkedAt": "2026-11-26T02:41:56.971Z",
+  "checkedAt": "2026-11-26T11:38:55.048Z",
   "codes": [],
   "salePages": [
    "https://www.ilva.is/tilbod/black-friday-/"
   ]
  },
  "hrim.is": {
-  "checkedAt": "2026-11-26T02:41:52.019Z",
+  "checkedAt": "2026-11-26T11:38:51.695Z",
   "codes": [],
   "salePages": [
    "https://hrim.is/product/carolinembg-glove-caramel"
   ]
  },
  "www.husa.is": {
-  "checkedAt": "2026-11-26T08:05:20.959Z",
+  "checkedAt": "2026-11-26T11:39:20.646Z",
   "codes": [],
   "salePages": [
    "https://www.husa.is/adventuhatid/",
@@ -93,7 +93,7 @@
   ]
  },
  "byko.is": {
-  "checkedAt": "2026-11-26T02:42:12.547Z",
+  "checkedAt": "2026-11-26T11:39:15.580Z",
   "codes": [],
   "salePages": [
    "https://byko.is/bjartir-dagar",
@@ -101,7 +101,7 @@
   ]
  },
  "www.epal.is": {
-  "checkedAt": "2026-11-26T02:42:07.511Z",
+  "checkedAt": "2026-11-26T11:39:16.644Z",
   "codes": [],
   "salePages": [
    "https://www.epal.is/collections/tilbod",
@@ -110,7 +110,7 @@
   ]
  },
  "snuran.is": {
-  "checkedAt": "2026-11-26T02:41:53.203Z",
+  "checkedAt": "2026-11-26T11:38:55.236Z",
   "codes": [
    {
     "code": "ÚTSKRIFTIR",
@@ -133,17 +133,17 @@
   ]
  },
  "oskaskrin.is": {
-  "checkedAt": "2026-11-26T02:42:09.587Z",
+  "checkedAt": "2026-11-26T11:39:29.222Z",
   "codes": [],
   "salePages": []
  },
  "gjafabref.is": {
-  "checkedAt": "2026-11-26T02:42:14.877Z",
+  "checkedAt": "2026-11-26T11:39:28.481Z",
   "codes": [],
   "salePages": []
  },
  "hopkaup.is": {
-  "checkedAt": "2026-11-26T02:42:24.618Z",
+  "checkedAt": "2026-11-26T11:39:48.326Z",
   "codes": [],
   "salePages": [
    "https://hopkaup.is/oll-tilbod",
@@ -155,7 +155,7 @@
   ]
  },
  "brooksrunning.is": {
-  "checkedAt": "2026-11-26T08:05:29.692Z",
+  "checkedAt": "2026-11-26T11:39:31.105Z",
   "codes": [],
   "salePages": [
    "https://brooksrunning.is/vara/hyperion-elite-5-2",
