@@ -1,6 +1,6 @@
 {
  "elko.is": {
-  "checkedAt": "2026-11-26T15:39:57.965Z",
+  "checkedAt": "2026-11-26T19:43:26.512Z",
   "codes": [
    {
     "code": "ELKO",
@@ -18,42 +18,41 @@
   ]
  },
  "kd.is": {
-  "checkedAt": "2026-11-26T11:38:11.086Z",
+  "checkedAt": "2026-11-26T19:43:01.349Z",
   "codes": [],
   "salePages": [
    "https://kd.is/category/30?pc_promo=3%20%C3%A1ra%20%C3%A1byrg%C3%B0"
   ]
  },
  "computer.is": {
-  "checkedAt": "2026-11-26T11:38:11.614Z",
+  "checkedAt": "2026-11-26T19:43:01.616Z",
   "codes": [],
   "salePages": [
    "https://computer.is/is/products/tilbod"
   ]
  },
  "www.ormsson.is": {
-  "checkedAt": "2026-11-26T15:39:23.482Z",
+  "checkedAt": "2026-11-26T19:43:06.266Z",
   "codes": [],
   "salePages": []
  },
  "www.hagkaup.is": {
-  "checkedAt": "2026-11-26T11:38:29.613Z",
+  "checkedAt": "2026-11-26T19:43:17.732Z",
   "codes": [],
   "salePages": [
    "https://www.hagkaup.is/grein/%C3%BEa%C3%B0-er-ekki-bara-gl%C3%A6silegur-afslattur-a-dimmum-dog"
   ]
  },
  "heimkaup.is": {
-  "checkedAt": "2026-11-26T11:38:42.491Z",
+  "checkedAt": "2026-11-26T19:43:23.447Z",
   "codes": [],
   "salePages": [
    "https://heimkaup.is/c/peroni-tilbo-8885?showProducts=true",
-   "https://heimkaup.is/c/great-deals1-2718?showProducts=true",
-   "https://heimkaup.is/p/ratti-brigata-langhe-chardonnay-750ml-111175"
+   "https://heimkaup.is/c/great-deals1-2718?showProducts=true"
   ]
  },
  "www.tolvutek.is": {
-  "checkedAt": "2026-11-26T11:38:32.178Z",
+  "checkedAt": "2026-11-26T19:43:25.574Z",
   "codes": [],
   "salePages": [
    "https://www.tolvutek.is/shop/category/562",
@@ -65,26 +64,32 @@
   ]
  },
  "kokka.is": {
-  "checkedAt": "2026-11-26T11:38:41.588Z",
+  "checkedAt": "2026-11-26T19:43:33.068Z",
   "codes": [],
   "salePages": []
  },
  "www.ilva.is": {
-  "checkedAt": "2026-11-26T11:38:55.048Z",
+  "checkedAt": "2026-11-26T19:43:51.540Z",
   "codes": [],
   "salePages": [
-   "https://www.ilva.is/tilbod/black-friday-/"
+   "https://www.ilva.is/tilbod/black-friday-/",
+   "https://www.ilva.is/tilbod/black-friday-/sofar/"
   ]
  },
  "hrim.is": {
-  "checkedAt": "2026-11-26T11:38:51.695Z",
+  "checkedAt": "2026-11-26T19:43:57.113Z",
   "codes": [],
   "salePages": [
-   "https://hrim.is/product/carolinembg-glove-caramel"
+   "https://hrim.is/product/svart-kaffi-30-x-40-cm",
+   "https://hrim.is/product/global-goals-bangle-white",
+   "https://hrim.is/product/flux-extrait-de-parfum-50-ml",
+   "https://hrim.is/product/ripple-kids-dinner-set-blush",
+   "https://hrim.is/product/hvisl-01-svart-bokaljos",
+   "https://hrim.is/product/smoky-cinnamon-celestial-candle-black"
   ]
  },
  "www.husa.is": {
-  "checkedAt": "2026-11-26T15:39:49.402Z",
+  "checkedAt": "2026-11-26T19:44:14.585Z",
   "codes": [],
   "salePages": [
    "https://www.husa.is/adventuhatid/",
@@ -93,7 +98,7 @@
   ]
  },
  "byko.is": {
-  "checkedAt": "2026-11-26T11:39:15.580Z",
+  "checkedAt": "2026-11-26T19:44:12.461Z",
   "codes": [],
   "salePages": [
    "https://byko.is/bjartir-dagar",
@@ -101,7 +106,7 @@
   ]
  },
  "www.epal.is": {
-  "checkedAt": "2026-11-26T11:39:16.644Z",
+  "checkedAt": "2026-11-26T19:44:05.686Z",
   "codes": [],
   "salePages": [
    "https://www.epal.is/collections/tilbod",
@@ -110,7 +115,7 @@
   ]
  },
  "snuran.is": {
-  "checkedAt": "2026-11-26T11:38:55.236Z",
+  "checkedAt": "2026-11-26T19:43:47.567Z",
   "codes": [
    {
     "code": "ÚTSKRIFTIR",
@@ -133,29 +138,29 @@
   ]
  },
  "oskaskrin.is": {
-  "checkedAt": "2026-11-26T11:39:29.222Z",
+  "checkedAt": "2026-11-26T19:44:25.016Z",
   "codes": [],
   "salePages": []
  },
  "gjafabref.is": {
-  "checkedAt": "2026-11-26T11:39:28.481Z",
+  "checkedAt": "2026-11-26T19:44:21.769Z",
   "codes": [],
   "salePages": []
  },
  "hopkaup.is": {
-  "checkedAt": "2026-11-26T11:39:48.326Z",
+  "checkedAt": "2026-11-26T19:44:37.540Z",
   "codes": [],
   "salePages": [
    "https://hopkaup.is/oll-tilbod",
    "https://hopkaup.is/thjonusta",
    "https://hopkaup.is/singles-day",
    "https://hopkaup.is/vinsaelustu-tilbodin",
-   "https://hopkaup.is/sanavorur_gamatilbod_jol26",
-   "https://hopkaup.is/jolagjafir"
+   "https://hopkaup.is/oche_pila_blackfriday_cybermonday26",
+   "https://hopkaup.is/echelon_ex3_blackfriday_cybermonday26"
   ]
  },
  "brooksrunning.is": {
-  "checkedAt": "2026-11-26T15:39:53.789Z",
+  "checkedAt": "2026-11-26T19:44:37.602Z",
   "codes": [],
   "salePages": [
    "https://brooksrunning.is/vara/hyperion-elite-5-2",
