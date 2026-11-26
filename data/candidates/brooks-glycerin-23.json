@@ -5,9 +5,14 @@
   "Glycerin 23"
  ],
  "codes": [],
- "searchedAt": "2026-11-25T17:37:31.772Z",
+ "searchedAt": "2026-11-26T18:34:58.566Z",
  "storesSearched": 65,
- "storesFailed": [],
- "seconds": 482,
+ "storesFailed": [
+  {
+   "domain": "eirvik.is",
+   "error": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://eirvik.is/\nCall log:\n  - navigating to \"https://eirvik.is/\", waiting un"
+  }
+ ],
+ "seconds": 466,
  "results": []
 }
