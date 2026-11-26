@@ -27,9 +27,21 @@
   "oskaskrin.is": "2026-11-26T02:42:09.587Z",
   "gjafabref.is": "2026-11-26T02:42:14.877Z",
   "hopkaup.is": "2026-11-26T02:42:24.618Z",
-  "brooksrunning.is": "2026-11-26T04:07:12.329Z"
+  "brooksrunning.is": "2026-11-26T04:07:12.329Z",
+  "utilif.is": "2026-11-26T05:19:21.291Z",
+  "tl.is": "2026-11-26T05:19:43.203Z",
+  "ht.is": "2026-11-26T05:19:46.863Z"
  },
  "runs": [
+  {
+   "at": "2026-11-26T05:19:46.867Z",
+   "mode": "afsláttur",
+   "checked": 26,
+   "changed": 0,
+   "drops": 0,
+   "errors": 0,
+   "seconds": 98
+  },
   {
    "at": "2026-11-26T04:07:12.332Z",
    "mode": "afsláttur",
@@ -920,19 +932,10 @@
    "drops": 1,
    "errors": 0,
    "seconds": 1298
-  },
-  {
-   "at": "2026-11-19T01:15:34.094Z",
-   "mode": "venjulegt",
-   "checked": 17,
-   "changed": 0,
-   "drops": 0,
-   "errors": 0,
-   "seconds": 62
   }
  ],
- "lastRun": "2026-11-26T04:06:38.807Z",
- "lastFinished": "2026-11-26T04:07:12.332Z",
+ "lastRun": "2026-11-26T05:19:14.659Z",
+ "lastFinished": "2026-11-26T05:19:46.867Z",
  "lastMorning": "2026-11-25",
  "alerts": {
   "brooks-glycerin-23": {

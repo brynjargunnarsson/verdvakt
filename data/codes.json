@@ -165,5 +165,29 @@
    "https://brooksrunning.is/vara/catamount-4-6",
    "https://brooksrunning.is/vara/catamount-4-5"
   ]
+ },
+ "utilif.is": {
+  "checkedAt": "2026-11-26T05:19:21.291Z",
+  "codes": [],
+  "salePages": []
+ },
+ "tl.is": {
+  "checkedAt": "2026-11-26T05:19:43.203Z",
+  "codes": [],
+  "salePages": [
+   "https://tl.is/playstationtilbod",
+   "https://tl.is/garmintilbod",
+   "https://tl.is/djitilbod"
+  ]
+ },
+ "ht.is": {
+  "checkedAt": "2026-11-26T05:19:46.863Z",
+  "codes": [],
+  "salePages": [
+   "https://ht.is/svort-ofurtilbod",
+   "https://ht.is/lg-sjonvarpstilbod",
+   "https://ht.is/samsung-tilbod",
+   "https://ht.is/sonostilbod"
+  ]
  }
 }
