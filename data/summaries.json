@@ -1,6 +1,28 @@
 {
  "items": [
   {
+   "id": "a0c9170db1",
+   "at": "2026-11-26T15:50:37.615Z",
+   "type": "lækkanir",
+   "event": "Svarta vikan",
+   "changes": [
+    {
+     "productId": "hoka-clifton-herra-40-2-3-fyy6",
+     "name": "Hoka Clifton Herra 40 2/3",
+     "store": "gongugreining.is",
+     "storeName": "gongugreining.is",
+     "url": "https://gongugreining.is/vara/hoka-clifton-10-herra-hlutlaus-hoggdempandi/",
+     "from": 34990,
+     "to": 26242,
+     "pct": -25,
+     "newLow": true,
+     "suspect": false,
+     "target": null,
+     "marketplace": false
+    }
+   ]
+  },
+  {
    "id": "c655236b15",
    "at": "2026-11-26T08:05:29.697Z",
    "type": "morgunyfirlit",

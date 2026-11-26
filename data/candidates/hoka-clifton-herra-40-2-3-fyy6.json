@@ -7,9 +7,58 @@
   "Hoka Clifton 10 Herra Hlutlaus höggdempandi"
  ],
  "codes": [],
- "searchedAt": "2026-11-25T14:59:33.068Z",
- "storesSearched": 65,
- "storesFailed": [],
- "seconds": 733,
+ "searchedAt": "2026-11-26T15:50:37.593Z",
+ "storesSearched": 77,
+ "storesFailed": [
+  {
+   "domain": "ht.is",
+   "error": "HTTP 403"
+  },
+  {
+   "domain": "tl.is",
+   "error": "HTTP 403"
+  },
+  {
+   "domain": "utilif.is",
+   "error": "HTTP 403"
+  },
+  {
+   "domain": "byggtogbuid.is",
+   "error": "HTTP 403"
+  },
+  {
+   "domain": "samsungsetrid.is",
+   "error": "page.goto: net::ERR_NAME_NOT_RESOLVED at https://samsungsetrid.is/\nCall log:\n  - navigating to \"https://samsungsetrid.is"
+  },
+  {
+   "domain": "www.rafland.is",
+   "error": "HTTP 403"
+  },
+  {
+   "domain": "a4.is",
+   "error": "HTTP 403"
+  },
+  {
+   "domain": "www.penninn.is",
+   "error": "HTTP 403"
+  },
+  {
+   "domain": "kunigund.is",
+   "error": "HTTP 403"
+  },
+  {
+   "domain": "www.habitat.is",
+   "error": "page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.habitat.is/\nCall log:\n  - navigating to \"https://www.habitat"
+  },
+  {
+   "domain": "aha.is",
+   "error": "HTTP 403"
+  },
+  {
+   "domain": "sm.is",
+   "error": "HTTP 404"
+  }
+ ],
+ "seconds": 640,
  "results": []
 }
