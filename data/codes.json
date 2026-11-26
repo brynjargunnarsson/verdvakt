@@ -18,12 +18,14 @@
   ]
  },
  "kd.is": {
-  "checkedAt": "2026-11-25T18:24:37.220Z",
+  "checkedAt": "2026-11-26T02:41:18.812Z",
   "codes": [],
-  "salePages": []
+  "salePages": [
+   "https://kd.is/category/30?pc_promo=3%20%C3%A1ra%20%C3%A1byrg%C3%B0"
+  ]
  },
  "computer.is": {
-  "checkedAt": "2026-11-25T18:24:43.795Z",
+  "checkedAt": "2026-11-26T02:41:19.506Z",
   "codes": [],
   "salePages": [
    "https://computer.is/is/products/tilbod"
@@ -35,12 +37,14 @@
   "salePages": []
  },
  "www.hagkaup.is": {
-  "checkedAt": "2026-11-25T18:24:43.227Z",
+  "checkedAt": "2026-11-26T02:41:29.605Z",
   "codes": [],
-  "salePages": []
+  "salePages": [
+   "https://www.hagkaup.is/grein/%C3%BEa%C3%B0-er-ekki-bara-gl%C3%A6silegur-afslattur-a-dimmum-dog"
+  ]
  },
  "heimkaup.is": {
-  "checkedAt": "2026-11-25T18:25:01.951Z",
+  "checkedAt": "2026-11-26T02:41:37.637Z",
   "codes": [],
   "salePages": [
    "https://heimkaup.is/c/peroni-tilbo-8885?showProducts=true",
@@ -49,7 +53,7 @@
   ]
  },
  "www.tolvutek.is": {
-  "checkedAt": "2026-11-25T18:25:07.110Z",
+  "checkedAt": "2026-11-26T02:41:39.958Z",
   "codes": [],
   "salePages": [
    "https://www.tolvutek.is/shop/category/562",
@@ -61,20 +65,19 @@
   ]
  },
  "kokka.is": {
-  "checkedAt": "2026-11-25T18:25:09.042Z",
+  "checkedAt": "2026-11-26T02:41:45.929Z",
   "codes": [],
   "salePages": []
  },
  "www.ilva.is": {
-  "checkedAt": "2026-11-25T18:25:29.047Z",
+  "checkedAt": "2026-11-26T02:41:56.971Z",
   "codes": [],
   "salePages": [
-   "https://www.ilva.is/tilbod/black-friday-/",
-   "https://www.ilva.is/tilbod/black-friday-/ally-stolar/"
+   "https://www.ilva.is/tilbod/black-friday-/"
   ]
  },
  "hrim.is": {
-  "checkedAt": "2026-11-25T18:25:18.607Z",
+  "checkedAt": "2026-11-26T02:41:52.019Z",
   "codes": [],
   "salePages": [
    "https://hrim.is/product/carolinembg-glove-caramel"
@@ -89,7 +92,7 @@
   ]
  },
  "byko.is": {
-  "checkedAt": "2026-11-25T18:25:30.311Z",
+  "checkedAt": "2026-11-26T02:42:12.547Z",
   "codes": [],
   "salePages": [
    "https://byko.is/bjartir-dagar",
@@ -97,7 +100,7 @@
   ]
  },
  "www.epal.is": {
-  "checkedAt": "2026-11-25T18:25:31.455Z",
+  "checkedAt": "2026-11-26T02:42:07.511Z",
   "codes": [],
   "salePages": [
    "https://www.epal.is/collections/tilbod",
@@ -106,7 +109,7 @@
   ]
  },
  "snuran.is": {
-  "checkedAt": "2026-11-25T18:25:07.932Z",
+  "checkedAt": "2026-11-26T02:41:53.203Z",
   "codes": [
    {
     "code": "ÚTSKRIFTIR",
@@ -129,17 +132,17 @@
   ]
  },
  "oskaskrin.is": {
-  "checkedAt": "2026-11-25T18:25:41.815Z",
+  "checkedAt": "2026-11-26T02:42:09.587Z",
   "codes": [],
   "salePages": []
  },
  "gjafabref.is": {
-  "checkedAt": "2026-11-25T18:25:38.378Z",
+  "checkedAt": "2026-11-26T02:42:14.877Z",
   "codes": [],
   "salePages": []
  },
  "hopkaup.is": {
-  "checkedAt": "2026-11-25T18:25:54.314Z",
+  "checkedAt": "2026-11-26T02:42:24.618Z",
   "codes": [],
   "salePages": [
    "https://hopkaup.is/oll-tilbod",

@@ -1,6 +1,56 @@
 {
  "items": [
   {
+   "id": "66f7ee5891",
+   "at": "2026-11-26T02:42:24.624Z",
+   "type": "lækkanir",
+   "event": "Svarta vikan",
+   "changes": [
+    {
+     "productId": "kenwood-kmix-4ngi",
+     "name": "Kenwood Kmix",
+     "store": "ht.is",
+     "storeName": "Heimilistæki",
+     "url": "https://ht.is/kenwood-kmix-hrarivel-svort.html",
+     "from": 69995,
+     "to": 50996,
+     "pct": -27.1,
+     "newLow": true,
+     "suspect": false,
+     "target": null,
+     "marketplace": false
+    },
+    {
+     "productId": "kitchenaid-artisan-6eex",
+     "name": "Kitchenaid artisan",
+     "store": "byggtogbuid.is",
+     "storeName": "Byggt og búið",
+     "url": "https://byggtogbuid.is/kitchenaid-hrarivel-125-djupbla.html",
+     "from": 114995,
+     "to": 91996,
+     "pct": -20,
+     "newLow": true,
+     "suspect": false,
+     "target": 114000,
+     "marketplace": false
+    },
+    {
+     "productId": "kenwood-kmix-4ngi",
+     "name": "Kenwood Kmix",
+     "store": "byggtogbuid.is",
+     "storeName": "Byggt og búið",
+     "url": "https://byggtogbuid.is/kenwood-kmix-hrarivel-svort.html",
+     "from": 59995,
+     "to": 50996,
+     "pct": -15,
+     "newLow": true,
+     "suspect": false,
+     "target": null,
+     "marketplace": false
+    }
+   ]
+  },
+  {
    "id": "d38b91ca6c",
    "at": "2026-11-25T13:34:12.510Z",
    "type": "tilkynning",
