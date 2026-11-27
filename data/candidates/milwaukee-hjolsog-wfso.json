@@ -12,9 +12,14 @@
   "MW-4933493587",
   "FCS552-0"
  ],
- "searchedAt": "2026-11-26T19:00:10.386Z",
+ "searchedAt": "2026-11-27T19:36:30.990Z",
  "storesSearched": 65,
- "storesFailed": [],
- "seconds": 1512,
+ "storesFailed": [
+  {
+   "domain": "www.att.is",
+   "error": "HTTP 403"
+  }
+ ],
+ "seconds": 1529,
  "results": []
 }
