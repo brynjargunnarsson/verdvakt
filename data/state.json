@@ -10,29 +10,38 @@
   "kenwood-kmix-4ngi": "2026-11-26T22:10:13.341Z"
  },
  "lastSaleScan": {
-  "elko.is": "2026-11-27T07:25:22.921Z",
+  "elko.is": "2026-11-27T11:30:45.303Z",
   "kd.is": "2026-11-27T04:09:28.116Z",
   "computer.is": "2026-11-27T04:09:28.263Z",
-  "www.ormsson.is": "2026-11-27T07:24:58.441Z",
+  "www.ormsson.is": "2026-11-27T11:30:17.252Z",
   "www.hagkaup.is": "2026-11-27T04:09:40.098Z",
   "heimkaup.is": "2026-11-27T04:09:38.953Z",
   "www.tolvutek.is": "2026-11-27T04:09:50.406Z",
   "kokka.is": "2026-11-27T04:09:47.733Z",
   "www.ilva.is": "2026-11-27T04:10:11.355Z",
   "hrim.is": "2026-11-27T04:09:59.051Z",
-  "www.husa.is": "2026-11-27T07:25:18.875Z",
+  "www.husa.is": "2026-11-27T11:30:43.126Z",
   "byko.is": "2026-11-27T04:10:21.491Z",
   "www.epal.is": "2026-11-27T04:10:14.734Z",
   "snuran.is": "2026-11-27T04:10:02.189Z",
   "oskaskrin.is": "2026-11-27T04:10:24.027Z",
   "gjafabref.is": "2026-11-27T04:10:22.801Z",
   "hopkaup.is": "2026-11-27T04:10:36.323Z",
-  "brooksrunning.is": "2026-11-27T07:25:22.649Z",
+  "brooksrunning.is": "2026-11-27T11:30:45.945Z",
   "utilif.is": "2026-11-26T14:26:23.107Z",
   "tl.is": "2026-11-26T14:26:56.872Z",
   "ht.is": "2026-11-26T12:47:23.128Z"
  },
  "runs": [
+  {
+   "at": "2026-11-27T11:30:45.950Z",
+   "mode": "afsláttur",
+   "checked": 26,
+   "changed": 0,
+   "drops": 0,
+   "errors": 0,
+   "seconds": 101
+  },
   {
    "at": "2026-11-27T10:14:10.733Z",
    "mode": "afsláttur",
@@ -923,19 +932,10 @@
    "drops": 0,
    "errors": 0,
    "seconds": 60
-  },
-  {
-   "at": "2026-11-22T08:30:28.276Z",
-   "mode": "venjulegt",
-   "checked": 17,
-   "changed": 0,
-   "drops": 0,
-   "errors": 0,
-   "seconds": 61
   }
  ],
- "lastRun": "2026-11-27T10:14:10.730Z",
- "lastFinished": "2026-11-27T10:14:10.733Z",
+ "lastRun": "2026-11-27T11:30:12.040Z",
+ "lastFinished": "2026-11-27T11:30:45.950Z",
  "lastMorning": "2026-11-27",
  "alerts": {
   "brooks-glycerin-23": {
