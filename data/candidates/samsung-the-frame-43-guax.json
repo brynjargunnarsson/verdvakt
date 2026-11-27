@@ -12,7 +12,7 @@
  "codes": [
   "TQ43LS03HEUXXC"
  ],
- "searchedAt": "2026-11-26T17:35:10.675Z",
+ "searchedAt": "2026-11-27T18:19:12.302Z",
  "storesSearched": 65,
  "storesFailed": [
   {
@@ -20,7 +20,7 @@
    "error": "HTTP 403"
   }
  ],
- "seconds": 1199,
+ "seconds": 1198,
  "results": [
   {
    "url": "https://elko.is/vorur/samsung-43-the-frame-rammi-ljos-vidur-252912/VGSCFA43TKBXC",
@@ -31,7 +31,7 @@
    "score": 1,
    "marketplace": false,
    "foundAt": "2026-11-09T22:36:50.417Z",
-   "seenAt": "2026-11-26T17:35:10.674Z",
+   "seenAt": "2026-11-27T18:19:12.302Z",
    "via": "leit",
    "accessory": true
   },
@@ -44,7 +44,7 @@
    "score": 1,
    "marketplace": false,
    "foundAt": "2026-11-09T22:36:50.417Z",
-   "seenAt": "2026-11-26T17:35:10.674Z",
+   "seenAt": "2026-11-27T18:19:12.302Z",
    "via": "leit",
    "accessory": true
   },
@@ -57,7 +57,7 @@
    "score": 1,
    "marketplace": false,
    "foundAt": "2026-11-09T22:36:50.417Z",
-   "seenAt": "2026-11-26T17:35:10.674Z",
+   "seenAt": "2026-11-27T18:19:12.302Z",
    "via": "leit",
    "accessory": true
   }
