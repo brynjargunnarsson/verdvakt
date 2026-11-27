@@ -1,6 +1,109 @@
 {
  "items": [
   {
+   "id": "74cba71e63",
+   "at": "2026-11-27T07:25:22.928Z",
+   "type": "morgunyfirlit",
+   "event": "Black Friday",
+   "best": [
+    {
+     "productId": "samsung-the-frame-43-guax",
+     "name": "Samsung the frame 43\"",
+     "price": 119995,
+     "storeName": "Heimilistæki",
+     "url": "https://ht.is/samsung-43-the-frame-qled-uhd-4k-sjonvarp-2026.html",
+     "min": 119995,
+     "previous": 159995
+    },
+    {
+     "productId": "milwaukee-hjolsog-wfso",
+     "name": "Milwaukee Hjólsög",
+     "price": 62392,
+     "storeName": "rubix.is",
+     "url": "https://rubix.is/vorur/MW-4933493587",
+     "min": 62392,
+     "previous": 77990
+    },
+    {
+     "productId": "hoka-clifton-herra-40-2-3-fyy6",
+     "name": "Hoka Clifton Herra 40 2/3",
+     "price": 25592,
+     "storeName": "sportis.is",
+     "url": "https://sportis.is/collections/hoka-clifton-10/products/hoka-clifton-10-herrar-2?variant=50318762377498",
+     "min": 25592,
+     "previous": null
+    },
+    {
+     "productId": "kitchenaid-artisan-6eex",
+     "name": "Kitchenaid artisan",
+     "price": 91996,
+     "storeName": "Byggt og búið",
+     "url": "https://byggtogbuid.is/kitchenaid-hrarivel-125-djupbla.html",
+     "min": 91996,
+     "previous": null
+    },
+    {
+     "productId": "kenwood-kmix-4ngi",
+     "name": "Kenwood Kmix",
+     "price": 49990,
+     "storeName": "Ormsson",
+     "url": "https://ormsson.is/product/kenwood-kmix-hraerivel-kremud/?utm_source=Ja.is&utm_campaign=ja-feed&utm_medium=cpc&utm_term=adtribes",
+     "min": 49990,
+     "previous": null
+    },
+    {
+     "productId": "chase-2-plus-mips-skidahjalmur-m2d4",
+     "name": "CHASE 2 PLUS Mips | Skíðahjálmur",
+     "price": 21995,
+     "storeName": "Markið",
+     "url": "https://markid.is/products/chase-2-plus-mips-skidahjalmur-3",
+     "min": 17156,
+     "previous": 17156
+    },
+    {
+     "productId": "brooks-glycerin-23",
+     "name": "Brooks Glycerin 23",
+     "price": 34990,
+     "storeName": "Brooks",
+     "url": "https://brooksrunning.is/vara/glycerin-23-8",
+     "min": 19990,
+     "previous": 19990
+    }
+   ],
+   "codes": [
+    {
+     "store": "elko.is",
+     "codes": [
+      {
+       "code": "ELKO",
+       "pct": 30,
+       "text": "vörurnar í vefverslun ELKO Gjafahugmyndir Við hjálpum þér að finna réttu gjöfina Nýtt ELKO blað Smelltu hér til að skoða ELKO blaðið Stærsta tilboðsvika ársins (25) SVARTUR FÖSSARI -- 30% Garmin Forerunner 970 snjallúr -"
+      }
+     ]
+    },
+    {
+     "store": "snuran.is",
+     "codes": [
+      {
+       "code": "ÚTSKRIFTIR",
+       "pct": null,
+       "text": "rslun Snúrunnar og Bústoðar Tökum líka vel á móti ykkur í verslun okkar að Miðhrauni 24, Garðabæ GLUCKIGLUCK KLASSÍK Skoða ÚTSKRIFTIR HUGMYNDIR AF ÚTSKRIFTARGJÖFUM Skoða NÝTT MERKI!! URBAN NATURE CULTURE Skoða Húsgögn Sk"
+      },
+      {
+       "code": "NÝTT",
+       "pct": null,
+       "text": "ykkur í verslun okkar að Miðhrauni 24, Garðabæ GLUCKIGLUCK KLASSÍK Skoða ÚTSKRIFTIR HUGMYNDIR AF ÚTSKRIFTARGJÖFUM Skoða NÝTT MERKI!! URBAN NATURE CULTURE Skoða Húsgögn Skoða Nýjar vörur NÝTT Sérpöntun Calia Calia Italia "
+      },
+      {
+       "code": "DAY",
+       "pct": null,
+       "text": "Skoða DAY et Gweneth RE-S SB S 8.796 kr 10.995 kr Vinsælt"
+      }
+     ]
+    }
+   ]
+  },
+  {
    "id": "a47d0601f2",
    "at": "2026-11-27T02:43:00.601Z",
    "type": "lækkanir",
