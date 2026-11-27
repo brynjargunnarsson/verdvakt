@@ -6,7 +6,7 @@
   "chase-2-plus-mips-skidahjalmur-m2d4": "2026-11-27T18:29:45.864Z",
   "milwaukee-hjolsog-wfso": "2026-11-27T19:36:30.991Z",
   "hoka-clifton-herra-40-2-3-fyy6": "2026-11-27T16:56:35.269Z",
-  "kitchenaid-artisan-6eex": "2026-11-26T21:10:13.915Z",
+  "kitchenaid-artisan-6eex": "2026-11-27T22:11:22.113Z",
   "kenwood-kmix-4ngi": "2026-11-26T22:10:13.341Z"
  },
  "lastSaleScan": {
@@ -33,6 +33,15 @@
   "ht.is": "2026-11-26T12:47:23.128Z"
  },
  "runs": [
+  {
+   "at": "2026-11-27T22:11:22.116Z",
+   "mode": "afsláttur",
+   "checked": 26,
+   "changed": 0,
+   "drops": 0,
+   "errors": 0,
+   "seconds": 685
+  },
   {
    "at": "2026-11-27T21:02:37.587Z",
    "mode": "afsláttur",
@@ -923,19 +932,10 @@
    "drops": 0,
    "errors": 0,
    "seconds": 143
-  },
-  {
-   "at": "2026-11-22T19:54:13.989Z",
-   "mode": "afsláttur",
-   "checked": 17,
-   "changed": 0,
-   "drops": 0,
-   "errors": 0,
-   "seconds": 58
   }
  ],
- "lastRun": "2026-11-27T21:01:13.824Z",
- "lastFinished": "2026-11-27T21:02:37.587Z",
+ "lastRun": "2026-11-27T22:00:59.926Z",
+ "lastFinished": "2026-11-27T22:11:22.116Z",
  "lastMorning": "2026-11-27",
  "alerts": {
   "brooks-glycerin-23": {
