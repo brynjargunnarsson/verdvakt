@@ -34,6 +34,15 @@
  },
  "runs": [
   {
+   "at": "2026-11-28T03:36:09.056Z",
+   "mode": "afsláttur",
+   "checked": 26,
+   "changed": 0,
+   "drops": 0,
+   "errors": 0,
+   "seconds": 66
+  },
+  {
    "at": "2026-11-28T02:37:36.278Z",
    "mode": "afsláttur",
    "checked": 26,
@@ -923,19 +932,10 @@
    "drops": 0,
    "errors": 0,
    "seconds": 99
-  },
-  {
-   "at": "2026-11-23T01:15:14.608Z",
-   "mode": "afsláttur",
-   "checked": 17,
-   "changed": 0,
-   "drops": 0,
-   "errors": 0,
-   "seconds": 62
   }
  ],
- "lastRun": "2026-11-28T02:36:58.252Z",
- "lastFinished": "2026-11-28T02:37:36.278Z",
+ "lastRun": "2026-11-28T03:36:09.050Z",
+ "lastFinished": "2026-11-28T03:36:09.056Z",
  "lastMorning": "2026-11-27",
  "alerts": {
   "brooks-glycerin-23": {
