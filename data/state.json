@@ -13,7 +13,7 @@
   "elko.is": "2026-11-28T09:30:49.084Z",
   "kd.is": "2026-11-28T06:03:42.476Z",
   "computer.is": "2026-11-28T06:03:42.197Z",
-  "www.ormsson.is": "2026-11-28T09:30:18.758Z",
+  "www.ormsson.is": "2026-11-28T12:30:36.965Z",
   "www.hagkaup.is": "2026-11-28T06:03:58.774Z",
   "heimkaup.is": "2026-11-28T06:04:05.427Z",
   "www.tolvutek.is": "2026-11-28T06:04:16.147Z",
@@ -33,6 +33,15 @@
   "ht.is": "2026-11-26T12:47:23.128Z"
  },
  "runs": [
+  {
+   "at": "2026-11-28T12:30:36.972Z",
+   "mode": "afsláttur",
+   "checked": 26,
+   "changed": 0,
+   "drops": 0,
+   "errors": 0,
+   "seconds": 62
+  },
   {
    "at": "2026-11-28T11:28:10.982Z",
    "mode": "afsláttur",
@@ -923,19 +932,10 @@
    "drops": 0,
    "errors": 0,
    "seconds": 1557
-  },
-  {
-   "at": "2026-11-23T14:01:53.791Z",
-   "mode": "afsláttur",
-   "checked": 17,
-   "changed": 7,
-   "drops": 0,
-   "errors": 0,
-   "seconds": 2293
   }
  ],
- "lastRun": "2026-11-28T11:28:10.978Z",
- "lastFinished": "2026-11-28T11:28:10.982Z",
+ "lastRun": "2026-11-28T12:30:32.942Z",
+ "lastFinished": "2026-11-28T12:30:36.972Z",
  "lastMorning": "2026-11-28",
  "alerts": {
   "brooks-glycerin-23": {
