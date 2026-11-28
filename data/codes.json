@@ -18,14 +18,14 @@
   ]
  },
  "kd.is": {
-  "checkedAt": "2026-11-28T06:03:42.476Z",
+  "checkedAt": "2026-11-28T14:55:13.769Z",
   "codes": [],
   "salePages": [
    "https://kd.is/category/30?pc_promo=3%20%C3%A1ra%20%C3%A1byrg%C3%B0"
   ]
  },
  "computer.is": {
-  "checkedAt": "2026-11-28T06:03:42.197Z",
+  "checkedAt": "2026-11-28T14:55:15.173Z",
   "codes": [],
   "salePages": [
    "https://computer.is/is/products/tilbod"
@@ -37,14 +37,14 @@
   "salePages": []
  },
  "www.hagkaup.is": {
-  "checkedAt": "2026-11-28T06:03:58.774Z",
+  "checkedAt": "2026-11-28T14:55:25.630Z",
   "codes": [],
   "salePages": [
    "https://www.hagkaup.is/grein/%C3%BEa%C3%B0-er-ekki-bara-gl%C3%A6silegur-afslattur-a-dimmum-dog"
   ]
  },
  "heimkaup.is": {
-  "checkedAt": "2026-11-28T06:04:05.427Z",
+  "checkedAt": "2026-11-28T14:55:24.794Z",
   "codes": [],
   "salePages": [
    "https://heimkaup.is/c/peroni-tilbo-8885?showProducts=true",
@@ -52,7 +52,7 @@
   ]
  },
  "www.tolvutek.is": {
-  "checkedAt": "2026-11-28T06:04:16.147Z",
+  "checkedAt": "2026-11-28T14:55:39.290Z",
   "codes": [],
   "salePages": [
    "https://www.tolvutek.is/shop/category/562",
@@ -64,12 +64,12 @@
   ]
  },
  "kokka.is": {
-  "checkedAt": "2026-11-28T06:04:15.803Z",
+  "checkedAt": "2026-11-28T14:55:33.694Z",
   "codes": [],
   "salePages": []
  },
  "www.ilva.is": {
-  "checkedAt": "2026-11-28T06:04:36.093Z",
+  "checkedAt": "2026-11-28T14:56:00.324Z",
   "codes": [],
   "salePages": [
    "https://www.ilva.is/tilbod/black-friday-/",
@@ -77,15 +77,10 @@
   ]
  },
  "hrim.is": {
-  "checkedAt": "2026-11-28T06:04:46.366Z",
+  "checkedAt": "2026-11-28T14:55:44.889Z",
   "codes": [],
   "salePages": [
-   "https://hrim.is/product/svart-kaffi-30-x-40-cm",
-   "https://hrim.is/product/global-goals-bangle-white",
-   "https://hrim.is/product/flux-extrait-de-parfum-50-ml",
-   "https://hrim.is/product/ripple-kids-dinner-set-blush",
-   "https://hrim.is/product/hvisl-01-svart-bokaljos",
-   "https://hrim.is/product/smoky-cinnamon-celestial-candle-black"
+   "https://hrim.is/product/carolinembg-glove-caramel"
   ]
  },
  "www.husa.is": {
@@ -98,7 +93,7 @@
   ]
  },
  "byko.is": {
-  "checkedAt": "2026-11-28T06:04:56.711Z",
+  "checkedAt": "2026-11-28T14:56:08.247Z",
   "codes": [],
   "salePages": [
    "https://byko.is/bjartir-dagar",
@@ -106,7 +101,7 @@
   ]
  },
  "www.epal.is": {
-  "checkedAt": "2026-11-28T06:04:44.737Z",
+  "checkedAt": "2026-11-28T14:56:03.770Z",
   "codes": [],
   "salePages": [
    "https://www.epal.is/collections/tilbod",
@@ -115,7 +110,7 @@
   ]
  },
  "snuran.is": {
-  "checkedAt": "2026-11-28T06:04:29.973Z",
+  "checkedAt": "2026-11-28T14:55:49.298Z",
   "codes": [
    {
     "code": "ÚTSKRIFTIR",
@@ -138,17 +133,17 @@
   ]
  },
  "oskaskrin.is": {
-  "checkedAt": "2026-11-28T06:05:09.317Z",
+  "checkedAt": "2026-11-28T14:56:13.340Z",
   "codes": [],
   "salePages": []
  },
  "gjafabref.is": {
-  "checkedAt": "2026-11-28T06:05:09.825Z",
+  "checkedAt": "2026-11-28T14:56:12.142Z",
   "codes": [],
   "salePages": []
  },
  "hopkaup.is": {
-  "checkedAt": "2026-11-28T06:05:19.040Z",
+  "checkedAt": "2026-11-28T14:56:25.000Z",
   "codes": [],
   "salePages": [
    "https://hopkaup.is/oll-tilbod",
@@ -156,7 +151,7 @@
    "https://hopkaup.is/singles-day",
    "https://hopkaup.is/volcanoexpress_blackfriday_cybermonday26",
    "https://hopkaup.is/BLIK_brons_blackfriday_cybermonday26",
-   "https://hopkaup.is/oche_pila_blackfriday_cybermonday26"
+   "https://hopkaup.is/arcticadventures_lavatunnel_blackfriday_cybermonday26"
   ]
  },
  "brooksrunning.is": {
