@@ -34,6 +34,15 @@
  },
  "runs": [
   {
+   "at": "2026-11-28T07:18:50.483Z",
+   "mode": "afsláttur",
+   "checked": 26,
+   "changed": 0,
+   "drops": 0,
+   "errors": 0,
+   "seconds": 58
+  },
+  {
    "at": "2026-11-28T06:05:19.045Z",
    "mode": "afsláttur",
    "checked": 26,
@@ -923,20 +932,11 @@
    "drops": 0,
    "errors": 0,
    "seconds": 57
-  },
-  {
-   "at": "2026-11-23T05:46:55.059Z",
-   "mode": "afsláttur",
-   "checked": 17,
-   "changed": 1,
-   "drops": 1,
-   "errors": 0,
-   "seconds": 163
   }
  ],
- "lastRun": "2026-11-28T06:03:30.933Z",
- "lastFinished": "2026-11-28T06:05:19.045Z",
- "lastMorning": "2026-11-27",
+ "lastRun": "2026-11-28T07:18:50.474Z",
+ "lastFinished": "2026-11-28T07:18:50.483Z",
+ "lastMorning": "2026-11-28",
  "alerts": {
   "brooks-glycerin-23": {
    "active": false
